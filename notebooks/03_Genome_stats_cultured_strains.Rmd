@@ -1,0 +1,462 @@
+---
+title: "03_Genome_stats_cultured_strains"
+author: "Mirabeau Mbong"
+date: "2025-06-27"
+output:
+  html_notebook:
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    df_print: paged
+---
+
+This script is used to generate plots in Fig.3B & C and Fig.4 of the associated paper
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(dev = "pdf",
+                      dpi = 300,
+                      echo = FALSE,
+                      cache = TRUE)
+
+```
+
+# Load libraries
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(svglite)
+```
+
+
+```{r}
+# Check working directory (should be repo root)
+message("Current working directory: ", getwd())
+```
+
+
+```{r}
+
+# Read in your main metadata and CheckM2 quality report
+meta <- read_tsv("data/metadata_all_available_genomes.txt")
+checkm <- read_tsv("data/CheckM2_quality_report.tsv")
+
+# Merge both by genome ID (Name column is common)
+merged <- left_join(meta, checkm, by = "Name") #%>%
+
+```
+
+# Add M. smithii type strain metadata (ATCC 35061)
+
+```{r}
+merged <- merged %>%
+  mutate(corrected_genome_size = (Genome_Size * 100 / (Completeness)) - (Genome_Size * (Contamination / 100)))
+
+ref <- read_tsv("data/drep_genomes_metadata_2.txt")
+
+ref_atcc <- ref %>%
+  filter(country == "NCBI ref") %>%
+  mutate(country = "ATCC 35061",
+         Name = isolate,
+         genomeID = isolate,  # set genomeID to match Name/isolate
+         # Using correct completeness and contamination values
+         corrected_genome_size = (genome.size * 100 / 97.71) - (genome.size * 2.51 / 100)) %>%
+  select(Name, genomeID, genome.size, total_genes, corrected_genome_size, country, species) %>%
+  rename(Genome_Size = genome.size, Total_Coding_Sequences = total_genes)
+
+# Add to merged table
+merged_full <- bind_rows(merged, ref_atcc)
+colnames(merged_full)
+
+```
+
+# Manuscript figaure (Completion vs Contamination: Fig.3B)
+
+```{r}
+# Set factor levels in the order you want the legend
+merged$species <- factor(merged$species, levels = c("M. smithii", "M. intestini", "M. oralis"))
+
+# Custom colors, must be named with matching factor levels
+species_colors1 <- c(
+  "M. smithii" = "#EFC000FF",
+  "M. intestini" = "#4A6990FF",
+  "M. oralis" = "blue"
+)
+
+# Legend labels as expressions (note: do NOT quote them, and do NOT name them)
+species_labels_italic <- expression(italic("M. smithii"), italic("M. intestini"), italic("M. oralis"))
+
+# Plot
+quality_plot <- ggplot(merged, aes(x = Completeness, y = Contamination, color = species)) +
+  geom_point(size = 2, alpha = 0.5) +
+  scale_color_manual(
+    name = "Species",
+    values = species_colors1,
+    labels = species_labels_italic
+  ) +
+  theme_light(base_size = 7, base_family = "Helvetica") +
+  labs(x = "Completeness (%)", y = "Contamination (%)", title = "") +
+  theme(
+    axis.text = element_text(size = 7),
+    axis.title = element_text(size = 7),
+    strip.text = element_text(size = 7),
+    plot.title = element_text(size = 7, colour = "black"),
+    legend.text = element_text(size = 7),
+    legend.title = element_text(size = 7),
+    legend.text.align = 0)
+
+quality_plot
+ggsave("CheckM2_genome_quality-all-strains.pdf", quality_plot, width = 65, height = 55, units = "mm", dpi = 300)
+ggsave("CheckM2_genome_quality-all-strains.svg", quality_plot, width = 65, height = 55, units = "mm", dpi = 300, device = svglite::svglite)
+```
+
+```{r}
+
+```
+
+
+# Manuscript figure (Species Isolation by Country: Fig.3C)
+
+```{r}
+species_bar_plot <- merged %>%
+  filter(!is.na(country)) %>%
+  count(country, species) %>%
+  ggplot(aes(x = country, y = n, fill = species)) +
+  geom_bar(stat = "identity", width = 0.3) +
+  scale_fill_manual(
+    name = "Species",
+    values = species_colors1,
+    labels = species_labels_italic
+  ) +
+  coord_flip() +  # Flip axes
+  theme_light(base_size = 7, base_family = "Helvetica") +
+  labs(
+    y = "Number of isolates",
+    x = "",
+    title = ""
+  ) +
+  theme(
+    axis.text = element_text(size = 7),
+    axis.title = element_text(size = 7),
+    strip.text = element_text(size = 7),
+    plot.title = element_text(size = 7, colour = "black"),
+    legend.text = element_text(size = 7),
+    legend.title = element_blank(),
+    legend.position = "top",
+    legend.key.size = unit(0.3, "cm"),
+    panel.grid.major.y = element_blank(),
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA)
+  )
+
+# Display the plot
+print(species_bar_plot)
+
+# Save it to file
+ggsave("species_isolation_by_country.pdf", species_bar_plot, width = 65, height = 55, units = "mm", device = cairo_pdf)
+ggsave("species_isolation_by_country.svg", species_bar_plot, width = 65, height = 55, units = "mm", dpi = 300, device = svglite::svglite)
+
+
+```
+
+
+```{r}
+
+```
+
+# gene counts, average gene length, corrected genome size, GC content, coding density
+
+
+```{r}
+plot_genome_comparisons <- function(df, 
+                                      metric_col, 
+                                      y_label = NULL, 
+                                      save_path = NULL, 
+                                      width = 4, 
+                                      height = 4, 
+                                      dpi = 300) {
+  # Filter relevant species
+  df_filtered <- df %>%
+    filter(species %in% c("M. smithii", "M. intestini")) %>%
+    mutate(
+      species = factor(species, levels = c("M. smithii", "M. intestini")),
+      Genome_Size_Mbp = corrected_genome_size / 1e6
+    )
+
+  # Validate metric
+  if (!(metric_col %in% colnames(df_filtered))) {
+    stop(paste("Metric", metric_col, "not found in dataframe."))
+  }
+
+  # Color palette
+  species_colors <- c(
+    "M. smithii" = "#EFC000FF",
+    "M. intestini" = "#4A6990FF"
+  )
+
+  # Plot
+  p <- ggplot(df_filtered, aes(x = species, y = .data[[metric_col]])) +
+    geom_boxplot(outlier.shape = NA, fill = "white", color = "black", alpha = 0.5) +
+    geom_jitter(aes(color = species), width = 0.15, alpha = 0.5, size = 1.5) +
+    stat_summary(
+      fun = median,
+      geom = "text",
+      aes(label = round(after_stat(y), 2)),
+      position = position_nudge(x = 0.15),
+      vjust = -0.3,
+      hjust = -0.05,
+      size = 2,
+      fontface = "bold",
+      color = "blue"
+    ) +
+    scale_color_manual(values = species_colors) +
+    theme_light(base_size = 7, base_family = "Helvetica") +
+    scale_x_discrete(
+      labels = parse(text = c("italic('M. smithii')", "italic('M. intestini')"))
+    ) +
+    labs(x = NULL, y = y_label %||% metric_col, color = "Species") +
+    theme(
+      axis.text = element_text(size = 7),
+      axis.title = element_text(size = 7),
+      strip.text = element_text(size = 7),
+      legend.text = element_text(size = 7),
+      legend.title = element_text(size = 7),
+      legend.position = "none",
+      panel.grid.major.y = element_line(color = "gray90"),
+      plot.background = element_rect(fill = "white", color = NA),
+      panel.background = element_rect(fill = "white", color = NA)
+    )
+
+  # Save if path provided
+  if (!is.null(save_path)) {
+    ggsave(save_path, plot = p, width = width, height = height, dpi = dpi, bg = "white")
+  }
+
+  return(p)
+}
+
+```
+
+
+# Manuscript figaure (cultured strain features: using unique strains:ANI = 99.99; Fig.4)
+
+```{r}
+meta_drep <- read_tsv("data/Genome_stats_86-strains.txt")
+colnames(meta_drep)
+Coding_Density = plot_genome_comparisons(df = meta_drep, 
+                          metric_col = "Coding_Density", 
+                          y_label = "Coding Density")
+
+# Plot for Total Coding Sequences
+Total_Coding_Sequences = plot_genome_comparisons(df = meta_drep, 
+                          metric_col = "Total_Coding_Sequences", 
+                          y_label = "Total Coding Sequences")
+
+corrected_genome_size = plot_genome_comparisons(df = meta_drep, 
+                          metric_col = "Genome_Size_Mbp", 
+                          y_label = "Genome size (Mbp)")
+
+Average_Gene_Length = plot_genome_comparisons(df = meta_drep, 
+                          metric_col = "Average_Gene_Length", 
+                          y_label = "Average Gene Length")
+
+GC_Content = plot_genome_comparisons(df = meta_drep, 
+                          metric_col = "GC_Content", 
+                          y_label = "GC Content")
+
+Coding_Density
+Total_Coding_Sequences
+corrected_genome_size
+Average_Gene_Length
+GC_Content
+
+ggsave("GC_Content.pdf", GC_Content, width = 55, height = 45, units = "mm", dpi = 300)
+ggsave("GC_Content.svg", GC_Content, width = 55, height = 45, units = "mm", dpi = 300, device = svglite::svglite)
+
+```
+
+
+
+```{r}
+plot_genome_size_by_country <- function(df, y_positions = c(2.35, 2.45, 2.55), save_path = NULL, width = 4, height = 4, dpi = 300) {
+  # Define country colors
+  country_colors <- c("Gabon" = "#ff0000", "Germany" = "#e7e70e", "Vietnam" = "#0b0bd3")
+  
+  # Define pairwise comparisons
+  comparisons <- list(
+    c("Gabon", "Germany"),
+    c("Gabon", "Vietnam"),
+    c("Germany", "Vietnam")
+  )
+  
+  # Prepare data
+  df_filtered <- df %>%
+    filter(species == "M. smithii") %>%
+    mutate(
+      Country = case_when(
+        grepl("^G", genome) ~ "Gabon",
+        grepl("^T", genome) ~ "Germany",
+        grepl("^V", genome) ~ "Vietnam",
+        TRUE ~ NA_character_
+      ),
+      Genome_Size_Mbp = corrected_genome_size / 1e6
+    ) %>%
+    filter(Country %in% c("Gabon", "Germany", "Vietnam"))
+
+  # Plot
+  p <- ggplot(df_filtered, aes(x = Country, y = Genome_Size_Mbp)) +
+    geom_boxplot(fill = NA, color = "black", outlier.shape = NA) +  # No fill, only outline
+    geom_jitter(aes(color = Country), width = 0.15, alpha = 0.5, size = 1.5) +
+    stat_summary(
+      fun = median,
+      geom = "text",
+      aes(label = round(after_stat(y), 2)),
+      position = position_nudge(x = 0.25),
+      vjust = -0.3,
+      size = 2,
+      fontface = "bold",
+      color = "blue"
+    ) +
+    stat_compare_means(
+      comparisons = comparisons,
+      method = "wilcox.test",
+      label = "p.signif",
+      tip.length = 0,
+      vjust = 0.3,
+      y.position = y_positions
+    ) +
+    scale_color_manual(values = country_colors) +
+    theme_light(base_size = 7, base_family = "Helvetica") +
+    labs(
+      x = NULL,
+      y = "Corrected Genome Size (Mbp)"
+    ) +
+    theme(
+      axis.text.x = element_text(size = 7, family = "Helvetica"),
+      axis.text.y = element_text(size = 7, family = "Helvetica"),
+      axis.text = element_text(size = 7, family = "Helvetica"),
+      axis.title = element_text(size = 7, family = "Helvetica"),
+      strip.text = element_text(size = 7, family = "Helvetica"),
+      legend.position = "none",
+      panel.grid.major.y = element_line(color = "gray90"),
+      plot.background = element_rect(fill = "white", color = NA),
+      panel.background = element_rect(fill = "white", color = NA)
+    )
+  
+  # Save if path is provided
+  if (!is.null(save_path)) {
+    ggsave(save_path, plot = p, width = width, height = height, dpi = dpi, bg = "white")
+  }
+  
+  return(p)
+}
+
+```
+
+# Manuscript figure (M. smithii corrected genome size by country: Fig.4E)
+
+```{r}
+genome_size_M_smithii = plot_genome_size_by_country(df = meta_drep, y_positions = c(2.35, 2.45, 2.55))
+genome_size_M_smithii
+ggsave("Genome_size_m_smithii_by_county.pdf", genome_size_M_smithii, width = 60, height = 50, units = "mm", dpi = 300)
+ggsave("Genome_size_m_smithii_by_county.svg", genome_size_M_smithii, width = 60, height = 50, units = "mm", dpi = 300, device = svglite::svglite)
+```
+```{r}
+
+```
+
+# Manuscript figure (M. intestini corrected genome size by country: Fig.4F)
+```{r}
+meta_mi <- read_tsv("data/Genome_stats_48_M_intestini.txt")
+meta_mi$geo_category[meta_mi$geo_category == "africa"] <- "African"
+meta_mi$geo_category[meta_mi$geo_category == "western world"] <- "Eurasian"
+
+plot_genome_size_by_geo_category <- function(
+  df,
+  y_positions = c(2.45),  # Only one comparison
+  save_path = NULL,
+  width = 4,
+  height = 4,
+  dpi = 300
+) {
+  # Define geo category colors
+  geo_colors <- c("African" = "#F8766D", "Eurasian" = "#00BFC4")
+
+  # Define pairwise comparison
+  comparisons <- list(c("African", "Eurasian"))
+
+  # Prepare data
+  df_filtered <- df %>%
+    filter(species == "M. intestini") %>%
+    mutate(
+      Genome_Size_Mbp = corrected_genome_size / 1e6,
+      geo_category = case_when(
+        geo_category == "AfricaN" ~ "African",
+        geo_category == "Eurasian" ~ "Eurasian",
+        TRUE ~ geo_category
+      )
+    ) %>%
+    filter(geo_category %in% c("African", "Eurasian"))
+
+  # Plot
+  p <- ggplot(df_filtered, aes(x = geo_category, y = Genome_Size_Mbp)) +
+    geom_boxplot(fill = NA, color = "black", outlier.shape = NA) +
+    geom_jitter(aes(color = geo_category), width = 0.15, alpha = 0.5, size = 1.5) +
+    stat_summary(
+      fun = median,
+      geom = "text",
+      aes(label = round(after_stat(y), 2)),
+      position = position_nudge(x = 0.25),
+      vjust = -0.3,
+      size = 2,
+      fontface = "bold",
+      color = "blue"
+    ) +
+    stat_compare_means(
+      comparisons = comparisons,
+      method = "wilcox.test",
+      label = "p.signif",
+      tip.length = 0,
+      vjust = 0.3,
+      y.position = y_positions
+    ) +
+    scale_color_manual(values = geo_colors) +
+    theme_light(base_size = 7, base_family = "Helvetica") +
+    labs(
+      x = NULL,
+      y = "Corrected Genome Size (Mbp)"
+    ) +
+    theme(
+      axis.text = element_text(size = 7, family = "Helvetica"),
+      axis.title = element_text(size = 7, family = "Helvetica"),
+      strip.text = element_text(size = 7, family = "Helvetica"),
+      legend.position = "none",
+      panel.grid.major.y = element_line(color = "gray90"),
+      plot.background = element_rect(fill = "white", color = NA),
+      panel.background = element_rect(fill = "white", color = NA)
+    )
+
+  # Save if path is provided
+  if (!is.null(save_path)) {
+    ggsave(save_path, plot = p, width = width, height = height, dpi = dpi, bg = "white")
+  }
+
+  return(p)
+}
+
+genome_size_M_intestini = plot_genome_size_by_geo_category(
+  df = meta_mi,
+  y_positions = c(2.2)  
+)
+
+genome_size_M_intestini
+ggsave("Genome_size_m_intestini_by_county.pdf", genome_size_M_intestini, width = 80, height = 65, units = "mm", dpi = 300)
+ggsave("Genome_size_m_intestini_by_county.svg", genome_size_M_intestini, width = 80, height = 65, units = "mm", dpi = 300, device = svglite::svglite)
+```
+
+

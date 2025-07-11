@@ -1,0 +1,593 @@
+---
+title: "O2_SpeicEasi_network_bacteria_archaea"
+author: "Mirabeau Mbong"
+date: "2025-06-20"
+output:
+  html_notebook:
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    df_print: paged
+---
+
+This script is used to generate tables used to generate plots in Fig.2B of the associated paper
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(dev = "pdf",
+                      dpi = 300,
+                      echo = FALSE,
+                      cache = TRUE)
+```
+
+# load libraries
+
+```{r}
+library(dplyr)
+library(phyloseq)
+library(tidyr)
+
+library(SpiecEasi)
+threads = 12
+seed = 38941
+
+nlambda = 20
+lambda.min.ratio = 1e-3
+se_reps = 100
+```
+
+
+```{r}
+# Check working directory (should be repo root)
+message("Current working directory: ", getwd())
+```
+
+# Functions
+
+```{r}
+create_phyloseq_object <- function(bracken_file, metadata_file) {
+  bracken <- read.table(bracken_file, header = TRUE, sep = "\t")
+  meta <- read.table(metadata_file, header = TRUE, sep = "\t")
+
+  # Process OTU table
+  OTU <- bracken %>%
+    dplyr::select(-c(taxonomy_id, taxonomy_lvl, taxonomy, taxIDs)) %>%
+    dplyr::select(-contains('frac')) %>%
+    dplyr::rename_with(~ sub("[_]num$", "", .x), ends_with("_num"))
+
+  rownames(OTU) <- OTU$name
+  OTU <- OTU %>% dplyr::select(-name)
+
+  # Process taxonomy
+  tax <- bracken %>%
+    dplyr::select(name, taxonomy) %>%
+    tidyr::separate(taxonomy,
+                    into = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"),
+                    sep = ";", fill = "right", extra = "drop")
+  rownames(tax) <- tax$name
+  tax <- tax %>% dplyr::select(-name)
+
+  # Process metadata
+  meta$sample <- meta$ParticipantID
+  rownames(meta) <- meta$sample
+  meta <- meta %>% dplyr::select(-sample)
+
+  # Create phyloseq object
+  ps <- phyloseq(
+    otu_table(as.matrix(OTU), taxa_are_rows = TRUE),
+    tax_table(as.matrix(tax)),
+    sample_data(meta)
+  )
+  return(ps)
+}
+
+```
+
+# prefilter to 20% prevalence across populations
+
+```{r}
+filter_phyloseq <- function(ps, min_prevalence = 0.2) {
+  library(phyloseq)
+
+  # Subset only the two methanogen species
+  ps_methanogen <- subset_taxa(ps, 
+    Species %in% c("s__Methanobrevibacter_A smithii", "s__Methanobrevibacter_A smithii_A"))
+
+  # Subset bacteria only
+  ps_bacteria <- subset_taxa(ps, Kingdom == "d__Bacteria")
+
+  # Apply prevalence filtering to bacteria only
+  ps_bacteria_filtered <- filter_taxa(ps_bacteria, function(x) sum(x > 0) > (min_prevalence * length(x)), TRUE)
+
+  # Merge bacteria (filtered) and methanogens (always kept)
+  ps_combined <- merge_phyloseq(ps_bacteria_filtered, ps_methanogen)
+
+  return(ps_combined)
+}
+```
+
+# run SpiecEasi
+
+```{r}
+run_spiec_easi <- function(ps, threads = 12, seed = 38941) {
+  library(SpiecEasi)
+
+  spiec.easi(ps, 
+             method = 'mb', 
+             lambda.min.ratio = 1e-3, 
+             nlambda = 20,
+             sel.criterion = 'bstars', 
+             pulsar.select = TRUE, 
+             pulsar.params = list(rep.num = 100, seed = seed, ncores = threads))
+}
+```
+
+# Format Network with Taxonomy
+
+```{r}
+annotate_network <- function(spiec_out, ps) {
+  library(igraph)
+  library(tidygraph)
+  library(stringr)
+
+  # Get edge weights and signs
+  optbeta <- as.matrix(symBeta(getOptBeta(spiec_out)))
+  weights <- optbeta[upper.tri(optbeta) & optbeta != 0]
+  edge_cols <- ifelse(weights > 0, 'positive', 'negative')
+
+  # Get taxonomy table
+  tax <- as(tax_table(ps), "matrix") %>% as.data.frame()
+  tax$Species <- rownames(tax)  # rownames are species names
+  tax <- tax %>%
+    mutate(
+      name = Species,  # to match graph nodes
+      species_2 = str_replace(Species, "s__Methanobrevibacter_A smithii_A", "Methanobrevibacter_A intestini"),
+      species_2 = str_replace(species_2, "s__Methanobrevibacter_A smithii", "Methanobrevibacter_A smithii"),
+      across(everything(), ~str_remove(.x, "^[a-z]__"))
+    )
+
+  # Create graph with species names as node names
+  species_names <- tax$name
+  Gl <- adj2igraph(getRefit(spiec_out),  
+                   rmEmptyNodes = FALSE,
+                   vertex.attr = list(name = species_names),
+                   edge.attr = list(color = edge_cols, W = weights)) %>%
+    as_tbl_graph()
+
+  # Join taxonomy onto graph
+  Gl %>%
+    activate(nodes) %>%
+    inner_join(tax, by = "name") %>%
+    mutate(taxonomy = paste(Phylum, Class, Order, sep = ";"))
+}
+
+```
+
+# Plot and Save Graph
+
+```{r}
+plot_spiec_graph <- function(graph, output_file = NULL) {
+  library(ggraph)
+  library(ggplot2)
+
+  plot <- graph %>%
+    activate(edges) %>%
+    mutate(
+      abs_W = abs(W),
+      edge_linetype = ifelse(W < 0, "dotted", "solid"),
+      color = ifelse(W < 0, "negative", "positive")
+    ) %>%
+    ggraph(layout = 'nicely') + 
+    geom_edge_link(aes(color = color, edge_width = abs_W, linetype = color), alpha = 0.3) +
+    geom_node_point(aes(color = Class, shape = Kingdom), size = 4) +
+    geom_node_text(aes(filter = Kingdom == "Archaea", label = species_2), repel = TRUE) +
+    scale_edge_color_manual(name = "Associations", 
+                            values = c("negative" = "#969696", "positive" = "forestgreen")) +
+    scale_edge_linetype_manual(name = "Associations", 
+                               values = c("negative" = "dotted", "positive" = "solid")) +
+    scale_edge_width_continuous(name = "Association strength", range = c(0.4, 2)) +
+    scale_shape_manual(values = c(15, 16, 17)) +
+    theme_graph() +
+    theme(
+      text = element_text(size = 14),
+      legend.box = "horizontal",
+      legend.text = element_text(size = 12),
+      legend.title = element_text(size = 13)
+    )
+  
+  if (!is.null(output_file)) {
+    ggsave(output_file, plot = plot, width = 16, height = 8)
+  }
+  
+  return(plot)
+}
+
+```
+
+# Generating Graph Objets (Adult dataset)
+
+```{r}
+# Load data
+phy_adult <- create_phyloseq_object("data/bracken_output_adults.tsv", "data/filtered_adult_metadata.txt")
+
+# Filter taxa
+filtered_adult <- filter_phyloseq(phy_adult)
+
+# Run SpiecEasi
+spiec_adult <- run_spiec_easi(filtered_adult)
+
+# Save SpiecEasi result to file
+saveRDS(spiec_adult, file = "spiec_adult.rds")
+
+# Annotate graph
+graph_adult <- annotate_network(spiec_adult, filtered_adult)
+
+```
+
+# Generating Graph Objets (children dataset)
+
+```{r}
+# Load data
+phy_children <- create_phyloseq_object("data/bracken_output_children.tsv", "data/filtered_child_metadata.txt")
+
+# Filter taxa
+filtered_children <- filter_phyloseq(phy_children)
+
+# Run SpiecEasi
+spiec_children <- run_spiec_easi(filtered_children)
+# Save SpiecEasi result to file
+saveRDS(spiec_children, file = "spiec_children.rds")
+
+# Annotate graph
+graph_children <- annotate_network(spiec_children, filtered_children)
+
+```
+
+
+# Zoom in on methanogen-specific interactions M. smithii or M. intestini with bacteria
+
+
+```{r}
+# Filter Network for Methanogen-Related Edges
+filter_methanogen_edges <- function(graph_obj, methanogen_names) {
+  edge_list <- graph_obj %>%
+    activate(edges) %>%
+    as_tibble()
+
+  edge_list_filtered <- edge_list %>%
+    filter(from %in% methanogen_names | to %in% methanogen_names)
+
+  node_list <- graph_obj %>%
+    activate(nodes) %>%
+    as_tibble()
+
+  g_filtered <- tbl_graph(nodes = node_list, edges = edge_list_filtered, directed = TRUE) %>%
+    filter(degree(.) > 0)
+  
+  return(g_filtered)
+}
+
+# Annotate Graph with Taxonomy Metadata
+annotate_graph_taxonomy <- function(graph_tidy, tax_table_df) {
+  tax_table_df <- tax_table_df %>%
+    mutate(
+      name = rownames(.),  # match graph node names
+      label = Species,
+      species_2 = ifelse(Species == "s__Methanobrevibacter_A smithii_A", 
+                         "s__Methanobrevibacter_A intestini", Species),
+      across(c(Species, species_2, Phylum, Kingdom, Class, Family), ~ gsub(".*__", "", .x))
+    )
+
+  graph_tidy %>%
+    activate(nodes) %>%
+    inner_join(tax_table_df, by = "name") %>%
+    mutate(taxonomy = paste(Phylum, Class, Order, sep = ";"))
+}
+
+#Plot Filtered SpiecEasi Network
+
+plot_spiec_graph_nolegend <- function(graph_annotated, family_colors) {
+  graph_annotated <- graph_annotated %>%
+    activate(edges) %>%
+    mutate(
+      abs_W = abs(W),
+      edge_category = ifelse(W < 0, "negative", "positive")
+    ) %>%
+    activate(nodes) %>%
+    mutate(
+      species_italic = ifelse(
+        Kingdom == "Archaea",
+        paste0("italic('", species_2, "')"),
+        NA
+      )
+    )
+
+  ggraph(graph_annotated, layout = "nicely") +
+    geom_edge_link(
+      aes(edge_color = edge_category, edge_width = abs_W),
+      edge_alpha = 0.4,
+      show.legend = TRUE
+    ) +
+    geom_node_point(aes(color = Family, shape = Kingdom), size = 3) +
+    geom_node_text(
+      aes(filter = Kingdom == "Archaea", label = species_italic),
+      size = 7 / .pt,  # Convert 7 pt to ggplot size units
+      parse = TRUE
+    ) +
+    scale_shape_manual(
+      name = "Kingdom",
+      values = c(Archaea = 17, Bacteria = 16)
+    ) +
+    scale_edge_color_manual(
+      name = "Association",
+      values = c(positive = "blue", negative = "orchid1")
+    ) +
+    scale_edge_width_continuous(
+      name = "Association strength",
+      range = c(0.4, 2),
+      breaks = c(0.05, 0.1, 0.2, 0.3),
+      labels = scales::number_format(accuracy = 0.1)
+    ) +
+    scale_color_manual(
+      name = "Family",
+      values = family_colors
+    ) +
+    theme_graph(base_family = "Helvetica", base_size = 7) +
+    theme(
+      legend.position = "none",
+      text = element_text(size = 7, family = "Helvetica")
+    )
+}
+
+```
+
+# Generate M. smithii & M. intestini-bacteria network graphs
+
+```{r}
+
+# IDs of M. smithii and M. intestini in tax_table(filtered_adult)
+methanogen_ids <- c(2386, 2387)  
+
+# Create and annotate filtered graph
+graph_filtered_adult <- filter_methanogen_edges(graph_adult, methanogen_ids)
+
+# IDs of M. smithii and M. intestini in tax_table(filtered_children)
+methanogen_ids1 <- c(2415, 2416)  
+
+# Create and annotate filtered graph
+graph_filtered_children <- filter_methanogen_edges(graph_children, methanogen_ids1)
+
+```
+
+
+
+```{r}
+assign_family_colors <- function(graph_list, color_palette) {
+  # Extract all unique families from all graphs
+  all_families <- graph_list %>%
+    purrr::map(~ as_tibble(activate(.x, "nodes"))$Family) %>%
+    unlist() %>%
+    unique() %>%
+    sort(na.last = TRUE)
+  
+  n_families <- length(all_families)
+  n_colors <- length(color_palette)
+  
+  if (n_families > n_colors) {
+    warning(paste("Number of families (", n_families, ") exceeds number of colors (", n_colors, "). Some colors will be recycled."))
+  }
+  
+  family_colors <- setNames(
+    rep(color_palette, length.out = n_families),
+    all_families
+  )
+  
+  return(family_colors)
+}
+
+family_colors_vec <- c("#E41A1C", "#1E90FF", "#4DAF4A", "#984EA3", "#FFB90F", "#8B636C", "#F781BF", "#999999", 
+                       "#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3", "#A6D854", "#FFD92F", "#B3B3B3", "#1B9E77", 
+                       "#D95F02", "#BF3EFF", "#66CD00", "#E7298A", "#8B814C",  "#A1CAF1", "#A6761D","#BCEE68",
+                       "#FF6F61", "#6B5B95", "#88B04B", "#F7CAC9", "#92A8D1", "#955251", "#B565A7", "#97FFFF", 
+                       "#104E8B", "#D55E00", "#8B0000")
+
+graphs <- list(graph_filtered_adult, graph_filtered_children)
+
+family_colors <- assign_family_colors(graphs, family_colors_vec)
+```
+
+
+```{r, include=TRUE, fig.width=6, fig.height=4, dpi=300, dev = "pdf"}
+# Plot
+plot_adult <- plot_spiec_graph_nolegend(graph_filtered_adult, family_colors)
+
+plot_children <- plot_spiec_graph_nolegend(graph_filtered_children, family_colors)
+
+plot_adult
+plot_children
+
+ggsave("SpiecEasi_adults_filtered3.pdf", plot_adult, width = 95, height = 75, units = "mm", dpi = 300)
+ggsave("SpiecEasi_adults_filtered3.svg", plot_adult, width = 95, height = 75, units = "mm", dpi = 300, device = svglite::svglite)
+
+```
+
+## Generate legends
+
+```{r}
+generate_full_family_legend <- function(graph_list, family_colors_vec) {
+  # Get unique families from all graphs and assign consistent colors
+  family_colors <- assign_family_colors(graph_list, family_colors_vec)
+
+  # Create a dummy data frame for the legend
+  family_df <- data.frame(Family = names(family_colors))
+
+  # Generate dummy ggplot for extracting legend
+  legend_plot <- ggplot(family_df, aes(x = Family, y = 1, color = Family)) +
+    geom_point(size = 3) +
+    scale_color_manual(
+      name = "Family",
+      values = family_colors,
+      guide = guide_legend(ncol = 3)
+    ) +
+    theme_void(base_size = 7, base_family = "Helvetica") +
+    theme(
+      legend.position = "right",
+      legend.text = element_text(family = "Helvetica"),
+      legend.title = element_text(family = "Helvetica"),
+      legend.spacing.x = unit(0.1, "mm"),
+      legend.box.spacing = unit(0.1, "mm")
+    )
+
+  # Extract just the legend
+  legend_family <- get_legend_only(legend_plot)
+
+  return(list(legend = legend_family, family_colors = family_colors))
+}
+
+```
+
+
+```{r}
+library(patchwork)
+library(cowplot)
+
+get_legend_only <- function(p) {
+  cowplot::get_legend(p)
+}
+# Combine graphs
+graphs <- list(graph_filtered_adult, graph_filtered_children)
+
+# Generate legend and consistent family_colors
+legend_out <- generate_full_family_legend(graphs, family_colors_vec)
+
+# Extract outputs
+legend_family <- legend_out$legend
+family_colors <- legend_out$family_colors  
+print(legend_family)
+
+ggsave("Networts_family_legend.pdf", legend_family, width = 90, height = 80, units = "mm", dpi = 300)
+ggsave("Networts_family_legend.svg", legend_family, width = 90, height = 80, units = "mm", dpi = 300, device = svglite::svglite)
+
+```
+
+# Extract other figure legends
+
+```{r}
+# kingdom legend
+legend_kingdom <- ggraph(graph_filtered_adult, layout = "nicely") +
+  geom_node_point(aes(shape = Kingdom), size = 4) +
+  scale_shape_manual(name = "Kingdom", values = c("Archaea" = 17, "Bacteria" = 16)) +
+  theme_void(base_size = 7, base_family = "Helvetica") +
+  theme(legend.position = "right")
+
+legend_kingdom <- get_legend_only(legend_kingdom)
+
+# association_legend
+ graph_adults <- graph_filtered_adult %>%
+  activate(edges) %>%
+  mutate(edge_category = ifelse(W < 0, "negative", "positive"))
+
+legend_assoc <- ggraph(graph_adults, layout = "nicely") +
+  geom_edge_link(aes(edge_color = edge_category), edge_width = 1, alpha = 0.3) +
+  scale_edge_color_manual(name = "Association", values = c("positive" = "blue", "negative" = "orchid1")) +
+  theme_void(base_size = 7, base_family = "Helvetica") +
+  theme(legend.position = "right")
+
+legend_assoc <- get_legend_only(legend_assoc)
+
+# Association strength legend (edge width)
+
+  graph_adults1 <- graph_filtered_adult %>%
+  activate(edges) %>%
+  mutate(abs_W = abs(W))
+
+legend_strength <- ggraph(graph_adults1, layout = "nicely") +
+  geom_edge_link(aes(edge_width = abs_W), alpha = 0.3) +
+  scale_edge_width_continuous(
+    name = "Association strength",
+    range = c(0.4, 2),
+    breaks = c(0.05, 0.1, 0.2, 0.3, 0.4, 0.5),
+    labels = scales::number_format(accuracy = 0.1)
+  ) +
+  theme_void(base_size = 7, base_family = "Helvetica") +
+  theme(legend.position = "right")
+
+legend_strength <- get_legend_only(legend_strength)
+
+ggsave("legend_associations_strength_adults_network.pdf", legend_strength, width = 30, height = 45, units = "mm", dpi = 300)
+ggsave("legend_associations_strength_adults_network.svg", legend_strength, width = 30, height = 45, units = "mm", dpi = 300, device = svglite::svglite)
+
+
+
+```
+
+# Manuscript Figure (Extract Edge list Fig.2)
+
+```{r}
+extract_edge_list <- function(graph_obj, physeq_obj) {
+  # Extract edge list
+  edge_list <- graph_obj %>%
+    activate(edges) %>%
+    as_tibble()
+  
+  # Extract node metadata
+  node_data <- graph_obj %>%
+    activate(nodes) %>%
+    as_tibble()
+  
+  # Attach node names to edge list
+  edge_list_named <- edge_list %>%
+    mutate(
+      from_name = node_data$name[from],
+      to_name = node_data$name[to]
+    ) %>%
+    rename(
+      association_strength = W,
+      association = color
+    ) %>%
+    select(
+      bacteria_species = from_name,
+      methanogen_species = to_name,
+      association_strength,
+      association
+    ) %>%
+    mutate(Species = bacteria_species)
+
+  # Extract taxonomy table
+  taxonomy_df <- as.data.frame(tax_table(physeq_obj))
+
+  # Clean taxonomic labels: strip prefixes (e.g., "s__") in Species column
+  taxonomy_df <- taxonomy_df %>%
+    as.data.frame() %>%
+    rownames_to_column(var = "ASV") %>%
+    mutate(Species = gsub("^[a-z]__+", "", Species))  # Remove prefixes like s__, g__, etc
+
+  # Add ASV ID to match with edge list species 
+  taxonomy_df <- taxonomy_df %>%
+    mutate(node_name = gsub("^[a-z]__+", "", Species))
+
+  # Join taxonomy info using cleaned names
+  final_edge_list <- edge_list_named %>%
+    left_join(taxonomy_df, by = c("Species" = "node_name"))
+
+  return(final_edge_list)
+}
+
+```
+
+
+# Write Edge list to tables (Manuscript table, also used to generate Figure 2B)
+
+```{r}
+# For children
+edge_table_children <- extract_edge_list(graph_filtered_children, filtered_children)
+
+# For adults
+edge_table_adults <- extract_edge_list(graph_filtered_adult, filtered_adult)
+
+# Save as TSV or Excel 
+readr::write_tsv(edge_table_children, "Supplementary_Co-ocuurence-edge_table_children.tsv")
+readr::write_tsv(edge_table_adults, "Supplementary_Co-ocuurence-edge_table_Adults.tsv")
+```
+

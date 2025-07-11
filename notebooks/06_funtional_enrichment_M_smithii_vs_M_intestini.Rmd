@@ -1,0 +1,138 @@
+---
+title: "06_Functional_enrichment_M_smithii_vs_M_intestini"
+author: "Mirabeau Mbong"
+date: "2025-06-12"
+output:
+  html_notebook:
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    df_print: paged
+---
+
+This script is used to generate plots in Fig.7A of the associated paper
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(dev = "pdf",
+                      dpi = 300,
+                      echo = FALSE,
+                      cache = TRUE)
+
+```
+
+## load libraries
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r}
+# Check working directory (should be repo root)
+message("Current working directory: ", getwd())
+```
+
+
+## Enriched COG20 functions
+
+```{r}
+
+enr_fun1 = read_delim("data/enriched-functions.txt", delim = "\t")
+
+colnames(enr_fun1)
+
+enr_fun2 <- enr_fun1 %>%
+  dplyr::arrange(adjusted_q_value) %>%
+  dplyr::filter(adjusted_q_value< 0.05) %>%
+  mutate(n_clusters = str_count(gene_clusters_ids, ",") + 1)
+
+```
+
+
+```{r}
+enr_plot3 <- ggplot(enr_fun2, aes(reorder(COG20_FUNCTION, enrichment_score), enrichment_score)) +
+  geom_line()+
+  geom_point(aes(size = n_clusters, col = associated_groups)) +
+  scale_colour_manual(name = "Species",
+                      values = c("#4A6990FF", "#EFC000FF")) +
+  scale_size_continuous(name = "total gene clusters") +
+  coord_flip() +
+  labs(x="COG-20 function", y="Enrichment score",
+       title="COG-Enriched functions") + 
+  theme_minimal() +
+  theme_classic() +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 55))
+enr_plot3 <- enr_plot3 + theme(text = element_text(size = 11, face= "bold", colour= "black"))
+enr_plot3
+```
+
+
+
+## Enriched COG20 pathways
+
+```{r}
+enr_cat1 = read_delim("data/enriched-categories.txt", delim = "\t")
+
+colnames(enr_fun1)
+
+enr_cat2 <- enr_cat1 %>%
+  dplyr::arrange(adjusted_q_value) %>%
+  dplyr::filter(adjusted_q_value< 0.05) %>%
+  mutate(n_clusters = str_count(gene_clusters_ids, ",") + 1)
+```
+
+## Enriched KEGG functions
+
+```{r}
+enr_funKEGG = read_delim("data/enriched-KEG-functions.txt", delim = "\t")
+
+colnames(enr_funKEGG)
+
+enr_funKEGG1 <- enr_funKEGG %>%
+  dplyr::arrange(adjusted_q_value) %>%
+  dplyr::filter(adjusted_q_value< 0.05) %>%
+  mutate(n_clusters = str_count(gene_clusters_ids, ",") + 1)
+```
+
+# Manuscript Figure (Anvio Functional enrichment of gene functions: Fig.7A)
+
+```{r}
+enr_funKEGG1$associated_groups <- factor(enr_funKEGG1$associated_groups,
+                                         levels = c("M. smithii", "M. intestini"),
+                                         labels = c(expression(italic("M. smithii")),
+                                                    expression(italic("M. intestini"))))
+
+# Build plot
+enr_plotKEGG1 <- ggplot(enr_funKEGG1, aes(reorder(KOfam, enrichment_score), enrichment_score)) +
+  geom_line() +
+  geom_point(aes(size = n_clusters, col = associated_groups)) +
+  scale_colour_manual(
+    name = "Species",
+    values = c("#EFC000FF", "#4A6990FF"),
+    labels = c(expression(italic("M. smithii")), expression(italic("M. intestini")))
+  ) +
+  scale_size(range = c(3, 10), name = "Gene clusters") +
+  coord_flip() +
+  labs(x = "KEGG function", y = "Enrichment score", title = "") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 55)) +
+  theme_classic(base_size = 7, base_family = "Helvetica") +
+  theme(
+    text = element_text(size = 7, family = "Helvetica", colour = "black"),
+    legend.text = element_text(size = 7, family = "Helvetica"),
+    legend.title = element_text(size = 7, family = "Helvetica"),
+    axis.title = element_text(size = 7, family = "Helvetica"),
+    axis.text = element_text(size = 7, family = "Helvetica"),
+    plot.title = element_text(size = 7, family = "Helvetica", hjust = 0.5)
+  )
+enr_plotKEGG1
+
+ggsave("KEGG-Enriched_functions_between_species.pdf", enr_plotKEGG1, width = 138, height = 92, units = "mm", dpi = 300)
+ggsave("KEGG-Enriched_functions_between_species.svg", enr_plotKEGG1, width = 138, height = 92, units = "mm", dpi = 300, device = svglite::svglite)
+
+```
+
+

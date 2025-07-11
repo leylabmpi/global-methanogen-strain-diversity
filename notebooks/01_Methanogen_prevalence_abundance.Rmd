@@ -1,0 +1,998 @@
+---
+title: "01_Methanogen_prevalence_abundance"
+author: "Mirabeau Mbong"
+date: "2025-06-26"
+output:
+  html_notebook:
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    df_print: paged
+---
+This script is used to generate plots in Fig.1 and Fig.S2 of the associated paper
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(dev = "pdf",
+                      dpi = 300,
+                      echo = FALSE,
+                      cache = TRUE)
+
+```
+
+# load libraries
+
+```{r}
+# Load required libraries
+library(phyloseq)
+library(microbiome)
+library(tidyverse)
+library(ggpubr)
+library(patchwork)
+library(ggpubr)
+library(vegan)
+library(tibble)
+library(showtext)
+library(showtextdb)
+library(ggtext)
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+```
+
+```{r}
+# Check working directory (should be repo root)
+message("Current working directory: ", getwd())
+```
+
+# Functions: data processing I (compute prevalence across all samples)
+
+```{r}
+# ---------- Function to load Bracken + metadata and create phyloseq ----------
+create_phyloseq <- function(bracken_file, metadata_file) {
+  bracken <- read.table(bracken_file, header = TRUE, sep = "\t")
+  meta <- read.table(metadata_file, header = TRUE, sep = "\t")
+
+  # Process OTU table
+  OTU <- bracken %>%
+    dplyr::select(-c(taxonomy_id, taxonomy_lvl, taxonomy, taxIDs)) %>%
+    dplyr::select(-contains('frac')) %>%
+    dplyr::rename_with(~ sub("[_]num$", "", .x), ends_with("_num"))
+
+  rownames(OTU) <- OTU$name
+  OTU <- OTU %>% dplyr::select(-name)
+
+  # Process taxonomy
+  tax <- bracken %>%
+    dplyr::select(name, taxonomy) %>%
+    tidyr::separate(taxonomy,
+                    into = c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"),
+                    sep = ";", fill = "right", extra = "drop")
+  rownames(tax) <- tax$name
+  tax <- tax %>% dplyr::select(-name)
+
+  # Process metadata
+  meta$sample <- meta$ParticipantID
+  rownames(meta) <- meta$sample
+  meta <- meta %>% dplyr::select(-sample)
+
+  # Create phyloseq object
+  ps <- phyloseq(
+    otu_table(as.matrix(OTU), taxa_are_rows = TRUE),
+    tax_table(as.matrix(tax)),
+    sample_data(meta)
+  )
+  return(ps)
+}
+
+# ---------- Usage of phyloseq function ----------
+
+# ---------- Load data ----------
+ps_adults_raw <- create_phyloseq("data/bracken_output_adults.tsv", "data/filtered_adult_metadata.txt")
+ps_children_raw <- create_phyloseq("data/bracken_output_children.tsv", "data/filtered_child_metadata.txt")
+
+
+# ---------- Function to filter and clean methanogens ----------
+
+# Filter by phylum: Methanobacteriota
+filter_methanogen_phylum <- function(ps) {
+  subset_taxa(ps, Phylum == "p__Methanobacteriota")
+}
+
+# ---------- Clean and filter Methanobrevibacter_A genus ----------
+filter_clean_methanobrevibacter_A <- function(ps) {
+  ps_meth <- subset_taxa(ps, Genus == "g__Methanobrevibacter_A")
+  
+  tax_df <- as.data.frame(tax_table(ps_meth))
+  tax_df$Species[is.na(tax_df$Species)] <- ""
+  keep_taxa <- rownames(tax_df)[!grepl("sp", tax_df$Species)]
+  ps_clean <- prune_taxa(keep_taxa, ps_meth)
+  
+  tax <- tax_table(ps_clean)
+  tax[, "Genus"] <- gsub("^g__", "", tax[, "Genus"])
+  tax[, "Species"] <- gsub("^s__", "", tax[, "Species"])
+  tax[, "Species"] <- gsub("Methanobrevibacter_A smithii_A", 
+                           "Methanobrevibacter_A intestini", tax[, "Species"])
+  tax_table(ps_clean) <- tax
+  
+  return(ps_clean)
+}
+
+# ---------- usage of fitering function ----------
+
+# Adults
+methanogens1 <- filter_methanogen_phylum(ps_adults_raw)
+methanobrevibacter1 <- filter_clean_methanobrevibacter_A(methanogens1)
+
+# Children
+methanogens2 <- filter_methanogen_phylum(ps_children_raw)
+methanobrevibacter2 <- filter_clean_methanobrevibacter_A(methanogens2)
+
+# ---------- All samples prevalence Computation ----------
+compute_prevalence <- function(ps_obj, total_samples) {
+  # Calculate prevalence per taxon
+  prevalence_counts <- apply(
+    X = otu_table(ps_obj),
+    MARGIN = ifelse(taxa_are_rows(ps_obj), 1, 2),
+    FUN = function(x) sum(x > 0)
+  )
+  
+  # Build data.frame with prevalence, abundance, and taxonomy
+  prev_df <- data.frame(
+    Prevalence = prevalence_counts,
+    TotalAbundance = taxa_sums(ps_obj),
+    tax_table(ps_obj)
+  )
+  
+  # Calculate percent prevalence
+  prev_df <- prev_df %>%
+    dplyr::mutate(prevalence = (Prevalence / total_samples) * 100)
+  
+  return(prev_df)
+}
+
+# ---------- Usage of prevalence function ----------
+
+# For adults (510 samples)
+prev_adults <- compute_prevalence(methanogens1, total_samples = 510)
+
+# For children (394 samples)
+prev_children <- compute_prevalence(methanogens2, total_samples = 394)
+
+```
+
+# write tables
+
+
+```{r}
+write.table(prev_adults,file = "Prevalence_methanogens-adults.txt", row.names = FALSE, sep = "\t")
+write.table(prev_children,file = "Prevalence_methanogens-children.txt", row.names = FALSE, sep = "\t")
+
+```
+
+# Functions: data processing II (compute country prevalence)
+
+
+```{r}
+# ---------- compute prevalence function ----------
+
+compute_prevalence_by_group <- function(physeq_obj, group_var = "CurrCountry", abundance_threshold = 1e-1) {
+  # Filter abundant taxa
+  physeq_filtered <- filter_taxa(physeq_obj, function(x) mean(x) > abundance_threshold, TRUE)
+  
+  # Melt OTU table
+  otu <- otu_table(physeq_filtered)
+  if (!taxa_are_rows(physeq_filtered)) otu <- t(otu)
+  otu_df <- as.data.frame(otu) %>% rownames_to_column("Taxon") %>%
+    pivot_longer(-Taxon, names_to = "SampleID", values_to = "Abundance")
+  
+  # Add metadata
+  sample_meta <- data.frame(sample_data(physeq_filtered)) %>% rownames_to_column("SampleID")
+  otu_long <- left_join(otu_df, sample_meta, by = "SampleID")
+  
+  # Add taxonomy
+  tax_df <- as.data.frame(tax_table(physeq_filtered)) %>% rownames_to_column("Taxon")
+  otu_long <- left_join(otu_long, tax_df, by = "Taxon")
+  
+  # Compute prevalence
+  prevalence_df <- otu_long %>%
+    group_by(!!sym(group_var), Taxon, Genus, Species) %>%
+    summarise(prevalence = mean(Abundance > 0) * 100, .groups = "drop") %>%
+    mutate(
+      Genus = str_remove(Genus, "^g__"),
+      Species = str_remove(Species, "^s__"),
+      Species = str_replace_all(Species, "Methanobrevibacter_A", "M.")
+    )
+  
+  names(prevalence_df)[1] <- group_var  # Ensure group var is named properly
+  return(prevalence_df)
+}
+
+# ---------- compute abundance function ----------
+
+prepare_methanogen_abundance_df <- function(physeq_obj) {
+  relabund_obj <- transform_sample_counts(physeq_obj, function(x) x / sum(x))
+  df_long <- psmelt(relabund_obj)
+
+  species_df <- df_long %>%
+    filter(OTU %in% c("s__Methanobrevibacter_A smithii", "s__Methanobrevibacter_A smithii_A")) %>%
+    mutate(
+      Species = case_when(
+        OTU == "s__Methanobrevibacter_A smithii" ~ "M. smithii",
+        OTU == "s__Methanobrevibacter_A smithii_A" ~ "M. intestini"
+      ),
+      Abundance = Abundance + 1e-7  # Pseudo-count for log scale
+    )
+
+  return(species_df)
+}
+
+```
+
+
+#  Plotting functions
+
+
+```{r}
+# ---------- Custom color schemes ----------
+country_colors <- c(Gabon = "#ff0000", Germany = "#e7e70e", Vietnam = "#0b0bd3")
+species_colors <- c("Methanobrevibacter_A smithii" = "#1f77b4", "Methanobrevibacter_A intestini" = "#ff7f0e")
+location_colors <- c("Lambaréné" = "skyblue", "Ikobey" = "orange")
+
+plot_genus_prevalence <- function(prev_df) {
+  prev_df_clean <- prev_df %>%
+    filter(prevalence > 0) %>%  # Remove zero prevalence to avoid log10(0)
+    mutate(
+      Genus = gsub("^g__", "", Genus),
+      Genus = gsub("^s__", "", Genus),
+      Genus = ifelse(Genus == "Methanobrevibacter_A smithii_A", "Methanobrevibacter_A intestini", Genus)
+    )
+
+  # Compute maximum prevalence and relevel Genus by descending max prevalence
+  max_prev_order <- prev_df_clean %>%
+    group_by(Genus) %>%
+    summarise(max_prev = max(prevalence, na.rm = TRUE)) %>%
+    arrange(desc(max_prev)) %>%
+    filter(!is.na(Genus))
+
+  # Reorder factor levels BEFORE plotting
+  prev_ordered <- prev_df_clean %>%
+    filter(Genus %in% max_prev_order$Genus) %>%
+    mutate(Genus = factor(Genus, levels = max_prev_order$Genus))
+
+  # Plot
+  ggplot(prev_ordered, aes(x = Genus, y = prevalence)) +
+    geom_segment(aes(xend = Genus, y = 0.1, yend = prevalence), color = "grey60", linewidth = 0.7) +
+    geom_point(color = "black", size = 2) +
+    scale_y_log10(
+      limits = c(0.1, 100),
+      breaks = c(0.1, 1, 5, 10, 25, 50, 100),
+      labels = c("0.1", "1", "5", "10", "25", "50", "100")
+    ) +
+    scale_x_discrete(labels = function(x) parse(text = paste0("italic('", x, "')"))) +
+    labs(x = "", y = "Prevalence (log scale %)") +
+    theme_light(base_size = 7, base_family = "Helvetica") +
+    theme(
+      axis.text = element_text(size = 7),
+      axis.title = element_text(size = 7),
+      strip.text = element_text(size = 7),
+      legend.text = element_text(size = 7),
+      legend.title = element_text(size = 7),
+      axis.text.x = element_text(angle = 45, hjust = 1),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank()
+    )
+}
+
+plot_species_prevalence <- function(prev_df, genus_filter = "Methanobrevibacter_A", min_prevalence = 0.1) {
+  prev_species <- prev_df %>%
+    mutate(
+      Genus = gsub("^g__", "", Genus),
+      Species = gsub("^s__", "", Species),
+      Species = gsub("^Methanobrevibacter_A smithii_A$", "Methanobrevibacter_A intestini", Species)
+    ) %>%
+    filter(
+      Genus == genus_filter,
+      !grepl("sp", Species),           # Remove MAGs
+      prevalence > min_prevalence
+    ) %>%
+    mutate(
+      Species = gsub(paste0("^", genus_filter), "M.", Species),
+      Species = factor(Species, levels = rev(Species[order(prevalence)]))
+    )
+  
+  ggplot(prev_species, aes(x = Species, y = prevalence)) +
+    geom_segment(aes(xend = Species, y = 0, yend = prevalence), color = "grey60", linewidth = 0.7) +
+    geom_point(color = "black", size = 2) +
+    scale_y_continuous(
+      limits = c(0, max(prev_species$prevalence, na.rm = TRUE) + 5),
+      breaks = seq(0, 100, 10),
+      labels = function(x) x
+    ) +
+    scale_x_discrete(labels = function(x) parse(text = paste0("italic('", x, "')"))) +
+    labs(x = "", y = "Prevalence (%)") +
+    theme_light(base_size = 7, base_family = "Helvetica") +
+    theme(
+      axis.text = element_text(size = 7),
+      axis.title = element_text(size = 7),
+      strip.text = element_text(size = 7),
+      legend.text = element_text(size = 7),
+      legend.title = element_text(size = 7),
+      axis.text.x = element_text(angle = 45, hjust = 1),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank()
+    )
+}
+
+# ---------- plot genus prevalence function ----------
+
+plot_genus_max_prevalence_bar <- function(prev_df, group_var = "CurrCountry") {
+  genus_df <- prev_df %>%
+    filter(!is.na(Genus), prevalence > 0) %>%
+    group_by(Genus, !!sym(group_var)) %>%
+    summarise(prevalence = max(prevalence), .groups = "drop") %>%
+    mutate(Genus = factor(Genus, levels = rev(unique(Genus[order(prevalence, decreasing = TRUE)]))))
+  
+  p <- ggplot(genus_df, aes(x = Genus, y = prevalence, fill = !!sym(group_var))) +
+    geom_bar(stat = "identity", position = position_dodge(width = 0.8), width = 0.6) +
+    coord_flip() +
+    scale_y_sqrt(
+      breaks = c(0, 1, 5, 10, 25, 50, 75, 100),
+      labels = function(x) x
+
+    ) +
+    scale_fill_manual(name = "", values = country_colors) +
+    scale_x_discrete(labels = function(x) parse(text = paste0("italic('", x, "')"))) +
+    labs(x = "", y = "Max genus prevalence", fill = group_var) +
+    theme_light(base_size = 7, base_family = "Helvetica") +
+    theme(
+      axis.text = element_text(size = 7),
+      axis.title = element_text(size = 7),
+      strip.text = element_text(size = 7),
+      legend.text = element_text(size = 7),
+      legend.title = element_text(size = 7),
+      legend.position = "none")
+
+  return(p)
+}
+
+# ---------- plot species prevalence function ----------
+
+plot_methanobrevibacter_species_bar <- function(prev_df, group_var = "CurrCountry", min_prevalence = 0.1) {
+  meth_df <- prev_df %>%
+    filter(Genus == "Methanobrevibacter_A", !str_detect(Species, "sp[0-9]+"), prevalence > min_prevalence) %>%
+    mutate(
+      Species = str_replace(Species, "M\\. smithii_A", "M. intestini")
+    )
+  
+  if (nrow(meth_df) == 0) {
+    warning("No eligible Methanobrevibacter species found.")
+    return(NULL)
+  }
+
+  species_levels <- meth_df %>%
+    group_by(Species) %>%
+    summarise(median_prev = median(prevalence, na.rm = TRUE), .groups = "drop") %>%
+    arrange(desc(median_prev)) %>%
+    pull(Species)
+  
+  meth_df$Species <- factor(meth_df$Species, levels = rev(species_levels))
+
+  ymax <- ceiling(max(meth_df$prevalence, na.rm = TRUE) / 10) * 10
+
+  p <- ggplot(meth_df, aes(x = Species, y = prevalence, fill = !!sym(group_var))) +
+    geom_bar(stat = "identity", position = position_dodge2(width = 0.7, preserve = "single"), width = 0.6) +
+    coord_flip() +
+    scale_y_continuous(
+      limits = c(0, ymax),
+      breaks = seq(0, ymax, 10),
+      labels = function(x) x  
+    ) +
+    scale_fill_manual(name = "", values = country_colors) +
+    scale_x_discrete(labels = function(x) parse(text = paste0("italic('", x, "')"))) +
+    labs(x = "", y = "Prevalence (%)", fill = group_var) +  
+    theme_light(base_size = 7, base_family = "Helvetica") +
+    theme(
+      axis.text = element_text(size = 7),
+      axis.title = element_text(size = 7),
+      strip.text = element_text(size = 7),
+      legend.text = element_text(size = 7),
+      legend.title = element_text(size = 7),
+      legend.position = "none"
+    )
+
+  return(p)
+}
+
+# ---------- plot abundance by country ----------
+
+plot_methanogen_abundance <- function(species_df, group_var, comparisons_list,
+                                            xlab = "", country_colors = NULL) {
+  # Filter out NA or zero values for plotting on log10 scale
+  filtered_df <- species_df %>%
+    filter(!is.na(Abundance), Abundance > 0)
+
+  # Determine x-axis label
+  x_label <- if (is.null(xlab) || xlab == "") group_var else xlab
+
+  # Custom labeller for italic species names
+  species_labeller <- function(name) {
+    as.expression(bquote(italic(.(name))))
+  }
+
+  # Split by species and generate one plot per species
+  plots <- filtered_df %>%
+    split(.$Species) %>%
+    lapply(function(df_species) {
+      species_name <- unique(df_species$Species)
+
+      ggplot(df_species, aes_string(x = group_var, y = "Abundance * 100", color = group_var)) +
+        geom_boxplot(outlier.shape = NA, fill = NA, color = "black", alpha = 0.8) +
+        geom_jitter(width = 0.2, alpha = 0.6, size = 1) +
+        stat_compare_means(label = "p.signif", method = "wilcox.test", comparisons = comparisons_list, tip.length = 0, vjust = 0.3) +
+        scale_y_log10(labels = scales::label_number(accuracy = 0.0001)) +
+        scale_color_manual(values = country_colors, na.translate = FALSE) +
+        labs(
+          y = "Relative abundance (log10 %)",
+          x = NULL
+          #title = species_labeller(species_name)
+        ) +
+        theme_light(base_size = 7, base_family = "Helvetical") +
+        theme(
+          plot.title = element_text(size = 8, hjust = 0.5),
+          axis.text = element_text(size = 7),
+          axis.title = element_text(size = 7),
+          legend.position = "none"
+        )
+    })
+
+  return(plots)
+}
+
+
+# ---------- plot abundance by country ----------
+
+```
+
+# Manuscript Figure (data prevalence: Supplementary Fig.02)
+
+```{r}
+# Adults
+plg_adults = plot_genus_prevalence(prev_adults)
+pls_adults = plot_species_prevalence(prev_adults)
+
+# Children
+plg_children = plot_genus_prevalence(prev_children)
+pls_children = plot_species_prevalence(prev_children)
+
+ggsave("genus_prevalence_adults-all-samples.pdf", plg_adults, width = 380, height = 180, units = "mm", dpi = 300)
+ggsave("genus_prevalence_adults-all-samples.svg", plg_adults, width = 380, height = 180, units = "mm", dpi = 300, device = svglite::svglite)
+
+plg_adults
+pls_adults
+plg_children
+pls_children
+```
+
+```{r}
+
+```
+
+
+# Manuscript Figure (prevalence: Fig.1 & Supplementary Fig.02)
+
+
+```{r}
+# By country (adults):
+prev_by_country <- compute_prevalence_by_group(methanogens1, group_var = "CurrCountry")
+p_genus_country <- plot_genus_max_prevalence_bar(prev_by_country, group_var = "CurrCountry")
+p_species_country <- plot_methanobrevibacter_species_bar(prev_by_country, group_var = "CurrCountry")
+
+# By country (children):
+prev_by_country1 <- compute_prevalence_by_group(methanogens2, group_var = "CurrCountry")
+p_genus_country1 <- plot_genus_max_prevalence_bar(prev_by_country1, group_var = "CurrCountry")
+p_species_country1 <- plot_methanobrevibacter_species_bar(prev_by_country1, group_var = "CurrCountry")
+
+ggsave("species_prevalence_children-by-country.pdf", p_species_country1, width = 65, height = 45, units = "mm", dpi = 300)
+ggsave("species_prevalence_children-by-country.svg", p_species_country1, width = 110, height = 75, units = "mm", dpi = 300, device = svglite::svglite)
+
+
+p_genus_country
+p_species_country
+p_genus_country1
+p_species_country1
+```
+
+# Manuscript Figure (abundance by country: Fig.1) usage  & sampling locations
+
+```{r}
+# Prepare data
+adults_df <- prepare_methanogen_abundance_df(ps_adults_raw)
+children_df <- prepare_methanogen_abundance_df(ps_children_raw)
+
+# Color palette (for countries)
+country_colors <- c("Gabon" = "#ff0000", "Germany" = "#e7e70e", "Vietnam" = "#0b0bd3")
+
+# Comparisons
+comparisons_list <- list(c("Gabon", "Germany"), c("Gabon", "Vietnam"), c("Germany", "Vietnam"))
+
+# Call the function
+species_plots_adults <- plot_methanogen_abundance(adults_df, group_var = "CurrCountry",
+                                         comparisons_list = comparisons_list,
+                                         xlab = "", country_colors = country_colors)
+
+species_plots_children <- plot_methanogen_abundance(children_df, group_var = "CurrCountry",
+                                         comparisons_list = comparisons_list,
+                                         xlab = "", country_colors = country_colors)
+
+# Show individual plots
+species_plots_adults[["M. smithii"]]
+species_plots_adults[["M. intestini"]]
+species_plots_children[["M. smithii"]]
+species_plots_children[["M. intestini"]]
+
+ggsave("M_intestini_abundance_adults.pdf", species_plots_adults[["M. intestini"]], width = 50, height = 60, units = "mm", dpi = 300)
+ggsave("M_intestini_abundance_adults.svg", species_plots_adults[["M. intestini"]], width = 80, height = 70, units = "mm", dpi = 300, device = svglite::svglite)
+
+```
+
+```{r}
+
+```
+
+
+#  Manuscript Figure (sampling locations: Fig.1)
+
+```{r}
+# Gabon only: filter and plot by sampling location
+adults_gabon <- adults_df %>% filter(CurrCountry == "Gabon")
+children_gabon <- children_df %>% filter(CurrCountry == "Gabon")
+gabon_comparisons <- list(c("Lambarene", "Ikobey"))
+location_colors <- c("Lambarene" = "skyblue", "Ikobey" = "orange")
+
+#adults
+species_plots_adults_loc <- plot_methanogen_abundance(
+  adults_gabon,
+  group_var = "samplingLocation",
+  comparisons_list = gabon_comparisons,
+  xlab = "",
+  country_colors = location_colors
+)
+
+# children
+species_plots_children_loc <- plot_methanogen_abundance(
+  children_gabon,
+  group_var = "samplingLocation",
+  comparisons_list = gabon_comparisons,
+  xlab = "",
+  country_colors = location_colors
+)
+
+# Show individual plots
+species_plots_adults_loc[["M. smithii"]]
+species_plots_adults_loc[["M. intestini"]]
+species_plots_children_loc[["M. smithii"]]
+species_plots_children_loc[["M. intestini"]]
+
+ggsave("M_intestini_abundance_adults-Gabon.pdf", species_plots_adults_loc[["M. intestini"]], width = 50, height = 60, units = "mm", dpi = 300)
+ggsave("M_smithii_abundance_adults-Gabon.svg", species_plots_adults_loc[["M. smithii"]], width = 80, height = 70, units = "mm", dpi = 300, device = svglite::svglite)
+
+```
+
+```{r}
+
+```
+
+
+# Adults Vs Children abundance comparisons
+
+```{r}
+
+# Prepare adult and child subsets
+min_abundance_adults <- 1e-06
+adults_df_subset <- adults_df %>%
+  filter(Abundance > min_abundance_adults) %>%
+  select(Sample, Abundance, samplingLocation, CurrCountry, Species) %>%
+  mutate(Dataset = "Adults")
+
+children_df_subset <- children_df %>%
+  select(Sample, Abundance, samplingLocation, CurrCountry, Species) %>%
+  mutate(Dataset = "Children")
+
+# Combine
+combined_df <- bind_rows(adults_df_subset, children_df_subset) %>%
+  mutate(
+    CountryGroup = paste(CurrCountry, Dataset),
+    LocationGroup = paste(samplingLocation, Dataset)
+  )
+```
+
+
+# plot function
+
+
+```{r}
+plot_methanogen_abundance_grouped <- function(df, group_var, comparisons_list, color_by = NULL) {
+  # Add ColorGroup column based on group_var
+  df <- df %>%
+    mutate(ColorGroup = dplyr::case_when(
+      group_var == "CountryGroup" ~ CurrCountry,
+      group_var == "LocationGroup" ~ samplingLocation,
+      TRUE ~ NA_character_
+    ))
+
+  # Define color map
+  if (color_by == "country") {
+    color_map <- country_colors
+  } else if (color_by == "location") {
+    color_map <- location_colors
+  } else {
+    color_map <- NULL
+  }
+
+  # Custom labeller for italic species names
+  species_labeller <- function(labels) {
+    sapply(labels, function(x) paste0("italic('", x, "')"))
+  }
+
+  species_list <- unique(df$Species)
+  plot_list <- list()
+
+  for (species_name in species_list) {
+    df_species <- df %>% filter(Species == species_name)
+
+    y.max <- max(df_species$Abundance * 100, na.rm = TRUE)
+    y.position <- seq(y.max * 1.1, length.out = length(comparisons_list), by = y.max * 0.1)
+
+    p <- ggplot(df_species, aes_string(x = group_var, y = "Abundance * 100")) +
+      geom_boxplot(outlier.shape = NA, fill = NA, color = "black", alpha = 0.8) +
+      geom_jitter(aes(color = ColorGroup), width = 0.3, alpha = 0.3) +
+      scale_y_log10(labels = scales::label_number(accuracy = 0.0001)) +
+      stat_compare_means(
+        label = "p.signif",
+        method = "wilcox.test",
+        comparisons = comparisons_list,
+        tip.length = 0,
+        vjust = 0.3
+      ) +
+      scale_color_manual(values = color_map) +
+      labs(
+        y = "Relative abundance (log10 %)",
+        x = NULL  # removes redundant x-axis label
+      ) +
+      theme_light(base_size = 7, base_family = "Helvetica") +
+      theme(
+        strip.text = element_text(size = 7),
+        axis.text = element_text(size = 7),
+        axis.text.x = element_text(angle = 45, hjust = 1), 
+        axis.title = element_text(size = 7),
+        text = element_text(size = 7, colour = "black"),
+        legend.position = "none"
+      )
+
+    plot_list[[species_name]] <- p
+  }
+
+  return(plot_list)
+}
+
+```
+
+# Manuscript Figure (Adults Vs Chilcdren abundance comparisons: supplementary Fig.02)
+
+
+```{r}
+country_comparisons <- list(
+  c("Gabon Adults", "Gabon Children"),
+  c("Germany Adults", "Germany Children"),
+  c("Vietnam Adults", "Vietnam Children")
+)
+
+gabon_location_comparisons <- list(
+  c("Lambarene Adults", "Lambarene Children"),
+  c("Ikobey Adults", "Ikobey Children")
+)
+
+plot_country_age_list <- plot_methanogen_abundance_grouped(
+  df = combined_df,
+  group_var = "CountryGroup",
+  comparisons_list = country_comparisons,
+  color_by = "country"
+)
+
+# Location plots for Gabon
+# Subset Gabon samples if needed
+gabon_df <- combined_df %>% filter(CurrCountry == "Gabon")
+
+plot_gabon_age_list <- plot_methanogen_abundance_grouped(
+  df = gabon_df,
+  group_var = "LocationGroup",
+  comparisons_list = gabon_location_comparisons,
+  color_by = "location"
+)
+
+plot_country_age_list
+plot_gabon_age_list
+
+ggsave("smithii_age-group_Gabon.pdf", plot_gabon_age_list[["M. smithii"]], width = 60, height = 70, units = "mm",  dpi = 300)
+ggsave("smithii_age-group_Gabon.svg", plot_gabon_age_list[["M. smithii"]], width = 60, height = 70, units = "mm",  dpi = 300, device = svglite::svglite)
+```
+
+
+```{r}
+
+```
+
+
+## Alpha diversity
+
+```{r}
+plot_alpha_diversity_by_country <- function(physeq_obj, country_col = "CurrCountry") {
+  # Calculate Observed and Shannon diversity
+  alpha_df <- estimate_richness(physeq_obj, measures = c("Observed", "Shannon")) %>%
+    rownames_to_column("SampleID") %>%
+    left_join(as_tibble(sample_data(physeq_obj), rownames = "SampleID"), by = "SampleID")
+
+  # Ensure consistent factor order for countries
+  alpha_df[[country_col]] <- factor(alpha_df[[country_col]], levels = c("Gabon", "Germany", "Vietnam"))
+
+  # Rename for consistency
+  colnames(alpha_df)[colnames(alpha_df) == "Shannon"] <- "Shannon index"
+
+  # Define comparisons
+  comparisons <- list(
+    c("Gabon", "Germany"),
+    c("Gabon", "Vietnam"),
+    c("Germany", "Vietnam")
+  )
+
+  # Colors
+  country_colors <- c("Gabon" = "#ff0000", "Germany" = "#e7e70e", "Vietnam" = "#0b0bd3")
+
+  # Function to generate plot for one metric
+  make_alpha_plot <- function(metric_name, y_label) {
+    df_metric <- alpha_df %>%
+      select(SampleID, all_of(country_col), value = all_of(metric_name))
+
+    y_max <- max(df_metric$value, na.rm = TRUE)
+    y_positions <- seq(y_max * 1.05, length.out = length(comparisons), by = y_max * 0.05)
+
+    ggplot(df_metric, aes_string(x = country_col, y = "value")) +
+      geom_boxplot(outlier.shape = NA, fill = NA, color = "black") +
+      geom_jitter(aes_string(color = country_col), width = 0.2, alpha = 0.5, size = 1) +
+      stat_compare_means(
+        comparisons = comparisons,
+        method = "wilcox.test",
+        label = "p.signif",
+        tip.length = 0,
+        vjust = 0.3,
+        y.position = y_positions
+      ) +
+      scale_color_manual(values = country_colors) +
+      labs(x = NULL, y = y_label) +
+      theme_light(base_size = 7, base_family = "Helvetica") +
+      theme(
+        legend.position = "none",
+        axis.text = element_text(size = 7, color = "black"),
+        axis.text.x = element_text(size = 7, color = "black"), 
+        axis.title = element_text(size = 7, color = "black"),
+        plot.title = element_blank()
+      )
+  }
+
+  # Return both plots in a list
+  list(
+    Observed = make_alpha_plot("Observed", "Observed richness"),
+    Shannon = make_alpha_plot("Shannon index", "Shannon diversity index")
+  )
+}
+
+```
+
+# Manuscript Figure (Alpha diversity: Fig.1)
+
+```{r}
+alpha_plots_adults_all <- plot_alpha_diversity_by_country(ps_adults_raw)
+alpha_plots_children_all <- plot_alpha_diversity_by_country(ps_children_raw)
+
+alpha_plots_adults_all$Observed
+alpha_plots_adults_all$Shannon
+alpha_plots_children_all$Observed
+alpha_plots_children_all$Shannon
+
+ggsave("Shannon-index-children.pdf", alpha_plots_children_all$Shannon, width = 95, height = 70, units = "mm", dpi = 300)
+ggsave("Shannon-index-children.svg", alpha_plots_children_all$Shannon, width = 95, height = 70, units = "mm", device = svglite::svglite, dpi = 300)
+```
+
+
+
+```{r}
+
+```
+
+# Manuscript Figure (assessing mutual exclusion M. smithii vs M. intestini: Fig.2A)
+
+```{r}
+showtext_auto()
+plot_methanogen_scatter <- function(df, abundance_threshold = 0, pseudocount = 1e-5) {
+
+  species_colors <- c(
+    "M. smithii" = "#EFC000FF",
+    "M. intestini" = "#4A6990FF"
+  )
+
+  # Filter and add pseudocounts
+  df_filtered <- df %>%
+    filter(Abundance > abundance_threshold)
+
+  abundance_wide <- df_filtered %>%
+    select(Sample, Species, Abundance, CurrCountry) %>%
+    pivot_wider(names_from = Species, values_from = Abundance, values_fill = 0) %>%
+    rename(M_smithii = `M. smithii`, M_intestini = `M. intestini`) %>%
+    mutate(
+      M_smithii = M_smithii + pseudocount,
+      M_intestini = M_intestini + pseudocount,
+      DominantSpecies = ifelse(M_smithii >= M_intestini, "M. smithii", "M. intestini")
+    )
+
+  # Compute Spearman and Kendall correlation
+  cor_spearman <- cor.test(abundance_wide$M_smithii, abundance_wide$M_intestini, method = "spearman")
+  cor_kendall  <- cor.test(abundance_wide$M_smithii, abundance_wide$M_intestini, method = "kendall")
+
+  best_test <- ifelse(cor_spearman$p.value < cor_kendall$p.value, "Spearman", "Kendall")
+  best_rho  <- ifelse(cor_spearman$p.value < cor_kendall$p.value, cor_spearman$estimate, cor_kendall$estimate)
+  best_p    <- ifelse(cor_spearman$p.value < cor_kendall$p.value, cor_spearman$p.value, cor_kendall$p.value)
+
+  label_text <- paste0(best_test, " rho = ", round(best_rho, 3), "\n p = ", format(best_p, scientific = TRUE))
+
+  # Plot
+  p <- ggplot(abundance_wide, aes(x = M_smithii, y = M_intestini)) +
+    geom_point(aes(color = DominantSpecies, shape = CurrCountry), size = 2, alpha = 0.5) +
+    geom_smooth(method = "lm", se = TRUE, color = "black", fill = "lightgray") +
+    scale_x_log10(labels = scales::label_scientific(digits = 1), name = expression(italic("M. smithii") ~ "abundance")) +
+scale_y_log10(labels = scales::label_scientific(digits = 1), name = expression(italic("M. intestini") ~ "abundance")) +
+    scale_color_manual(values = species_colors) +
+    theme_light(base_size = 7, base_family = "Helvetica") +
+    theme(
+      axis.text = element_text(size = 7),
+      axis.title = element_text(size = 7),
+      text = element_text(size = 7, color = "black"),
+      legend.position = "top",
+      legend.key.size = unit(0.1, "cm"),
+      legend.title = element_blank(),
+      plot.title = element_text(size = 7, face = "bold")
+    ) +
+    annotate("text",
+             x = max(abundance_wide$M_smithii, na.rm = TRUE) * 0.2,
+             y = max(abundance_wide$M_intestini, na.rm = TRUE) * 0.75,
+             label = label_text,
+             hjust = 0,
+             size = 2,
+             family = "Helvetica",
+             color = "black")
+
+  return(p)
+}
+
+plot_scatter_adults <- plot_methanogen_scatter(adults_df, abundance_threshold = 1e-6)
+plot_scatter_children <- plot_methanogen_scatter(children_df, abundance_threshold = 1e-6)
+plot_scatter_adults
+plot_scatter_children
+
+ggsave("positive-cooccurence-children.pdf", plot_scatter_children, width = 90, height = 70, units = "mm", dpi = 300)
+ggsave("positive-cooccurence-childrent.svg", plot_scatter_children, width = 90, height = 70, units = "mm", device = svglite::svglite)
+```
+
+
+
+```{r}
+
+```
+
+# correlation of alpha diversity and methanogen abundance
+
+
+```{r}
+library(lme4)
+library(lmerTest)
+
+extract_alpha_methanogen <- function(ps, methanogen_species) {
+  # Compute alpha diversity (Shannon)
+  alpha_df <- estimate_richness(ps, measures = "Shannon") %>%
+    tibble::rownames_to_column("SampleID")
+  
+  # Extract abundance and taxonomy
+  abund_table <- as.data.frame(otu_table(ps))
+  tax_table_df <- as.data.frame(tax_table(ps))
+
+  # Match methanogen species
+  taxa_to_keep <- rownames(tax_table_df)[
+    grepl(methanogen_species, tax_table_df$Species, ignore.case = TRUE)
+  ]
+
+  if (length(taxa_to_keep) == 0) {
+    stop(paste("No taxa found matching species name:", methanogen_species))
+  }
+
+  # Aggregate abundance
+  if (taxa_are_rows(ps)) {
+    meth_abund <- colSums(abund_table[taxa_to_keep, , drop = FALSE])
+  } else {
+    meth_abund <- rowSums(abund_table[, taxa_to_keep, drop = FALSE])
+  }
+
+  meth_df <- data.frame(
+    SampleID = names(meth_abund),
+    MethanogenAbundance = meth_abund
+  ) %>%
+    mutate(ScaledMethanogenAbundance = scale(MethanogenAbundance)[, 1])
+  
+  # Metadata
+  meta_df <- as(sample_data(ps), "data.frame") %>%
+    tibble::rownames_to_column("SampleID")
+
+  # Handle AgeYears conversion safely
+  if ("Age_years" %in% colnames(meta_df)) {
+    meta_df <- meta_df %>%
+      mutate(AgeYears = as.numeric(gsub(",", ".", Age_years)))
+  } else if ("Age_months" %in% colnames(meta_df)) {
+    meta_df <- meta_df %>%
+      mutate(AgeYears = as.numeric(gsub(",", ".", Age_months)) / 12)
+  } else {
+    meta_df$AgeYears <- NA_real_
+  }
+
+  # Drop rows with missing age
+  meta_df <- meta_df %>%
+    filter(!is.na(AgeYears))
+
+  # Merge all
+  merged_df <- alpha_df %>%
+    inner_join(meth_df, by = "SampleID") %>%
+    inner_join(meta_df, by = "SampleID")
+
+  return(merged_df)
+}
+
+```
+
+```{r}
+# Define the function
+fit_alpha_lmm <- function(data, response = "Shannon", predictor = "MethanogenAbundance",
+                          fixed_effects = c("CurrCountry"), random_effect = "samplingLocation") {
+  
+  # Build formula string
+  fixed <- paste(c(predictor, fixed_effects), collapse = " + ")
+  formula_str <- paste0(response, " ~ ", fixed, " + (1 | ", random_effect, ")")
+  model_formula <- as.formula(formula_str)
+  
+  # Fit linear mixed-effects model
+  lmm <- lmerTest::lmer(model_formula, data = data)
+  return(summary(lmm))
+}
+```
+
+```{r}
+# For M. smithii in adults
+df_adult_smithii <- extract_alpha_methanogen(ps_adults_raw, "Methanobrevibacter_A smithii")
+lmm_adult_MS <- fit_alpha_lmm(df_adult_smithii, predictor = "ScaledMethanogenAbundance")
+summary(lmm_adult_MS)
+
+# For M. intestini in adults
+df_adult_intestini <- extract_alpha_methanogen(ps_adults_raw, "Methanobrevibacter_A smithii_A")
+lmm_adult_MI <- fit_alpha_lmm(df_adult_intestini, predictor = "ScaledMethanogenAbundance")
+summary(lmm_adult_MI)
+
+# Repeat for children
+df_child_smithii <- extract_alpha_methanogen(ps_children_raw, "Methanobrevibacter_A smithii")
+lmm_children_MS <- fit_alpha_lmm(df_child_smithii, predictor = "ScaledMethanogenAbundance")
+summary(lmm_children_MS)
+
+df_child_intestini <- extract_alpha_methanogen(ps_children_raw, "Methanobrevibacter_A smithii_A")
+lmm_children_MI <- fit_alpha_lmm(df_child_intestini, predictor = "ScaledMethanogenAbundance")
+summary(lmm_children_MI)
+
+```
+
+

@@ -1,0 +1,1057 @@
+KOfam	enrichment_score	unadjusted_p_value	adjusted_q_value	associated_groups	accession	gene_clusters_ids	p_M_intestini	p_M_smithii	N_M_intestini	N_M_smithii
+modulator of FtsH protease HflK	77.7659523	1.16E-18	2.10E-16	M. intestini	K04088	GC_00001793	0.9231	0	26	61
+quaternary ammonium compound-resistance protein SugE	77.71212348	1.19E-18	2.10E-16	M. intestini	K11741	GC_00001763	0.9615	0.0164	26	61
+membrane-associated protein	77.71212348	1.19E-18	2.10E-16	M. intestini	K03975	"GC_00001753, GC_00003473"	0.9615	0.0164	26	61
+molybdate transport system substrate-binding protein	77.71212348	1.19E-18	2.10E-16	M. smithii	K02020	GC_00001583	0.0385	0.9836	26	61
+molybdate transport system permease protein	77.71212348	1.19E-18	2.10E-16	M. smithii	K02018	GC_00001577	0.0385	0.9836	26	61
+molybdate transport system ATP-binding protein [EC:7.3.2.5]	77.71212348	1.19E-18	2.10E-16	M. smithii	K02017	GC_00001579	0.0385	0.9836	26	61
+antitoxin PrlF	45.86525477	1.27E-11	1.91E-09	M. intestini	K19156	GC_00001674	0.9615	0.1803	26	61
+maltose O-acetyltransferase [EC:2.3.1.79]	41.4753519	1.19E-10	1.58E-08	M. intestini	K00661	"GC_00001848, GC_00002758, GC_00004007"	0.7308	0.0656	26	61
+glycosyltransferase EpsH [EC:2.4.-.-]	41.1720185	1.39E-10	1.64E-08	M. intestini	K19425	GC_00001838	0.6923	0.0492	26	61
+mannosyltransferase [EC:2.4.1.-]	37.94310844	7.28E-10	7.69E-08	M. intestini	K14340	"GC_00001718, GC_00002024, GC_00002033"	1	0.2787	26	61
+putative transposase	26.17823575	3.11E-07	2.99E-05	M. intestini	K07495	"GC_00001563, GC_00001567, GC_00001645, GC_00001649, GC_00001709, GC_00001836, GC_00002498, GC_00002770, GC_00003104, GC_00003179, GC_00003294, GC_00003338, GC_00003364, GC_00003378, GC_00003526, GC_00003563, GC_00003659, GC_00004002, GC_00004058"	1	0.4098	26	61
+recombination protein RecT	15.12182426	1.01E-04	0.008869637	M. intestini	K07455	GC_00002345	0.2308	0	26	61
+pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	14.57188335	1.35E-04	0.010959056	M. intestini	K00275	GC_00001652	0.8077	0.3607	26	61
+CRISPR-associated protein Cas5t	9.327709923	0.002257143	0.148971415	M. intestini	K19090	GC_00001798	0.5	0.1803	26	61
+CRISPR-associated protein Cst1	9.327709923	0.002257143	0.148971415	M. intestini	K19088	GC_00001794	0.5	0.1803	26	61
+CRISPR-associated protein Cst2	9.327709923	0.002257143	0.148971415	M. intestini	K19075	GC_00001795	0.5	0.1803	26	61
+iron complex transport system permease protein	7.725347665	0.005445087	0.338236016	M. intestini	K02015	GC_00001554	1	0.7541	26	61
+archaeal type IV pilus assembly protein PilA	6.513869479	0.010703635	0.62794656	M. intestini	K23255	"GC_00001556, GC_00001608"	1	0.7869	26	61
+competence protein ComFC	5.932369218	0.014865243	0.713637665	M. smithii	K02242	"GC_00002194, GC_00002341"	0	0.1967	26	61
+type I restriction enzyme M protein [EC:2.1.1.72]	5.479022464	0.019246019	0.713637665	M. intestini	K03427	"GC_00001681, GC_00001851, GC_00001947, GC_00002052, GC_00002072, GC_00002229, GC_00002369, GC_00002706, GC_00003456"	0.9231	0.6885	26	61
+death on curing protein	5.364637449	0.020549059	0.713637665	M. intestini	K07341	GC_00001713	0.5385	0.2787	26	61
+DNA-damage-inducible protein D	5.356162932	0.020649159	0.713637665	M. smithii	K14623	GC_00001716	0.1154	0.3607	26	61
+CRISPR-associated endonuclease/helicase Cas3 [EC:3.1.-.- 3.6.4.-]	5.164051905	0.023059041	0.713637665	M. intestini	K07012	"GC_00001749, GC_00001902, GC_00003097, GC_00003353"	0.6923	0.4262	26	61
+HTH-type transcriptional regulator / antitoxin HigA	4.902527081	0.026817424	0.713637665	M. intestini	K18831	"GC_00001646, GC_00001721, GC_00002265, GC_00002352, GC_00002481"	0.9231	0.7049	26	61
+"DNA mismatch endonuclease, patch repair protein [EC:3.1.-.-]"	4.889604755	0.027018871	0.713637665	M. intestini	K07458	GC_00001955	0.2308	0.0656	26	61
+"transposase, IS5 family"	4.644537421	0.031152532	0.713637665	M. smithii	K07481	"GC_00000114, GC_00002117, GC_00003953"	0.4615	0.7049	26	61
+DNA processing protein	4.243585666	0.039398873	0.713637665	M. smithii	K04096	GC_00001747	0.1538	0.377	26	61
+putative DNA primase/helicase	4.155521899	0.041498983	0.713637665	M. intestini	K06919	"GC_00001878, GC_00002576"	0.3846	0.1803	26	61
+competence protein ComEC	3.753636907	0.052692742	0.713637665	M. smithii	K02238	"GC_00002121, GC_00003805"	0	0.1311	26	61
+5-methylcytosine-specific restriction enzyme A [EC:3.1.21.-]	3.589805311	0.058135054	0.713637665	M. smithii	K07451	"GC_00002528, GC_00002556, GC_00002808, GC_00002849, GC_00003302"	0.0385	0.1967	26	61
+CRISPR-associated protein Csm5	3.311789196	0.068784564	0.713637665	M. intestini	K19140	"GC_00001602, GC_00002001"	0.9231	0.7541	26	61
+"type I restriction enzyme, S subunit [EC:3.1.21.3]"	3.082871415	0.079120727	0.713637665	M. intestini	K01154	"GC_00001869, GC_00002010, GC_00002069, GC_00002211, GC_00002212, GC_00002219, GC_00002253, GC_00002360, GC_00002403, GC_00002407, GC_00002425, GC_00002429, GC_00002507, GC_00002524, GC_00002533, GC_00002559, GC_00002641, GC_00002662, GC_00002663, GC_00002664, GC_00002668, GC_00002702, GC_00002703, GC_00002705, GC_00002729, GC_00002742, GC_00002755, GC_00002756, GC_00002764, GC_00002765, GC_00002772, GC_00002773, GC_00002795, GC_00002801, GC_00002882, GC_00002883, GC_00002884, GC_00002896, GC_00002926, GC_00002927, GC_00002940, GC_00003010, GC_00003030, GC_00003040, GC_00003041, GC_00003051, GC_00003058, GC_00003064, GC_00003070, GC_00003081, GC_00003082, GC_00003083, GC_00003130, GC_00003213, GC_00003214, GC_00003215, GC_00003216, GC_00003217, GC_00003218, GC_00003220, GC_00003224, GC_00003225, GC_00003232, GC_00003250, GC_00003251, GC_00003277, GC_00003291, GC_00003292, GC_00003293, GC_00003296, GC_00003297, GC_00003308, GC_00003313, GC_00003348, GC_00003359, GC_00003368, GC_00003369, GC_00003394, GC_00003440, GC_00003550, GC_00003639, GC_00003661, GC_00003667, GC_00004077, GC_00004098, GC_00004164, GC_00004180, GC_00004184"	0.9615	0.8197	26	61
+5-methylcytosine-specific restriction enzyme B [EC:3.1.21.-]	2.993398677	0.083604529	0.713637665	M. intestini	K07452	"GC_00001606, GC_00002726, GC_00002858, GC_00003807, GC_00003868"	0.7692	0.5738	26	61
+adenine-specific DNA-methyltransferase [EC:2.1.1.72]	2.849523655	0.091401014	0.713637665	M. smithii	K07316	"GC_00001751, GC_00001858, GC_00002138, GC_00002210, GC_00002409, GC_00002494, GC_00002550, GC_00002733, GC_00002903, GC_00002968, GC_00002985, GC_00002991, GC_00003000, GC_00003013, GC_00003031, GC_00003032, GC_00003068, GC_00003242, GC_00003352, GC_00003923, GC_00004123"	0.1923	0.377	26	61
+CRISPR-associated protein Csm2	2.828632266	0.09259719	0.713637665	M. intestini	K19138	"GC_00001599, GC_00001986"	0.9231	0.7705	26	61
+CRISPR-associated protein Csm3	2.828632266	0.09259719	0.713637665	M. intestini	K09002	"GC_00001596, GC_00001984"	0.9231	0.7705	26	61
+CRISPR-associated protein Csm4	2.828632266	0.09259719	0.713637665	M. intestini	K19139	"GC_00001597, GC_00001995"	0.9231	0.7705	26	61
+glucosyl-3-phosphoglycerate synthase [EC:2.4.1.266]	2.375935454	0.123217768	0.713637665	M. smithii	K13693	GC_00001468	0.9615	1	26	61
+3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35]	2.375935454	0.123217768	0.713637665	M. smithii	K01703	GC_00001460	0.9615	1	26	61
+3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35]	2.375935454	0.123217768	0.713637665	M. smithii	K01704	"GC_00001501, GC_00002853"	0.9615	1	26	61
+3-isopropylmalate dehydrogenase [EC:1.1.1.85]	2.375935454	0.123217768	0.713637665	M. smithii	K00052	GC_00001462	0.9615	1	26	61
+UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase [EC:1.1.1.336]	2.375935454	0.123217768	0.713637665	M. smithii	K02472	GC_00000074	0.9615	1	26	61
+"6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]"	2.375935454	0.123217768	0.713637665	M. smithii	K00794	GC_00001431	0.9615	1	26	61
+adenylosuccinate lyase [EC:4.3.2.2]	2.375935454	0.123217768	0.713637665	M. smithii	K01756	GC_00001448	0.9615	1	26	61
+plasmid segregation protein ParM	2.375935454	0.123217768	0.713637665	M. intestini	K18640	GC_00003300	0.0385	0	26	61
+glucitol/sorbitol PTS system EIIB component [EC:2.7.1.198]	2.375935454	0.123217768	0.713637665	M. intestini	K02782	GC_00003910	0.0385	0	26	61
+3-deoxy-D-manno-octulosonate 8-phosphate phosphatase (KDO 8-P phosphatase) [EC:3.1.3.45]	2.375935454	0.123217768	0.713637665	M. intestini	K03270	GC_00003909	0.0385	0	26	61
+3-deoxy-D-manno-octulosonic-acid transferase [EC:2.4.99.12 2.4.99.13 2.4.99.14 2.4.99.15]	2.375935454	0.123217768	0.713637665	M. intestini	K02527	GC_00003630	0.0385	0	26	61
+single-strand DNA-binding protein	2.375935454	0.123217768	0.713637665	M. intestini	K03111	GC_00003163	0.0385	0	26	61
+putative selenate reductase [EC:1.97.1.9]	2.375935454	0.123217768	0.713637665	M. intestini	K12527	GC_00003450	0.0385	0	26	61
+thiamine transport system permease protein	2.375935454	0.123217768	0.713637665	M. intestini	K02063	GC_00003431	0.0385	0	26	61
+rod shape-determining protein MreC	2.375935454	0.123217768	0.713637665	M. intestini	K03570	GC_00003422	0.0385	0	26	61
+conjugal transfer pilus assembly protein TraU	2.375935454	0.123217768	0.713637665	M. intestini	K12060	GC_00003607	0.0385	0	26	61
+conjugal transfer mating pair stabilization protein TraG	2.375935454	0.123217768	0.713637665	M. intestini	K12056	"GC_00003813, GC_00003962"	0.0385	0	26	61
+copper homeostasis protein	2.375935454	0.123217768	0.713637665	M. intestini	K06201	GC_00003979	0.0385	0	26	61
+rhamnulose-1-phosphate aldolase [EC:4.1.2.19]	2.375935454	0.123217768	0.713637665	M. intestini	K01629	GC_00004151	0.0385	0	26	61
+"LysR family transcriptional regulator, transcriptional activator of nhaA"	2.375935454	0.123217768	0.713637665	M. intestini	K03717	GC_00003465	0.0385	0	26	61
+cytoskeleton bundling-enhancing protein CbeA and related proteins	2.375935454	0.123217768	0.713637665	M. intestini	K18838	GC_00003558	0.0385	0	26	61
+haemolysin expression modulating protein	2.375935454	0.123217768	0.713637665	M. intestini	K05839	GC_00003735	0.0385	0	26	61
+phosphopentomutase [EC:5.4.2.7]	2.375935454	0.123217768	0.713637665	M. intestini	K01839	GC_00003305	0.0385	0	26	61
+"GntR family transcriptional regulator, hexuronate regulon transcriptional repressor"	2.375935454	0.123217768	0.713637665	M. intestini	K19775	GC_00003961	0.0385	0	26	61
+NAD(P)H-flavin reductase [EC:1.5.1.41]	2.375935454	0.123217768	0.713637665	M. intestini	K05368	GC_00003967	0.0385	0	26	61
+conjugal transfer pilus assembly protein TraW	2.375935454	0.123217768	0.713637665	M. intestini	K12061	GC_00003988	0.0385	0	26	61
+"LysR family transcriptional regulator, glycine cleavage system transcriptional activator"	2.375935454	0.123217768	0.713637665	M. intestini	K03566	GC_00004199	0.0385	0	26	61
+FMN hydrolase / 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.102 3.1.3.104]	2.375935454	0.123217768	0.713637665	M. intestini	K20862	GC_00004005	0.0385	0	26	61
+periplasmic protein TonB	2.375935454	0.123217768	0.713637665	M. intestini	K03832	GC_00004166	0.0385	0	26	61
+homoserine/homoserine lactone efflux protein	2.375935454	0.123217768	0.713637665	M. intestini	K05834	GC_00003548	0.0385	0	26	61
+"phosphoribosyl 1,2-cyclic phosphate phosphodiesterase [EC:3.1.4.55]"	2.375935454	0.123217768	0.713637665	M. intestini	K06167	GC_00003417	0.0385	0	26	61
+Na+-transporting NADH:ubiquinone oxidoreductase subunit C [EC:7.2.1.1]	2.375935454	0.123217768	0.713637665	M. intestini	K00348	GC_00004014	0.0385	0	26	61
+hydrogenase-4 component C [EC:1.-.-.-]	2.375935454	0.123217768	0.713637665	M. intestini	K12138	GC_00003400	0.0385	0	26	61
+magnesium and cobalt transporter	2.375935454	0.123217768	0.713637665	M. intestini	K06189	GC_00003673	0.0385	0	26	61
+cationic peptide transport system ATP-binding protein	2.375935454	0.123217768	0.713637665	M. intestini	K19230	GC_00003649	0.0385	0	26	61
+DNA polymerase III subunit beta [EC:2.7.7.7]	2.375935454	0.123217768	0.713637665	M. intestini	K02338	GC_00003588	0.0385	0	26	61
+regulatory protein RepA	2.375935454	0.123217768	0.713637665	M. intestini	K07505	GC_00003881	0.0385	0	26	61
+conjugal transfer pilus assembly protein TraF	2.375935454	0.123217768	0.713637665	M. intestini	K12057	GC_00003997	0.0385	0	26	61
+GTP-binding protein	2.375935454	0.123217768	0.713637665	M. intestini	K06207	GC_00003580	0.0385	0	26	61
+DNA repair protein RadC	2.375935454	0.123217768	0.713637665	M. intestini	K03630	GC_00004111	0.0385	0	26	61
+macrolide resistance protein	2.375935454	0.123217768	0.713637665	M. intestini	K19061	GC_00004043	0.0385	0	26	61
+preprotein translocase subunit SecD	2.375935454	0.123217768	0.713637665	M. intestini	K03072	GC_00004152	0.0385	0	26	61
+beta-glucuronidase [EC:3.2.1.31]	2.375935454	0.123217768	0.713637665	M. intestini	K01195	GC_00003652	0.0385	0	26	61
+bacteriophage N4 adsorption protein A	2.375935454	0.123217768	0.713637665	M. intestini	K11739	GC_00003284	0.0385	0	26	61
+putative pyrimidine permease RutG	2.375935454	0.123217768	0.713637665	M. intestini	K09016	GC_00003945	0.0385	0	26	61
+"yersiniabactin synthetase, thiazolinyl reductase component"	2.375935454	0.123217768	0.713637665	M. intestini	K04785	GC_00004028	0.0385	0	26	61
+GTPase	2.375935454	0.123217768	0.713637665	M. intestini	K03665	GC_00003518	0.0385	0	26	61
+ferredoxin like protein	2.375935454	0.123217768	0.713637665	M. intestini	K03855	GC_00003346	0.0385	0	26	61
+conjugal transfer pilus assembly protein TrbC	2.375935454	0.123217768	0.713637665	M. intestini	K12059	GC_00004178	0.0385	0	26	61
+deoxyribonuclease I [EC:3.1.21.1]	2.375935454	0.123217768	0.713637665	M. intestini	K01150	GC_00003775	0.0385	0	26	61
+phosphatidylglycerophosphatase A [EC:3.1.3.27]	2.375935454	0.123217768	0.713637665	M. intestini	K01095	GC_00004140	0.0385	0	26	61
+alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH [EC:2.7.8.37]	2.375935454	0.123217768	0.713637665	M. intestini	K06165	GC_00003702	0.0385	0	26	61
+sorbose PTS system EIIB component [EC:2.7.1.206]	2.375935454	0.123217768	0.713637665	M. intestini	K02813	GC_00003592	0.0385	0	26	61
+[protein-PII] uridylyltransferase [EC:2.7.7.59]	2.375935454	0.123217768	0.713637665	M. intestini	K00990	GC_00003602	0.0385	0	26	61
+lysophospholipase [EC:3.1.1.5]	2.375935454	0.123217768	0.713637665	M. intestini	K01048	GC_00003812	0.0385	0	26	61
+"GntR family transcriptional regulator, uxu operon transcriptional repressor"	2.375935454	0.123217768	0.713637665	M. intestini	K13637	GC_00003384	0.0385	0	26	61
+universal stress protein B	2.375935454	0.123217768	0.713637665	M. intestini	K06144	GC_00003977	0.0385	0	26	61
+"MFS transporter, FHS family, L-fucose permease"	2.375935454	0.123217768	0.713637665	M. intestini	K02429	GC_00004001	0.0385	0	26	61
+dipeptide transport system permease protein	2.375935454	0.123217768	0.713637665	M. intestini	K12370	GC_00003522	0.0385	0	26	61
+galactonate dehydratase [EC:4.2.1.6]	2.375935454	0.123217768	0.713637665	M. intestini	K01684	GC_00003637	0.0385	0	26	61
+alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	2.375935454	0.123217768	0.713637665	M. intestini	K06164	GC_00004167	0.0385	0	26	61
+HMP-PP phosphatase [EC:3.6.1.-]	2.375935454	0.123217768	0.713637665	M. intestini	K11938	GC_00003877	0.0385	0	26	61
+glutamate:GABA antiporter	2.375935454	0.123217768	0.713637665	M. intestini	K20265	GC_00003781	0.0385	0	26	61
+endoglucanase [EC:3.2.1.4]	2.375935454	0.123217768	0.713637665	M. intestini	K20542	GC_00003424	0.0385	0	26	61
+F-type H+-transporting ATPase subunit gamma	2.375935454	0.123217768	0.713637665	M. intestini	K02115	GC_00004093	0.0385	0	26	61
+DNA-damage-inducible protein I	2.375935454	0.123217768	0.713637665	M. intestini	K12149	GC_00003655	0.0385	0	26	61
+NADH-quinone oxidoreductase subunit L [EC:7.1.1.2]	2.375935454	0.123217768	0.713637665	M. intestini	K00341	GC_00003958	0.0385	0	26	61
+glutamate racemase [EC:5.1.1.3]	2.375935454	0.123217768	0.713637665	M. intestini	K01776	GC_00003335	0.0385	0	26	61
+small multidrug resistance pump	2.375935454	0.123217768	0.713637665	M. intestini	K18975	GC_00003643	0.0385	0	26	61
+antigen 43	2.375935454	0.123217768	0.713637665	M. intestini	K12687	"GC_00003957, GC_00003993"	0.0385	0	26	61
+putatice virulence related protein PagC	2.375935454	0.123217768	0.713637665	M. intestini	K07804	GC_00003382	0.0385	0	26	61
+"adenylate cyclase, class 1 [EC:4.6.1.1]"	2.375935454	0.123217768	0.713637665	M. intestini	K05851	GC_00003774	0.0385	0	26	61
+sorbose PTS system EIIC component	2.375935454	0.123217768	0.713637665	M. intestini	K02814	GC_00003983	0.0385	0	26	61
+DNA-directed RNA polymerase subunit beta [EC:2.7.7.6]	2.375935454	0.123217768	0.713637665	M. intestini	K03043	GC_00004042	0.0385	0	26	61
+host factor-I protein	2.375935454	0.123217768	0.713637665	M. intestini	K03666	GC_00004052	0.0385	0	26	61
+type VI secretion system protein ImpK	2.375935454	0.123217768	0.713637665	M. intestini	K11892	GC_00003794	0.0385	0	26	61
+F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]	2.375935454	0.123217768	0.713637665	M. intestini	K02111	GC_00003354	0.0385	0	26	61
+GTP cyclohydrolase IA [EC:3.5.4.16]	2.375935454	0.123217768	0.713637665	M. intestini	K01495	GC_00003467	0.0385	0	26	61
+arabinose-5-phosphate isomerase [EC:5.3.1.13]	2.375935454	0.123217768	0.713637665	M. intestini	K06041	GC_00003739	0.0385	0	26	61
+"ParB family transcriptional regulator, chromosome partitioning protein"	2.375935454	0.123217768	0.713637665	M. intestini	K03497	GC_00004099	0.0385	0	26	61
+"MFS transporter, TsgA protein"	2.375935454	0.123217768	0.713637665	M. intestini	K06141	GC_00003719	0.0385	0	26	61
+toxin CcdB	2.375935454	0.123217768	0.713637665	M. intestini	K19163	GC_00003285	0.0385	0	26	61
+UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]	2.375935454	0.123217768	0.713637665	M. intestini	K02563	GC_00004165	0.0385	0	26	61
+transcription elongation factor GreA	2.375935454	0.123217768	0.713637665	M. intestini	K03624	GC_00003955	0.0385	0	26	61
+dethiobiotin synthetase [EC:6.3.3.3]	2.375935454	0.123217768	0.713637665	M. intestini	K01935	GC_00003457	0.0385	0	26	61
+cytoskeleton-binding toxin CbtA and related proteins	2.375935454	0.123217768	0.713637665	M. intestini	K18837	GC_00003890	0.0385	0	26	61
+16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]	2.375935454	0.123217768	0.713637665	M. intestini	K09761	GC_00003340	0.0385	0	26	61
+Lrp/AsnC family transcriptional regulator	2.375935454	0.123217768	0.713637665	M. intestini	K05800	GC_00003530	0.0385	0	26	61
+sec-independent protein translocase protein TatE	2.375935454	0.123217768	0.713637665	M. intestini	K03425	GC_00003786	0.0385	0	26	61
+poly(A) polymerase [EC:2.7.7.19]	2.375935454	0.123217768	0.713637665	M. intestini	K00970	GC_00003851	0.0385	0	26	61
+elongation factor Tu	2.375935454	0.123217768	0.713637665	M. intestini	K02358	GC_00003569	0.0385	0	26	61
+adenosine deaminase [EC:3.5.4.4]	2.375935454	0.123217768	0.713637665	M. intestini	K01488	GC_00003992	0.0385	0	26	61
+putative surface-exposed virulence protein	2.375935454	0.123217768	0.713637665	M. intestini	K12516	GC_00003545	0.0385	0	26	61
+Mat/Ecp fimbriae adhesin	2.375935454	0.123217768	0.713637665	M. intestini	K21967	GC_00003321	0.0385	0	26	61
+"MFS transporter, CP family, cyanate transporter"	2.375935454	0.123217768	0.713637665	M. intestini	K03449	GC_00004100	0.0385	0	26	61
+type VI secretion system protein ImpJ	2.375935454	0.123217768	0.713637665	M. intestini	K11893	GC_00004161	0.0385	0	26	61
+"7,8-dihydroneopterin aldolase/epimerase/oxygenase [EC:4.1.2.25 5.1.99.8 1.13.11.81]"	2.375935454	0.123217768	0.713637665	M. intestini	K01633	GC_00003261	0.0385	0	26	61
+fluoroquinolone resistance protein	2.375935454	0.123217768	0.713637665	M. intestini	K18555	GC_00003780	0.0385	0	26	61
+"L,D-transpeptidase YcbB"	2.375935454	0.123217768	0.713637665	M. intestini	K21470	GC_00003744	0.0385	0	26	61
+"Fur family transcriptional regulator, zinc uptake regulator"	2.375935454	0.123217768	0.713637665	M. intestini	K09823	GC_00003797	0.0385	0	26	61
+L-Ala-D/L-Glu epimerase [EC:5.1.1.20]	2.375935454	0.123217768	0.713637665	M. intestini	K19802	GC_00004185	0.0385	0	26	61
+glucuronate isomerase [EC:5.3.1.12]	2.375935454	0.123217768	0.713637665	M. intestini	K01812	GC_00003718	0.0385	0	26	61
+acrylyl-CoA reductase (NADPH) [EC:1.3.1.-]	2.375935454	0.123217768	0.713637665	M. intestini	K19745	GC_00003561	0.0385	0	26	61
+cellulose synthase operon protein B	2.375935454	0.123217768	0.713637665	M. intestini	K20541	GC_00004096	0.0385	0	26	61
+chromate transporter	2.375935454	0.123217768	0.713637665	M. intestini	K07240	GC_00003551	0.0385	0	26	61
+deaminated glutathione amidase [EC:3.5.1.128]	2.375935454	0.123217768	0.713637665	M. intestini	K11206	GC_00004138	0.0385	0	26	61
+purine-nucleoside phosphorylase [EC:2.4.2.1]	2.375935454	0.123217768	0.713637665	M. intestini	K03784	GC_00003869	0.0385	0	26	61
+"nitrate reductase (cytochrome), electron transfer subunit"	2.375935454	0.123217768	0.713637665	M. intestini	K02568	GC_00003703	0.0385	0	26	61
+"LacI family transcriptional regulator, ebg operon repressor"	2.375935454	0.123217768	0.713637665	M. intestini	K12113	GC_00003872	0.0385	0	26	61
+Mat/Ecp fimbriae periplasmic chaperone	2.375935454	0.123217768	0.713637665	M. intestini	K21968	GC_00003600	0.0385	0	26	61
+lipoprotein NlpD	2.375935454	0.123217768	0.713637665	M. intestini	K06194	GC_00004170	0.0385	0	26	61
+murein peptide amidase A	2.375935454	0.123217768	0.713637665	M. intestini	K14054	GC_00003902	0.0385	0	26	61
+ferredoxin-type protein NapH	2.375935454	0.123217768	0.713637665	M. intestini	K02574	GC_00003680	0.0385	0	26	61
+tRNA-dihydrouridine synthase B [EC:1.-.-.-]	2.375935454	0.123217768	0.713637665	M. intestini	K05540	GC_00003641	0.0385	0	26	61
+taurine transport system permease protein	2.375935454	0.123217768	0.713637665	M. intestini	K15552	GC_00003605	0.0385	0	26	61
+"4,5-DOPA dioxygenase extradiol [EC:1.13.11.-]"	2.375935454	0.123217768	0.713637665	M. intestini	K15777	GC_00003386	0.0385	0	26	61
+conjugal transfer mating pair stabilization protein TraN	2.375935454	0.123217768	0.713637665	M. intestini	K12058	GC_00004116	0.0385	0	26	61
+universal stress protein A	2.375935454	0.123217768	0.713637665	M. intestini	K06149	GC_00003387	0.0385	0	26	61
+"cytochrome c biogenesis protein CcmG, thiol:disulfide interchange protein DsbE"	2.375935454	0.123217768	0.713637665	M. intestini	K02199	"GC_00003777, GC_00003985"	0.0385	0	26	61
+"Na+:H+ antiporter, NhaA family"	2.375935454	0.123217768	0.713637665	M. intestini	K03313	GC_00003767	0.0385	0	26	61
+tRNA (guanosine-2'-O-)-methyltransferase [EC:2.1.1.34]	2.375935454	0.123217768	0.713637665	M. intestini	K00556	GC_00003501	0.0385	0	26	61
+acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275]	2.375935454	0.123217768	0.713637665	M. intestini	K08591	GC_00003446	0.0385	0	26	61
+small toxic protein TisB	2.375935454	0.123217768	0.713637665	M. intestini	K19148	GC_00003327	0.0385	0	26	61
+glucitol/sorbitol PTS system EIIA component [EC:2.7.1.198]	2.375935454	0.123217768	0.713637665	M. intestini	K02781	GC_00003947	0.0385	0	26	61
+"streptomycin 3""""-adenylyltransferase [EC:2.7.7.47]"	2.375935454	0.123217768	0.713637665	M. intestini	K00984	GC_00003586	0.0385	0	26	61
+"DeoR family transcriptional regulator, ulaG and ulaABCDEF operon transcriptional repressor"	2.375935454	0.123217768	0.713637665	M. intestini	K03477	GC_00003624	0.0385	0	26	61
+phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]	2.375935454	0.123217768	0.713637665	M. intestini	K00602	GC_00003612	0.0385	0	26	61
+exodeoxyribonuclease VIII [EC:3.1.11.-]	2.375935454	0.123217768	0.713637665	M. intestini	K10906	GC_00003405	0.0385	0	26	61
+phosphoglucomutase [EC:5.4.2.2]	2.375935454	0.123217768	0.713637665	M. intestini	K01835	GC_00004074	0.0385	0	26	61
+LacI family transcriptional regulator	2.375935454	0.123217768	0.713637665	M. intestini	K02529	GC_00003650	0.0385	0	26	61
+L-carnitine/gamma-butyrobetaine antiporter	2.375935454	0.123217768	0.713637665	M. intestini	K05245	GC_00004109	0.0385	0	26	61
+"transposase, IS6 family"	2.375935454	0.123217768	0.713637665	M. intestini	K18320	GC_00003998	0.0385	0	26	61
+formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	2.375935454	0.123217768	0.713637665	M. intestini	K10563	GC_00003742	0.0385	0	26	61
+"trimethylamine-N-oxide reductase (cytochrome c), cytochrome c-type subunit TorC"	2.375935454	0.123217768	0.713637665	M. intestini	K03532	GC_00003972	0.0385	0	26	61
+tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	2.375935454	0.123217768	0.713637665	M. intestini	K03216	GC_00003854	0.0385	0	26	61
+acyl-CoA dehydrogenase [EC:1.3.99.-]	2.375935454	0.123217768	0.713637665	M. intestini	K06445	GC_00003914	0.0385	0	26	61
+ATP-dependent DNA helicase RecG [EC:3.6.4.12]	2.375935454	0.123217768	0.713637665	M. intestini	K03655	GC_00003734	0.0385	0	26	61
+anti-adapter protein IraM	2.375935454	0.123217768	0.713637665	M. intestini	K21638	GC_00003837	0.0385	0	26	61
+"transposase, IS30 family"	2.375935454	0.123217768	0.713637665	M. intestini	K07482	GC_00003332	0.0385	0	26	61
+"TetR/AcrR family transcriptional regulator, acrEF/envCD operon repressor"	2.375935454	0.123217768	0.713637665	M. intestini	K18140	GC_00003474	0.0385	0	26	61
+cytochrome c-type protein NapC	2.375935454	0.123217768	0.713637665	M. intestini	K02569	GC_00003926	0.0385	0	26	61
+NAD+ diphosphatase [EC:3.6.1.22]	2.375935454	0.123217768	0.713637665	M. intestini	K03426	GC_00004013	0.0385	0	26	61
+TraL protein	2.375935454	0.123217768	0.713637665	M. intestini	K12227	GC_00003974	0.0385	0	26	61
+capsid assembly protease [EC:3.4.21.-]	2.375935454	0.123217768	0.713637665	M. intestini	K21511	GC_00003885	0.0385	0	26	61
+ribonuclease P protein component [EC:3.1.26.5]	2.375935454	0.123217768	0.713637665	M. intestini	K03536	GC_00003634	0.0385	0	26	61
+CRISPR-associated protein Csm1	2.370213164	0.123670164	0.713637665	M. intestini	K07016	GC_00001552	0.9231	0.7869	26	61
+iron complex transport system substrate-binding protein	2.262153494	0.132569598	0.756721597	M. intestini	K02016	GC_00000166	1	0.918	26	61
+transposase	2.262153494	0.132569598	0.756721597	M. intestini	K07487	"GC_00000027, GC_00000035, GC_00000054, GC_00001537, GC_00001539, GC_00001806, GC_00001896, GC_00002462, GC_00003049, GC_00003155, GC_00003578, GC_00003631, GC_00003656, GC_00003758, GC_00003793, GC_00003876, GC_00004033, GC_00004060, GC_00004177"	1	0.918	26	61
+voltage-gated potassium channel	2.234267725	0.134980559	0.766341238	M. intestini	K10716	"GC_00001870, GC_00002022"	0.4615	0.2951	26	61
+CRISPR-associated protein Cas2	2.129326036	0.14450428	0.816024172	M. intestini	K09951	"GC_00001561, GC_00001741, GC_00001906"	0.9615	0.8525	26	61
+DNA adenine methylase [EC:2.1.1.72]	1.926513382	0.165140404	0.927597161	M. smithii	K06223	GC_00001827	0.1538	0.2951	26	61
+type III restriction enzyme [EC:3.1.21.5]	1.891979931	0.168978774	0.944135372	M. smithii	K01156	"GC_00001884, GC_00003681, GC_00003795"	0.1154	0.2459	26	61
+mRNA interferase RelE/StbE	1.787883905	0.181184201	0.996513104	M. smithii	K06218	"GC_00002622, GC_00004141"	0	0.0656	26	61
+cobalt-precorrin 5A hydrolase [EC:3.7.1.12]	1.787883905	0.181184201	0.996513104	M. intestini	K02189	GC_00001506	1	0.9344	26	61
+CDP-glycerol glycerophosphotransferase [EC:2.7.8.12]	1.787883905	0.181184201	0.996513104	M. intestini	K09809	GC_00001496	1	0.9344	26	61
+adenosylcobinamide-phosphate synthase [EC:6.3.1.10]	1.32492896	0.249709369	1	M. intestini	K02227	GC_00001497	1	0.9508	26	61
+superkiller protein 3	1.32492896	0.249709369	1	M. smithii	K12600	GC_00002713	0	0.0492	26	61
+dCTP diphosphatase [EC:3.6.1.12]	1.285844109	0.256815243	1	M. intestini	K16904	GC_00001900	0.2692	0.1639	26	61
+L-fuculose-phosphate aldolase [EC:4.1.2.17]	0.872888201	0.350156971	1	M. intestini	K01628	GC_00001485	1	0.9672	26	61
+epoxyqueuosine reductase [EC:1.17.99.6]	0.872888201	0.350156971	1	M. smithii	K18979	GC_00003063	0	0.0328	26	61
+ATP-dependent helicase HepA [EC:3.6.4.-]	0.872888201	0.350156971	1	M. smithii	K03580	GC_00003149	0	0.0328	26	61
+"ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor"	0.872888201	0.350156971	1	M. smithii	K03892	GC_00003174	0	0.0328	26	61
+DNA sulfur modification protein DndD	0.844501455	0.358112518	1	M. smithii	K19171	"GC_00002105, GC_00002557, GC_00004071"	0.1154	0.1967	26	61
+type II restriction enzyme [EC:3.1.21.4]	0.636682507	0.424914669	1	M. smithii	K01155	GC_00001891	0.1538	0.2295	26	61
+CRISPR-associated protein Csh2	0.636682507	0.424914669	1	M. smithii	K19115	"GC_00001898, GC_00003078"	0.1538	0.2295	26	61
+phosphonopyruvate decarboxylase [EC:4.1.1.82]	0.610913856	0.434443934	1	M. intestini	K09459	"GC_00002525, GC_00002739"	0.1154	0.0656	26	61
+phosphoenolpyruvate phosphomutase / 2-hydroxyethylphosphonate cytidylyltransferase [EC:5.4.2.9 2.7.7.104]	0.610913856	0.434443934	1	M. intestini	K23999	GC_00002251	0.1154	0.0656	26	61
+"two-component system, sensor histidine kinase PdtaS [EC:2.7.13.3]"	0.607701607	0.43565451	1	M. smithii	K00936	"GC_00001678, GC_00001698, GC_00002586, GC_00002587"	0.3846	0.4754	26	61
+putative ATP-dependent endonuclease of the OLD family	0.54992809	0.458347078	1	M. intestini	K07459	"GC_00002688, GC_00002792, GC_00002835, GC_00002912, GC_00003554, GC_00003956"	0.1538	0.0984	26	61
+prophage regulatory protein	0.431360149	0.511322297	1	M. smithii	K07733	GC_00003555	0	0.0164	26	61
+stage V sporulation protein K	0.431360149	0.511322297	1	M. smithii	K06413	GC_00003824	0	0.0164	26	61
+ProP effector	0.431360149	0.511322297	1	M. smithii	K03607	GC_00004041	0	0.0164	26	61
+site-specific DNA-methyltransferase (adenine-specific) [EC:2.1.1.72]	0.431360149	0.511322297	1	M. smithii	K00571	GC_00004158	0	0.0164	26	61
+large subunit ribosomal protein L27	0.431360149	0.511322297	1	M. smithii	K02899	GC_00003472	0	0.0164	26	61
+large subunit ribosomal protein L21	0.431360149	0.511322297	1	M. smithii	K02888	GC_00003978	0	0.0164	26	61
+dGTPase [EC:3.1.5.1]	0.431360149	0.511322297	1	M. smithii	K01129	GC_00003757	0	0.0164	26	61
+large subunit ribosomal protein L1	0.431360149	0.511322297	1	M. intestini	K02863	GC_00001432	1	0.9836	26	61
+programmed cell death protein 5	0.431360149	0.511322297	1	M. intestini	K06875	GC_00001425	1	0.9836	26	61
+potassium/hydrogen antiporter	0.431360149	0.511322297	1	M. intestini	K11105	GC_00001450	1	0.9836	26	61
+3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	0.431360149	0.511322297	1	M. intestini	K00059	GC_00001057	1	0.9836	26	61
+fused signal recognition particle receptor	0.431360149	0.511322297	1	M. intestini	K03110	GC_00001473	1	0.9836	26	61
+peptide/nickel transport system substrate-binding protein	0.431360149	0.511322297	1	M. intestini	K02035	GC_00000060	1	0.9836	26	61
+dolichyl-phosphooligosaccharide-protein glycotransferase [EC:2.4.99.21]	0.431360149	0.511322297	1	M. intestini	K21306	GC_00001464	1	0.9836	26	61
+gamma-polyglutamate biosynthesis protein CapA	0.431360149	0.511322297	1	M. intestini	K07282	GC_00000058	1	0.9836	26	61
+transcription initiation factor TFIID TATA-box-binding protein	0.431360149	0.511322297	1	M. intestini	K03120	GC_00001433	1	0.9836	26	61
+adenylate kinase [EC:2.7.4.3]	0.431360149	0.511322297	1	M. intestini	K18532	GC_00001463	1	0.9836	26	61
+alanyl-tRNA synthetase [EC:6.1.1.7]	0.431360149	0.511322297	1	M. intestini	K01872	"GC_00001481, GC_00003350"	1	0.9836	26	61
+protein transport protein SEC61 subunit gamma and related proteins	0.431360149	0.511322297	1	M. intestini	K07342	GC_00001435	1	0.9836	26	61
+ribonuclease P protein subunit RPR2 [EC:3.1.26.5]	0.431360149	0.511322297	1	M. intestini	K03540	GC_00001449	1	0.9836	26	61
+cell division protein FtsZ	0.431360149	0.511322297	1	M. intestini	K03531	GC_00001442	1	0.9836	26	61
+large subunit ribosomal protein L10	0.431360149	0.511322297	1	M. intestini	K02864	GC_00001441	1	0.9836	26	61
+phosphoserine phosphatase [EC:3.1.3.3]	0.431360149	0.511322297	1	M. intestini	K01079	GC_00001466	1	0.9836	26	61
+large subunit ribosomal protein L12	0.431360149	0.511322297	1	M. intestini	K02869	GC_00001445	1	0.9836	26	61
+DNA topoisomerase I [EC:5.6.2.1]	0.431360149	0.511322297	1	M. intestini	K03168	GC_00001457	1	0.9836	26	61
+large subunit ribosomal protein LX	0.431360149	0.511322297	1	M. intestini	K02944	GC_00001436	1	0.9836	26	61
+prefoldin alpha subunit	0.431360149	0.511322297	1	M. intestini	K04797	GC_00001426	1	0.9836	26	61
+tRNA methyltransferase	0.431360149	0.511322297	1	M. intestini	K07585	GC_00001440	1	0.9836	26	61
+tRNA uracil 4-sulfurtransferase [EC:2.8.1.4]	0.431360149	0.511322297	1	M. intestini	K03151	GC_00001469	1	0.9836	26	61
+small subunit ribosomal protein S19e	0.431360149	0.511322297	1	M. intestini	K02966	GC_00001428	1	0.9836	26	61
+translation initiation factor 6	0.431360149	0.511322297	1	M. intestini	K03264	GC_00001438	1	0.9836	26	61
+large subunit ribosomal protein L11	0.431360149	0.511322297	1	M. intestini	K02867	GC_00001422	1	0.9836	26	61
+large subunit ribosomal protein L39e	0.431360149	0.511322297	1	M. intestini	K02924	GC_00001423	1	0.9836	26	61
+large subunit ribosomal protein L31e	0.431360149	0.511322297	1	M. intestini	K02910	GC_00001439	1	0.9836	26	61
+"two-component system, response regulator PdtaR"	0.410196763	0.521869653	1	M. smithii	K22010	GC_00001676	0.3846	0.459	26	61
+"1,2-diacylglycerol 3-beta-glucosyltransferase [EC:2.4.1.336]"	0.410196763	0.521869653	1	M. smithii	K19003	GC_00001656	0.3846	0.459	26	61
+CRISPR-associated protein Csh1	0.40778349	0.523096667	1	M. smithii	K19114	"GC_00001899, GC_00003564"	0.1538	0.2131	26	61
+RNA-directed DNA polymerase [EC:2.7.7.49]	0.39616762	0.529075124	1	M. intestini	K00986	GC_00003021	0.0385	0.0164	26	61
+putative DNA-invertase from lambdoid prophage Rac	0.39616762	0.529075124	1	M. intestini	K14060	"GC_00004179, GC_00004182"	0.0385	0.0164	26	61
+predicted type IV restriction endonuclease	0.39616762	0.529075124	1	M. intestini	K07504	GC_00002975	0.0385	0.0164	26	61
+anthranilate synthase component I [EC:4.1.3.27]	0.39616762	0.529075124	1	M. smithii	K01657	GC_00001491	0.9615	0.9836	26	61
+indole-3-glycerol phosphate synthase [EC:4.1.1.48]	0.39616762	0.529075124	1	M. smithii	K01609	GC_00001494	0.9615	0.9836	26	61
+anthranilate phosphoribosyltransferase [EC:2.4.2.18]	0.39616762	0.529075124	1	M. smithii	K00766	GC_00001490	0.9615	0.9836	26	61
+dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]	0.39616762	0.529075124	1	M. smithii	K00067	GC_00001492	0.9615	0.9836	26	61
+anthranilate synthase component II [EC:4.1.3.27]	0.39616762	0.529075124	1	M. smithii	K01658	"GC_00001465, GC_00003389"	0.9615	0.9836	26	61
+tryptophan synthase alpha chain [EC:4.2.1.20]	0.39616762	0.529075124	1	M. smithii	K01695	GC_00001486	0.9615	0.9836	26	61
+CRISPR-associated endoribonuclease Cas6 [EC:3.1.-.-]	0.295837261	0.586503931	1	M. intestini	K19091	"GC_00001616, GC_00001892"	0.8077	0.7541	26	61
+CRISPR-associated protein Cas5h	0.223569588	0.636333429	1	M. smithii	K19116	"GC_00001962, GC_00003116"	0.1538	0.1967	26	61
+DNA (cytosine-5)-methyltransferase 1 [EC:2.1.1.37]	0.047558114	0.827368159	1	M. intestini	K00558	"GC_00000064, GC_00002078, GC_00002099, GC_00002120, GC_00002333, GC_00002432, GC_00002447, GC_00002527, GC_00002574, GC_00002654, GC_00003028, GC_00004006, GC_00004134"	0.9615	0.9508	26	61
+DNA phosphorothioation-dependent restriction protein DptH	0.047558114	0.827368159	1	M. smithii	K19175	"GC_00002565, GC_00002802"	0.0385	0.0492	26	61
+DNA phosphorothioation-dependent restriction protein DptF	0.047558114	0.827368159	1	M. smithii	K19173	"GC_00003054, GC_00003055"	0.0385	0.0492	26	61
+DNA phosphorothioation-dependent restriction protein DptG	0.047558114	0.827368159	1	M. smithii	K19174	"GC_00002572, GC_00003187"	0.0385	0.0492	26	61
+DNA mismatch repair protein MutH	0.040691203	0.840135152	1	M. smithii	K03573	GC_00002077	0.1154	0.1311	26	61
+insertion element IS1 protein InsB	0.017779541	0.893924537	1	M. intestini	K07480	GC_00002845	0.0385	0.0328	26	61
+N4-acetylcytidine amidohydrolase [EC:3.5.1.135]	0.006407602	0.93619948	1	M. smithii	K09900	"GC_00002444, GC_00003077"	0.0769	0.082	26	61
+phage terminase large subunit	4.59E-04	0.98291241	1	M. intestini	K06909	"GC_00001739, GC_00001874, GC_00002311, GC_00002768"	0.4615	0.459	26	61
+L-glutamine-phosphate cytidylyltransferase [EC:2.7.7.103]	6.45E-05	0.993592441	1	M. intestini	K01009	"GC_00002412, GC_00002732, GC_00002779"	0.1154	0.1148	26	61
+"Ni-sirohydrochlorin a,c-diamide reductive cyclase subunit CfbC [EC:6.3.3.7]"	0	1	1	NA	K21610	GC_00000817	1	1	26	61
+imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	0	1	1	NA	K02501	GC_00000918	1	1	26	61
+energy-converting hydrogenase A subunit I	0	1	1	NA	K14100	GC_00000967	1	1	26	61
+tRNA(Ile2)-agmatinylcytidine synthase [EC:6.3.4.22]	0	1	1	NA	K06932	GC_00001348	1	1	26	61
+signal recognition particle subunit SRP54 [EC:3.6.5.4]	0	1	1	NA	K03106	GC_00000544	1	1	26	61
+methyl-coenzyme M reductase beta subunit [EC:2.8.4.1]	0	1	1	NA	K00401	GC_00000093	1	1	26	61
+pyruvate carboxylase subunit B [EC:6.4.1.1]	0	1	1	NA	K01960	GC_00000922	1	1	26	61
+pyruvate formate lyase activating enzyme [EC:1.97.1.4]	0	1	1	NA	K04069	"GC_00000053, GC_00000187, GC_00000605"	1	1	26	61
+energy-converting hydrogenase A subunit L	0	1	1	NA	K14103	GC_00000607	1	1	26	61
+ADP-dependent NAD(P)H-hydrate dehydratase / NAD(P)H-hydrate epimerase [EC:4.2.1.136 5.1.99.6]	0	1	1	NA	K23997	GC_00001378	1	1	26	61
+pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1]	0	1	1	NA	K00171	GC_00000313	1	1	26	61
+sugar fermentation stimulation protein A	0	1	1	NA	K06206	GC_00000119	1	1	26	61
+manganese/zinc-transporting P-type ATPase C [EC:7.2.2.-]	0	1	1	NA	K12950	GC_00001306	1	1	26	61
+coenzyme F420H2 oxidase [EC:1.5.3.22]	0	1	1	NA	K19817	"GC_00000484, GC_00000485"	1	1	26	61
+[ribosomal protein S5]-alanine N-acetyltransferase [EC:2.3.1.267]	0	1	1	NA	K03790	GC_00000160	1	1	26	61
+peptide methionine sulfoxide reductase msrA/msrB [EC:1.8.4.11 1.8.4.12]	0	1	1	NA	K12267	GC_00000085	1	1	26	61
+NitT/TauT family transport system substrate-binding protein	0	1	1	NA	K02051	GC_00000900	1	1	26	61
+transcription initiation factor TFIIB	0	1	1	NA	K03124	GC_00000250	1	1	26	61
+2-oxoisovalerate ferredoxin oxidoreductase delta subunit [EC:1.2.7.7]	0	1	1	NA	K00188	GC_00000277	1	1	26	61
+"DNA-directed RNA polymerase subunit B"""" [EC:2.7.7.6]"	0	1	1	NA	K03045	GC_00000128	1	1	26	61
+small subunit ribosomal protein S15	0	1	1	NA	K02956	GC_00000259	1	1	26	61
+formylmethanofuran dehydrogenase subunit A [EC:1.2.7.12]	0	1	1	NA	K00200	GC_00000707	1	1	26	61
+energy-converting hydrogenase A subunit E	0	1	1	NA	K14096	GC_00000261	1	1	26	61
+coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase [EC:6.3.2.31 6.3.2.34]	0	1	1	NA	K12234	GC_00000620	1	1	26	61
+large subunit ribosomal protein L18e	0	1	1	NA	K02883	GC_00000242	1	1	26	61
+aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]	0	1	1	NA	K00133	GC_00000579	1	1	26	61
+large subunit ribosomal protein L6	0	1	1	NA	K02933	GC_00000545	1	1	26	61
+tetrahedral aminopeptidase [EC:3.4.11.-]	0	1	1	NA	K20608	GC_00000268	1	1	26	61
+fumarate hydratase subunit beta [EC:4.2.1.2]	0	1	1	NA	K01678	GC_00000842	1	1	26	61
+"pyridinium-3,5-biscarboxylic acid mononucleotide synthase [EC:2.5.1.143]"	0	1	1	NA	K06898	GC_00001004	1	1	26	61
+threonine synthase [EC:4.2.3.1]	0	1	1	NA	K01733	GC_00000516	1	1	26	61
+cytokinin riboside 5'-monophosphate phosphoribohydrolase [EC:3.2.2.-]	0	1	1	NA	K22522	GC_00001408	1	1	26	61
+heterodisulfide reductase subunit B1 [EC:1.8.7.3]	0	1	1	NA	K22481	GC_00000741	1	1	26	61
+molybdopterin synthase catalytic subunit [EC:2.8.1.12]	0	1	1	NA	K03635	GC_00000512	1	1	26	61
+glutamine synthetase [EC:6.3.1.2]	0	1	1	NA	K01915	GC_00000615	1	1	26	61
+cis-L-3-hydroxyproline dehydratase [EC:4.2.1.171]	0	1	1	NA	K09123	GC_00000888	1	1	26	61
+formate dehydrogenase (coenzyme F420) alpha subunit [EC:1.17.98.3 1.8.98.6]	0	1	1	NA	K22516	GC_00000749	1	1	26	61
+"indolepyruvate ferredoxin oxidoreductase, beta subunit [EC:1.2.7.8]"	0	1	1	NA	K00180	GC_00000971	1	1	26	61
+lactaldehyde dehydrogenase [EC:1.2.1.22]	0	1	1	NA	K19266	GC_00001302	1	1	26	61
+DNA replication ATP-dependent helicase Dna2 [EC:3.6.4.12]	0	1	1	NA	K10742	"GC_00001356, GC_00002018, GC_00002728, GC_00002960"	1	1	26	61
+isoleucyl-tRNA synthetase [EC:6.1.1.5]	0	1	1	NA	K01870	GC_00001374	1	1	26	61
+preprotein translocase subunit SecY	0	1	1	NA	K03076	GC_00000647	1	1	26	61
+hydrogenase expression/formation protein HypD	0	1	1	NA	K04654	GC_00000896	1	1	26	61
+isopropanol dehydrogenase (NADP+) [EC:1.1.1.80]	0	1	1	NA	K23259	GC_00000083	1	1	26	61
+tyramine---L-glutamate ligase [EC:6.3.4.24]	0	1	1	NA	K06914	GC_00001100	1	1	26	61
+DNA-directed RNA polymerase subunit F [EC:2.7.7.6]	0	1	1	NA	K03051	GC_00000664	1	1	26	61
+glycerol-3-phosphate cytidylyltransferase [EC:2.7.7.39]	0	1	1	NA	K00980	GC_00000176	1	1	26	61
+ABC-2 type transport system permease protein	0	1	1	NA	K01992	"GC_00000678, GC_00000687"	1	1	26	61
+flap endonuclease-1 [EC:3.-.-.-]	0	1	1	NA	K04799	GC_00001174	1	1	26	61
+P-type Ca2+ transporter type 2C [EC:7.2.2.10]	0	1	1	NA	K01537	GC_00000205	1	1	26	61
+N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase [EC:2.4.1.289]	0	1	1	NA	K16870	GC_00001245	1	1	26	61
+energy-converting hydrogenase A subunit P	0	1	1	NA	K14107	GC_00000714	1	1	26	61
+small subunit ribosomal protein S10	0	1	1	NA	K02946	GC_00000228	1	1	26	61
+putative transcription factor	0	1	1	NA	K03627	GC_00000417	1	1	26	61
+enolase [EC:4.2.1.11]	0	1	1	NA	K01689	"GC_00000383, GC_00003651"	1	1	26	61
+"2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]"	0	1	1	NA	K15635	"GC_00000595, GC_00001379"	1	1	26	61
+phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	0	1	1	NA	K23264	GC_00000337	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit A [EC:7.1.2.2 7.2.2.1]	0	1	1	NA	K02117	GC_00000476	1	1	26	61
+exosome complex component CSL4	0	1	1	NA	K07573	GC_00000344	1	1	26	61
+acetylglutamate kinase [EC:2.7.2.8]	0	1	1	NA	K00930	GC_00000629	1	1	26	61
+nucleoside-diphosphate kinase [EC:2.7.4.6]	0	1	1	NA	K00940	GC_00000286	1	1	26	61
+triphosphoribosyl-dephospho-CoA synthase [EC:2.4.2.52]	0	1	1	NA	K05966	GC_00001146	1	1	26	61
+phosphoglycolate phosphatase [EC:3.1.3.18]	0	1	1	NA	K22223	GC_00000987	1	1	26	61
+heptose III glucuronosyltransferase [EC:2.4.1.-]	0	1	1	NA	K19354	"GC_00000488, GC_00001075"	1	1	26	61
+large subunit ribosomal protein L19e	0	1	1	NA	K02885	GC_00000300	1	1	26	61
+5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	0	1	1	NA	K00772	GC_00001005	1	1	26	61
+ribitol-5-phosphate 2-dehydrogenase (NADP+) [EC:1.1.1.405]	0	1	1	NA	K05352	GC_00000596	1	1	26	61
+N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	0	1	1	NA	K00145	"GC_00001332, GC_00003756"	1	1	26	61
+glycine hydroxymethyltransferase [EC:2.1.2.1]	0	1	1	NA	K00600	GC_00000452	1	1	26	61
+outer membrane protein assembly factor BamB	0	1	1	NA	K17713	GC_00001319	1	1	26	61
+hydrogenase nickel incorporation protein HypA/HybF	0	1	1	NA	K04651	GC_00000889	1	1	26	61
+"multidrug resistance protein, MATE family"	0	1	1	NA	K03327	"GC_00000005, GC_00000211, GC_00001230, GC_00001390"	1	1	26	61
+uncharacterized protein	0	1	1	NA	K07133	"GC_00000016, GC_00000036, GC_00000039, GC_00000104, GC_00000139, GC_00000144, GC_00000163, GC_00000185, GC_00000200, GC_00000203, GC_00000247, GC_00000276, GC_00000323, GC_00000350, GC_00000369, GC_00000373, GC_00000435, GC_00000522, GC_00000523, GC_00000524, GC_00000560, GC_00000577, GC_00000586, GC_00000598, GC_00000603, GC_00000619, GC_00000623, GC_00000625, GC_00000672, GC_00000711, GC_00000720, GC_00000736, GC_00000740, GC_00000747, GC_00000748, GC_00000810, GC_00000837, GC_00000840, GC_00000841, GC_00000850, GC_00000928, GC_00000999, GC_00001008, GC_00001010, GC_00001020, GC_00001085, GC_00001099, GC_00001109, GC_00001110, GC_00001142, GC_00001148, GC_00001151, GC_00001170, GC_00001212, GC_00001213, GC_00001255, GC_00001320, GC_00001328, GC_00001350, GC_00001353, GC_00001392, GC_00001404, GC_00001454, GC_00001459, GC_00001504, GC_00001507, GC_00001519, GC_00001523, GC_00001541, GC_00001557, GC_00001590, GC_00001609, GC_00001654, GC_00001677, GC_00001719, GC_00001722, GC_00001733, GC_00001750, GC_00001755, GC_00001901, GC_00001916, GC_00001948, GC_00002004, GC_00002015, GC_00002107, GC_00002385, GC_00002452, GC_00002553, GC_00002738, GC_00002855, GC_00002946, GC_00003192, GC_00003460, GC_00003529, GC_00003808, GC_00003840, GC_00003844, GC_00003934, GC_00003968, GC_00004009, GC_00004022"	1	1	26	61
+cobalt/nickel transport protein	0	1	1	NA	K02009	GC_00000539	1	1	26	61
+orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]	0	1	1	NA	K01591	GC_00001250	1	1	26	61
+ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6]	0	1	1	NA	K21636	GC_00000685	1	1	26	61
+ribose-phosphate pyrophosphokinase [EC:2.7.6.1]	0	1	1	NA	K00948	GC_00000566	1	1	26	61
+"3',5'-cyclic-AMP phosphodiesterase [EC:3.1.4.53]"	0	1	1	NA	K03651	GC_00000911	1	1	26	61
+autotransporter family porin	0	1	1	NA	K07279	"GC_00000012, GC_00000090, GC_00000118, GC_00001592, GC_00001624, GC_00001657, GC_00001671, GC_00001956, GC_00001977, GC_00003176"	1	1	26	61
+helicase [EC:3.6.4.-]	0	1	1	NA	K03726	GC_00001362	1	1	26	61
+integrase/recombinase XerD	0	1	1	NA	K04763	"GC_00000869, GC_00001098, GC_00001648, GC_00003421"	1	1	26	61
+putative methylase	0	1	1	NA	K07579	GC_00001341	1	1	26	61
+dUTP pyrophosphatase [EC:3.6.1.23]	0	1	1	NA	K01520	GC_00000511	1	1	26	61
+phosphate transport system permease protein	0	1	1	NA	K02037	"GC_00000548, GC_00001186"	1	1	26	61
+methionyl aminopeptidase [EC:3.4.11.18]	0	1	1	NA	K01265	GC_00001089	1	1	26	61
+cytoplasmic tRNA 2-thiolation protein 1 [EC:2.7.7.-]	0	1	1	NA	K14168	GC_00000651	1	1	26	61
+GTP cyclohydrolase IV [EC:3.5.4.39]	0	1	1	NA	K17488	GC_00000730	1	1	26	61
+energy-converting hydrogenase A subunit K	0	1	1	NA	K14102	GC_00000340	1	1	26	61
+FAD synthetase [EC:2.7.7.2]	0	1	1	NA	K14656	GC_00000599	1	1	26	61
+coenzyme F420 hydrogenase subunit gamma [EC:1.12.98.1]	0	1	1	NA	K00443	GC_00000406	1	1	26	61
+acyl-CoA thioester hydrolase [EC:3.1.2.-]	0	1	1	NA	K07107	GC_00000870	1	1	26	61
+replication factor C small subunit	0	1	1	NA	K04801	GC_00000750	1	1	26	61
+transcription initiation factor TFIIE subunit alpha	0	1	1	NA	K03136	GC_00000376	1	1	26	61
+ABC-2 type transport system ATP-binding protein	0	1	1	NA	K01990	"GC_00000170, GC_00001000, GC_00001256"	1	1	26	61
+phosphate transport system ATP-binding protein [EC:7.3.2.1]	0	1	1	NA	K02036	GC_00000487	1	1	26	61
+molybdopterin-guanine dinucleotide biosynthesis adapter protein	0	1	1	NA	K03753	GC_00001227	1	1	26	61
+ketol-acid reductoisomerase [EC:1.1.1.86]	0	1	1	NA	K00053	GC_00000483	1	1	26	61
+4-hydroxy-4-methyl-2-oxoglutarate aldolase [EC:4.1.3.17]	0	1	1	NA	K10218	GC_00000801	1	1	26	61
+large subunit ribosomal protein L22	0	1	1	NA	K02890	GC_00000267	1	1	26	61
+putative hydrolase of the HAD superfamily	0	1	1	NA	K07025	GC_00000470	1	1	26	61
+energy-converting hydrogenase B subunit N	0	1	1	NA	K14123	GC_00000609	1	1	26	61
+large subunit ribosomal protein L24e	0	1	1	NA	K02896	GC_00000248	1	1	26	61
+"polysaccharide transporter, PST family"	0	1	1	NA	K03328	GC_00000009	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit C	0	1	1	NA	K02119	GC_00000278	1	1	26	61
+stage II sporulation protein M	0	1	1	NA	K06384	"GC_00000671, GC_00001130"	1	1	26	61
+homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]	0	1	1	NA	K00641	"GC_00001210, GC_00001240"	1	1	26	61
+exodeoxyribonuclease III [EC:3.1.11.2]	0	1	1	NA	K01142	"GC_00000510, GC_00002837"	1	1	26	61
+tetrahydromethanopterin S-methyltransferase subunit B [EC:2.1.1.86]	0	1	1	NA	K00578	GC_00000638	1	1	26	61
+adenylosuccinate synthase [EC:6.3.4.4]	0	1	1	NA	K01939	GC_00000863	1	1	26	61
+precorrin-6A/cobalt-precorrin-6A reductase [EC:1.3.1.54 1.3.1.106]	0	1	1	NA	K05895	GC_00001026	1	1	26	61
+CDP-ribitol ribitolphosphotransferase / teichoic acid ribitol-phosphate polymerase [EC:2.7.8.14 2.7.8.47]	0	1	1	NA	K18704	GC_00001107	1	1	26	61
+ribonuclease III [EC:3.1.26.3]	0	1	1	NA	K03685	GC_00000926	1	1	26	61
+adenosylhomocysteinase [EC:3.3.1.1]	0	1	1	NA	K01251	GC_00000132	1	1	26	61
+large subunit ribosomal protein L30e	0	1	1	NA	K02908	GC_00000254	1	1	26	61
+precorrin-4/cobalt-precorrin-4 C11-methyltransferase [EC:2.1.1.133 2.1.1.271]	0	1	1	NA	K05936	GC_00000897	1	1	26	61
+"HTH-type transcriptional regulator, sugar sensing transcriptional regulator"	0	1	1	NA	K23356	GC_00001024	1	1	26	61
+DNA-directed RNA polymerase subunit N [EC:2.7.7.6]	0	1	1	NA	K03058	GC_00000252	1	1	26	61
+phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	0	1	1	NA	K01889	GC_00000159	1	1	26	61
+transcription factor S	0	1	1	NA	K03057	"GC_00000289, GC_00000385"	1	1	26	61
+cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	0	1	1	NA	K03637	GC_00000533	1	1	26	61
+fatty-acyl-CoA synthase [EC:6.2.1.-]	0	1	1	NA	K00666	GC_00000126	1	1	26	61
+phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	0	1	1	NA	K01814	GC_00000909	1	1	26	61
+rod shape-determining protein MreB and related proteins	0	1	1	NA	K03569	GC_00000360	1	1	26	61
+molybdate transport system regulatory protein	0	1	1	NA	K02019	"GC_00000272, GC_00000865"	1	1	26	61
+histidinol dehydrogenase [EC:1.1.1.23]	0	1	1	NA	K00013	GC_00001203	1	1	26	61
+energy-coupling factor transport system ATP-binding protein [EC:3.6.3.-]	0	1	1	NA	K01552	GC_00000076	1	1	26	61
+putative membrane protein	0	1	1	NA	K08971	"GC_00000197, GC_00000855, GC_00001163, GC_00001220, GC_00001295, GC_00002500"	1	1	26	61
+prolyl-tRNA synthetase [EC:6.1.1.15]	0	1	1	NA	K01881	GC_00000757	1	1	26	61
+"probable poly-beta-1,6-N-acetyl-D-glucosamine export protein"	0	1	1	NA	K21462	"GC_00001156, GC_00001773, GC_00002083"	1	1	26	61
+"methyl coenzyme M reductase system, component A2"	0	1	1	NA	K00400	"GC_00000153, GC_00000543"	1	1	26	61
+pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1]	0	1	1	NA	K00170	GC_00000364	1	1	26	61
+translation initiation factor 2 subunit 3	0	1	1	NA	K03242	GC_00000275	1	1	26	61
+RIO kinase 1 [EC:2.7.11.1]	0	1	1	NA	K07178	GC_00000442	1	1	26	61
+bifunctional enzyme Fae/Hps [EC:4.2.1.147 4.1.2.43]	0	1	1	NA	K13812	GC_00000853	1	1	26	61
+3-dehydroquinate synthase II [EC:1.4.1.24]	0	1	1	NA	K11646	GC_00000708	1	1	26	61
+2-dehydropantoate 2-reductase [EC:1.1.1.169]	0	1	1	NA	K00077	GC_00001278	1	1	26	61
+KEOPS complex subunit Pcc1	0	1	1	NA	K09741	GC_00000381	1	1	26	61
+5-formaminoimidazole-4-carboxamide-1-(beta)-D-ribofuranosyl 5'-monophosphate synthetase [EC:6.3.4.23]	0	1	1	NA	K06863	GC_00000912	1	1	26	61
+large subunit ribosomal protein L10e	0	1	1	NA	K02866	GC_00000262	1	1	26	61
+energy-converting hydrogenase A subunit C	0	1	1	NA	K14094	GC_00000321	1	1	26	61
+P-type Cu+ transporter [EC:7.2.2.8]	0	1	1	NA	K17686	GC_00000019	1	1	26	61
+"adenylate cyclase, class 2 [EC:4.6.1.1]"	0	1	1	NA	K05873	GC_00000773	1	1	26	61
+thymidylate synthase [EC:2.1.1.45]	0	1	1	NA	K00560	"GC_00000078, GC_00002362"	1	1	26	61
+formylmethanofuran--tetrahydromethanopterin N-formyltransferase [EC:2.3.1.101]	0	1	1	NA	K00672	"GC_00000420, GC_00000983"	1	1	26	61
+phosphate transport system protein	0	1	1	NA	K02039	"GC_00000806, GC_00001342"	1	1	26	61
+methyl-coenzyme M reductase subunit D	0	1	1	NA	K03422	"GC_00000269, GC_00002972"	1	1	26	61
+polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	0	1	1	NA	K02028	GC_00000953	1	1	26	61
+"indolepyruvate ferredoxin oxidoreductase, alpha subunit [EC:1.2.7.8]"	0	1	1	NA	K00179	GC_00001219	1	1	26	61
+phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]	0	1	1	NA	K01933	GC_00001134	1	1	26	61
+anaerobic magnesium-protoporphyrin IX monomethyl ester cyclase [EC:1.21.98.3]	0	1	1	NA	K04034	GC_00000112	1	1	26	61
+"UDP-4-amino-4,6-dideoxy-L-N-acetyl-beta-L-altrosamine transaminase [EC:2.6.1.92]"	0	1	1	NA	K15895	GC_00001228	1	1	26	61
+"2,5-furandicarboxylate decarboxylase 1"	0	1	1	NA	K16874	GC_00001168	1	1	26	61
+"3',5'-nucleoside bisphosphate phosphatase [EC:3.1.3.97]"	0	1	1	NA	K07053	"GC_00000490, GC_00001062"	1	1	26	61
+adenine/guanine/hypoxanthine permease	0	1	1	NA	K06901	GC_00000890	1	1	26	61
+putative ABC transport system ATP-binding protein	0	1	1	NA	K02003	GC_00000618	1	1	26	61
+tetrahydromethanopterin S-methyltransferase subunit H [EC:2.1.1.86]	0	1	1	NA	K00584	GC_00000008	1	1	26	61
+GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]	0	1	1	NA	K01951	"GC_00000555, GC_00000871"	1	1	26	61
+prefoldin beta subunit	0	1	1	NA	K04798	GC_00000226	1	1	26	61
+7-cyano-7-deazaguanine synthase [EC:6.3.4.20]	0	1	1	NA	K06920	"GC_00001248, GC_00003946"	1	1	26	61
+formate dehydrogenase (coenzyme F420) beta subunit [EC:1.17.98.3 1.8.98.6]	0	1	1	NA	K00125	"GC_00000633, GC_00001756"	1	1	26	61
+methyltransferase [EC:2.1.1.-]	0	1	1	NA	K09142	GC_00000635	1	1	26	61
+energy-converting hydrogenase B subunit F	0	1	1	NA	K14115	GC_00001060	1	1	26	61
+small subunit ribosomal protein S28e	0	1	1	NA	K02979	GC_00000235	1	1	26	61
+glutamyl-tRNA(Gln) amidotransferase subunit E [EC:6.3.5.7]	0	1	1	NA	K03330	GC_00001128	1	1	26	61
+menaquinone-dependent protoporphyrinogen oxidase [EC:1.3.5.3]	0	1	1	NA	K00230	"GC_00000943, GC_00003567"	1	1	26	61
+coenzyme F430 synthetase [EC:6.4.1.9]	0	1	1	NA	K21612	GC_00001135	1	1	26	61
+archaeal chaperonin	0	1	1	NA	K22447	"GC_00000352, GC_00000353"	1	1	26	61
+energy-converting hydrogenase B subunit Q	0	1	1	NA	K06862	GC_00000565	1	1	26	61
+biotin transport system substrate-specific component	0	1	1	NA	K03523	GC_00001045	1	1	26	61
+"GTP 3',8-cyclase [EC:4.1.99.22]"	0	1	1	NA	K03639	GC_00001206	1	1	26	61
+transcriptional regulator	0	1	1	NA	K07744	GC_00000582	1	1	26	61
+phosphate transport system substrate-binding protein	0	1	1	NA	K02040	GC_00000695	1	1	26	61
+cysteine desulfurase [EC:2.8.1.7]	0	1	1	NA	K04487	GC_00001270	1	1	26	61
+small subunit ribosomal protein S2	0	1	1	NA	K02967	GC_00000324	1	1	26	61
+glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]	0	1	1	NA	K00620	GC_00000872	1	1	26	61
+small subunit ribosomal protein S8e	0	1	1	NA	K02995	GC_00000258	1	1	26	61
+ribonuclease P/MRP protein subunit POP5 [EC:3.1.26.5]	0	1	1	NA	K03537	GC_00000572	1	1	26	61
+excinuclease ABC subunit C	0	1	1	NA	K03703	GC_00000155	1	1	26	61
+succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	0	1	1	NA	K01902	GC_00000788	1	1	26	61
+adenine deaminase [EC:3.5.4.2]	0	1	1	NA	K01486	GC_00001329	1	1	26	61
+dolichol-phosphate hexosyltransferase [EC:2.4.1.-]	0	1	1	NA	K23684	"GC_00000102, GC_00000939"	1	1	26	61
+AAA family ATPase	0	1	1	NA	K07392	GC_00000820	1	1	26	61
+UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.7.7.24 2.7.7.83 2.3.1.157 2.3.1.276]	0	1	1	NA	K23144	GC_00001158	1	1	26	61
+large subunit ribosomal protein L18	0	1	1	NA	K02881	GC_00000630	1	1	26	61
+"2,5-diamino-6-(ribosylamino)-4(3H)-pyrimidinone 5'-phosphate reductase [EC:1.1.1.302]"	0	1	1	NA	K14654	GC_00000768	1	1	26	61
+acetolactate synthase I/II/III large subunit [EC:2.2.1.6]	0	1	1	NA	K01652	"GC_00000818, GC_00001419, GC_00003761"	1	1	26	61
+hydroxyethylthiazole kinase [EC:2.7.1.50]	0	1	1	NA	K00878	GC_00001290	1	1	26	61
+pyridoxal 5'-phosphate synthase pdxT subunit [EC:4.3.3.6]	0	1	1	NA	K08681	GC_00000879	1	1	26	61
+arginine decarboxylase [EC:4.1.1.19]	0	1	1	NA	K02626	GC_00000980	1	1	26	61
+carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	0	1	1	NA	K01955	GC_00000829	1	1	26	61
+tRNA (adenine37-N6)-methyltransferase [EC:2.1.1.-]	0	1	1	NA	K22900	GC_00001050	1	1	26	61
+ferritin [EC:1.16.3.2]	0	1	1	NA	K02217	GC_00000552	1	1	26	61
+putative colanic acid biosynthesis glycosyltransferase [EC:2.4.-.-]	0	1	1	NA	K13684	GC_00000210	1	1	26	61
+tRNA pseudouridine13 synthase [EC:5.4.99.27]	0	1	1	NA	K06176	GC_00001138	1	1	26	61
+valyl-tRNA synthetase [EC:6.1.1.9]	0	1	1	NA	K01873	GC_00001244	1	1	26	61
+ADP-ribosyl-[dinitrogen reductase] hydrolase [EC:3.2.2.24]	0	1	1	NA	K05521	GC_00000110	1	1	26	61
+"pyruvate, water dikinase [EC:2.7.9.2]"	0	1	1	NA	K01007	GC_00001152	1	1	26	61
+methanogen homocitrate synthase [EC:2.3.3.14 2.3.3.-]	0	1	1	NA	K10977	GC_00000831	1	1	26	61
+endonuclease III related protein	0	1	1	NA	K07457	GC_00001053	1	1	26	61
+translation initiation factor 1	0	1	1	NA	K03113	GC_00000219	1	1	26	61
+DNA repair protein SbcC/Rad50	0	1	1	NA	K03546	GC_00000165	1	1	26	61
+CRISPR-associated exonuclease Cas4 [EC:3.1.12.1]	0	1	1	NA	K07464	"GC_00000184, GC_00001202, GC_00001748, GC_00001927"	1	1	26	61
+diamine N-acetyltransferase [EC:2.3.1.57]	0	1	1	NA	K22441	GC_00001226	1	1	26	61
+"Lrp/AsnC family transcriptional regulator, regulator for asnA, asnC and gidA"	0	1	1	NA	K03718	GC_00000371	1	1	26	61
+arsenite transporter	0	1	1	NA	K03325	GC_00000057	1	1	26	61
+signal recognition particle subunit SRP19	0	1	1	NA	K03105	GC_00000705	1	1	26	61
+dihydroorotate dehydrogenase electron transfer subunit	0	1	1	NA	K02823	GC_00000851	1	1	26	61
+"UDP-2-acetamido-3-amino-2,3-dideoxy-glucuronate N-acetyltransferase [EC:2.3.1.201]"	0	1	1	NA	K13018	GC_00000550	1	1	26	61
+polar amino acid transport system permease protein	0	1	1	NA	K02029	GC_00000125	1	1	26	61
+"DNA polymerase, archaea type [EC:2.7.7.7]"	0	1	1	NA	K02319	GC_00001191	1	1	26	61
+archaeosine synthase beta-subunit [EC:2.6.1.-]	0	1	1	NA	K06936	GC_00001371	1	1	26	61
+deoxyribose-phosphate aldolase [EC:4.1.2.4]	0	1	1	NA	K01619	"GC_00000883, GC_00003342"	1	1	26	61
+energy-converting hydrogenase A subunit G	0	1	1	NA	K14098	GC_00000418	1	1	26	61
+IMP dehydrogenase [EC:1.1.1.205]	0	1	1	NA	K00088	GC_00000934	1	1	26	61
+chloramphenicol O-acetyltransferase type A [EC:2.3.1.28]	0	1	1	NA	K19271	GC_00000099	1	1	26	61
+precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase [EC:1.3.1.76 4.99.1.4]	0	1	1	NA	K02304	GC_00001043	1	1	26	61
+methionyl-tRNA synthetase [EC:6.1.1.10]	0	1	1	NA	K01874	GC_00001144	1	1	26	61
+sortase A [EC:3.4.22.70]	0	1	1	NA	K07284	GC_00000812	1	1	26	61
+signal peptidase I [EC:3.4.21.89]	0	1	1	NA	K13280	GC_00000643	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit K	0	1	1	NA	K02124	GC_00000280	1	1	26	61
+"Ni-sirohydrochlorin a,c-diamide reductive cyclase subunit CfbD [EC:6.3.3.7]"	0	1	1	NA	K21611	GC_00001303	1	1	26	61
+L-malate glycosyltransferase [EC:2.4.1.-]	0	1	1	NA	K00754	GC_00001418	1	1	26	61
+energy-converting hydrogenase A subunit M	0	1	1	NA	K14104	GC_00000464	1	1	26	61
+23S rRNA (uridine2552-2'-O)-methyltransferase [EC:2.1.1.166]	0	1	1	NA	K02427	GC_00000567	1	1	26	61
+methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	0	1	1	NA	K22081	GC_00000334	1	1	26	61
+ribose 5-phosphate isomerase A [EC:5.3.1.6]	0	1	1	NA	K01807	GC_00000725	1	1	26	61
+precorrin-2/cobalt-factor-2 C20-methyltransferase [EC:2.1.1.130 2.1.1.151]	0	1	1	NA	K03394	GC_00000726	1	1	26	61
+large subunit ribosomal protein L3	0	1	1	NA	K02906	GC_00000439	1	1	26	61
+7-carboxy-7-deazaguanine synthase [EC:4.3.99.3]	0	1	1	NA	K10026	GC_00000848	1	1	26	61
+anaerobic carbon-monoxide dehydrogenase iron sulfur subunit	0	1	1	NA	K00196	GC_00000123	1	1	26	61
+energy-converting hydrogenase B subunit D	0	1	1	NA	K14113	GC_00000257	1	1	26	61
+tRNA-splicing ligase RtcB (3'-phosphate/5'-hydroxy nucleic acid ligase) [EC:6.5.1.8]	0	1	1	NA	K14415	GC_00001063	1	1	26	61
+tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]	0	1	1	NA	K15429	GC_00000876	1	1	26	61
+cysteinyl-tRNA synthetase [EC:6.1.1.16]	0	1	1	NA	K01883	GC_00000787	1	1	26	61
+3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]	0	1	1	NA	K00800	GC_00001357	1	1	26	61
+4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]	0	1	1	NA	K00215	GC_00000416	1	1	26	61
+tRNA wybutosine-synthesizing protein 2 [EC:2.5.1.114]	0	1	1	NA	K07055	GC_00001096	1	1	26	61
+methyl-coenzyme M reductase subunit C	0	1	1	NA	K03421	GC_00000279	1	1	26	61
+tryptophan synthase beta chain [EC:4.2.1.20]	0	1	1	NA	K01696	"GC_00000065, GC_00000862"	1	1	26	61
+tetrahydromethanopterin S-methyltransferase subunit D [EC:2.1.1.86]	0	1	1	NA	K00580	GC_00000827	1	1	26	61
+cysteine synthase [EC:2.5.1.47]	0	1	1	NA	K01738	GC_00000493	1	1	26	61
+digeranylgeranylglycerophospholipid reductase [EC:1.3.1.101 1.3.7.11]	0	1	1	NA	K17830	GC_00000140	1	1	26	61
+malate permease and related proteins	0	1	1	NA	K24180	GC_00000715	1	1	26	61
+hydroxylamine reductase [EC:1.7.99.1]	0	1	1	NA	K05601	GC_00000854	1	1	26	61
+(4-(4-[2-(gamma-L-glutamylamino)ethyl]phenoxymethyl)furan-2-yl)methanamine synthase [EC:2.5.1.131]	0	1	1	NA	K07072	GC_00000194	1	1	26	61
+replication factor C large subunit	0	1	1	NA	K04800	GC_00001382	1	1	26	61
+cobalt/nickel transport system ATP-binding protein	0	1	1	NA	K02006	"GC_00001031, GC_00001032"	1	1	26	61
+chorismate synthase [EC:4.2.3.5]	0	1	1	NA	K01736	GC_00001301	1	1	26	61
+acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	0	1	1	NA	K00626	GC_00000436	1	1	26	61
+2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3]	0	1	1	NA	K00177	GC_00000508	1	1	26	61
+rubrerythrin	0	1	1	NA	K19824	"GC_00000301, GC_00000645"	1	1	26	61
+2-amino-5-formylamino-6-ribosylaminopyrimidin-4(3H)-one 5'-monophosphate deformylase [EC:3.5.1.102]	0	1	1	NA	K14653	GC_00000602	1	1	26	61
+fumarate reductase (CoM/CoB) subunit A [EC:1.3.4.1]	0	1	1	NA	K18209	GC_00001054	1	1	26	61
+H/ACA ribonucleoprotein complex subunit 4 [EC:5.4.99.-]	0	1	1	NA	K11131	GC_00000804	1	1	26	61
+imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]	0	1	1	NA	K02500	GC_00000580	1	1	26	61
+nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]	0	1	1	NA	K00767	GC_00000950	1	1	26	61
+exodeoxyribonuclease VII small subunit [EC:3.1.11.6]	0	1	1	NA	K03602	GC_00000320	1	1	26	61
+"ATP-binding cassette, sub-family E, member 1"	0	1	1	NA	K06174	GC_00000981	1	1	26	61
+L-aspartate semialdehyde sulfurtransferase ferredoxin	0	1	1	NA	K23976	GC_00000729	1	1	26	61
+cation:H+ antiporter	0	1	1	NA	K07301	GC_00001161	1	1	26	61
+glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]	0	1	1	NA	K00820	"GC_00000816, GC_00001367"	1	1	26	61
+hydrogenase 3 maturation protease [EC:3.4.23.51]	0	1	1	NA	K08315	GC_00001222	1	1	26	61
+small subunit ribosomal protein S19	0	1	1	NA	K02965	GC_00000256	1	1	26	61
+large subunit ribosomal protein L24	0	1	1	NA	K02895	GC_00000302	1	1	26	61
+"adenylylsulfate reductase, subunit B [EC:1.8.99.2]"	0	1	1	NA	K00395	GC_00000271	1	1	26	61
+"DNA-directed RNA polymerase subunit A"""" [EC:2.7.7.6]"	0	1	1	NA	K03042	GC_00000444	1	1	26	61
+release factor glutamine methyltransferase [EC:2.1.1.297]	0	1	1	NA	K19589	GC_00000557	1	1	26	61
+energy-converting hydrogenase B subunit K	0	1	1	NA	K14120	"GC_00000023, GC_00001262"	1	1	26	61
+bifunctional N6-L-threonylcarbamoyladenine synthase / protein kinase Bud32 [EC:2.3.1.234 2.7.11.1]	0	1	1	NA	K15904	GC_00001333	1	1	26	61
+DNA helicase IV [EC:3.6.4.12]	0	1	1	NA	K03658	"GC_00000022, GC_00001512, GC_00001683, GC_00002438, GC_00002844"	1	1	26	61
+2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11]	0	1	1	NA	K00175	GC_00000807	1	1	26	61
+(5-formylfuran-3-yl)methyl phosphate synthase [EC:4.2.3.153]	0	1	1	NA	K09733	GC_00000347	1	1	26	61
+UDP-glucose 4-epimerase [EC:5.1.3.2]	0	1	1	NA	K01784	GC_00000161	1	1	26	61
+"glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]"	0	1	1	NA	K01845	GC_00001190	1	1	26	61
+DNA topoisomerase VI subunit B [EC:5.6.2.2]	0	1	1	NA	K03167	GC_00000152	1	1	26	61
+ATP-dependent helicase Lhr and Lhr-like helicase [EC:3.6.4.-]	0	1	1	NA	K03724	"GC_00001147, GC_00003175"	1	1	26	61
+glycyl-tRNA synthetase [EC:6.1.1.14]	0	1	1	NA	K01880	GC_00001195	1	1	26	61
+nonsense-mediated mRNA decay protein 3	0	1	1	NA	K07562	GC_00001366	1	1	26	61
+Zn-ribbon RNA-binding protein	0	1	1	NA	K07580	GC_00000291	1	1	26	61
+methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase [EC:2.1.1.90]	0	1	1	NA	K04480	GC_00000108	1	1	26	61
+thiamine-monophosphate kinase [EC:2.7.4.16]	0	1	1	NA	K00946	GC_00000886	1	1	26	61
+"UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [EC:3.6.1.57]"	0	1	1	NA	K15897	"GC_00000777, GC_00001339"	1	1	26	61
+sulfopyruvate decarboxylase subunit beta [EC:4.1.1.79]	0	1	1	NA	K13039	GC_00001056	1	1	26	61
+5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]	0	1	1	NA	K01588	GC_00000732	1	1	26	61
+large subunit ribosomal protein L7Ae	0	1	1	NA	K02936	GC_00000315	1	1	26	61
+protein pelota	0	1	1	NA	K06965	GC_00000949	1	1	26	61
+hydroxymethylglutaryl-CoA reductase (NADPH) [EC:1.1.1.34]	0	1	1	NA	K00021	GC_00001266	1	1	26	61
+"solute:Na+ symporter, SSS family"	0	1	1	NA	K03307	GC_00000146	1	1	26	61
+(R)-citramalate synthase [EC:2.3.1.182]	0	1	1	NA	K09011	GC_00001041	1	1	26	61
+2-oxoisovalerate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.7]	0	1	1	NA	K00186	GC_00000382	1	1	26	61
+ribonuclease HII [EC:3.1.26.4]	0	1	1	NA	K03470	GC_00000608	1	1	26	61
+large repetitive protein	0	1	1	NA	K20276	"GC_00000003, GC_00000062, GC_00002560"	1	1	26	61
+single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	0	1	1	NA	K07462	"GC_00000180, GC_00000191"	1	1	26	61
+glycerol-1-phosphate dehydrogenase [NAD(P)+] [EC:1.1.1.261]	0	1	1	NA	K00096	GC_00000767	1	1	26	61
+nicotinamide-nucleotide adenylyltransferase [EC:2.7.7.1]	0	1	1	NA	K00952	GC_00000662	1	1	26	61
+Fe-S cluster assembly ATP-binding protein	0	1	1	NA	K09013	GC_00000955	1	1	26	61
+archaeal flagellar protein FlaJ	0	1	1	NA	K07333	"GC_00000068, GC_00001361"	1	1	26	61
+2-oxoisovalerate ferredoxin oxidoreductase beta subunit [EC:1.2.7.7]	0	1	1	NA	K00187	GC_00001051	1	1	26	61
+putative colanic acid biosysnthesis UDP-glucose lipid carrier transferase	0	1	1	NA	K03606	GC_00001014	1	1	26	61
+energy-converting hydrogenase B subunit J	0	1	1	NA	K14119	GC_00000680	1	1	26	61
+pilus assembly protein Flp/PilA	0	1	1	NA	K02651	GC_00000397	1	1	26	61
+dihydroorotase [EC:3.5.2.3]	0	1	1	NA	K01465	GC_00001296	1	1	26	61
+methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	0	1	1	NA	K22082	GC_00000137	1	1	26	61
+Zn2+/Cd2+-exporting ATPase [EC:7.2.2.12 7.2.2.21]	0	1	1	NA	K01534	GC_00001397	1	1	26	61
+replication factor A1	0	1	1	NA	K07466	GC_00001384	1	1	26	61
+translation initiation factor 2 subunit 2	0	1	1	NA	K03238	GC_00000221	1	1	26	61
+vanillate/4-hydroxybenzoate decarboxylase subunit D [EC:4.1.1.- 4.1.1.61]	0	1	1	NA	K21759	GC_00000507	1	1	26	61
+nitrogen fixation protein NifB	0	1	1	NA	K02585	GC_00000509	1	1	26	61
+small subunit ribosomal protein S4	0	1	1	NA	K02986	GC_00000322	1	1	26	61
+"type I restriction enzyme, R subunit [EC:3.1.21.3]"	0	1	1	NA	K01153	"GC_00000056, GC_00001679, GC_00001833, GC_00002132, GC_00002259"	1	1	26	61
+IMP cyclohydrolase [EC:3.5.4.10]	0	1	1	NA	K11176	GC_00000377	1	1	26	61
+DNA primase large subunit	0	1	1	NA	K18882	GC_00001257	1	1	26	61
+aspartate kinase [EC:2.7.2.4]	0	1	1	NA	K00928	GC_00000122	1	1	26	61
+ribosome maturation protein SDO1	0	1	1	NA	K14574	GC_00000597	1	1	26	61
+methanogen homoaconitase large subunit [EC:4.2.1.114]	0	1	1	NA	K16792	GC_00001069	1	1	26	61
+H/ACA ribonucleoprotein complex subunit 3	0	1	1	NA	K11130	GC_00000501	1	1	26	61
+methyl-coenzyme M reductase gamma subunit [EC:2.8.4.1]	0	1	1	NA	K00402	GC_00000097	1	1	26	61
+uridylate kinase [EC:2.7.4.22]	0	1	1	NA	K09903	GC_00000309	1	1	26	61
+small subunit ribosomal protein S4e	0	1	1	NA	K02987	GC_00000535	1	1	26	61
+8-oxo-dGTP diphosphatase [EC:3.6.1.55]	0	1	1	NA	K03574	"GC_00000151, GC_00000984, GC_00001536"	1	1	26	61
+cytochrome c-type biogenesis protein	0	1	1	NA	K06196	GC_00001113	1	1	26	61
+ferrous iron transport protein A	0	1	1	NA	K04758	GC_00000222	1	1	26	61
+DNA polymerase II large subunit [EC:2.7.7.7]	0	1	1	NA	K02322	GC_00001347	1	1	26	61
+beta-ribofuranosylaminobenzene 5'-phosphate synthase [EC:2.4.2.54]	0	1	1	NA	K06984	GC_00000976	1	1	26	61
+thiamine-phosphate pyrophosphorylase [EC:2.5.1.3]	0	1	1	NA	K00788	GC_00001082	1	1	26	61
+aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A [EC:6.3.5.6 6.3.5.7]	0	1	1	NA	K02433	GC_00001038	1	1	26	61
+lactoylglutathione lyase [EC:4.4.1.5]	0	1	1	NA	K01759	GC_00000080	1	1	26	61
+"pyridinium-3,5-biscarboxylic acid mononucleotide sulfurtransferase [EC:4.4.1.37]"	0	1	1	NA	K06864	GC_00001369	1	1	26	61
+DNA replication factor GINS	0	1	1	NA	K09723	GC_00001066	1	1	26	61
+2-phospho-L-lactate/phosphoenolpyruvate guanylyltransferase [EC:2.7.7.68 2.7.7.105]	0	1	1	NA	K14941	GC_00000461	1	1	26	61
+archaeal preflagellin peptidase FlaK [EC:3.4.23.52]	0	1	1	NA	K07991	GC_00001185	1	1	26	61
+"XRE family transcriptional regulator, regulator of sulfur utilization"	0	1	1	NA	K23779	GC_00000466	1	1	26	61
+methenyltetrahydromethanopterin cyclohydrolase [EC:3.5.4.27]	0	1	1	NA	K01499	GC_00000387	1	1	26	61
+hydrogenase nickel incorporation protein HypB	0	1	1	NA	K04652	GC_00000593	1	1	26	61
+"fructose 1,6-bisphosphate aldolase/phosphatase [EC:4.1.2.13 3.1.3.11]"	0	1	1	NA	K01622	GC_00000887	1	1	26	61
+ATPase	0	1	1	NA	K06865	GC_00000204	1	1	26	61
+transcription termination/antitermination protein NusA	0	1	1	NA	K02600	GC_00000263	1	1	26	61
+arsenite/tail-anchored protein-transporting ATPase [EC:7.3.2.7 7.3.-.-]	0	1	1	NA	K01551	GC_00000409	1	1	26	61
+N-glycosylase/DNA lyase [EC:3.2.2.- 4.2.99.18]	0	1	1	NA	K03660	GC_00001154	1	1	26	61
+O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]	0	1	1	NA	K01740	"GC_00000753, GC_00000754"	1	1	26	61
+biopolymer transport protein ExbD	0	1	1	NA	K03559	"GC_00000308, GC_00003762"	1	1	26	61
+arginyl-tRNA synthetase [EC:6.1.1.19]	0	1	1	NA	K01887	GC_00001120	1	1	26	61
+"fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase [EC:4.1.2.13 2.2.1.10]"	0	1	1	NA	K16306	GC_00000343	1	1	26	61
+4-oxalocrotonate tautomerase [EC:5.3.2.6]	0	1	1	NA	K01821	GC_00000554	1	1	26	61
+isopentenyl-diphosphate Delta-isomerase [EC:5.3.3.2]	0	1	1	NA	K01823	GC_00000803	1	1	26	61
+CMP/dCMP kinase [EC:2.7.4.25]	0	1	1	NA	K00945	GC_00000735	1	1	26	61
+tRNA (cytidine56-2'-O)-methyltransferase [EC:2.1.1.206]	0	1	1	NA	K07254	GC_00000700	1	1	26	61
+polar amino acid transport system substrate-binding protein	0	1	1	NA	K02030	GC_00000532	1	1	26	61
+"ArsR family transcriptional regulator, lead/cadmium/zinc/bismuth-responsive transcriptional repressor"	0	1	1	NA	K21903	GC_00000410	1	1	26	61
+archaea-specific helicase [EC:3.6.4.-]	0	1	1	NA	K03725	GC_00001360	1	1	26	61
+proteasome beta subunit [EC:3.4.25.1]	0	1	1	NA	K03433	GC_00000929	1	1	26	61
+NAD-dependent deacetylase [EC:2.3.1.286]	0	1	1	NA	K12410	GC_00000069	1	1	26	61
+putative ABC transport system permease protein	0	1	1	NA	K02004	"GC_00001415, GC_00003380, GC_00003720"	1	1	26	61
+pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1]	0	1	1	NA	K00172	GC_00000362	1	1	26	61
+cobalt-precorrin-5B (C1)-methyltransferase [EC:2.1.1.195]	0	1	1	NA	K02188	GC_00001246	1	1	26	61
+[methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.246]	0	1	1	NA	K14080	GC_00001103	1	1	26	61
+peptide/nickel transport system permease protein	0	1	1	NA	K02033	"GC_00000169, GC_00001029, GC_00003471"	1	1	26	61
+[ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]	0	1	1	NA	K03789	GC_00000513	1	1	26	61
+ferrous-iron efflux pump FieF	0	1	1	NA	K13283	"GC_00000857, GC_00003717"	1	1	26	61
+small subunit ribosomal protein S17	0	1	1	NA	K02961	GC_00000215	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit F	0	1	1	NA	K02122	GC_00000273	1	1	26	61
+cobalt-precorrin-7 (C5)-methyltransferase [EC:2.1.1.289]	0	1	1	NA	K03399	GC_00000668	1	1	26	61
+mevalonate kinase [EC:2.7.1.36]	0	1	1	NA	K00869	GC_00000811	1	1	26	61
+acetoin utilization protein AcuB	0	1	1	NA	K04767	GC_00000846	1	1	26	61
+lipopolysaccharide cholinephosphotransferase [EC:2.7.8.-]	0	1	1	NA	K07271	"GC_00000082, GC_00000891, GC_00001508, GC_00002451, GC_00002610, GC_00002759"	1	1	26	61
+small subunit ribosomal protein S6e	0	1	1	NA	K02991	GC_00000413	1	1	26	61
+polyphosphate kinase [EC:2.7.4.1]	0	1	1	NA	K00937	GC_00000207	1	1	26	61
+archaea-specific RecJ-like exonuclease	0	1	1	NA	K07463	GC_00001116	1	1	26	61
+elongator complex protein 3 [EC:2.3.1.48]	0	1	1	NA	K07739	GC_00001141	1	1	26	61
+methanogen homoaconitase small subunit [EC:4.2.1.114]	0	1	1	NA	K16793	GC_00000683	1	1	26	61
+thioredoxin reductase (NADPH) [EC:1.8.1.9]	0	1	1	NA	K00384	GC_00000994	1	1	26	61
+aspartate carbamoyltransferase regulatory subunit	0	1	1	NA	K00610	GC_00000752	1	1	26	61
+archaeosine synthase alpha-subunit [EC:2.6.1.97 2.6.1.-]	0	1	1	NA	K07557	GC_00001037	1	1	26	61
+ribosome-binding ATPase	0	1	1	NA	K06942	GC_00000471	1	1	26	61
+archaea-specific DNA-binding protein	0	1	1	NA	K03622	GC_00000240	1	1	26	61
+adenine phosphoribosyltransferase [EC:2.4.2.7]	0	1	1	NA	K00759	GC_00000751	1	1	26	61
+molecular chaperone DnaK	0	1	1	NA	K04043	GC_00000898	1	1	26	61
+pseudaminic acid synthase [EC:2.5.1.97]	0	1	1	NA	K15898	GC_00001314	1	1	26	61
+ArsR family transcriptional regulator	0	1	1	NA	K07721	GC_00000977	1	1	26	61
+molecular chaperone GrpE	0	1	1	NA	K03687	GC_00000699	1	1	26	61
+glycosyltransferase 2 family protein	0	1	1	NA	K07027	GC_00000924	1	1	26	61
+large subunit ribosomal protein L13	0	1	1	NA	K02871	GC_00000246	1	1	26	61
+large subunit ribosomal protein L29	0	1	1	NA	K02904	GC_00000218	1	1	26	61
+glutamate dehydrogenase (NADP+) [EC:1.4.1.4]	0	1	1	NA	K00262	GC_00000962	1	1	26	61
+DNA-binding protein	0	1	1	NA	K24450	"GC_00000002, GC_00002278"	1	1	26	61
+S-adenosylmethionine synthetase [EC:2.5.1.6]	0	1	1	NA	K00789	"GC_00000408, GC_00003760"	1	1	26	61
+hydrogenase expression/formation protein HypE	0	1	1	NA	K04655	GC_00000412	1	1	26	61
+phytol kinase [EC:2.7.1.182]	0	1	1	NA	K18678	GC_00000105	1	1	26	61
+"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase [EC:4.3.1.32]"	0	1	1	NA	K11780	GC_00001216	1	1	26	61
+micrococcal nuclease [EC:3.1.31.1]	0	1	1	NA	K01174	GC_00000746	1	1	26	61
+16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]	0	1	1	NA	K02528	GC_00001077	1	1	26	61
+elongation factor 1-alpha	0	1	1	NA	K03231	GC_00000657	1	1	26	61
+uracil phosphoribosyltransferase [EC:2.4.2.9]	0	1	1	NA	K00761	GC_00000727	1	1	26	61
+tRNA nucleotidyltransferase (CCA-adding enzyme) [EC:2.7.7.72]	0	1	1	NA	K07558	GC_00001327	1	1	26	61
+TldD protein	0	1	1	NA	K03568	GC_00000115	1	1	26	61
+DNA primase [EC:2.7.7.101]	0	1	1	NA	K02316	GC_00000676	1	1	26	61
+omega-amidase [EC:3.5.1.3]	0	1	1	NA	K13566	GC_00000134	1	1	26	61
+ornithine carbamoyltransferase [EC:2.1.3.3]	0	1	1	NA	K00611	GC_00000835	1	1	26	61
+"ammonium transporter, Amt family"	0	1	1	NA	K03320	GC_00001012	1	1	26	61
+superoxide reductase [EC:1.15.1.2]	0	1	1	NA	K05919	GC_00000659	1	1	26	61
+"ATP-binding cassette, subfamily B, bacterial"	0	1	1	NA	K06147	"GC_00000183, GC_00001214"	1	1	26	61
+CTP synthase [EC:6.3.4.2]	0	1	1	NA	K01937	GC_00001131	1	1	26	61
+sirohydrochlorin cobalto/nickelchelatase [EC:4.99.1.3 4.99.1.11]	0	1	1	NA	K22011	"GC_00000081, GC_00001034"	1	1	26	61
+"pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel chelatase [EC:4.99.1.12]"	0	1	1	NA	K09121	GC_00001380	1	1	26	61
+tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	0	1	1	NA	K06173	GC_00000930	1	1	26	61
+acetolactate synthase I/III small subunit [EC:2.2.1.6]	0	1	1	NA	K01653	GC_00000253	1	1	26	61
+small membrane protein	0	1	1	NA	K09153	GC_00000576	1	1	26	61
+cobalt/nickel transport system permease protein	0	1	1	NA	K02007	"GC_00000157, GC_00000573, GC_00001157, GC_00001307, GC_00001467"	1	1	26	61
+glucosyltransferase [EC:2.4.1.-]	0	1	1	NA	K12999	GC_00000173	1	1	26	61
+DNA excision repair protein ERCC-4 [EC:3.1.-.-]	0	1	1	NA	K10848	GC_00000639	1	1	26	61
+methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	0	1	1	NA	K22083	"GC_00000208, GC_00000349"	1	1	26	61
+exodeoxyribonuclease VII large subunit [EC:3.1.11.6]	0	1	1	NA	K03601	GC_00000071	1	1	26	61
+large subunit ribosomal protein L4e	0	1	1	NA	K02930	GC_00000124	1	1	26	61
+"PadR family transcriptional regulator, regulatory protein PadR"	0	1	1	NA	K10947	"GC_00000549, GC_00002471"	1	1	26	61
+pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]	0	1	1	NA	K02201	"GC_00000526, GC_00003832"	1	1	26	61
+cobalt-precorrin-6B (C15)-methyltransferase [EC:2.1.1.196]	0	1	1	NA	K02191	GC_00000796	1	1	26	61
+tRNA(His) guanylyltransferase [EC:2.7.7.79]	0	1	1	NA	K10761	GC_00000177	1	1	26	61
+small subunit ribosomal protein S17e	0	1	1	NA	K02962	GC_00000238	1	1	26	61
+"tritrans,polycis-undecaprenyl-diphosphate synthase [geranylgeranyl-diphosphate specific] [EC:2.5.1.89]"	0	1	1	NA	K15888	GC_00000650	1	1	26	61
+cysteine-S-conjugate beta-lyase [EC:4.4.1.13]	0	1	1	NA	K14155	GC_00000171	1	1	26	61
+small subunit ribosomal protein S24e	0	1	1	NA	K02974	GC_00000479	1	1	26	61
+triosephosphate isomerase (TIM) [EC:5.3.1.1]	0	1	1	NA	K01803	GC_00000141	1	1	26	61
+coenzyme F420 hydrogenase subunit beta [EC:1.12.98.1]	0	1	1	NA	K00441	"GC_00000771, GC_00001234"	1	1	26	61
+"lysyl-tRNA synthetase, class I [EC:6.1.1.6]"	0	1	1	NA	K04566	GC_00001007	1	1	26	61
+energy-coupling factor transport system permease protein	0	1	1	NA	K16785	GC_00000824	1	1	26	61
+"chloride channel protein, CIC family"	0	1	1	NA	K03281	GC_00001282	1	1	26	61
+DNA ligase 1 [EC:6.5.1.1 6.5.1.6 6.5.1.7]	0	1	1	NA	K10747	GC_00001193	1	1	26	61
+succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	0	1	1	NA	K01903	GC_00000845	1	1	26	61
+2-phosphoglycerate kinase [EC:2.7.2.16]	0	1	1	NA	K05715	GC_00000649	1	1	26	61
+8-hydroxy-5-deazaflavin:NADPH oxidoreductase [EC:1.5.1.40]	0	1	1	NA	K06988	GC_00000558	1	1	26	61
+precorrin-3B C17-methyltransferase [EC:2.1.1.131]	0	1	1	NA	K05934	GC_00000938	1	1	26	61
+histidinol-phosphate aminotransferase [EC:2.6.1.9]	0	1	1	NA	K00817	GC_00000859	1	1	26	61
+nitrogen fixation protein NifU and related proteins	0	1	1	NA	K04488	GC_00000961	1	1	26	61
+heterodisulfide reductase subunit A1 [EC:1.8.7.3]	0	1	1	NA	K22480	GC_00001011	1	1	26	61
+energy-converting hydrogenase A subunit R	0	1	1	NA	K14109	GC_00001340	1	1	26	61
+L-lactate dehydrogenase complex protein LldG	0	1	1	NA	K00782	GC_00001112	1	1	26	61
+dihydroxy-acid dehydratase [EC:4.2.1.9]	0	1	1	NA	K01687	GC_00001247	1	1	26	61
+cobalt-zinc-cadmium efflux system protein	0	1	1	NA	K16264	GC_00001083	1	1	26	61
+glutamyl-tRNA reductase [EC:1.2.1.70]	0	1	1	NA	K02492	GC_00000791	1	1	26	61
+small subunit ribosomal protein S5	0	1	1	NA	K02988	GC_00000319	1	1	26	61
+energy-converting hydrogenase A subunit F	0	1	1	NA	K14097	GC_00000974	1	1	26	61
+inner membrane protein	0	1	1	NA	K07038	"GC_00001183, GC_00001799"	1	1	26	61
+UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9]	0	1	1	NA	K00963	GC_00001238	1	1	26	61
+glyceraldehyde-3-phosphate dehydrogenase (NAD(P)) [EC:1.2.1.59]	0	1	1	NA	K00150	GC_00000884	1	1	26	61
+porphobilinogen synthase [EC:4.2.1.24]	0	1	1	NA	K01698	GC_00000601	1	1	26	61
+molybdenum cofactor cytidylyltransferase [EC:2.7.7.76]	0	1	1	NA	K07141	GC_00000894	1	1	26	61
+energy-converting hydrogenase B subunit G	0	1	1	NA	K14116	GC_00000584	1	1	26	61
+"cobyrinic acid a,c-diamide synthase [EC:6.3.5.9 6.3.5.11]"	0	1	1	NA	K02224	GC_00001279	1	1	26	61
+FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [EC:5.2.1.8]	0	1	1	NA	K03775	GC_00000443	1	1	26	61
+energy-converting hydrogenase B subunit P	0	1	1	NA	K14125	GC_00000404	1	1	26	61
+uroporphyrin-III C-methyltransferase [EC:2.1.1.107]	0	1	1	NA	K02303	GC_00000529	1	1	26	61
+small nuclear ribonucleoprotein	0	1	1	NA	K04796	GC_00000241	1	1	26	61
+homoserine dehydrogenase [EC:1.1.1.3]	0	1	1	NA	K00003	GC_00001076	1	1	26	61
+3-dehydroquinate dehydratase I [EC:4.2.1.10]	0	1	1	NA	K03785	GC_00000551	1	1	26	61
+putative hemolysin	0	1	1	NA	K03699	GC_00001092	1	1	26	61
+putative protease [EC:3.4.-.-]	0	1	1	NA	K08303	"GC_00001372, GC_00001413, GC_00001414"	1	1	26	61
+ribosomal RNA assembly protein	0	1	1	NA	K06961	GC_00000527	1	1	26	61
+coenzyme F420 hydrogenase subunit alpha [EC:1.12.98.1]	0	1	1	NA	K00440	GC_00000095	1	1	26	61
+TfuA protein	0	1	1	NA	K24410	GC_00001221	1	1	26	61
+LPPG:FO 2-phospho-L-lactate transferase [EC:2.7.8.28]	0	1	1	NA	K11212	GC_00001036	1	1	26	61
+2-aminoethylphosphonate-pyruvate transaminase [EC:2.6.1.37]	0	1	1	NA	K03430	"GC_00000779, GC_00002521"	1	1	26	61
+manganese efflux pump family protein	0	1	1	NA	K23242	GC_00000107	1	1	26	61
+energy-converting hydrogenase B subunit E	0	1	1	NA	K14114	GC_00000697	1	1	26	61
+small subunit ribosomal protein S8	0	1	1	NA	K02994	GC_00000229	1	1	26	61
+aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]	0	1	1	NA	K02434	GC_00000491	1	1	26	61
+DNA-directed RNA polymerase subunit B' [EC:2.7.7.6]	0	1	1	NA	K03044	GC_00000653	1	1	26	61
+translation initiation factor 2 subunit 1	0	1	1	NA	K03237	GC_00000614	1	1	26	61
+glutamyl-tRNA synthetase [EC:6.1.1.17]	0	1	1	NA	K01885	GC_00000098	1	1	26	61
+deoxyhypusine synthase [EC:2.5.1.46]	0	1	1	NA	K00809	GC_00000361	1	1	26	61
+large subunit ribosomal protein L21e	0	1	1	NA	K02889	GC_00000654	1	1	26	61
+iron complex transport system ATP-binding protein [EC:7.2.2.-]	0	1	1	NA	K02013	GC_00000066	1	1	26	61
+peptidyl-prolyl cis-trans isomerase B (cyclophilin B) [EC:5.2.1.8]	0	1	1	NA	K03768	GC_00000359	1	1	26	61
+energy-converting hydrogenase A subunit O	0	1	1	NA	K14106	GC_00000496	1	1	26	61
+aquaporin Z	0	1	1	NA	K06188	"GC_00001108, GC_00001928"	1	1	26	61
+"MarR family transcriptional regulator, repressor for mepA"	0	1	1	NA	K18909	GC_00000514	1	1	26	61
+ribonuclease Z [EC:3.1.26.11]	0	1	1	NA	K00784	GC_00000825	1	1	26	61
+flavin prenyltransferase [EC:2.5.1.129]	0	1	1	NA	K03186	GC_00000583	1	1	26	61
+osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]	0	1	1	NA	K05847	GC_00000011	1	1	26	61
+phosphomethylpyrimidine synthase [EC:4.1.99.17]	0	1	1	NA	K03147	"GC_00000456, GC_00000457"	1	1	26	61
+adenosylcobinamide-phosphate guanylyltransferase [EC:2.7.7.62]	0	1	1	NA	K19712	GC_00000795	1	1	26	61
+biotin synthase [EC:2.8.1.6]	0	1	1	NA	K01012	GC_00001015	1	1	26	61
+phosphoglycerate kinase [EC:2.7.2.3]	0	1	1	NA	K00927	GC_00001231	1	1	26	61
+heterodisulfide reductase subunit B2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6]	0	1	1	NA	K03389	GC_00000338	1	1	26	61
+energy-converting hydrogenase A subunit D	0	1	1	NA	K14095	GC_00000500	1	1	26	61
+phosphoglucosamine mutase [EC:5.4.2.10]	0	1	1	NA	K03431	GC_00000832	1	1	26	61
+DNA polymerase II small subunit [EC:2.7.7.7]	0	1	1	NA	K02323	GC_00000059	1	1	26	61
+small subunit ribosomal protein S3	0	1	1	NA	K02982	GC_00000331	1	1	26	61
+"CDP-2,3-bis-(O-geranylgeranyl)-sn-glycerol synthase [EC:2.7.7.67]"	0	1	1	NA	K19664	GC_00001033	1	1	26	61
+energy-converting hydrogenase A subunit Q	0	1	1	NA	K14108	GC_00001078	1	1	26	61
+nicotinamide phosphoribosyltransferase [EC:2.4.2.12]	0	1	1	NA	K03462	GC_00000092	1	1	26	61
+proliferating cell nuclear antigen	0	1	1	NA	K04802	"GC_00000305, GC_00003123"	1	1	26	61
+formylmethanofuran dehydrogenase subunit B [EC:1.2.7.12]	0	1	1	NA	K00201	GC_00000295	1	1	26	61
+membrane protein HdeD	0	1	1	NA	K21908	GC_00000904	1	1	26	61
+"neurotransmitter:Na+ symporter, NSS family"	0	1	1	NA	K03308	"GC_00000004, GC_00001475"	1	1	26	61
+protein Tex	0	1	1	NA	K06959	GC_00000117	1	1	26	61
+molecular chaperone DnaJ	0	1	1	NA	K03686	GC_00000480	1	1	26	61
+tRNA/rRNA methyltransferase [EC:2.1.1.-]	0	1	1	NA	K02533	GC_00000901	1	1	26	61
+agmatinase [EC:3.5.3.11]	0	1	1	NA	K01480	GC_00001326	1	1	26	61
+heat shock protein HtpX [EC:3.4.24.-]	0	1	1	NA	K03799	GC_00000866	1	1	26	61
+large subunit ribosomal protein L23	0	1	1	NA	K02892	GC_00000445	1	1	26	61
+DNA helicase II / ATP-dependent DNA helicase PcrA [EC:3.6.4.12]	0	1	1	NA	K03657	"GC_00001318, GC_00001529, GC_00002009"	1	1	26	61
+ferrous iron transport protein B	0	1	1	NA	K04759	GC_00000709	1	1	26	61
+DNA-directed RNA polymerase subunit E' [EC:2.7.7.6]	0	1	1	NA	K03049	GC_00000312	1	1	26	61
+large subunit ribosomal protein L34e	0	1	1	NA	K02915	GC_00000251	1	1	26	61
+4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	0	1	1	NA	K01714	GC_00000965	1	1	26	61
+PmbA protein	0	1	1	NA	K03592	GC_00001002	1	1	26	61
+phosphosulfolactate synthase [EC:4.4.1.19]	0	1	1	NA	K08097	GC_00000760	1	1	26	61
+"5,10-methylenetetrahydromethanopterin reductase [EC:1.5.98.2]"	0	1	1	NA	K00320	GC_00000945	1	1	26	61
+pyridoxal 5'-phosphate synthase pdxS subunit [EC:4.3.3.6]	0	1	1	NA	K06215	GC_00000266	1	1	26	61
+sulfur carrier protein	0	1	1	NA	K03154	GC_00000588	1	1	26	61
+tetrahydromethanopterin S-methyltransferase subunit A [EC:2.1.1.86]	0	1	1	NA	K00577	GC_00000774	1	1	26	61
+"BirA family transcriptional regulator, biotin operon repressor / biotin---[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]"	0	1	1	NA	K03524	GC_00000877	1	1	26	61
+D-ribitol-5-phosphate cytidylyltransferase [EC:2.7.7.40]	0	1	1	NA	K21030	"GC_00000867, GC_00001081"	1	1	26	61
+3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35]	0	1	1	NA	K00022	GC_00001260	1	1	26	61
+chromosome partitioning protein	0	1	1	NA	K03496	GC_00000505	1	1	26	61
+F420-non-reducing hydrogenase large subunit [EC:1.12.99.- 1.8.98.5]	0	1	1	NA	K14126	GC_00000902	1	1	26	61
+chorismate lyase [EC:4.1.3.40]	0	1	1	NA	K03181	GC_00000531	1	1	26	61
+energy-converting hydrogenase B subunit C	0	1	1	NA	K14112	GC_00000631	1	1	26	61
+formate transporter	0	1	1	NA	K21993	GC_00000154	1	1	26	61
+hydroxyacylglutathione hydrolase [EC:3.1.2.6]	0	1	1	NA	K01069	GC_00000441	1	1	26	61
+small subunit ribosomal protein S12	0	1	1	NA	K02950	GC_00000217	1	1	26	61
+7-cyano-7-deazaguanine tRNA-ribosyltransferase [EC:2.4.2.48]	0	1	1	NA	K18779	GC_00001299	1	1	26	61
+poly(ribitol-phosphate) beta-N-acetylglucosaminyltransferase [EC:2.4.1.355]	0	1	1	NA	K22708	"GC_00000007, GC_00000858, GC_00001164, GC_00001337"	1	1	26	61
+RNA-binding protein	0	1	1	NA	K07569	"GC_00000388, GC_00000454, GC_00001429, GC_00003458"	1	1	26	61
+branched-chain amino acid aminotransferase [EC:2.6.1.42]	0	1	1	NA	K00826	GC_00000135	1	1	26	61
+"TetR/AcrR family transcriptional regulator, biofilm operon repressor"	0	1	1	NA	K21453	GC_00000677	1	1	26	61
+ubiquinone biosynthesis protein	0	1	1	NA	K03688	GC_00001388	1	1	26	61
+large subunit ribosomal protein L14e	0	1	1	NA	K02875	GC_00000232	1	1	26	61
+peptide chain release factor subunit 1	0	1	1	NA	K03265	GC_00000970	1	1	26	61
+transitional endoplasmic reticulum ATPase	0	1	1	NA	K13525	GC_00000761	1	1	26	61
+large subunit ribosomal protein L2	0	1	1	NA	K02886	GC_00000230	1	1	26	61
+F420-non-reducing hydrogenase small subunit [EC:1.12.99.- 1.8.98.5]	0	1	1	NA	K14128	GC_00000830	1	1	26	61
+energy-converting hydrogenase B subunit B	0	1	1	NA	K14111	GC_00000400	1	1	26	61
+tetrahydromethanopterin S-methyltransferase subunit F [EC:2.1.1.86]	0	1	1	NA	K00582	GC_00000392	1	1	26	61
+MEMO1 family protein	0	1	1	NA	K06990	GC_00000143	1	1	26	61
+nascent polypeptide-associated complex subunit alpha	0	1	1	NA	K03626	GC_00000590	1	1	26	61
+amidophosphoribosyltransferase [EC:2.4.2.14]	0	1	1	NA	K00764	GC_00000096	1	1	26	61
+small subunit ribosomal protein S9	0	1	1	NA	K02996	GC_00000265	1	1	26	61
+LL-diaminopimelate aminotransferase [EC:2.6.1.83]	0	1	1	NA	K10206	GC_00000847	1	1	26	61
+undecaprenyl-diphosphatase [EC:3.6.1.27]	0	1	1	NA	K06153	"GC_00000611, GC_00001996"	1	1	26	61
+tetrahydromethanopterin S-methyltransferase subunit E [EC:2.1.1.86]	0	1	1	NA	K00581	GC_00000569	1	1	26	61
+nondiscriminating aspartyl-tRNA synthetase [EC:6.1.1.23]	0	1	1	NA	K09759	GC_00000893	1	1	26	61
+hydrogenase expression/formation protein	0	1	1	NA	K07388	GC_00000665	1	1	26	61
+glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	0	1	1	NA	K00973	GC_00001093	1	1	26	61
+prephenate dehydratase [EC:4.2.1.51]	0	1	1	NA	K04518	GC_00000952	1	1	26	61
+"exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40]"	0	1	1	NA	K01524	GC_00001074	1	1	26	61
+5'-nucleotidase [EC:3.1.3.5]	0	1	1	NA	K03787	GC_00000786	1	1	26	61
+energy-converting hydrogenase A subunit N	0	1	1	NA	K14105	GC_00000374	1	1	26	61
+"DNA-directed RNA polymerase subunit E"""" [EC:2.7.7.6]"	0	1	1	NA	K03050	GC_00000316	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit E	0	1	1	NA	K02121	GC_00000469	1	1	26	61
+long-chain acyl-CoA synthetase [EC:6.2.1.3]	0	1	1	NA	K01897	GC_00001055	1	1	26	61
+asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	0	1	1	NA	K01953	GC_00001409	1	1	26	61
+KEOPS complex subunit Cgi121	0	1	1	NA	K09119	GC_00001091	1	1	26	61
+adenosylcobyric acid synthase [EC:6.3.5.10]	0	1	1	NA	K02232	GC_00001400	1	1	26	61
+"5,10-methenyltetrahydromethanopterin hydrogenase [EC:1.12.98.2]"	0	1	1	NA	K13942	GC_00000120	1	1	26	61
+tRNA wybutosine-synthesizing protein 1 [EC:4.1.3.44]	0	1	1	NA	K15449	GC_00000734	1	1	26	61
+L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]	0	1	1	NA	K07566	GC_00001207	1	1	26	61
+energy-converting hydrogenase B subunit M	0	1	1	NA	K14122	GC_00000433	1	1	26	61
+phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]	0	1	1	NA	K01000	GC_00000632	1	1	26	61
+5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]	0	1	1	NA	K00549	GC_00000907	1	1	26	61
+small subunit ribosomal protein S3Ae	0	1	1	NA	K02984	GC_00000402	1	1	26	61
+diphthine-ammonia ligase [EC:6.3.1.14]	0	1	1	NA	K06927	GC_00000702	1	1	26	61
+NADH oxidase (H2O2-forming) [EC:1.6.3.3]	0	1	1	NA	K17870	GC_00001025	1	1	26	61
+energy-converting hydrogenase B subunit L	0	1	1	NA	K14121	GC_00000497	1	1	26	61
+exosome complex component RRP41	0	1	1	NA	K11600	GC_00000935	1	1	26	61
+proteasome regulatory subunit	0	1	1	NA	K03420	GC_00000339	1	1	26	61
+tRNA (adenine57-N1/adenine58-N1)-methyltransferase catalytic subunit [EC:2.1.1.219 2.1.1.220]	0	1	1	NA	K07442	GC_00000675	1	1	26	61
+NAD+ synthase [EC:6.3.1.5]	0	1	1	NA	K01916	GC_00000499	1	1	26	61
+bacitracin transport system permease protein	0	1	1	NA	K19310	"GC_00000100, GC_00001022"	1	1	26	61
+hydrogenase maturation protein HypF	0	1	1	NA	K04656	GC_00001317	1	1	26	61
+pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1]	0	1	1	NA	K00169	GC_00000782	1	1	26	61
+"7,8-dihydro-6-hydroxymethylpterin dimethyltransferase [EC:2.1.1.-]"	0	1	1	NA	K06937	GC_00000162	1	1	26	61
+large subunit ribosomal protein L30	0	1	1	NA	K02907	GC_00000341	1	1	26	61
+phosphoribosylamine---glycine ligase [EC:6.3.4.13]	0	1	1	NA	K01945	GC_00001067	1	1	26	61
+"peptidyl-tRNA hydrolase, PTH2 family [EC:3.1.1.29]"	0	1	1	NA	K04794	GC_00000474	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit G/H	0	1	1	NA	K02107	GC_00000297	1	1	26	61
+archaetidylserine synthase [EC:2.7.8.38]	0	1	1	NA	K19665	GC_00000669	1	1	26	61
+threonylcarbamoyladenosine tRNA methylthiotransferase CDKAL1 [EC:2.8.4.5]	0	1	1	NA	K15865	GC_00000988	1	1	26	61
+tRNA (guanine10-N2)-dimethyltransferase [EC:2.1.1.213]	0	1	1	NA	K07446	GC_00001101	1	1	26	61
+formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12]	0	1	1	NA	K11261	GC_00000478	1	1	26	61
+ATP-dependent DNA helicase DinG [EC:3.6.4.12]	0	1	1	NA	K03722	"GC_00001251, GC_00001942, GC_00003857"	1	1	26	61
+adhesin/invasin	0	1	1	NA	K13735	"GC_00000213, GC_00001393, GC_00001401, GC_00001420, GC_00001421, GC_00001483, GC_00001650, GC_00001680, GC_00001788, GC_00001789, GC_00001987, GC_00003598"	1	1	26	61
+DNA-directed RNA polymerase subunit L [EC:2.7.7.6]	0	1	1	NA	K03056	GC_00000354	1	1	26	61
+coenzyme F420 hydrogenase subunit delta	0	1	1	NA	K00442	GC_00000348	1	1	26	61
+putative nucleotide binding protein	0	1	1	NA	K07572	GC_00000133	1	1	26	61
+cytosine/creatinine deaminase [EC:3.5.4.1 3.5.4.21]	0	1	1	NA	K03365	GC_00001017	1	1	26	61
+aspartate carbamoyltransferase catalytic subunit [EC:2.1.3.2]	0	1	1	NA	K00609	GC_00000958	1	1	26	61
+NAD+ kinase [EC:2.7.1.23]	0	1	1	NA	K00858	GC_00001149	1	1	26	61
+fumarate reductase (CoM/CoB) subunit B [EC:1.3.4.1]	0	1	1	NA	K18210	GC_00000797	1	1	26	61
+UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase [EC:2.7.8.15]	0	1	1	NA	K01001	GC_00000770	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit D	0	1	1	NA	K02120	GC_00000287	1	1	26	61
+phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]	0	1	1	NA	K01923	GC_00000502	1	1	26	61
+ATP-dependent RNA helicase DeaD [EC:3.6.4.13]	0	1	1	NA	K05592	GC_00000430	1	1	26	61
+energy-coupling factor transport system substrate-specific component	0	1	1	NA	K16926	GC_00000495	1	1	26	61
+carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	0	1	1	NA	K01956	GC_00001204	1	1	26	61
+excinuclease ABC subunit A	0	1	1	NA	K03701	GC_00001363	1	1	26	61
+glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]	0	1	1	NA	K00057	"GC_00000147, GC_00001525"	1	1	26	61
+HSP20 family protein	0	1	1	NA	K13993	GC_00001209	1	1	26	61
+energy-converting hydrogenase A subunit A	0	1	1	NA	K14092	GC_00000627	1	1	26	61
+"DtxR family transcriptional regulator, Mn-dependent transcriptional regulator"	0	1	1	NA	K03709	GC_00000694	1	1	26	61
+phenylacetate-CoA ligase [EC:6.2.1.30]	0	1	1	NA	K01912	"GC_00000793, GC_00000794"	1	1	26	61
+"acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]"	0	1	1	NA	K01961	GC_00000673	1	1	26	61
+TatD DNase family protein [EC:3.1.21.-]	0	1	1	NA	K03424	"GC_00001133, GC_00001239"	1	1	26	61
+perosamine synthetase [EC:2.6.1.102]	0	1	1	NA	K13010	GC_00000986	1	1	26	61
+translation initiation factor 5B	0	1	1	NA	K03243	GC_00000663	1	1	26	61
+chorismate mutase [EC:5.4.99.5]	0	1	1	NA	K04093	GC_00000333	1	1	26	61
+heterodisulfide reductase subunit C2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6]	0	1	1	NA	K03390	GC_00000933	1	1	26	61
+hydrogenase expression/formation protein HypC	0	1	1	NA	K04653	GC_00000260	1	1	26	61
+DNA repair protein RadA	0	1	1	NA	K04483	GC_00000395	1	1	26	61
+deoxyribonuclease IV [EC:3.1.21.2]	0	1	1	NA	K01151	GC_00001165	1	1	26	61
+translation initiation factor 5A	0	1	1	NA	K03263	GC_00000239	1	1	26	61
+5-(aminomethyl)-3-furanmethanol phosphate kinase [EC:2.7.4.31]	0	1	1	NA	K07144	GC_00000799	1	1	26	61
+2-phosphosulfolactate phosphatase [EC:3.1.3.71]	0	1	1	NA	K05979	GC_00001167	1	1	26	61
+stage V sporulation protein B	0	1	1	NA	K06409	"GC_00001259, GC_00001655"	1	1	26	61
+thioglycine synthase [EC:6.2.2.1]	0	1	1	NA	K24409	GC_00001387	1	1	26	61
+DNA primase small subunit [EC:2.7.7.102]	0	1	1	NA	K02683	GC_00001172	1	1	26	61
+uracil permease	0	1	1	NA	K02824	GC_00000975	1	1	26	61
+large subunit ribosomal protein L32e	0	1	1	NA	K02912	GC_00000342	1	1	26	61
+large subunit ribosomal protein L44e	0	1	1	NA	K02929	GC_00000225	1	1	26	61
+pantoate kinase [EC:2.7.1.169]	0	1	1	NA	K06982	GC_00001358	1	1	26	61
+tyrosine decarboxylase / aspartate 1-decarboxylase [EC:4.1.1.25 4.1.1.11]	0	1	1	NA	K18933	GC_00000905	1	1	26	61
+6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]	0	1	1	NA	K01737	GC_00000966	1	1	26	61
+tRNA (guanine26-N2/guanine27-N2)-dimethyltransferase [EC:2.1.1.215 2.1.1.216]	0	1	1	NA	K00555	GC_00001263	1	1	26	61
+DNA-directed RNA polymerase subunit K [EC:2.7.7.6]	0	1	1	NA	K03055	GC_00000224	1	1	26	61
+energy-converting hydrogenase B subunit A	0	1	1	NA	K14110	GC_00000366	1	1	26	61
+4Fe-4S ferredoxin	0	1	1	NA	K11260	"GC_00000298, GC_00000351, GC_00000696, GC_00000789"	1	1	26	61
+"geranylgeranyl diphosphate synthase, type I [EC:2.5.1.1 2.5.1.10 2.5.1.29]"	0	1	1	NA	K13787	GC_00001177	1	1	26	61
+small subunit ribosomal protein S27e	0	1	1	NA	K02978	GC_00000245	1	1	26	61
+GTP-dependent dephospho-CoA kinase [EC:2.7.1.-]	0	1	1	NA	K09735	GC_00000317	1	1	26	61
+glutamyl-tRNA(Gln) amidotransferase subunit D [EC:6.3.5.7]	0	1	1	NA	K09482	GC_00001173	1	1	26	61
+"dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]"	0	1	1	NA	K01710	GC_00000940	1	1	26	61
+endonuclease III [EC:4.2.99.18]	0	1	1	NA	K10773	GC_00000690	1	1	26	61
+ATP phosphoribosyltransferase [EC:2.4.2.17]	0	1	1	NA	K00765	GC_00000881	1	1	26	61
+aspartate dehydrogenase [EC:1.4.1.21]	0	1	1	NA	K06989	GC_00000411	1	1	26	61
+large subunit ribosomal protein L15e	0	1	1	NA	K02877	GC_00000283	1	1	26	61
+tRNA threonylcarbamoyladenosine dehydratase	0	1	1	NA	K22132	GC_00001338	1	1	26	61
+phosphoglycerol geranylgeranyltransferase [EC:2.5.1.41]	0	1	1	NA	K17104	GC_00000979	1	1	26	61
+adenosylcobinamide-GDP ribazoletransferase [EC:2.7.8.26]	0	1	1	NA	K02233	GC_00001061	1	1	26	61
+shikimate dehydrogenase [EC:1.1.1.25]	0	1	1	NA	K00014	GC_00001334	1	1	26	61
+UDPglucose 6-dehydrogenase [EC:1.1.1.22]	0	1	1	NA	K00012	GC_00001233	1	1	26	61
+argininosuccinate lyase [EC:4.3.2.1]	0	1	1	NA	K01755	GC_00000419	1	1	26	61
+2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3]	0	1	1	NA	K00176	GC_00000329	1	1	26	61
+orotate phosphoribosyltransferase [EC:2.4.2.10]	0	1	1	NA	K00762	"GC_00000568, GC_00000927"	1	1	26	61
+O-antigen biosynthesis protein [EC:2.4.1.-]	0	1	1	NA	K20444	"GC_00001114, GC_00001268, GC_00001405, GC_00004183"	1	1	26	61
+holliday junction resolvase Hjr [EC:3.1.22.4]	0	1	1	NA	K03552	GC_00000285	1	1	26	61
+4-phosphopantoate---beta-alanine ligase [EC:6.3.2.36]	0	1	1	NA	K09722	GC_00000534	1	1	26	61
+hydroxymethylglutaryl-CoA synthase [EC:2.3.3.10]	0	1	1	NA	K01641	GC_00000429	1	1	26	61
+"RNA 2',3'-cyclic 3'-phosphodiesterase [EC:3.1.4.58]"	0	1	1	NA	K01975	GC_00001059	1	1	26	61
+restriction system protein	0	1	1	NA	K07448	"GC_00001035, GC_00002127, GC_00004107"	1	1	26	61
+lipopolysaccharide transport system ATP-binding protein	0	1	1	NA	K09691	"GC_00001030, GC_00001310"	1	1	26	61
+DNA repair protein SbcD/Mre11	0	1	1	NA	K03547	GC_00001368	1	1	26	61
+nucleolar GTP-binding protein	0	1	1	NA	K06943	GC_00000706	1	1	26	61
+serine O-acetyltransferase [EC:2.3.1.30]	0	1	1	NA	K00640	GC_00000450	1	1	26	61
+ribonuclease J [EC:3.1.-.-]	0	1	1	NA	K12574	GC_00000553	1	1	26	61
+GTP cyclohydrolase IIa [EC:3.5.4.29]	0	1	1	NA	K08096	GC_00000346	1	1	26	61
+pre-rRNA-processing protein TSR3	0	1	1	NA	K09140	GC_00000303	1	1	26	61
+tetrahydromethanopterin S-methyltransferase subunit G [EC:2.1.1.86]	0	1	1	NA	K00583	GC_00000396	1	1	26	61
+ribonuclease P protein subunit POP4 [EC:3.1.26.5]	0	1	1	NA	K03538	GC_00000713	1	1	26	61
+"dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]"	0	1	1	NA	K01790	GC_00000640	1	1	26	61
+energy-converting hydrogenase B subunit H	0	1	1	NA	K14117	GC_00000860	1	1	26	61
+"metalloendopeptidase OMA1, mitochondrial [EC:3.4.24.-]"	0	1	1	NA	K23010	GC_00000202	1	1	26	61
+moderate conductance mechanosensitive channel	0	1	1	NA	K22044	GC_00001162	1	1	26	61
+D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	0	1	1	NA	K00058	GC_00000610	1	1	26	61
+citryl-CoA lyase [EC:4.1.3.34]	0	1	1	NA	K15234	GC_00000723	1	1	26	61
+XTP/dITP diphosphohydrolase [EC:3.6.1.66]	0	1	1	NA	K02428	GC_00000917	1	1	26	61
+energy-converting hydrogenase B subunit O	0	1	1	NA	K14124	GC_00001199	1	1	26	61
+UDP-N-acetylglucosamine 3-dehydrogenase [EC:1.1.1.374]	0	1	1	NA	K18855	GC_00000563	1	1	26	61
+endoribonuclease Nob1 [EC:3.1.-.-]	0	1	1	NA	K07060	GC_00000775	1	1	26	61
+"tRNA-intron endonuclease, archaea type [EC:4.6.1.16]"	0	1	1	NA	K01170	GC_00000357	1	1	26	61
+replicative DNA helicase Mcm [EC:3.6.4.-]	0	1	1	NA	K10726	GC_00000379	1	1	26	61
+dihydromethanopterin reductase (acceptor) [EC:1.5.99.15]	0	1	1	NA	K18853	GC_00000465	1	1	26	61
+UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing) [EC:5.1.3.14]	0	1	1	NA	K01791	GC_00001208	1	1	26	61
+zinc finger protein	0	1	1	NA	K06874	GC_00000391	1	1	26	61
+"riboflavin kinase, archaea type [EC:2.7.1.161]"	0	1	1	NA	K07732	GC_00000434	1	1	26	61
+excinuclease ABC subunit B	0	1	1	NA	K03702	GC_00000836	1	1	26	61
+gamma-carbonic anhydrase [EC:4.2.1.-]	0	1	1	NA	K01726	"GC_00000375, GC_00003912"	1	1	26	61
+heterodisulfide reductase subunit D [EC:1.8.98.1]	0	1	1	NA	K08264	GC_00001001	1	1	26	61
+energy-converting hydrogenase A subunit H	0	1	1	NA	K14099	GC_00000541	1	1	26	61
+tRNA (cmo5U34)-methyltransferase [EC:2.1.1.-]	0	1	1	NA	K15256	GC_00001394	1	1	26	61
+spore coat protein D	0	1	1	NA	K06327	GC_00000020	1	1	26	61
+DNA repair protein NreA	0	1	1	NA	K22585	GC_00000963	1	1	26	61
+2-isopropylmalate synthase [EC:2.3.3.13]	0	1	1	NA	K01649	GC_00000458	1	1	26	61
+diaminopimelate decarboxylase [EC:4.1.1.20]	0	1	1	NA	K01586	GC_00000978	1	1	26	61
+dihydroorotate dehydrogenase (NAD+) catalytic subunit [EC:1.3.1.14]	0	1	1	NA	K17828	GC_00001176	1	1	26	61
+leucyl-tRNA synthetase [EC:6.1.1.4]	0	1	1	NA	K01869	GC_00000193	1	1	26	61
+energy-converting hydrogenase B subunit I	0	1	1	NA	K14118	GC_00000401	1	1	26	61
+DNA topoisomerase VI subunit A [EC:5.6.2.2]	0	1	1	NA	K03166	GC_00000330	1	1	26	61
+DNA-directed RNA polymerase subunit H [EC:2.7.7.6]	0	1	1	NA	K03053	GC_00000336	1	1	26	61
+2-(3-amino-3-carboxypropyl)histidine synthase [EC:2.5.1.108]	0	1	1	NA	K07561	GC_00000919	1	1	26	61
+geranylgeranylglycerol-phosphate geranylgeranyltransferase [EC:2.5.1.42]	0	1	1	NA	K17105	GC_00000684	1	1	26	61
+fumarate hydratase subunit alpha [EC:4.2.1.2]	0	1	1	NA	K01677	GC_00001127	1	1	26	61
+ribonuclease P/MRP protein subunit RPP1 [EC:3.1.26.5]	0	1	1	NA	K03539	GC_00000190	1	1	26	61
+formylmethanofuran dehydrogenase subunit C [EC:1.2.7.12]	0	1	1	NA	K00202	GC_00000370	1	1	26	61
+methylated-DNA-[protein]-cysteine S-methyltransferase [EC:2.1.1.63]	0	1	1	NA	K00567	GC_00001308	1	1	26	61
+dCTP deaminase [EC:3.5.4.13]	0	1	1	NA	K01494	"GC_00000759, GC_00002303, GC_00002836"	1	1	26	61
+lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]	0	1	1	NA	K23393	"GC_00000172, GC_00000941, GC_00001346"	1	1	26	61
+molybdopterin molybdotransferase [EC:2.10.1.1]	0	1	1	NA	K03750	"GC_00001105, GC_00001159"	1	1	26	61
+"UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]"	0	1	1	NA	K15894	GC_00000296	1	1	26	61
+small subunit ribosomal protein S11	0	1	1	NA	K02948	GC_00000216	1	1	26	61
+adenosylcobinamide hydrolase [EC:3.5.1.90]	0	1	1	NA	K08260	GC_00001281	1	1	26	61
+diaminopimelate epimerase [EC:5.1.1.7]	0	1	1	NA	K01778	GC_00001198	1	1	26	61
+"CopG family transcriptional regulator, nickel-responsive regulator"	0	1	1	NA	K07722	GC_00000721	1	1	26	61
+nitrogen regulatory protein P-II 1	0	1	1	NA	K04751	GC_00000292	1	1	26	61
+sulfopyruvate decarboxylase subunit alpha [EC:4.1.1.79]	0	1	1	NA	K06034	GC_00000704	1	1	26	61
+DNA-directed RNA polymerase subunit D [EC:2.7.7.6]	0	1	1	NA	K03047	GC_00000814	1	1	26	61
+spore coat polysaccharide biosynthesis protein SpsF	0	1	1	NA	K07257	GC_00001293	1	1	26	61
+histidyl-tRNA synthetase [EC:6.1.1.21]	0	1	1	NA	K01892	GC_00000010	1	1	26	61
+tyrosyl-tRNA synthetase [EC:6.1.1.1]	0	1	1	NA	K01866	GC_00000150	1	1	26	61
+methanol corrinoid protein	0	1	1	NA	K14081	GC_00000716	1	1	26	61
+acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]	0	1	1	NA	K00821	"GC_00001039, GC_00003606"	1	1	26	61
+argininosuccinate synthase [EC:6.3.4.5]	0	1	1	NA	K01940	GC_00000679	1	1	26	61
+acetate---CoA ligase (ADP-forming) [EC:6.2.1.13]	0	1	1	NA	K24012	GC_00001049	1	1	26	61
+MoxR-like ATPase [EC:3.6.3.-]	0	1	1	NA	K03924	"GC_00000778, GC_00004146"	1	1	26	61
+large subunit ribosomal protein L37Ae	0	1	1	NA	K02921	GC_00000255	1	1	26	61
+2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]	0	1	1	NA	K07142	GC_00001064	1	1	26	61
+cobaltochelatase CobN [EC:6.6.1.2]	0	1	1	NA	K02230	"GC_00001410, GC_00001661, GC_00003401"	1	1	26	61
+lipopolysaccharide transport system permease protein	0	1	1	NA	K09690	"GC_00000589, GC_00001080"	1	1	26	61
+molybdopterin adenylyltransferase [EC:2.7.7.75]	0	1	1	NA	K03638	GC_00000345	1	1	26	61
+5-methylthioadenosine/S-adenosylhomocysteine deaminase [EC:3.5.4.31 3.5.4.28]	0	1	1	NA	K12960	GC_00000661	1	1	26	61
+CRISP-associated protein Cas1	0	1	1	NA	K15342	"GC_00000050, GC_00001558, GC_00001723, GC_00001923"	1	1	26	61
+putative tributyrin esterase [EC:3.1.1.-]	0	1	1	NA	K03930	GC_00001354	1	1	26	61
+FdhD protein	0	1	1	NA	K02379	"GC_00001398, GC_00001477, GC_00001868"	1	1	26	61
+myo-inositol-1-phosphate synthase [EC:5.5.1.4]	0	1	1	NA	K01858	GC_00001087	1	1	26	61
+energy-converting hydrogenase A subunit J	0	1	1	NA	K14101	GC_00000769	1	1	26	61
+"drug/metabolite transporter, DME family"	0	1	1	NA	K03298	GC_00001094	1	1	26	61
+archaetidylinositol phosphate synthase [EC:2.7.8.39]	0	1	1	NA	K17884	GC_00001182	1	1	26	61
+archaeal cell division control protein 6	0	1	1	NA	K10725	"GC_00000365, GC_00000906"	1	1	26	61
+inorganic pyrophosphatase [EC:3.6.1.1]	0	1	1	NA	K01507	GC_00000393	1	1	26	61
+methanogen homoisocitrate dehydrogenase [EC:1.1.1.87 1.1.1.-]	0	1	1	NA	K10978	GC_00001118	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit I	0	1	1	NA	K02123	GC_00001322	1	1	26	61
+diphthine synthase [EC:2.1.1.98]	0	1	1	NA	K20215	GC_00000192	1	1	26	61
+exosome complex component RRP4	0	1	1	NA	K03679	GC_00000670	1	1	26	61
+energy-converting hydrogenase A subunit B	0	1	1	NA	K14093	GC_00000892	1	1	26	61
+biopolymer transport protein ExbB	0	1	1	NA	K03561	"GC_00000142, GC_00000327"	1	1	26	61
+ATP-binding protein involved in chromosome partitioning	0	1	1	NA	K03593	GC_00000423	1	1	26	61
+ATP-dependent Lon protease [EC:3.4.21.53]	0	1	1	NA	K04076	GC_00000432	1	1	26	61
+quinolinate synthase [EC:2.5.1.72]	0	1	1	NA	K03517	GC_00000739	1	1	26	61
+phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	0	1	1	NA	K23265	GC_00000431	1	1	26	61
+fibrillarin-like pre-rRNA processing protein	0	1	1	NA	K04795	GC_00000864	1	1	26	61
+arylformamidase [EC:3.5.1.9]	0	1	1	NA	K07130	GC_00000931	1	1	26	61
+nucleoside kinase [EC:2.7.1.73 2.7.1.213 2.7.1.-]	0	1	1	NA	K22026	GC_00000957	1	1	26	61
+formylmethanofuran dehydrogenase subunit D [EC:1.2.7.12]	0	1	1	NA	K00203	GC_00000281	1	1	26	61
+L-2-hydroxycarboxylate dehydrogenase (NAD+) [EC:1.1.1.337]	0	1	1	NA	K05884	GC_00000718	1	1	26	61
+carbonic anhydrase [EC:4.2.1.1]	0	1	1	NA	K01673	GC_00000642	1	1	26	61
+exosome complex component RRP42	0	1	1	NA	K12589	GC_00000764	1	1	26	61
+dTMP kinase [EC:2.7.4.9]	0	1	1	NA	K00943	"GC_00000084, GC_00001119"	1	1	26	61
+NitT/TauT family transport system permease protein	0	1	1	NA	K02050	GC_00000784	1	1	26	61
+"CsoR family transcriptional regulator, copper-sensing transcriptional repressor"	0	1	1	NA	K21600	GC_00000856	1	1	26	61
+molybdenum cofactor guanylyltransferase [EC:2.7.7.77]	0	1	1	NA	K03752	GC_00001194	1	1	26	61
+UDP-galactopyranose mutase [EC:5.4.99.9]	0	1	1	NA	K01854	GC_00000923	1	1	26	61
+LemA protein	0	1	1	NA	K03744	"GC_00000130, GC_00000547"	1	1	26	61
+precorrin-8X/cobalt-precorrin-8 methylmutase [EC:5.4.99.61 5.4.99.60]	0	1	1	NA	K06042	GC_00000575	1	1	26	61
+small subunit ribosomal protein S7	0	1	1	NA	K02992	GC_00000243	1	1	26	61
+mgtE-like transporter	0	1	1	NA	K07244	GC_00001086	1	1	26	61
+2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11]	0	1	1	NA	K00174	GC_00000520	1	1	26	61
+tRNA pseudouridine synthase 10 [EC:5.4.99.25]	0	1	1	NA	K07583	GC_00001068	1	1	26	61
+isopentenyl phosphate kinase [EC:2.7.4.26]	0	1	1	NA	K06981	GC_00000540	1	1	26	61
+methylenetetrahydromethanopterin dehydrogenase [EC:1.5.98.1]	0	1	1	NA	K00319	GC_00000612	1	1	26	61
+6-phospho-3-hexuloisomerase [EC:5.3.1.27]	0	1	1	NA	K08094	GC_00000781	1	1	26	61
+endonuclease [EC:3.1.-.-]	0	1	1	NA	K07503	GC_00000462	1	1	26	61
+"cyclic 2,3-diphosphoglycerate synthase [EC:6.5.1.9]"	0	1	1	NA	K05716	GC_00000148	1	1	26	61
+S2P endopeptidase [EC:3.4.24.85]	0	1	1	NA	K07765	GC_00000149	1	1	26	61
+tetrahydromethanopterin S-methyltransferase subunit C [EC:2.1.1.86]	0	1	1	NA	K00579	GC_00001272	1	1	26	61
+seryl-tRNA synthetase [EC:6.1.1.11]	0	1	1	NA	K01875	GC_00000574	1	1	26	61
+hydroxymethylbilane synthase [EC:2.5.1.61]	0	1	1	NA	K01749	GC_00000790	1	1	26	61
+phosphopantothenate---cysteine ligase (CTP) [EC:6.3.2.5]	0	1	1	NA	K21977	GC_00000899	1	1	26	61
+dihydroneopterin aldolase [EC:4.1.2.25]	0	1	1	NA	K09739	GC_00000613	1	1	26	61
+"MFS transporter, DHA2 family, multidrug resistance protein"	0	1	1	NA	K08169	"GC_00001252, GC_00001470, GC_00001759"	1	1	26	61
+pyrroline-5-carboxylate reductase [EC:1.5.1.2]	0	1	1	NA	K00286	GC_00000109	1	1	26	61
+V/A-type H+/Na+-transporting ATPase subunit B	0	1	1	NA	K02118	GC_00000274	1	1	26	61
+DNA-directed RNA polymerase subunit A' [EC:2.7.7.6]	0	1	1	NA	K03041	GC_00000073	1	1	26	61
+tryptophanyl-tRNA synthetase [EC:6.1.1.2]	0	1	1	NA	K01867	GC_00001211	1	1	26	61
+threonyl-tRNA synthetase [EC:6.1.1.3]	0	1	1	NA	K01868	GC_00001254	1	1	26	61
+methylthioribose-1-phosphate isomerase [EC:5.3.1.23]	0	1	1	NA	K08963	GC_00001188	1	1	26	61
+methyl-coenzyme M reductase alpha subunit [EC:2.8.4.1]	0	1	1	NA	K00399	GC_00000094	1	1	26	61
+phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	0	1	1	NA	K01890	GC_00001386	1	1	26	61
+peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	0	1	1	NA	K07304	GC_00000188	1	1	26	61
+DEAD/DEAH box helicase domain-containing protein	0	1	1	NA	K06877	GC_00001396	1	1	26	61
+large subunit ribosomal protein L15	0	1	1	NA	K02876	GC_00000310	1	1	26	61
+putative transcriptional regulator	0	1	1	NA	K07730	"GC_00000521, GC_00000617, GC_00001427"	1	1	26	61
+DNA repair protein RadB	0	1	1	NA	K04484	GC_00000538	1	1	26	61
+F420-non-reducing hydrogenase iron-sulfur subunit [EC:1.12.99.- 1.8.98.5 1.8.98.6]	0	1	1	NA	K14127	GC_00000033	1	1	26	61
+"HTH-type transcriptional regulator, global nitrogen regulator NrpRI"	0	1	1	NA	K09720	GC_00001311	1	1	26	61
+proteasome alpha subunit [EC:3.4.25.1]	0	1	1	NA	K03432	GC_00000564	1	1	26	61
+trk system potassium uptake protein	0	1	1	NA	K03499	"GC_00000766, GC_00001375"	1	1	26	61
+NitT/TauT family transport system ATP-binding protein	0	1	1	NA	K02049	GC_00000792	1	1	26	61
+heterodisulfide reductase subunit A2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6]	0	1	1	NA	K03388	GC_00000915	1	1	26	61
+uroporphyrinogen-III synthase [EC:4.2.1.75]	0	1	1	NA	K01719	GC_00000682	1	1	26	61
+archaeal flagellar protein FlaI	0	1	1	NA	K07332	GC_00001309	1	1	26	61
+L-aspartate semialdehyde sulfurtransferase [EC:2.8.1.16]	0	1	1	NA	K23975	GC_00000175	1	1	26	61
+queuosine precursor transporter	0	1	1	NA	K09125	"GC_00000103, GC_00001023"	1	1	26	61
+phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	0	1	1	NA	K23269	GC_00001291	1	1	26	61
+translation initiation factor 1A	0	1	1	NA	K03236	GC_00000546	1	1	26	61

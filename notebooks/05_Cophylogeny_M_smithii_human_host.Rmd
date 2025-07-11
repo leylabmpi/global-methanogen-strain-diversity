@@ -1,0 +1,335 @@
+---
+title: "05_Cophylogeny_M_smithii_human_host"
+author: "Mirabeau Mbong"
+date: "2025-06-18"
+output:
+  html_notebook:
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    df_print: paged
+---
+
+This script is used to generate plots in Fig.6C & D of the associated paper
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(dev = "pdf",
+                      dpi = 300,
+                      echo = FALSE,
+                      cache = TRUE)
+```
+
+
+```{r,include=FALSE}
+library(ape)
+library(dplyr)
+library(purrr)
+library(phylotools)
+library(phytools)
+library(ggtree)
+library(dynamicTreeCut)
+library(stringr)
+library(cluster)
+library(reshape2)
+library(vegan)
+library(dendextend)
+```
+
+
+```{r}
+# Check working directory (should be repo root)
+message("Current working directory: ", getwd())
+```
+
+
+```{r}
+# --- INPUTS ---
+Bac_name <- "s__Methanobrevibacter_smithii"
+
+bac_tree_path <- "data/M_smithii_2024_bestTree.faa_refined.tre"
+host_tree_path <- "data/Host_tree_best.tree"
+assoc_path <- "data/HostTip_BacTip_assoc_2024.txt"
+
+# --- Load trees ---
+bac_tree <- read.tree(bac_tree_path)
+host_tree <- read.tree(host_tree_path)
+
+# --- Load association file ---
+assoc_df <- read.table(assoc_path, header = TRUE)
+assoc_df
+# Sanitize tip labels (remove extra spaces or trailing characters if needed)
+bac_tree$tip.label <- trimws(bac_tree$tip.label)
+host_tree$tip.label <- trimws(host_tree$tip.label)
+assoc_df[] <- lapply(assoc_df, trimws)
+
+# --- Rename columns for clarity ---
+colnames(assoc_df) <- c("Host", "Archaea")
+
+# --- Keep only tips that are present in both trees and in the association file ---
+common_bac_tips <- intersect(bac_tree$tip.label, assoc_df$Archaea)
+common_host_tips <- intersect(host_tree$tip.label, assoc_df$Host)
+assoc_df <- assoc_df %>%
+  filter(Host %in% common_host_tips, Archaea %in% common_bac_tips)
+
+# --- Prune trees to matching tips ---
+bac_tree_trim <- drop.tip(bac_tree, setdiff(bac_tree$tip.label, assoc_df$Archaea))
+host_tree_trim <- drop.tip(host_tree, setdiff(host_tree$tip.label, assoc_df$Host))
+
+# Validate matching
+stopifnot(all(assoc_df$Archaea %in% bac_tree_trim$tip.label))
+stopifnot(all(assoc_df$Host %in% host_tree_trim$tip.label))
+
+# Optional: plot trimmed trees
+par(mfrow=c(1,2))
+plot(bac_tree_trim, main = "Archaea Tree")
+plot(host_tree_trim, main = "Host Tree")
+```
+
+# PACO function
+
+```{r}
+run_paco <- function(bac_tree, host_tree, assoc_df, n_perm = 999, output_dir = "./PACO_out/") {
+  if (!dir.exists(output_dir)) dir.create(output_dir)
+
+  # Distance matrices
+  D_host <- cophenetic(host_tree)
+  D_bac <- cophenetic(bac_tree)
+
+  # Create association matrix (binary)
+  host_names <- sort(host_tree$tip.label)
+  bac_names <- sort(bac_tree$tip.label)
+  assoc_matrix <- matrix(0, nrow = length(host_names), ncol = length(bac_names),
+                         dimnames = list(host_names, bac_names))
+  for (i in seq_len(nrow(assoc_df))) {
+    h <- assoc_df$Host[i]
+    b <- assoc_df$Archaea[i]
+    if (h %in% host_names & b %in% bac_names) {
+      assoc_matrix[h, b] <- 1
+    }
+  }
+
+  # PACo setup
+  D_host_pco <- pcoa(D_host, correction = "cailliez")$vectors
+  D_bac_pco <- pcoa(D_bac, correction = "cailliez")$vectors
+
+  H_mat <- D_host_pco[rownames(assoc_matrix), ]
+  P_mat <- D_bac_pco[colnames(assoc_matrix), ]
+  
+  PACo_fit <- paco::PACo(D_host, D_bac, assoc_matrix)
+  procr <- vegan::procrustes(H_mat, P_mat, symmetric = TRUE)
+  
+  m2_obs <- procr$ss
+
+  # Null model permutation
+  m2_null <- replicate(n_perm, {
+    perm_assoc <- assoc_matrix[sample(rownames(assoc_matrix)), ]
+    H_perm <- D_host_pco[rownames(perm_assoc), ]
+    procr_perm <- vegan::procrustes(H_perm, P_mat, symmetric = TRUE)
+    procr_perm$ss
+  })
+
+  # Compute p-value
+  p_val <- mean(m2_null <= m2_obs)
+
+  # Save results
+  write.table(m2_null, file = paste0(output_dir, "m2_null_", Bac_name, ".txt"), row.names = FALSE)
+  write.table(data.frame(m2_obs = m2_obs, p_value = p_val), 
+              file = paste0(output_dir, "m2_obs_", Bac_name, ".txt"), row.names = FALSE)
+  
+  list(m2_obs = m2_obs, p_value = p_val, null_distribution = m2_null)
+}
+```
+
+# Run PACo
+
+```{r}
+library(paco)
+# Calculate distance matrices from the trees
+D_host <- cophenetic(host_tree_trim)
+D_bac  <- cophenetic(bac_tree_trim)
+
+# Create association matrix
+# Initialize zero matrix
+assoc_matrix <- matrix(0, 
+                       nrow = length(rownames(D_host)), 
+                       ncol = length(rownames(D_bac)),
+                       dimnames = list(rownames(D_host), rownames(D_bac)))
+
+# Filter assoc_df to only valid host-bac pairs
+valid_assoc <- assoc_df[
+  assoc_df$Host %in% rownames(assoc_matrix) &
+  assoc_df$Archaea %in% colnames(assoc_matrix), ]
+
+# Assign ones safely
+for (i in seq_len(nrow(valid_assoc))) {
+  assoc_matrix[valid_assoc$Host[i], valid_assoc$Archaea[i]] <- 1
+}
+
+all(rownames(assoc_matrix) %in% host_tree_trim$tip.label)
+all(colnames(assoc_matrix) %in% bac_tree_trim$tip.label)
+
+
+# Prepare data for PACo
+D_paco <- prepare_paco_data(D_host, D_bac, assoc_matrix)
+
+# Principal coordinates with correction 
+D_paco <- add_pcoord(D_paco, correction = "cailliez") 
+
+# Run PACo (no correction argument here!)
+paco_result <- PACo(D_paco, 
+                    nperm = 999, 
+                    method = "r0", 
+                    symmetric = TRUE)
+
+# Extract residuals
+residuals <- residuals_paco(paco_result$proc)
+
+# Add residuals to assoc_df 
+assoc_df$residuals <- residuals
+
+# Inspect associations with lowest residuals (strongest fit)
+head(assoc_df[order(assoc_df$residuals), ])
+
+# Step 9: Barplot of residuals
+barplot(sort(residuals),
+        las = 2,
+        col = "darkgreen",
+        main = "Sorted PACo Residuals",
+        ylab = "Residual Distance")
+
+# Step 10: View results
+summary(paco_result)
+
+```
+
+
+
+```{r}
+
+```
+
+# Manuscript figure (PACo Residuals by HostCountry: Fig.6D)
+
+```{r}
+library(ggplot2)
+
+# assign HostCountry variable
+assoc_df$HostCountry <- dplyr::case_when(
+  grepl("^G", assoc_df$Host) & grepl("^G", assoc_df$Archaea) ~ "Gabon",
+  grepl("^T", assoc_df$Host) & grepl("^T", assoc_df$Archaea) ~ "Germany",
+  grepl("^V", assoc_df$Host) & grepl("^V", assoc_df$Archaea) ~ "Vietnam",
+  TRUE ~ NA_character_
+)
+
+country_colors <- c(Gabon = "#ff0000", Germany = "#e7e70e", Vietnam = "#0b0bd3")
+
+# Define positions for horizontal bars
+comparisons <- list(
+  c(1, 2),  # Gabon vs Germany
+  c(1, 3),  # Gabon vs Vietnam
+  c(2, 3)   # Germany vs Vietnam
+)
+
+# Y positions for horizontal bars
+y_lines <- c(0.122, 0.129, 0.136)
+adj_pvals <- c("adj.p = 0.20", "adj.p = 0.051", "adj.p = 0.025")
+
+# Main plot
+p <- ggplot(assoc_df, aes(x = HostCountry, y = residuals)) +
+  geom_boxplot(fill = NA, color = "black", outlier.shape = NA) +
+  geom_jitter(aes(color = HostCountry), width = 0.15, alpha = 0.5, size = 1.5) +
+
+  # Median labels
+  stat_summary(
+    fun = median,
+    geom = "text",
+    aes(label = round(after_stat(y), 3)),
+    position = position_nudge(x = 0.25),
+    vjust = -0.3,
+    size = 2,
+    fontface = "bold",
+    color = "blue"
+  ) +
+
+  # Global Kruskal-Wallis p-value
+  stat_compare_means(
+    method = "kruskal.test",
+    label.y = 0.145,
+    label = "p.format",
+    family = "Helvetica",
+    size = 3
+  ) +
+
+  # Horizontal lines 
+  annotate("segment", x = 1, xend = 2, y = y_lines[1], yend = y_lines[1]) +
+  annotate("segment", x = 1, xend = 3, y = y_lines[2], yend = y_lines[2]) +
+  annotate("segment", x = 2, xend = 3, y = y_lines[3], yend = y_lines[3]) +
+
+  # Adjusted p-value labels (moved slightly above, larger size)
+  annotate("text", x = 1.5, y = y_lines[1] + 0.003, label = adj_pvals[1], size = 3, family = "Helvetica") +
+  annotate("text", x = 2,   y = y_lines[2] + 0.003, label = adj_pvals[2], size = 3, family = "Helvetica") +
+  annotate("text", x = 2.5, y = y_lines[3] + 0.003, label = adj_pvals[3], size = 3, family = "Helvetica") +
+
+  scale_color_manual(values = country_colors) +
+
+  coord_cartesian(ylim = c(0.025, 0.15)) +
+
+  theme_light(base_size = 7, base_family = "Helvetica") +
+  labs(
+    x = NULL,
+    y = "PACo residuals"
+  ) +
+  theme(
+    axis.text = element_text(size = 7, family = "Helvetica"),
+    axis.title = element_text(size = 7, family = "Helvetica"),
+    legend.position = "none",
+    panel.grid.major.y = element_line(color = "gray90"),
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA)
+  )
+p
+# Save
+ggsave("M_smithii_cophylogeny_PACo_residuals.pdf", p, width = 60, height = 50, units = "mm", dpi = 300)
+ggsave("M_smithii_cophylogeny_PACo_residuals.svg", p, width = 60, height = 50, units = "mm", dpi = 300, device = svglite::svglite)
+
+```
+
+# extract significance
+
+```{r}
+# Kruskal-Wallis test
+kruskal_result <- kruskal.test(residuals ~ HostCountry, data = assoc_df)
+kruskal_result
+# Dunn's post hoc test with BH adjustment
+library(FSA)
+dunn_result <- dunnTest(residuals ~ HostCountry, data = assoc_df, method = "bh")
+dunn_result
+```
+
+# Extract Global fit stats
+
+```{r}
+# Procrustes m² (goodness of fit)
+# Extract Procrustes goodness-of-fit (m²)
+m2 <- paco_result$gof$ss   # Procrustes sum of squares
+
+# Extract permutation p-value
+paco_pval <- paco_result$gof$p  # p-value from permutation test
+m2
+paco_pval
+# Show values
+print(paste("Procrustes m² =", round(m2, 4)))
+print(paste("Permutation p-value =", paco_pval))
+```
+```{r}
+min_resid <- min(assoc_df$residuals, na.rm = TRUE)
+max_resid <- max(assoc_df$residuals, na.rm = TRUE)
+
+min_resid
+max_resid
+p
+```
+
+

@@ -1,0 +1,395 @@
+ParticipantID	read_depth	MotherID	Date	Age_months	samplingLocation	SamplingLocation_1	SamplingLocation_2	CurrAntibiotics	PrevAntibiotics	BirthContinent	BirthCountry	BirthState	BirthTown.City	BirthNeighborhood	CurrContinent	CurrCountry	CurrState.Province	CurrVillage.City	CurrNeighborhood	Hygiene	Sex	CSect	Diet_1BMonly_2BMform_3SomeSolid_4NoBM	Sibling1	Sibling2	Aunt1	Aunt2	Cousin1	Cousin2	Cousin3	Height.cm.	Weight.kg.	Extraction1	Extraction2	Total_16S_Read_Count	Total_Number_16S_Sequencing_Runs	Total_Meta_Read_Count	Total_Number_Meta_Sequencing_Runs
+G0025	1014373	G0024	12_8_17	3,5	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Ogooue-Maritime	Port-Gentil	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	NA	NA	M	0	1	0	0	0	0	0	0	0	NA	NA	27,926		4338	1	1023578	1
+G0036	1166297	G0035	12_8_17	1	Lambarene	CERMEL	CERMEL	NA	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	NA	NA	M	0	1	0	0	0	0	0	0	0	NA	NA	103,44		4480	1	1183206	1
+G0019	2346206	G0018	12_8_17	2	Lambarene	CERMEL	CERMEL	0	NA	Africa	NA	NA	NA	NA	Africa	Gabon	NA	NA	NA	NA	F	0	1	0	0	0	0	0	0	0	NA	NA	69,287	Nottaken	3108	1	2365904	2
+G0029	2300732	G0028	12_11_17	11	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	M	0	3	0	0	0	0	0	0	0	NA	NA	17,448		3177	1	295530	1
+G0039	1451895	G0038	12_8_17	1	Lambarene	CERMEL	CERMEL	NA	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Isaac	6	F	0	3	0	0	0	0	0	0	0	NA	NA	19,91		4672	1	1457280	1
+G0041	1356455	G0040	12_12_17	3	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	La_Paillote	5	F	0	2	0	0	0	0	0	0	0	59	4,87	38,871		3941	1	1366496	1
+G0033	2700186	G0032	12_11_17	5	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	F	1	2	0	0	0	0	0	0	0	NA	NA	26,3	Nottaken	8940	2	2724178	2
+G0013	3841484	G0012	12_11_17	6	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	PK5	5	M	0	2	0	0	0	0	0	0	0	NA	NA	15,635		6571	1	502218	1
+G0047	1267079	G0046	12_12_17	7	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	PK5	5	M	0	1	0	0	G0048	0	G0049	0	0	72	9,1	25,952		3251	1	1276352	1
+G0026	3495457	G0027	12_8_17	13	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	NA	NA	F	0	1	0	0	0	0	0	0	0	NA	NA	149,135	22,2135	13238	1	3752820	2
+G0054	1372522	G0053	12_13_17	9	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Marteau	5	M	0	2	0	0	0	0	0	0	0	NA	NA	52,545		3497	1	1380218	1
+G0056	1633074	G0055	12_13_17	6	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	M	0	1	0	0	0	0	0	0	0	NA	NA	164,007		4045	1	1640582	1
+G0060	1332712	G0059	12_14_17	8	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	F	0	3	0	0	0	0	0	0	0	69	8,2	29,5		6679	1	1344090	1
+G0070	1329896	G0069	12_15_17	2	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	F	0	2	0	0	0	0	0	0	0	NA	NA	39,917		3083	1	1340148	1
+G0068	1231853	G0067	12_15_17	11	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Canadien	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	F	0	3	0	0	0	0	0	0	0	NA	NA	113,178		8093	1	1242160	1
+G0066	1419078	G0065	12_14_17	4	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	F	0	2	0	0	0	0	0	0	0	48	4,7	11,056		5577	1	1429844	1
+G0074	1520888	G0073	12_15_17	8	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	F	0	3	0	0	0	0	0	0	0	NA	NA	104,639		6804	1	1533514	1
+G0076	1277950	G0075	12_15_17	3	Lambarene	CERMEL	CERMEL	1	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Canadien	Africa	Gabon	Moyen-Ogooue	Lambarene	Mitoumili	5	F	0	1	G0077	0	0	0	0	0	0	NA	NA	28,812		5010	1	1293756	1
+G0079	1398848	G0078	12_19_17	5	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Grand_Village	5	F	0	2	0	0	0	0	0	0	0	57	4,93	46,657		5875	1	1410574	1
+G0081	1789088	G0080	12_19_17	4	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Fangui	6	M	0	2	0	0	0	0	0	0	0	58	7,25	37,363		6742	1	255418	1
+G0100	1304665	G0099	12_21_17	2	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Batterie_4	4	M	0	2	0	0	G0097	0	G0098	0	0	NA		9,847		7269	1	1429556	1
+G0104	1181643	G0103	12_22_17	9	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Chateau	7	F	0	3	0	0	0	0	0	0	0	63	7,2	126,455		3501	1	1297304	1
+G0106	1247318	G0105	12_26_17	4	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Adouma	6	F	0	2	0	0	0	0	0	0	0	NA		23,313		7710	1	1376506	1
+G0102	1644623	G0101	12_22_17	2	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_1	4	M	0	2	0	0	0	0	0	0	0	52	3,65	53,661		3054	1	1833088	1
+G0110	1725631	G0109	12_26_17	13	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	M	0	3	0	0	0	0	0	0	0	NA		166,299		4564	1	1906898	1
+G0114	1594903	G0113	12_28_17	6	Lambarene	CERMEL	CERMEL	1	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Adouma	6	F	0	1	0	0	G0115	0	G0116	0	0	62	6,99	24,11		7027	1	1755466	1
+G0052	6343970	G0051	12_13_17	5	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Estuaire	Libreville	Clinic_Acean	Africa	Gabon	Moyen-Ogooue	Lambarene	Malebe	5	F	0	3	0	0	0	0	0	0	0	NA	7	34,906		6230	1	792292	1
+G0116	1511016	G0115	12_28_17	11	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Adouma	6	M	0	3	0	0	G0113	0	G0114	0	0	93	10,4	37,253	16,846	6024	2	1642048	1
+G0118	1627561	G0117	12_28_17	3	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Village_Lumiere	6	F	0	2	0	0	0	0	0	0	0	54	5,9	22,87		2171	1	1812492	1
+G0112	2806181	G0111	12_26_17	1	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Issala	4	M	0	2	0	0	0	0	0	0	0	48	3,3	33,273		5768	1	352140	1
+G0121	1826494	G0120	12_28_17	9	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	F	0	3	0	0	0	0	0	0	0	NA	8,4	59,337		8378	1	2017472	1
+G0088	4536146	G0087	12_20_17	12	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Paga	NA	Africa	Gabon	Moyen-Ogooue	Paga		5	M	0	3	0	0	0	0	0	0	0	NA	7,7	82,025	25,121	5886	1	4829310	2
+G0137	1020789	G0136	1_3_18	3	Lambarene	CERMEL	CERMEL	1	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Mitone	Africa	Gabon	Moyen-Ogooue	Lambarene	Mitone	4	M	0	2	0	0	G0134	0	G135	0	0	56	6,5	3,393		8941	1	1126520	1
+G0131	1404423	G0130	12_29_17	0,25	Lambarene	CERMEL	CERMEL	1	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_2	4	M	0	2	0	0	0	0	0	0	0	50	3,9	11,369		5494	1	1542784	1
+G0129	1591923	G0128	12_29_17	9	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Atongowanga	8	M	0	3	0	0	0	0	0	0	0	NA	8,7	84,761		6677	1	1736390	1
+G0135	1468590	G0134	1_3_18	9	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Zong-Bang	Africa	Gabon	Moyen-Ogooue	Lambarene	Mitone	4	M	0	1	0	0	G0136	0	G0137	0	0	NA	8,9	11,114		5869	1	1644508	1
+G0143	1346914	G0142	1_4_18	14	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Aeroport	5	M	0	3	0	0	0	0	0	0	0	65,5	6,71	48,18		4902	1	1489590	1
+G0133	1877945	G0132	1_3_18	7	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	F	0	3	0	0	0	0	0	0	0	NA	8,1	98,566		5955	1	2039844	1
+G0147	1138710	G0146	1_5_18	13	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	NA	Gravier	Gravier	Africa	Gabon	Moyen-Ogooue	Lambarene	Moussamoukougou	5	F	0	3	0	0	0	0	0	0	0	NA	9	10,737		5466	1	1264628	1
+G0139	1927424	G0138	1_3_18	2	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	PK15	5	M	0	2	0	0	0	0	0	0	0	NA	3,7	20,939		6888	1	2147898	1
+G0141	2236420	G0140	1_4_18	8	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Estuaire	Libreville	Petit_Paris	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	F	0	3	0	0	0	0	0	0	0	NA	7,3	63,98		7970	1	2457028	1
+G0145	1814196	G0144	1_5_18	12	Lambarene	CERMEL	CERMEL	1	0_2	Africa	Gabon	Woleu-Ntem	Mitzic	Hopital_General	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	M	0	3	0	0	G0148	0	G0149	0	0	NA	8,5	105,971		7674	1	2004190	1
+G0153	1538093	G0152	1_9_18	0,5	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Isaac	6	F	0	2	0	0	0	0	0	0	0	NA	4,45	57,993		6022	1	1699130	1
+G0151	1948706	G0150	1_5_18	4	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carrefour_Fangui	5	M	0	2	0	0	0	0	0	0	0	61	6,4	14,641		2820	1	2140778	1
+G0149	2756719	G0148	1_5_18	12	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Ogooue-Maritime	Port-Gentil	Ntchengue	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	F	0	3	0	0	G0144	0	G0145	0	0	NA	8,7	16,016		8630	1	2997368	1
+G0161	1346872	G0160	1_9_18	10	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	M	0	2	0	0	0	0	0	0	0	NA	10,4	42,891		6101	1	1501766	1
+G0155	2135258	G0154	1_9_18	0,5	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Village_Lumiere	6	M	0	1	0	0	0	0	0	0	0	51	3,27	81,087		4600	1	2371608	1
+G0159	1628018	G0158	1_9_18	8	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Mbolet	4	M	0	3	0	0	0	0	0	0	0	NA	7,9	24,54		4001	1	1794992	1
+G0157	1648139	G0156	1_9_18	9	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Aeroport	5	M	0	2	0	0	0	0	0	0	0	NA	7,1	22,991		8531	1	1809530	1
+G0163	1456829	G0162	1_9_18	4	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Estuaire	Libreville	Cabinet_de	Africa	Gabon	Moyen-Ogooue	Lambarene	Malebe	5	F	0	2	0	0	0	0	0	0	0	NA	5,8	5,802		6359	1	1630466	1
+G0165	1491607	G0164	1_10_18	9	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Ogooue-Maritime	Port-Gentil	Ntchengue	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	M	0	1	0	0	0	0	0	0	0	NA	10,5	23,003		6491	1	1654742	1
+G0167	1397493	G0166	1_10_18	13	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carrefour_Fangui	5	M	0	3	0	0	0	0	0	0	0	71	8,3	42,295		9116	1	1533406	1
+G0171	1073215	G0170	1_10_18	8	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Ngounie	Mandji	Hopital_de_Mandji	Africa	Gabon	Moyen-Ogooue	Paga	NA	5	F	0	2	0	0	0	0	0	0	0	NA	7,5	10,197		3301	1	1171824	1
+G0169	1213945	G0168	1_10_18	8	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Batterie_4	4	M	0	2	0	0	0	0	0	0	0	NA	7,85	23,168		6726	1	1349460	1
+G0177	1097935	G0176	1_11_18	10	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	M	0	2	0	0	0	0	0	0	0	NA	8	10,636		6114	1	1212956	1
+G0175	1368307	G0174	1_11_18	5	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Mitoumili	5	F	0	1	0	0	0	0	0	0	0	NA	6,7	0.514/0.689		7763	1	1511612	1
+G0173	1365968	G0172	1_11_18	9	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Moussamoukougou	5	F	0	2	0	0	0	0	0	0	0	NA	7,4	32,227		7009	1	1515702	1
+G0179	1143487	G0178	1_11_18	0,75	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	M	0	2	0	0	0	0	0	0	0	50	4	13,282		2110	1	1255122	1
+G0181	1627458	G0180	1_11_18	3	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	M	0	2	0	0	0	0	0	0	0	NA	5,7	53,239		8598	1	1816012	1
+G0187	1210459	G0186	1_12_18	14	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	M	0	3	0	0	0	0	0	0	0	NA	9,2	22,17		2343	1	1341166	1
+G0191	1464559	G0190	1_12_18	7	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_General	Africa	Gabon	Moyen-Ogooue	Lambarene	Carrefour_Fangui	5	M	0	2	0	0	0	0	0	0	0	NA	7	19,47		3631	1	1635622	1
+G0193	1650521	G0192	1_12_18	6	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Ivouang	5	F	0	3	0	0	0	0	0	0	0	NA	8,7	27,281		2474	1	1815278	1
+G0189	1511311	G0188	1_12_18	6	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carrefour_Fangui	5	F	0	2	0	0	0	0	0	0	0	NA	6,3	10,633		3257	1	1663386	1
+G0185	1892696	G0184	1_12_18	7	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carrefour_Schweitzer	6	M	0	2	0	0	0	0	0	0	0	NA	10,8	46,999		13211	1	2094736	1
+G0197	1568431	G0196	1_15_18	1	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Moussamoukougou	5	M	0	2	0	0	0	0	0	0	0	NA	4,4	33,131		2588	1	1749112	1
+G0199	1265184	G0198	1_15_18	2	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carrefour_Fangui	5	M	0	2	0	0	0	0	0	0	0	54	4,8	40,476		4842	1	1419766	1
+G0209	1159139	G0208	1_17_18	16	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Weliga	3	F	0	3	0	0	0	0	0	0	0	NA	9,5	57,067		2938	1	1289488	1
+G0201	1961394	G0200	1_15_18	4	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Moussamoukougou	5	F	0	2	0	0	0	0	0	0	0	NA	7,8	37,822		3061	1	2155618	1
+G0217	1347999	G0216	1_17_18	1	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Fangui	6	M	0	1	0	0	G0214	0	G0215	0	0	NA	5,2	12,844		3785	1	1497860	1
+G0223	1219208	G0222	1_18_18	11	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	F	0	3	0	0	0	0	0	0	0	NA	9,4	49,18		6520	1	1340342	1
+G0213	1647143	G0212	1_17_18	14	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Marteau	5	M	0	3	0	0	0	0	0	0	0	NA	8,7	45,174		4167	1	1820670	1
+G0219	1404762	G0218	1_17_18	4	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carrefour_Fanguy	NA	M	0	2	0	0	0	0	0	0	0	NA	7,5	21,671		3351	1	1533302	1
+G0207	2039172	G0206	1_16_18	10	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Adouma	6	F	0	3	0	0	0	0	0	0	0	NA	9,2	205,482		6173	1	2262248	1
+G0221	1551956	G0220	1_18_18	11	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Mitone	4	M	0	3	0	0	0	0	0	0	0	NA	7,9	68,371		5491	1	1721072	1
+G0225	1298275	G0224	1_18_18	0,25	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	F	0	2	0	0	G0200	0	G0201	0	0	50	3,6	62,608		2215	1	1463380	1
+G0227	1983728	G0226	1_19_18	10	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	PK5	5	M	0	3	0	0	0	0	0	0	0	NA	15,3	113,817		3446	1	2175476	1
+G0239	1250532	G0238	1_22_18	10	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Marteau	5	M	0	3	0	0	0	0	0	0	0	NA	7,8	24,104		3498	1	1404308	1
+G0235	1855799	G0234	1_19_18	10	Lambarene	CERMEL	CERMEL	0	3_12	Africa	NA	NA	NA	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Atsie	5	F	0	1	0	0	0	0	0	0	0	NA	8,4	114,231		4031	1	2056902	1
+G0231	1896442	G0230	1_19_18	11	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Zong-Bang	4	M	0	3	0	0	0	0	0	0	0	NA	9,7	136,415		5337	1	2120994	1
+G0241	1624793	G0240	1_22_18	13	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Chateau	7	F	0	3	0	0	0	0	0	0	0	NA		99,073		4687	1	1661044	1
+G0237	1950492	G0236	1_22_18	7	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Massika	5	F	0	2	0	0	0	0	0	0	0	NA	8,2	257,982		5723	1	2153118	1
+G0233	2564763	G0232	1_19_18	8	Lambarene	CERMEL	CERMEL	0	3_12	Africa	NA	NA	NA	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	M	0	2	0	0	0	0	0	0	0	NA	11	120,576		3440	1	2829978	1
+G0248	1083984	G0247	1_23_18	7	Lambarene	CERMEL	CERMEL	0	Never	Africa	NA	NA	NA	NA	Africa	Gabon	Moyen-Ogooue	Lambarene	PK5	5	M	0	2	0	0	G0249	G0251	G0250	G0252	0	NA	8,6	62,226		5786	1	1194270	1
+G0243	1899966	G0242	1_22_18	10	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Marteau	5	F	0	2	0	0	0	0	0	0	0	NA	7,3	55,202		4461	1	2075448	1
+G0252	1065587	G0251	1_23_18	7	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	PK5	5	M	0	3	0	0	G0247	G0249	G0248	G0250	0	NA	9,1	38,405		4739	1	1187994	1
+G0246	1735621	G0245	1_23_18	7	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Moussamoukougou	5	M	0	2	0	0	0	0	0	0	0	68	8,5	12,213		4544	1	1919608	1
+G0256	1280704	G0255	1_23_18	6	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	M	0	1	0	0	0	0	0	0	0	NA	7,3	20,693		5958	1	1429292	1
+G0250	1723097	G0249	1_23_18	10	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	PK5	5	F	0	3	0	0	G0247	G0251	G0248	G0252	0	NA	7,5	51,749		5021	1	1885792	1
+G0254	2146400	G0253	1_23_18	4	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Marteau	5	M	0	1	0	0	0	0	0	0	0	NA	5,5	160,147		3114	1	2363728	1
+G0263	1274840	G0262	1_24_18	1	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Marteau	5	F	0	1	0	0	0	0	0	0	0	NA	3,63	22,218		4163	1	1418138	1
+G0261	1367337	G0260	1_24_18	9	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Marteau	5	F	0	3	0	0	0	0	0	0	0	NA	9,8	39,229		4115	1	1516532	1
+G0267	1245638	G0266	1_24_18	8	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Grand_Village	5	F	0	2	0	0	0	0	0	0	0	NA	6,8	104,212		3705	1	1385654	1
+G0259	1837975	G0258	1_24_18	8	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Marteau	5	F	0	3	0	0	0	0	0	0	0	NA	8	35,702		3235	1	2030382	1
+G0269	1466064	G0268	1_25_18	12	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Ogooue-Maritime	Port-Gentil	Ntchengue	Africa	Gabon	Moyen-Ogooue	Lambarene	Atongowanga	8	F	0	3	0	0	0	0	0	0	0	NA	7,2	37,7		3325	1	1611574	1
+G0273	1352942	G0272	1_25_18	0,5	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_General	Africa	Gabon	Moyen-Ogooue	Lambarene	Moussamoukougou	5	M	0	1	0	0	0	0	0	0	0	50	3,1	11,554		5654	1	1506212	1
+G0277	1103982	G0276	1_26_18	7	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_1	4	F	0	3	0	0								75,817		2848	1	1216806	1
+G0279	1010913	G0278	1_26_18	9	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Moyen-Ogooue	Lambarene	Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	M	1	3	0	0								48,729		4995	1	1120674	1
+G0271	1751223	G0270	1_25_18	8	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Moyen-Ogooue	Lambarene	PK5	5	F	1	3	0	0	0	0	0	0	0	NA		122,523		8783	1	1939720	1
+G0294	2443406	G0293	2_5_18	8	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Canadien	Africa	Gabon	Moyen-Ogooue	Lambarene	Meteret	5	M	0	3	0	0	0	0	0	0	0	NA	NA	20,905		5351	1	2467268	1
+G0316	2355883	G0315	1_27_18	0,25	Ikobey	Field	Tchibanga	0	Never	Africa	Gabon	Nyanga	Tchibanga	NA	Africa	Gabon	Nyanga	Tchibanga	NA	NA	M	0	1	0	0	G0317	0	G0318	0	0	NA	NA	16,18		5705	1	2491202	1
+G0296	2919308	G0295	2_5_18	6	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Carriere	5	F	1	2	0	0	0	0	0	0	0	NA	7,6	42,284		8383	1	2958178	1
+G0314	2829330	G0313	1_27_18	9	Ikobey	Field	Tchibanga	NA	NA	Africa	Gabon	Nyanga	Tchibanga	NA	Africa	Gabon	Nyanga	Tchibanga	NA	NA	NA	0	3	0	0	0	0	0	0	0	NA	NA	60,868		3809	1	2966890	1
+G0312	3392840	G0311	1_27_18	3	Ikobey	Field	Tchibanga	0	NA	Africa	Gabon	Nyanga	Tchibanga	NA	Africa	Gabon	Nyanga	Tchibanga	NA	NA	M	0	3	0	0	0	0	0	0	0	NA	NA	45,592		2372	1	3420304	1
+G0298	3720458	G0297	2_5_18	4	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Moyen-Ogooue	Lambarene	Petit_Paris_3	4	F	0	2	0	0	0	0	0	0	0	NA	5,7	102,674		4959	1	3738246	1
+G0320	3514445	G0319	1_28_18	12	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Ngounie	Tranquille	NA	Africa	Gabon	Ngounie	Tranquille	NA	NA	M	0	3	0	0	0	0	0	0	0	NA	7,5	134,286		7826	1	3626676	1
+G0322	2406116	G0321	1_28_18	7	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Ngounie	Tranquille	NA	Africa	Gabon	Ngounie	Tranquille	NA	NA	M	0	3	0	0	0	0	0	0	0	NA	8	109,534		3662	1	2442056	1
+G0324	2262998	G0323	1_28_18	12	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Ngounie	Tranquille	NA	Africa	Gabon	Ngounie	Tranquille	NA	NA	M	0	3	0	0	0	0	0	0	0	NA	9,5	43,672		6359	1	2290366	1
+G0326	2638516	G0325	1_28_18	0,75	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Ngounie	Tranquille	NA	Africa	Gabon	Ngounie	Tranquille	NA	NA	F	0	1	0	0	G0331	0	G0332	0	0	NA	3,6	4,938		5953	1	2737322	1
+G0332	1551979	G0331	1_28_18	1	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Ngounie	Tranquille	NA	Africa	Gabon	Ngounie	Tranquille	NA	NA	M	0	1	0	0	G0325	0	G0326	0	0	NA	5,1	58,653		3861	1	1585584	1
+G0328	2617547	G0327	1_28_18	12	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Ngounie	Tranquille	NA	Africa	Gabon	Ngounie	Tranquille	NA	NA	F	0	3	0	0	0	0	0	0	0	NA	8,9	104,777		5789	1	2694590	1
+G0330	2354050	G0329	1_28_18	1	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Ngounie	Tranquille	NA	Africa	Gabon	Ngounie	Tranquille	NA	NA	M	0	3	0	0	G0333	0	G0334	0	0	NA	4,7	23,204		7905	1	2452746	1
+G0334	1836596	G0333	1_28_18	24	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Ngounie	Tranquille	NA	Africa	Gabon	Ngounie	Tranquille	NA	NA	M	0	1	G0320	G0328	G0329	0	G0330	0	0	NA	10,4	54,755		6161	1	1873020	1
+G0318	6258959	G0317	1_27_18	1	Ikobey	Field	Tchibanga	0	Never	Africa	Gabon	Nyanga	Tchibanga	NA	Africa	Gabon	Nyanga	Tchibanga	NA	NA	F	0	3	0	0	G0315	0	G0316	0	0	NA	NA	98,298	29,3615	11622	1	6549986	2
+G0338	2375797	G0337	2_1_18	12	Ikobey	Field	Ikobe	NA		Africa					Africa	Gabon	Ngounie	Ikobe		NA	F	NA	NA	G0339									59,069		6139	1	2400718	1
+G0347	2049690	G0345	1_29_18	12	Ikobey	Field	Soga	0	Never	Africa	Gabon	Ngounie	Soga		Africa	Gabon	Ngounie	Soga		NA	F	0	3	0	0	0	0	0	0	0	NA	8,8	196,972		5522	1	2067764	1
+G0352	1626791	G0351	1_29_18		Ikobey	Field	Soga	NA		Africa					Africa	Gabon	Ngounie	Soga		NA		NA	NA	G0353									67,58		8588	1	1639576	1
+G0339	2974646	G0337	2_1_18	36	Ikobey	Field	Ikobe	NA		Africa					Africa	Gabon	Ngounie	Ikobe		NA	M	NA	NA	G0338									73,586		4483	1	3006374	1
+G0349	3462718	G0348	1_29_18		Ikobey	Field	Soga	NA		Africa					Africa	Gabon	Ngounie	Soga		NA		NA	NA	G0350									28,3		5361	1	646096	1
+G0350	3317863	G0348	1_29_18	12	Ikobey	Field	Soga	NA		Africa					Africa	Gabon	Ngounie	Soga		NA	M	NA	3	G0349	0	0	0	0	0	0	NA	8,2	35,728		7559	1	3357922	1
+G0346	4510191	G0345	1_29_18		Ikobey	Field	Soga	NA		Africa					Africa	Gabon	Ngounie	Soga		NA		NA	NA	G0347									120,304		4475	1	4531878	1
+G0359	2368544	G0357	1_29_18	24	Ikobey	Field	Soga	NA		Africa	Gabon	Ngounie	Soga		Africa	Gabon	Ngounie	Soga		NA	F	NA	4	G0358	G0360								45,164		6798	1	2395764	1
+G0355	3451447	G0354	1_29_18		Ikobey	Field	Soga	NA		Africa					Africa	Gabon	Ngounie	Soga		NA		NA	NA	G0356									152,983		4443	1	3497570	1
+G0353	3907446	G0351	1_29_18		Ikobey	Field	Soga	NA		Africa					Africa	Gabon	Ngounie	Soga		NA		NA	NA	G0352									108,603		5523	1	3916800	1
+G0356	3562558	G0354	1_29_18	12	Ikobey	Field	Soga	NA		Africa					Africa	Gabon	Ngounie	Soga		NA	F	NA	3	G0355	0	0	0	0	0	0	NA	6,2	36,016		3176	1	617298	1
+G0358	2969947	G0357	1_29_18	36	Ikobey	Field	Soga	NA		Africa	Gabon	Ngounie	Soga		Africa	Gabon	Ngounie	Soga		NA	M	NA	4	G0359	G0360								82,46		6651	1	3004932	1
+G0362	2966402	G0361	1_29_18	24	Ikobey	Field	Soga	NA		Africa	Gabon	Ngounie	Soga		Africa	Gabon	Ngounie	Soga		NA	M	NA	4	0	0								98,706		6184	1	3009012	1
+G0364	2663773	G0363	1_29_18	60	Ikobey	Field	Soga	NA		Africa	Gabon	Ngounie	Soga		Africa	Gabon	Ngounie	Soga		NA	F	NA	4	G0365	G0366								32,33		3960	1	554092	1
+G0373	1494647	G0372	1_30_18	3	Ikobey	Field	Makabana	0	Never	Africa	NA	NA	NA		Africa	Gabon	Nyanga	Makabana		NA	M	0	3	0	0	0	0	0	0	0	NA	4,7	36,506		5999	1	313716	1
+G0366	2149207	G0363	1_29_18	1	Ikobey	Field	Soga	0	Never	Africa	Gabon	Ngounie	Soga		Africa	Gabon	Ngounie	Soga		NA	F	NA	3	G0365	G0364	0	0	0	0	0	NA	3,8	38,64		3274	1	2200568	1
+G0365	3058237	G0363	1_29_18	36	Ikobey	Field	Soga	NA		Africa	Gabon	Ngounie	Soga		Africa	Gabon	Ngounie	Soga		NA	F	NA	4	G0364	G0366								51,401		3450	1	3103316	1
+G0375	1627271	G0374	1_30_18	4	Ikobey	Field	Iboundji	0	Never	Africa	Gabon	Ngounie	Iboundji		Africa	Gabon	Ngounie	Iboundji		NA	F	0	3	0	0	0	0	0	0	0	NA	5,1	132,699		6514	1	1644276	1
+G0369	2703290	G0367	1_30_18	36	Ikobey	Field	Makabana	NA		Africa	Gabon	Nyanga	Makabana		Africa	Gabon	Nyanga	Makabana		NA	M	NA	4	G0368	0								146,352		4984	1	2715180	1
+G0379	1981484	G0378	1_30_18	5	Ikobey	Field	Omboue	0	Never	Africa	Gabon	Ogooue-Maritime	Omboue		Africa	Gabon	Ogooue-Maritime	Omboue		NA	M	0	3	0	0	0	0	0	0	0	NA	6,3	44,694		2550	1	2020660	1
+G0381	1544886	G0380	1_30_18	7	Ikobey	Field	Omboue	0	Never	Africa	Gabon	Ogooue-Maritime	Omboue		Africa	Gabon	Ogooue-Maritime	Omboue		NA	F	0	3	0	0	0	0	0	0	0	NA	8,3	44,321		4054	1	1576038	1
+G0368	3623981	G0367	1_30_18	8	Ikobey	Field	Makabana	0	Never	Africa	Gabon	Nyanga	Makabana		Africa	Gabon	Nyanga	Makabana		NA	F	0	3	G0369	0	0	0	0	0	0	NA	5,2	54,456		1880	1	672832	1
+G0377	2455886	G0376	1_30_18	2	Ikobey	Field	Makabana	0	Never	Africa	Gabon	Nyanga	Makabana		Africa	Gabon	Nyanga	Makabana		NA	M	0	3	0	0	0	0	0	0	0	NA	5	51,677		2955	1	2483724	1
+G0397	1528229	G0396	1_31_18	24	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Ngounie	Divinde		Africa	Gabon	Ngounie	Divinde		NA	M	0	3	0	0	0	0	0	0	0	NA	11,2	72,574		5925	1	1535336	1
+G0392	2497618	G0391	1_30_18	48	Ikobey	Field	Nyoe2	0	Never	Africa	Gabon	Ngounie	Fougamou	Centre_Medical	Africa	Gabon	Ngounie	Nyoe2		NA	F	0	3	0	0	0	0	0	0	0	NA	32,9	94,718		8782	1	2516078	1
+G0388	3162011	G0382	1_30_18	36	Ikobey	Field	Nyoe2	NA		Africa					Africa	Gabon	Ngounie	Nioye2		NA	M	NA	4										32,779		5726	1	3196238	1
+G0395	2249721	G0393	1_31_18	60	Ikobey	Field	Divinde	NA	NA	Africa	Gabon	Ngounie	Divinde		Africa	Gabon	Ngounie	Divinde		NA	F	NA	3	G0394	0	0	0	0	0	0	NA	18,3	88,097		7576	1	2291640	1
+G0385	3906799	G0384	1_30_18	10	Ikobey	Field	Nyoe2	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Hopital_Georges_Rawiri	Africa	Gabon	Ngounie	Nyoe2		NA	M	1	3	0	0	G0382	0	G0383	0	0	NA	7,9	103,895		4708	1	3953296	1
+G0399	2289773	G0398	1_31_18	12	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Moyen-Ogooue	Lambarene	Schweitzer	Africa	Gabon	Ngounie	Divinde		NA	M	0	3	0	0	G0400	0	G0401	G0402	0	NA	7	43,191		7187	1	2318720	1
+G0402	1094165	G0400	1_31_18	24	Ikobey	Field	Divinde	0	NA	Africa	Gabon	Ngounie	Divinde		Africa	Gabon	Ngounie	Divinde		NA	F	0	3	G0401	0	G0398	0	G0399	0	0	NA	11,8	37,158		5831	1	1123252	1
+G0390	3356256	G0389	1_30_18	60	Ikobey	Field	Nyoe2	0	Never	Africa	Gabon	NA	Matolix		Africa	Gabon	Ngounie	Nyoe2		NA	F	NA	3	0	0	G0386	0	G0387	0	0	NA	13,5	54,94		6718	1	3387958	1
+G0394	2912755	G0393	1_31_18	5	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Ngounie	Divinde		Africa	Gabon	Ngounie	Divinde		NA	M	0	3	G0395	0	0	0	0	0	0	NA	13,6	52.265/16.465		5325	1	2922952	1
+G0404	1814196	G0403	1_31_18	24	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Ogooue-Lolo	Makoko		Africa	Gabon	Ngounie	Divinde		NA	F	NA	3	0	0	0	0	0	0	0	NA	9,2	29,647		5451	1	1887278	1
+G0408	2648148	G0407	1_31_18	24	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Ngounie	Divinde		Africa	Gabon	Ngounie	Divinde		NA	F	0	3	G0409	G0410	G0405	0	G0406	0	0	NA	8,4	54,952		4262	1	2723248	1
+G0409	2848248	G0407	1_31_18	11	Ikobey	Field	Erouba	0	Never	Africa	Gabon	Ngounie	Divinde		Africa	Gabon	Ngounie	Divinde		NA	F	0	3	G0408	G0410	G0405	0	G0406	0	0	NA	12,6	33,183		3748	1	2918656	1
+G0410	2877661	G0407	1_31_18	60	Ikobey	Field	Erouba	0	Never	Africa	Gabon	Ngounie	Divinde		Africa	Gabon	Ngounie	Divinde		NA	M	0	3	G0408	G0409	G0405	0	G0406	0	0	NA	15,7	33,989		7277	1	2951212	1
+G0406	3806659	G0405	1_31_18	24	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Ngounie	Divinde		Africa	Gabon	Ngounie	Divinde		NA	M	0	3	0	0	G0407	0	G0408	G0409	G0410	NA	12,4	40,375		6242	1	3918896	1
+G0412	3617793	G0411	1_31_18	48	Ikobey	Field	Erouba	NA	NA	NA	NA	NA	NA		Africa	Gabon	NA	Erouba		NA	F	NA	NA	0	0	0	0	0	0	0	NA	NA	190,386		3497	1	3738204	1
+G0417	2748373	G0416	1_31_18	12	Ikobey	Field	Erouba	NA	NA	NA	NA	NA	NA		Africa	Gabon	NA	Erouba		NA	F	NA	NA	0	0	0	0	0	0	0	NA	NA	51,469		2981	1	2798228	1
+G0414	3860179	G0413	1_31_18	36	Ikobey	Field	Erouba	NA	NA	NA	NA	NA	NA		Africa	Gabon	NA	Erouba		NA	F	NA	NA	G0415	0	0	0	0	0	0	NA	NA	47,935		2859	1	3952916	1
+G0415	3744453	G0413	1_31_18	60	Ikobey	Field	Erouba	NA	NA	NA	NA	NA	NA		Africa	Gabon	NA	Erouba		NA	F	NA	NA	G0414	0	0	0	0	0	0	NA	NA	125,547		7317	1	3828662	1
+V002	1243355	V001	4_18_18	7	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	NA	NA	23,7975		1935	1	1250414	1
+V006	1117680	V005	4_18_18	7	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	M	1	3	0	0	0	0	0	0	0	NA	NA	11,6195		2481	1	1242870	1
+V004	1584741	V003	4_18_18	6	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom	Bantong	Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	M	0	3	0	0	0	0	0	0	0	NA	8	63,4205		2052	1	1593138	1
+V012	1416644	V011	4_18_18	6	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	NA	NA	4,7695		1907	1	1434612	1
+V008	1951582	V007	4_18_18	6	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	63	6,5	16,296		2886	1	2154358	1
+V016	1130579	V015	4_18_18	8	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom	Bantong	Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	80	7,5	Nodata		1142	1	1247314	1
+V018	1089045	V017	4_18_18	10	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	M	1	3	0	0	0	0	0	0	0	NA	NA	19,822		1843	1	1099522	1
+V014	1918739	V013	4_18_18	7	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	M	0	3	0	0	V019	0	V020	0	0	62	7,8	9,3085		858	1	1948706	1
+G0423	3946380	G0422	1_31_18	36	Ikobey	Field	Erouba	NA	NA	NA	NA	NA	NA		Africa	Gabon	NA	Erouba		NA	F	NA	NA	0	0	0	0	0	0	0	NA	NA	23,246		5356	1	4031596	1
+G0421	4511025	G0420	1_31_18	36	Ikobey	Field	Erouba	NA	NA	NA	NA	NA	NA		Africa	Gabon	NA	Erouba		NA	M	NA	NA	0	0	0	0	0	0	0	NA	NA	34,447		3807	1	4606696	1
+V022	1190331	V021	4_19_18	10	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom	Bantong	Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	M	1	3	0	0	0	0	0	0	0	70	7,5	10,697		4263	1	1196464	1
+V026	1428903	V025	4_19_18	7	Sonla	Sonla	Chiengxom	0	6+	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Bansang	NA	M	0	3	0	0	0	0	0	0	0	66	6	11,189		2430	1	446906	1
+V028	1442986	V027	4_19_18	6	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Banthi	NA	M	0	3	0	0	0	0	0	0	0	NA	NA	39,963		1889	1	238930	1
+V032	1164613	V031	4_19_18	9	Sonla	Sonla	Chiengxom	0	6+	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banphienghay	NA	M	0	3	0	0	0	0	0	0	0	70	9	13,6415		9850	1	1285650	1
+V020	3851871	V019	4_18_18	10	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	V013	0	V014	0	0	65	7,5	12,9385		1481	1	637790	1
+V038	1423137	V037	4_19_18	6	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Banlamuong	NA	M	1	3	0	0	0	0	0	0	0	65	6	4,0895		3383	1	1576658	1
+V034	1767583	V033	4_19_18	11	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Muongbu		Asia	Vietnam	Sonla	Chiengxom	Banlamuong	NA	F	0	3	0	0	0	0	0	0	0	60	7	Nodata		7036	1	1971470	1
+V036	2365588	V035	4_19_18	6	Sonla	Sonla	Chiengxom	0	3_6	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banlamuong	NA	M	0	3	0	0	0	0	0	0	0	65	8	93,6935		2221	1	2386694	1
+V024	3898718	V023	4_18_18	5	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	M	0	3	0	0	0	0	0	0	0	NA	NA	3,2045	14,406	5940	2	3928282	2
+V030	3547002	V029	4_19_18	7	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bansang	NA	M	1	3	0	0	V059	0	V060	0	0	70	7	16,0705		2540	1	578964	1
+V044	1885477	V043	4_19_18	7	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Bansang	NA	F	0	3	0	0	0	0	0	0	0	63	8	9,086		2030	1	1908762	1
+V048	1358165	V047	4_19_18	3	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla			Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	M	0	1	0	0	0	0	0	0	0	NA	NA	15,0115		3532	1	1361538	1
+V050	1487839	V049	4_19_18	7	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Banphienghay	NA	M	0	3	0	0	0	0	0	0	0	NA	8	37,0085		3749	1	1640948	1
+V042	2558947	V041	4_19_18	7	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bansang	NA	M	0	3	0	0	0	0	0	0	0	NA	NA	15,2655		3021	1	2572070	1
+V056	1207830	V055	4_19_18	6	Sonla	Sonla	Chiengxom	0	3_6	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Banco	NA	F	0	3	0	0	V053	0	V054	0	0	60	6,5	4,6885		5150	1	1339020	1
+V054	1536133	V053	4_19_18	6	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banco	NA	F	0	3	0	0	V055	0	V056	0	0	60	7,3	2,1845		5642	1	1704310	1
+V062	1239031	V061	4_20_18	5	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Phienghay	NA	F	1	3	0	0	0	0	0	0	0	6,8	8	1,154		5771	1	202314	1
+V064	1211383	V063	4_19_18	11	Sonla	Sonla	Chiengxom	1	NA	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Tieukhu1	NA	F	0	3	0	0	0	0	0	0	0	73	9	10,1485		6989	1	1347136	1
+V058	1775440	V057	4_19_18	10	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banlamuong	NA	F	0	3	0	0	0	0	0	0	0	80	9	9,701		1743	1	1787438	1
+V060	2032388	V059	4_19_18	8	Sonla	Sonla	Chiengxom	1	NA	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Caubanai	NA	M	0	3	0	0	V029	0	V030	0	0	NA	NA	30,2195		6361	1	2263986	1
+V068	1216276	V067	4_20_18	11	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banphienghay	NA	F	0	3	0	0	0	0	0	0	0	65	8	7,963		3673	1	1351588	1
+V066	1631491	V065	4_20_18	7	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banphienghay	NA	F	1	3	0	0	0	0	0	0	0	70	8	9,911		2404	1	1779540	1
+V046	4195298	V045	4_19_18	5	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	60	6	4,2565	2,528	977	1	642542	1
+V074	1442245	V073	4_20_18	6	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banphienghay	NA	F	0	3	0	0	0	0	0	0	0	60	8	Nodata		6738	1	1586620	1
+V070	2379726	V069	4_20_18	5	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Banthi	NA	F	0	3	0	0	0	0	0	0	0	68	7,8	21,836		4059	1	2623942	1
+V080	1606861	V079	4_20_18	2	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Banpanh	NA	M	0	1	0	0	0	0	0	0	0	56	5,5	2,8095		4129	1	1781810	1
+V084	1354135	V083	4_20_18	8	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Banpanh	NA	M	1	3	0	0	0	0	0	0	0	70	8,5	4,7875		2565	1	1496750	2
+V078	1845251	V077	4_20_18	1	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banphiengngua	NA	M	0	1	0	0	0	0	0	0	0	NA	5	2,898		2446	1	1874022	1
+V086	1585315	V085	4_20_18	3	Sonla	Sonla	Chiengxom	1	NA	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	1	0	0	0	0	0	0	0	58	5,5	8,413		5074	1	1592094	1
+V076	2943841	V075	4_20_18	4	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banthi	NA	F	0	3	0	0	0	0	0	0	0	60	6	25,835		2130	1	3225390	1
+V082	2566722	V081	4_20_18	9	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	72	9	10,2875		564	1	429886	1
+V088	2554113	V087	4_20_18	7	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banphiengngua	NA	M	0	3	0	0	0	0	0	0	0	70	8	35,2195		837	1	2575678	1
+V096	2244699	V095	4_20_18	8	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	55	7,5	12,8725		4589	1	2484240	1
+V090	2739354	V080	4_20_18	6	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	65	6,7	Nodata		7753	1	490440	1
+V100	1743180	V099	4_20_18	4	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banthi	NA	M	1	3	0	0	0	0	0	0	0	60	6,7	3,862		1613	1	231094	1
+V092	2508584	V091	4_20_18	7	Sonla	Sonla	Chiengxom	0	3_6	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Tieukhu1	NA	F	1	3	0	0	0	0	0	0	0	65	6	9,817		1552	1	289838	1
+V098	2174941	V097	4_20_18	11	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Banthi	NA	F	0	3	0	0	0	0	0	0	0	75	10	17,031		4554	1	2385704	1
+V094	2754514	V093	4_20_18	10	Sonla	Sonla	Chiengxom	0	3_6	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	86	10	28,4145		2509	1	2777944	1
+V102	2007747	V101	4_20_18	3	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Phienghay	NA	F	0	1	0	0	0	0	0	0	0	60	6,5	4,459		1955	1	2017944	1
+V104	1953721	V103	4_20_18	3	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Bantong	NA	F	0	3	0	0	0	0	0	0	0	NA	5,8	1,43	2,266	11998	2	2159414	2
+V112	1296226	V111	4_20_18	11	Sonla	Sonla	Chiengxom	0	Never	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banhum	NA	F	0	3	0	0	0	0	0	0	0	70	8	17,2445		3926	1	1428988	1
+V110	1402263	V109	4_20_18	12	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Banlamuong	NA	F	0	3	0	0	0	0	0	0	0	72	9	96,761		4419	1	1404186	1
+V114	2204206	V113	4_20_18	9	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Caubanai	NA	F	0	3	0	0	0	0	0	0	0	68	8,5	14,998		3541	1	2438212	1
+V119	1784244	V128	4_21_18	11	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Chiengden		Asia	Vietnam	Sonla	Chiengden	Banbomnam	NA	M	0	3	0	0	V120	0	V121	0	0	69	10	Nodata		8719	1	1962200	1
+V118	2076109	V117	4_20_18	13	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengxom	Bansang	NA	F	1	3	0	0	0	0	0	0	0	70	8	53,9205		3922	1	2274842	1
+V127	1823806	V126	4_21_18	9	Sonla	Sonla	Chiengden	1	NA	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Bomnam	NA	F	0	3	0	0	0	0	0	0	0	70	7	Nodata		6239	1	2012102	1
+V108	3606957	V107	4_20_18	12	Sonla	Sonla	Chiengxom	0	1_2	Asia	Vietnam	Sonla	Chiengxom		Asia	Vietnam	Sonla	Chiengxom	Caubanai	NA	M	1	3	0	0	0	0	0	0	0	66	8	6,9905		1829	1	520344	1
+V130	1408386	V129	4_21_18	7	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Bantam	NA	M	0	3	0	0	0	0	0	0	0	70	7	-1,347099254	10,629	2485	2	1422492	2
+V134	1220085	V133	4_21_18	4	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Chiengden		Asia	Vietnam	Sonla	Chiengden	Banphiengnieu	NA	M	0	1	0	0	0	0	0	0	0	59	7	Nodata		2482	1	1338988	1
+V123	2466101	V122	4_21_18	6	Sonla	Sonla	Chiengden	0	1_2	Asia	Vietnam	Sonla	Chiengden		Asia	Vietnam	Sonla	Chiengden	Bantolo	NA	F	1	3	0	0	0	0	0	0	0	65	6,4	7,061		2079	1	378474	1
+V144	1194878	V143	4_21_18	9	Sonla	Sonla	Chiengden	0	3_6	Asia	Vietnam	Sonla	Chiengden		Asia	Vietnam	Sonla	Chiengden	Bantam	NA	M	0	3	0	0	0	0	0	0	0	71	8,5	5,683		6555	1	1317606	1
+V148	1802547	V147	4_21_18	5	Sonla	Sonla	Chiengden	1	NA	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Bantam	NA	M	1	3	0	0	0	0	0	0	0	62	6	1,638	0,916	3579	2	1934384	2
+V138	3328289	V137	4_21_18	5	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Chiengden		Asia	Vietnam	Sonla	Chiengden	Banpan	NA	M	0	3	0	0	0	0	0	0	0	62	7	6,482		1450	1	413506	1
+V140	2492608	V139	4_21_18	9	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Banpang	NA	M	0	3	0	0	0	0	0	0	0	80	10	7,602		2828	1	2513494	1
+V136	3719714	V135	4_21_18	8	Sonla	Sonla	Chiengden	0	3_6	Asia	Vietnam	Sonla	Chiengden		Asia	Vietnam	Sonla	Chiengden	Banpan	NA	M	0	3	0	0	0	0	0	0	0	77	9	Nodata	Nodata	13282	2	4100938	2
+V146	3031452	V145	4_21_18	7	Sonla	Sonla	Chiengden	1	NA	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Bantam	NA	F	1	3	0	0	0	0	0	0	0	72	8	Nodata		1344	1	1776558	1
+V132	4537537	V131	4_21_18	9	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Chiengden		Asia	Vietnam	Sonla	Chiengden	Banphiengnieu	NA	M	0	3	0	0	0	0	0	0	0	70	9	2,1115	12,032	5314	2	4612000	2
+V152	1319432	V151	4_21_18	9	Sonla	Sonla	Chiengden	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Banpang	NA	M	0	3	0	0	0	0	0	0	0	80	8	29,0295		2813	1	1324962	1
+V156	1354622	V155	4_21_18	10	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Banpang	NA	F	0	3	0	0	0	0	0	0	0	69	8	Nodata	10,856	InProgress	InProgress	1495952	1
+V142	3658588	V141	4_21_18	11	Sonla	Sonla	Chiengden	NA	NA	Asia	Vietnam	Sonla	Chiengden	Banphiengtam	Asia	Vietnam	Sonla	Chiengden		NA	F	0	3	0	0	0	0	0	0	0	76	10	42,5625		1836	1	3767114	1
+V160	1862505	V159	4_21_18	6	Sonla	Sonla	Chiengden	0	1_2	Asia	Vietnam	Sonla	Chiengden	Phiengtam	Asia	Vietnam	Sonla	Chiengden	Phiengtam	NA	F	0	3	0	0	0	0	0	0	0	60	8,5	0,117	0,5445	7072	2	1891654	2
+V158	2265715	V157	4_21_18	11	Sonla	Sonla	Chiengden	1	NA	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Bantolo	NA	M	1	3	0	0	0	0	0	0	0	80	8	5,4275		3755	1	2287292	1
+V150	4269481	V149	4_21_18	10	Sonla	Sonla	Chiengden	0	1_2	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Bantam	NA	F	1	3	0	0	0	0	0	0	0	80	9	70,488		442	1	4697158	1
+V170	1656717	V169	4_21_18	11	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Chiengden	Banpot	Asia	Vietnam	Sonla	Chiengden		NA	M	1	3	0	0	V167	0	V168	0	0	83	11	34,3485		5335	1	1832348	1
+V168	1762851	V167	4_21_18	8	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Chiengden	Banpot	Asia	Vietnam	Sonla	Chiengden	Banpot	NA	M	1	3	0	0	V169	0	V170	0	0	69	8	Nodata		3437	1	1915842	1
+V178	1014244	V177	5_9_18	3	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Sonhoa		Asia	Vietnam	Hatinh	Ducthuan		NA	M	1	1	0	0	0	0	0	0	0	70	8	10,0785		4810	1	1115290	1
+V174	1243844	V173	5_9_18	6	Hatinh	Hatinh	Ducthuan	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	65	9	8,109		3179	1	1358970	1
+V166	2626293	V165	4_21_18	7	Sonla	Sonla	Chiengden	0	Never	Asia	Vietnam	Sonla	Sonla		Asia	Vietnam	Sonla	Chiengden	Chiengxet	NA	M	0	3	0	0	0	0	0	0	0	72	7	15,2655		2619	1	2647830	1
+V176	1594323	V175	5_9_18	5	Hatinh	Hatinh	Ducthuan	0	3_6	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	1	0	0	0	0	0	0	0	62	6,7	13,1465		3217	1	1606688	1
+V184	1442543	V183	5_9_18	5	Hatinh	Hatinh	Ducthuan	0	1_2	Asia	Vietnam	Hatinh	Ductho		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	1	0	0	0	0	0	0	0	63	6,5	1,6145	1,701	416	1	1458698	1
+V180	2288134	V179	5_9_18	4	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	1	1	0	0	0	0	0	0	0	72	8	6,47		2488	1	2308088	1
+V186	1434634	V185	5_9_18	3	Hatinh	Hatinh	Ducthuan	0	1_2	Asia	Vietnam	Nghean	Vinh		Asia	Vietnam	Hatinh	Ducthuan		NA	F	1	2	0	0	0	0	0	0	0	60	7	Nodata	5,575	3861	2	1431350	2
+V190	1249456	V189	5_9_18	3	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	1	2	0	0	0	0	0	0	0	NA	7	4,3005		4359	1	1264800	1
+V188	2091365	V187	5_9_18	3	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	1	0	0	0	0	0	0	0	60	6,5	44,7485	5,575	6527	1	2304352	1
+V182	3340936	V181	5_9_18	1,5	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	1	0	0	0	0	0	0	0	NA	5	4,6775	1,799	1156	1	3458002	1
+V154	6878370	V153	4_21_18	10	Sonla	Sonla	Chiengden	0	3_6	Asia	Vietnam	Sonla	Chiengden		Asia	Vietnam	Sonla	Chiengden	Bantam	NA	M	0	3	0	0	0	0	0	0	0	63	8	2,281162628	4,9475	6129	2	7063502	2
+V192	2236029	V191	5_9_18	5	Hatinh	Hatinh	Ducthuan	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	1	0	0	0	0	0	0	0	54	7,5	3,903366729		1802	1	575210	1
+V202	1234501	V201	5_9_18	3	Hatinh	Hatinh	Ducthuan	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	1	0	0	0	0	0	0	0	62	6	6,0295		1232	1	1237268	1
+V200	1799328	V199	5_9_18	3	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Hatinh		Asia	Vietnam	Hatinh	Ducthuan		NA	F	1	1	0	0	0	0	0	0	0	60	6,3	10,148		2830	1	1816152	1
+V208	1311385	V207	5_9_18	3	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	1	1	0	0	0	0	0	0	0	NA	6	8,6155		1972	1	1325248	1
+V198	2286003	V197	5_9_18	10	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	77	11,5	2,365		2167	1	350342	1
+V210	1545702	V209	5_10_18	5,5	Hanoi	Hanoi	Hanoi	1	NA	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	1	2	0	0	V211	0	V212	0	0	64	7,5	5,3805		5508	1	1560690	1
+V204	2458782	V203	5_9_18	3	Hatinh	Hatinh	Ducthuan	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	2	0	0	0	0	0	0	0	NA		15,122		4943	1	2680466	1
+V216	1746803	V215	5_10_18	12	Hanoi	Hanoi	Hanoi	1	NA	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	3	0	0	0	0	0	0	0	68	8	40,736		3701	1	1911198	1
+V220	1343822	V219	5_10_18	7	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	3	0	0	0	0	0	0	0	60	6	4,8685	5,188	543	1	212140	1
+V222	1392429	V221	5_10_18	7	Hanoi	Hanoi	Hanoi	0	3_6	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	3	0	0	0	0	0	0	0	60	7,2	22,1305		2997	1	1389252	1
+V224	1647565	V223	5_10_18	5,5	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	1	3	0	0	0	0	0	0	0	65	7,2	3,33748835	1,566	822	1	1678528	1
+V218	2392410	V217	5_10_18	5,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	1	0	0	0	0	0	0	0	64	6,5	5,6435		911	1	2422750	1
+V232	1125865	V231	5_10_18	6	Hanoi	Hanoi	Hanoi	0	3_6	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	63	7	14,627		4075	1	1148730	1
+V228	2553372	V227	5_10_18	12	Hanoi	Hanoi	Hanoi	1	NA	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	80	10	1,880999534	15,0225	2555	2	2605740	2
+V236	1474194	V235	5_10_18	11	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	80	10	26,892		5292	2	1491970	1
+V242	1099668	V241	5_11_18	NA	Hanoi	Hanoi	Hanoi	NA	NA	Asia	NA	NA	NA		Asia	Vietnam	NA	NA		NA	NA	NA	NA	0	0	0	0	0	0	0	NA	NA	2,8385		5563	1	1204418	1
+V226	3380609	V225	5_10_18	6,5	Hanoi	Hanoi	Hanoi	0	NA	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	65	7,7	2,136707829	2,661	6755	2	3424552	2
+V238	2009064	V237	5_11_18	12	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	1	3	0	0	0	0	0	0	0	70	9	14,298		6315	1	2207176	1
+V230	3278104	V229	5_10_18	7,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	3	0	0	0	0	0	0	0	75	7	6,798		3584	1	486852	1
+V246	1833343	V245	5_11_18	6	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Nghean	Vinh		Asia	Vietnam	Hatinh	Ducthuan		NA	M	1	3	0	0	0	0	0	0	0	70	10,5	21,42		7555	1	2015932	1
+V244	2140564	V243	5_11_18	9,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	1	3	0	0	0	0	0	0	0	80	10	34,4335		2908	1	2153180	1
+V256	1095725	V255	5_11_18	4	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Nghean	Vinh		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	1	0	0	0	0	0	0	0	80	9	4,6055		2419	1	1105722	1
+V254	1585917	V253	5_11_18	6	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	3	0	0	0	0	0	0	0	69	7,5	12,4075		2315	1	1596374	1
+V252	1609545	V251	5_11_18	6	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	1	3	0	0	0	0	0	0	0	60	7,5	8,413		3611	1	1620608	1
+V212	6492593	V211	5_10_18	6	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	3	0	0	V209	0	V210	0	0	62	6,5	5,366262815	16,67917055	2878	2	6708872	2
+V266	1407648	V265	5_11_18	10	Hanoi	Hanoi	Hanoi	0	3_6	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	1	3	0	0	0	0	0	0	0	69	10	5,5945		3589	1	1419702	1
+V264	1856057	V263	5_11_18	7,5	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	79	8,5	11,2395		2589	1	1867266	1
+V268	1770965	V267	5_11_18	7	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	NA	7	9,422		1914	1	1786118	1
+V262	2605734	V261	5_11_18	9	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	1	3	0	0	0	0	0	0	0	83	10,5	4,53390028		1664	1	527290	1
+V272	2584922	V271	5_11_18	9	Hanoi	Hanoi	Hanoi	1	NA	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	3	0	0	0	0	0	0	0	NA	7,5	2,107	0,369	5763	2	610574	2
+V278	1410893	V277	5_11_18	10	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Honglinh		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	74	10	14,918		3787	1	1421762	1
+V282	1876681	V281	5_11_18	11	Hanoi	Hanoi	Hanoi	0	3_6	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	74	12	25,2805		2966	1	1907324	1
+V276	3056286	V275	5_11_18	0,75	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	1	0	0	0	0	0	0	0	NA	NA	0,129	150	13712	4	3096458	5
+V250	5680056	V249	5_11_18	11	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	F	0	3	0	0	0	0	0	0	0	70	7	93,5375699		563	1	5796876	1
+V274	4162354	V273	5_11_18	9,5	Hanoi	Hanoi	Hanoi	0	3_6	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	NA	NA	6,8925		1658	1	4278826	1
+V284	2215662	V283	5_11_18	NA	Hanoi	Hanoi	Hanoi	NA	NA	NA	NA	NA	NA		Asia	Vietnam	NA	NA		NA	NA	NA	NA	0	0	0	0	0	0	0	NA	NA	39,71		6913	1	2217348	1
+V280	3330139	V279	5_11_18	1,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	2	0	0	0	0	0	0	0	55	5	6,143		1190	1	520744	1
+V286	2096365	V285	5_12_18	6,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	1	3	0	0	0	0	0	0	0	84	9	43,9435		1757	1	2105850	1
+V302	1631878	V301	5_12_18	4	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	1	0	0	0	0	0	0	0	80	7,5	2,692		3945	1	1639870	1
+V298	1951792	V297	5_12_18	3	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	M	0	1	0	0	0	0	0	0	0	53	5,3	15,0415		2563	1	1977848	1
+V296	2735494	V295	5_12_18	1	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	M	0	1	0	0	0	0	0	0	0	55	3,5	5,4015		1253	1	479526	1
+V294	2936463	V293	5_12_18	4	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	M	1	2	0	0	0	0	0	0	0	60	6	5,437325256		1970	1	3016028	1
+V314	1357357	V313	5_12_18	2,5	Hanoi	Hanoi	Hanoi	1	NA	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	1	0	0	0	0	0	0	0	72	6,3	6,493		1512	1	1363834	1
+V304	2740620	V303	5_12_18	1,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	M	0	1	0	0	0	0	0	0	0	50	4,9	2,3525	1,5605	4956	2	2820626	2
+V316	1393112	V315	5_12_18	2,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	1	1	0	0	0	0	0	0	0	60	5,5	6,0695		3335	1	1405466	1
+V292	3918112	V291	5_12_18	1,5	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	1	2	0	0	0	0	0	0	0	50	5	3,603	3,311	7952	2	3975274	2
+V312	2614834	V311	5_12_18	1,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	1	0	0	0	0	0	0	0	70	5	0,738175676	0,971	3432	2	2672704	2
+V320	1963366	V319	5_12_18	1,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	1	2	0	0	0	0	0	0	0	58	4	9,531		4402	1	1975310	1
+V318	2608958	V317	5_12_18	3,5	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	M	0	2	0	0	0	0	0	0	0	77	7,3	11,6955		3290	1	2657996	1
+V324	2114209	V323	5_12_18	1,5	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	2	0	0	0	0	0	0	0	55	5	12,514		1270	1	2124568	1
+V326	1907742	V325	5_12_18	0,75	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	NA	1	0	0	0	0	0	0	0	50	4,3	1,2975		3450	1	1922362	1
+V332	1987946	V331	5_13_18	7	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	1	3	0	0	0	0	0	0	0	70	7	57,35339003		1209	1	2046310	1
+V342	1090056	V341	5_13_18	11	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	3	0	0	0	0	0	0	0	70	7,2	10,927		2960	1	1096236	1
+V330	2787301	V329	5_13_18	7,5	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	1	3	0	0	0	0	0	0	0	60	7,5	51,675		2360	1	370940	1
+V328	2844223	V327	5_12_18	9	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Ducthuan		Asia	Vietnam	Hatinh	Ducthuan		NA	M	0	3	0	0	0	0	0	0	0	70	8	74,0635		2014	1	483734	1
+V340	1748210	V339	5_13_18	6,5	Hanoi	Hanoi	Hanoi	0	3_6	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	3	0	0	0	0	0	0	0	63	8,5	31,4395		1902	1	244598	1
+V350	1211074	V349	5_13_18	12	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	3	0	0	V347	0	V348	0	0	76	9,5	13,6795		2112	1	1228172	1
+V344	2117861	V343	5_13_18	11	Hanoi	Hanoi	Hanoi	1	NA	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	M	0	3	0	0	0	0	0	0	0	78	10	15,604		4859	1	2165850	1
+V348	1585423	V347	5_13_18	8,5	Hanoi	Hanoi	Hanoi	0	3_6	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	3	0	0	V349	0	V350	0	0	65	8	20,8345		3157	1	241456	1
+V382	1690633	V381	5_19_18	6	Hanoi	Hanoi	Hanoi	0	NA	Asia	Vietnam	Hanoi	NA		Asia	Vietnam	Hanoi	Thanhtri		NA	F	1	3	0	0	V380	0	0	0	0	72	8,5	5,2995		1367	1	1705798	1
+V415	1418330	V414	5_30_18	7	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hanoi	Namtuliem	Trungvan	Asia	Vietnam	Hanoi	Namtuliem	Trungvan	NA	F	1	3	0	0	0	0	0	0	0	NA	8	34,7		2624	1	1431648	1
+V421	1430586	V420	5_30_18	9	Hanoi	Hanoi	Hanoi	1	NA	Asia	Vietnam	Hanoi	Quandoi108		Asia	Vietnam	Hanoi	Hoangmai	Hoangliet	NA	M	1	3	0	0	0	0	0	0	0	NA	10,3	3,4235		1897	1	379746	1
+V412	2560602	V413	5_26_18	18	Hanoi	Hanoi	Hanoi	0	1_2	Asia	Vietnam	Hanoi	NA		Asia	Vietnam	Quangninh	Halong		NA	F	1	3	0	0	0	0	0	0	0	82	9,7	Nodata		5123	1	2803388	1
+V322	7156084	V321	5_12_18	2	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hatinh	Bachong		Asia	Vietnam	Hatinh	Bachong		NA	F	0	1	0	0	0	0	0	0	0	60	4,2	51,8665	39,04	4353	2	7274350	2
+V370	3978708	V379	5_19_18	2	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hanoi	Haibatrung		Asia	Vietnam	Hanoi	Haibatrung		NA	M	0	1	0	0	0	0	0	0	0	65	5,9	7,95	3,1	10412	3	4123940	3
+V439	1042091	V438	5_31_18	8	Hanoi	Hanoi	Hanoi	0	3_6	Asia	Vietnam	Hanoi	NA	NA	Asia	Vietnam	Hanoi	Longbien		NA	M	1	3	0	0	0	0	0	0	0	NA	8,8	Nodata		4291	1	1158992	1
+V437	1413212	V436	5_31_18	10	Hanoi	Hanoi	Hanoi	1		Asia	Vietnam	Hanoi	Hoankiem	NA	Asia	Vietnam	Hanoi	Haibatrung		NA	F	1	3	0	0	0	0	0	0	0	NA	7,5	6,716		3745	1	1416084	1
+V433	1737322	V432	5_31_18	6	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hanoi	Hoankiem	NA	Asia	Vietnam	Hanoi	Haibatrung		NA	M	1	3	0	0	0	0	0	0	0	72	9,5	7,208		2202	1	1751928	1
+V429	2230123	V428	5_31_18	9	Hanoi	Hanoi	Hanoi	0	6+	Asia	Vietnam	Hanoi	Quandoi108		Asia	Vietnam	Hanoi	Donganh	Kimno	NA	F	1	3	0	0	0	0	0	0	0	64	8	Nodata		6258	1	2440992	1
+V378	5225026	V377	5_19_18	5	Hanoi	Hanoi	Hanoi	0	NA	Asia	Vietnam	Thanhliem	Thanhhuong		Asia	Vietnam	Hanoi	Hadong		NA	F	1	2	0	0	0	0	0	0	0	67	6,8	2,382	4,477	6356	3	5259810	3
+V431	3699269	V430	5_31_18	10	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hanoi	Haibatrung		Asia	Vietnam	Hanoi	Hoangmai		NA	M	1	3	0	0	0	0	0	0	0	90	10	82,757		3420	1	3815780	1
+V427	5951396	V426	5_31_18	9	Hanoi	Hanoi	Hanoi	0	Never	Asia	Vietnam	Hanoi	Hoankiem		Asia	Vietnam	Hanoi	Tayho		NA	M	1	3	0	0	0	0	0	0	0	65	9	12,552	45,1685	4811	2	6161098	2
+T004	1336907	T003	11_13_18	4,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	1	1	0	0	0	0	0	0	0	81	8	2,469		2098	1	1419060	1
+T009	2025554	T008	11_13_18	2	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	1	0	0	0	0	0	0	0	56	4,93	1,375		4079	1	2161366	1
+T028	1851699	T026	12_11_18	NA	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	1	0	0	0	0	0	0	0	69	7	1,84		2092	1	1962986	1
+T031	1954915	T030	12_20_18	2	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Herrenberg		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	1	0	0	0	0	0	0	0	59	6	7,701		8193	1	2085748	1
+T023	2705513	T022	12_11_18	NA	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Boeblingen		Europe	Germany	Baden-Wuerttemberg	Boeblingen		NA	M	0	3	0	0	0	0	0	0	0	68	8	2,295	9,43	1359	1	2823282	1
+T035	1739130	T034	12_20_18	NA	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Gomaringen		NA	M	0	1	0	0	0	0	0	0	0	64	6	4,736		6668	1	1824004	1
+T025	3789670	T024	1_8_19	3	ITM	ITM	ITM	0	3_6	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Pfullingen		NA	M	0	1	0	0	0	0	0	0	0	65	5,5	5,435		2127	1	3897790	1
+T041	2398648	T040	1_8_19	6,75	ITM	ITM	ITM	0	3_6	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	1	3	0	0	0	0	0	0	0	74	10	7,636		3489	1	2529482	1
+T039	2837595	T038	1_8_19	6,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	3	0	0	0	0	0	0	0	74	8	5,565		3563	1	3028668	1
+T045	2477633	T044	1_8_19	5,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Filderstadt		Europe	Germany	Baden-Wuerttemberg	Bad_Boll		NA	F	0	1	0	0	0	0	0	0	0	68	8	2,556		3327	1	2636598	1
+T051	2222342	T050	1_10_19	5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	1	2	0	0	0	0	0	0	0	63	6,1	2,573		2712	1	2348718	1
+T043	2950305	T042	1_8_19	6,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Herrenberg		Europe	Germany	Baden-Wuerttemberg	Donaueschingen		NA	M	0	1	0	0	0	0	0	0	0	72	10	2,907		4239	1	3077550	1
+T053	2611830	T052	1_10_19	4,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	2	0	0	0	0	0	0	0	65	8	10,383		3506	1	2722834	1
+T065	1397846	T064	1_24_19	11,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Nuertingen		Europe	Germany	Baden-Wuerttemberg	Nuertingen		NA	M	0	3	0	0	0	0	0	0	0	74	9,5	4,88	11,062	854	1	1467488	1
+T047	3733006	T046	1_8_19	2	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Stuttgart		Europe	Germany	Baden-Wuerttemberg	Stuttgart		NA	F	1	2	0	0	0	0	0	0	0	58	5,3	2,994		2299	1	3963744	1
+T080	2176232	T079	2_7_19	5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Filderstadt		Europe	Germany	Baden-Wuerttemberg	Leinfelden-Echterdingen		NA	F	0	1	0	0	0	0	0	0	0	65	7,5	7,409		6170	1	2278932	1
+T059	4136262	T058	1_15_19	2,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	1	0	0	0	0	0	0	0	56	4,4	7,007		3423	1	4326782	1
+T077	2891548	T076	2_7_19	6,5	ITM	ITM	ITM	0	Never	Europe	Germany	Berlin	Berlin		Europe	Germany	Baden-Wuerttemberg	Neuhausen		NA	F	0	3	0	0	0	0	0	0	0	65	6,3	8,68		1674	1	3011838	1
+T067	3054588	T066	1_24_19	18	ITM	ITM	ITM	0	6+	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	1	3	0	0	0	0	0	0	0	80	11	1,9		4101	1	3199430	1
+T082	2540100	T081	2_7_19	4,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Waldenbuch		NA	M	0	3	0	0	0	0	0	0	0	61,5	6,65	1,257		1657	1	494390	1
+T062	4240695	T061	1_24_19	8,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	3	0	0	0	0	0	0	0	79	10	7,846		1914	1	4464790	1
+T088	1670682	T087	2_7_19	8,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Reutlingen		NA	F	1	1	0	0	0	0	0	0	0	75	11	4,992		4775	1	1763646	1
+T084	2960108	T083	2_7_19	8	ITM	ITM	ITM	0	1_2	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Weil_im_Schoenbuch		NA	M	0	3	0	0	0	0	0	0	0	70	8,4	15,777		2756	1	3110202	1
+T098	1949576	T097	2_8_19	6,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	3	0	0	0	0	0	0	0	73	approx_9	4,349	5,099	695	1	2025638	1
+T100	2062889	T099	2_8_19	9,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Reutlingen		Europe	Germany	Baden-Wuerttemberg	Metzingen		NA	M	1	3	0	0	0	0	0	0	0	72	11	3,109		11751	1	2166620	1
+T086	3528059	T085	2_7_19	8,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Reutlingen		Europe	Germany	Baden-Wuerttemberg	Reutlingen		NA	F	0	3	0	0	0	0	0	0	0	70	7	3,912		4429	1	788618	1
+T115	1136066	T114	2_18_19	9	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Rottenburg_am_Neckar		NA	F	0	3	0	0	0	0	0	0	0	69	8	31,091		9578	1	1177906	1
+T124	1201856	T123	2_24_19	6,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Stuttgart		Europe	Germany	Baden-Wuerttemberg	Stuttgart		NA	M	0	3	0	0	0	0	0	0	0	67	6,8	2,357		9440	1	1253628	1
+T136	1953070	T135	2_25_19	5,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Reutlingen		Europe	Germany	Baden-Wuerttemberg	Reutlingen		NA	M	0	3	0	0	0	0	0	0	0	approx_70	8	2,029		5258	1	252820	1
+T131	2511429	T130	2_25_19	14,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Boeblingen		NA	M	0	3	0	0	0	0	0	0	0	81	11,5	20,929		6475	1	2585384	1
+T133	2134216	T132	2_25_19	15	ITM	ITM	ITM	0	NA	Europe	Germany	Baden-Wuerttenburg	Korntal-Muenchingen		Europe	Germany	Baden-Wuerttemberg	Korntal-Muenchingen		NA	M	0	3	0	0	0	0	0	0	0	74	11	7,823		7173	1	2219666	1
+T152	1434608	T151	2_26_19	4,5	ITM	ITM	ITM	0	3_6	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Pliezhausen		NA	F	0	3	0	0	0	0	0	0	0	approx_60	approx_6	24,785		7485	1	1462300	1
+T141	1748922	T140	2_25_19	15,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	3	0	0	0	0	0	0	0	80	10	15,324		6684	1	1827122	1
+T170	1018688	T169	3_4_19	7,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	3	0	0	0	0	0	0	0	66	7,7	3,188		6446	1	1056972	1
+T139	2591816	T138	2_25_19	1,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	1	0	0	0	0	0	0	0	53	3,6	5,412	0,751	19894	2	2692830	2
+T155	2202801	T154	2_26_19	22,25	ITM	ITM	ITM	0	Never	Europe	Sweden	Gotland	Visby		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	3	0	0	0	0	0	0	0	84	11	10,161		8590	1	443748	1
+T177	1755875	T176	3_4_19	9	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	3	0	0	0	0	0	0	0	approx.76	approx.9	1,535		7270	1	1824900	1
+T096	6331135	T095	2_8_19	2,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttenburg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Moessingen		NA	F	0	1	0	0	0	0	0	0	0	59	6	3,194	5,935	5077	2	6608362	2
+T166	2333718	T165	3_4_19	1	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	1	0	0	0	0	0	0	0	60	5,1	2,008		6684	1	2429600	1
+T189	1518997	T188	3_12_19	NA	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Filderstadt		Europe	Germany	Baden-Wuerttemberg	Waldenbuch		NA	F	0	3	0	0	0	0	0	0	0	68	7,5	13,431		12796	1	1568684	1
+T181	2529626	T180	3_4_19	10	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Boeblingen		Europe	Germany	Baden-Wuerttemberg	Boeblingen		NA	F	0	3	0	0	0	0	0	0	0	78	10	20,472		5323	1	2655346	1
+T187	2061367	T186	3_12_19	9,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Filderstadt		Europe	Germany	Baden-Wuerttemberg	Waldenbuch		NA	M	0	3	0	0	0	0	0	0	0	70	9,5	2,014		6005	1	2163310	1
+T193	2165615	T192	3_12_19	9,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Rottenburg_am_Neckar		NA	M	0	3	0	0	0	0	0	0	0	75	9	12,57		5467	1	2219628	1
+T209	1340253	T208	3_12_19	6	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Sigmaringen		NA	F	1	3	0	0	0	0	0	0	0	70	9	3,212		7283	1	1409398	1
+T200	1816026	T199	3_12_19	7	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Pforzheim		Europe	Germany	Baden-Wuerttemberg	Pforzheim		NA	F	0	3	0	0	0	0	0	0	0	approx.80	approx.9	31,313		3328	1	1866262	1
+T197	1920774	T196	3_12_19	7,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	3	0	0	0	0	0	0	0	66	approx.7	1,84		4753	1	2043254	1
+T213	2027984	T212	3_24_19	10	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Reutlingen		NA	F	0	3	0	0	0	0	0	0	0	74	9,5	81,937		9438	1	2102778	1
+T230	1366272	T229	3_24_19	2,75	ITM	ITM	ITM	0	6+	Europe	Germany	Baden-Wuerttemberg	Boeblingen		Europe	Germany	Baden-Wuerttemberg	Gaertringen		NA	F	1	3	0	0	0	0	0	0	0	92	12,8	13,232		15448	1	1427920	1
+T232	1680268	T231	3_24_19	1,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Dusslingen		NA	F	0	1	0	0	0	0	0	0	0	approx.60	5	0,513		12034	1	1754110	1
+T234	1827154	T233	3_24_19	8,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Nuertingen		Europe	Germany	Baden-Wuerttemberg	Schlaitdorf		NA	F	0	3	0	0	0	0	0	0	0	65	6	2,559		6647	1	1920766	1
+T216	3139904	T215	3_24_19	8,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Boeblingen		Europe	Germany	Baden-Wuerttemberg	Weil_der_Stadt		NA	F	0	3	0	0	0	0	0	0	0	approx.70	6,5	30,709		11093	1	3223864	1
+T236	1766406	T235	3_24_19	6,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	3	0	0	0	0	0	0	0	68	9	9,333		3130	1	392154	1
+T226	3057276	T225	3_24_19	11,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Herrenberg		Europe	Germany	Baden-Wuerttemberg	Gomaringen		NA	F	0	3	0	0	0	0	0	0	0	71	10	2,609		8899	1	3162364	1
+T228	2926386	T227	3_24_19	7	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Reutlingen		Europe	Germany	Baden-Wuerttemberg	Walddorfhaeslach		NA	F	0	3	0	0	0	0	0	0	0	70	7	4,267		2915	1	3056248	1
+T252	1216776	T251	3_26_19	4,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Reutlingen		Europe	Germany	Baden-Wuerttemberg	Moessingen		NA	F	0	3	0	0	0	0	0	0	0	63	6,2	1,055		7245	1	1290296	1
+T222	3629345	T221	3_24_19	21	ITM	ITM	ITM	0	NA	Europe	Germany	Baden-Wuerttemberg	Boeblingen		Europe	Germany	Baden-Wuerttemberg	Sindelfingen		NA	M	0	3	0	0	0	0	0	0	0	87	13,6	14,083		6351	1	3747592	1
+T242	1718821	T241	3_26_19	6	ITM	ITM	ITM	0	NA	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Neustetten		NA	M	0	1	0	0	0	0	0	0	0	68	5,5	128,684		13993	1	1794746	1
+T244	2439392	T243	3_26_19	8	ITM	ITM	ITM	0	6+	Europe	Germany	Baden-Wuerttemberg	Reutlingen		Europe	Germany	Baden-Wuerttemberg	Reutlingen		NA	F	0	3	0	0	0	0	0	0	0	approx.70	approx.8.5	42,238		10259	1	2521176	1
+T254	1260495	T253	3_26_19	11	ITM	ITM	ITM	0	NA	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	3	0	0	0	0	0	0	0	82	8,5	2,429		4656	1	1302400	1
+T256	1078682	T255	3_26_19	9,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	3	0	0	0	0	0	0	0	72	9,5	2,164		4257	1	1133046	1
+T269	1380257	T268	3_28_19	4,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Ofterdingen		NA	F	0	1	0	0	0	0	0	0	0	68	7	3,758		2615	1	1463170	1
+T277	1134524	T276	3_28_19	4,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Herrenberg		Europe	Germany	Baden-Wuerttemberg	Herrenberg		NA	M	0	1	0	0	0	0	0	0	0	74	9	0,876		5689	1	1201534	1
+T272	1756985	T271	3_28_19	3,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	1	0	0	0	0	0	0	0	60	5,1	3,344		6724	1	1820568	1
+T263	1959201	T262	3_26_19	10	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Boeblingen		Europe	Germany	Baden-Wuerttemberg	Boeblingen		NA	F	0	3	0	0	0	0	0	0	0	74	7,3	6,666		7983	1	2030544	1
+T281	1356943	T280	3_28_19	9	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Filderstadt		Europe	Germany	Baden-Wuerttemberg	Boeblingen		NA	F	0	3	0	0	0	0	0	0	0	69	9,1	4,265		16950	1	1412760	1
+T283	1633844	T282	3_28_19	10	ITM	ITM	ITM	0	6+	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Hechingen		NA	M	0	3	0	0	0	0	0	0	0	70	9,5	10,181		20141	1	1704832	1
+T287	1097460	T286	3_28_19	5,75	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Reutlingen		NA	F	0	3	0	0	0	0	0	0	0	70	8,2	12,928		8591	1	1128384	1
+T289	1095039	T288	3_28_19	18	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Reutlingen		Europe	Germany	Baden-Wuerttemberg	Reutlingen		NA	F	0	3	0	0	0	0	0	0	0	83	11	16,992		10970	1	1145014	1
+T285	1486971	T284	3_28_19	16	ITM	ITM	ITM	0	1_2	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Rottenburg_am_Neckar		NA	F	0	3	0	0	0	0	0	0	0	75	9	8,455		14955	1	1579750	1
+T296	1270735	T295	3_28_19	14,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Herrenberg		Europe	Germany	Baden-Wuerttemberg	Jettingen		NA	F	0	3	0	0	0	0	0	0	0	70	10	9,9		11943	1	1322690	1
+T291	1702892	T290	3_28_19	3,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Herrenberg		Europe	Germany	Baden-Wuerttemberg	Jettingen		NA	M	0	1	0	0	0	0	0	0	0	NA	6,2	0,673		9870	1	1788980	1
+T275	2841210	T274	3_28_19	7,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	1	3	0	0	0	0	0	0	0	72	9	2,091		5901	1	596354	1
+T299	1619338	T270	3_28_19	19	ITM	ITM	ITM	0	6+	Europe	Germany	Thueringen	Suhl		Europe	Germany	Baden-Wuerttemberg	Boeblingen		NA	M	1	3	0	0	0	0	0	0	0	85	12	10,026		11757	1	1712818	1
+T314	1153919	T313	4_2_19	10,25	ITM	ITM	ITM	0	1_2	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	3	0	0	0	0	0	0	0	74	8	1,012		12185	1	1221872	1
+T312	1240763	T311	4_2_19	12,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	3	0	0	0	0	0	0	0	75_76	9,2	3,842		9461	1	1295682	1
+T308	1798073	T307	4_2_19	12,75	ITM	ITM	ITM	0	3_6	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	3	0	0	0	0	0	0	0	NA	NA	23,014		8917	1	1857370	1
+T304	2587498	T303	4_2_19	8,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Betzingen		NA	M	1	3	0	0	0	0	0	0	0	78	10	10,141		12644	1	2689766	1
+T310	2377122	T309	4_2_19	9	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	3	0	0	0	0	0	0	0	72_73	10	25,681		6104	1	2477270	1
+T320	2237327	T319	4_2_19	7	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	1	3	0	0	0	0	0	0	0	71,5	9	12,591		9361	1	2340002	1
+T326	1955707	T325	4_2_19	3,5	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	F	0	1	0	0	0	0	0	0	0	68	8	2,654		5052	1	483368	1
+T336	1683902	T335	4_2_19	4,25	ITM	ITM	ITM	0	Never	Europe	Germany	Baden-Wuerttemberg	Tuebingen		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	1	0	0	0	0	0	0	0	64_68	7	33,53		6751	1	1752014	1
+T330	2694784	T329	4_2_19	2	ITM	ITM	ITM	0	1_2	Europe	Germany	Baden-Wuerttemberg	Filderstadt		Europe	Germany	Baden-Wuerttemberg	Tuebingen		NA	M	0	1	0	0	0	0	0	0	0	56	7	0,101	5,006	9630	2	2838984	2

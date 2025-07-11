@@ -1,0 +1,1385 @@
+COG20_FUNCTION	enrichment_score	unadjusted_p_value	adjusted_q_value	associated_groups	accession	gene_clusters_ids	p_M_smithii	p_M_intestini	N_M_smithii	N_M_intestini
+Membrane protein implicated in regulation of membrane protease activity (YbbJ) (PDB:2EXD)	77.7659523	1.16E-18	2.36E-16	M. intestini	COG1585	GC_00001799	0	0.9231	61	26
+"Regulator of protease activity HflC, stomatin/prohibitin superfamily (HflC)"	77.7659523	1.16E-18	2.36E-16	M. intestini	COG0330	GC_00001793	0	0.9231	61	26
+"ABC-type molybdate transport system, periplasmic Mo-binding protein ModA (ModA) (PDB:1AMF)"	77.71212348	1.19E-18	2.36E-16	M. smithii	COG0725	GC_00001583	0.9836	0.0385	61	26
+"ABC-type sulfate/molybdate transport systems, ATPase component (CysA)"	77.71212348	1.19E-18	2.36E-16	M. smithii	COG1118	GC_00001579	0.9836	0.0385	61	26
+"ABC-type molybdate transport system, permease component ModB (ModB)"	77.71212348	1.19E-18	2.36E-16	M. smithii	COG4149	GC_00001577	0.9836	0.0385	61	26
+Multidrug transporter EmrE and related cation transporters (EmrE) (PDB:2I68)	77.71212348	1.19E-18	2.36E-16	M. intestini	COG2076	"GC_00001763, GC_00003643"	0.0164	0.9615	61	26
+"Membrane integrity protein DedA, putative transporter, DedA/Tvp38 family (DedA) (PUBMED:24312110;25917916)"	77.71212348	1.19E-18	2.36E-16	M. intestini	COG0586	"GC_00001753, GC_00003473"	0.0164	0.9615	61	26
+"Uncharacterized protein RhuM, Salmonella virulence factor (RhuM)"	54.87857739	1.28E-13	2.22E-11	M. intestini	COG3943	"GC_00001691, GC_00002671, GC_00003193"	0.0984	0.9231	61	26
+"CRISPR-associated protein Csa3, CARF domain (Csa3) (PDB:2WTE) (PUBMED:21093452)"	48.23184968	3.79E-12	5.82E-10	M. intestini	COG3415	"GC_00001567, GC_00001709, GC_00003656"	0.1639	0.9615	61	26
+"VapC family ribonuclease, toxin component of the VapBC toxin-antitoxin module, contains PIN domain (VapC) (PUBMED:30169502)"	41.50698198	1.17E-10	1.50E-08	M. intestini	COG1848	"GC_00001677, GC_00002946"	0.2131	0.9615	61	26
+"Acetyltransferase, isoleucine patch superfamily (WbbJ)"	41.4753519	1.19E-10	1.50E-08	M. intestini	COG0110	"GC_00001848, GC_00002758, GC_00004007"	0.0656	0.7308	61	26
+"Glycosyltransferase involved in cell wall bisynthesis (WcaA) (PDB:5MLZ)!!!Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase (BcsA) (PDB:4HG6)"	41.1720185	1.39E-10	1.61E-08	M. intestini	COG0463!!!COG1215	GC_00001838	0.0492	0.6923	61	26
+Predicted SAM-depedendent methyltransferase	39.73016595	2.92E-10	2.88E-08	M. intestini	COG4627	"GC_00001663, GC_00001664"	0.2623	1	61	26
+"Uncharacterized membrane protein PF0508, contains N-terminal glycosyltransferase domain of PMT family"	39.73016595	2.92E-10	2.88E-08	M. intestini	COG5305	"GC_00001718, GC_00002033"	0.2623	1	61	26
+Copper-binding protein CopC (methionine-rich) (CopC) (PDB:1IX2)	37.7069145	8.22E-10	7.59E-08	M. intestini	COG2372	"GC_00001956, GC_00002339, GC_00002826"	0.0328	0.6154	61	26
+Predicted ATPase	36.23737848	1.75E-09	1.51E-07	M. intestini	COG4938	"GC_00001555, GC_00001792, GC_00002079, GC_00002859"	0.2951	1	61	26
+Membrane-associated phospholipid phosphatase (PgpB) (PDB:1D2T)	35.85810856	2.12E-09	1.73E-07	M. intestini	COG0671	GC_00001996	0	0.5	61	26
+"Lipopolysaccharide biosynthesis protein, LPS:glycosyltransferase (RfaJ) (PDB:1G9R)"	27.86981702	1.30E-07	9.98E-06	M. intestini	COG1442	GC_00001641	0.3443	0.9615	61	26
+"Cold shock protein, CspA family (CspC) (PDB:1C9O)"	26.36447329	2.83E-07	2.06E-05	M. smithii	COG1278	GC_00001585	0.8361	0.2692	61	26
+"Predicted ATPase, archaeal AAA+ ATPase superfamily"	26.17823575	3.11E-07	2.15E-05	M. intestini	COG1672	"GC_00001654, GC_00001719, GC_00001755, GC_00002452"	0.4098	1	61	26
+"Uncharacterized conserved protein, PKD repeat domain (PDB:2KZW)"	15.12182426	1.01E-04	0.006642628	M. intestini	COG3291	GC_00002252	0	0.2308	61	26
+Pyridoxamine 5'-phosphate oxidase (PNPOx-like) family protein (PDB:2IG6)	14.57188335	1.35E-04	0.008487231	M. intestini	COG5015	GC_00001652	0.3607	0.8077	61	26
+"Predicted antitoxin, contains HTH domain"	11.29134309	7.79E-04	0.046857022	M. intestini	COG2886	GC_00001991	0.0656	0.3462	61	26
+"Adenylate cyclase, class 3 (AcyC) (PDB:1AB8)"	10.98450585	9.19E-04	0.052982275	M. intestini	COG2114	"GC_00002271, GC_00002301, GC_00002377, GC_00002780, GC_00003201"	0.0328	0.2692	61	26
+"Transposase, IS1182 family"	10.36218452	0.001286229	0.068466965	M. intestini	COG3666	"GC_00000027, GC_00001537, GC_00001539, GC_00001896, GC_00002865"	0.6885	1	61	26
+Phage terminase large subunit	10.36218452	0.001286229	0.068466965	M. smithii	COG5362	"GC_00001739, GC_00001850"	0.3115	0	61	26
+"Predicted transcriptional regulator, contains an HTH and PUA-like domains"	9.948302996	0.001609977	0.08252625	M. intestini	COG4933	"GC_00001961, GC_00002208"	0.0984	0.3846	61	26
+CRISPR-Cas system type I-B effector complex large subunit Cas8b2 (Cas8b2)	9.327709923	0.002257143	0.107720187	M. intestini	COG5939	GC_00001794	0.1803	0.5	61	26
+"CRISPR-Cas system type I effector complex subunit Cas7,  RAMP superfamily (Cas7) (PDB:3PS0)"	9.327709923	0.002257143	0.107720187	M. intestini	COG1857	GC_00001795	0.1803	0.5	61	26
+"Coenzyme F420-reducing hydrogenase, beta subunit (FrhB) (PDB:3ZFS)!!!L-lactate utilization protein LutB, contains a ferredoxin-type domain (LutB)"	8.715613704	0.003154962	0.145548911	M. smithii	COG1035!!!COG1139	GC_00001756	0.3934	0.0769	61	26
+"Predicted nucleic acid-binding protein, contains PIN domain"	8.017901119	0.004631722	0.206783964	M. intestini	COG2405	"GC_00001632, GC_00001687, GC_00002501"	0.623	0.9231	61	26
+"Periplasmic protein TonB, links inner and outer membranes (TonB) (PDB:1IHR)"	7.85553461	0.005066537	0.212487486	M. intestini	COG0810	"GC_00001696, GC_00004166"	0.2951	0.6154	61	26
+Transposase	7.85553461	0.005066537	0.212487486	M. intestini	COG3335	"GC_00001649, GC_00003049, GC_00003413, GC_00003758, GC_00003793, GC_00003969, GC_00004020, GC_00004038, GC_00004177"	0.2951	0.6154	61	26
+"ABC-type Fe3+-siderophore transport system, permease component (FepD) (PDB:2NQ2)"	7.725347665	0.005445087	0.221647086	M. intestini	COG0609	GC_00001554	0.7541	1	61	26
+"Mn-dependent transcriptional regulator MntR, DtxR family (MntR) (PDB:1B1B)"	7.291927516	0.006926512	0.259088998	M. intestini	COG1321	GC_00002744	0	0.1154	61	26
+"DNA modification methylase (YhdJ) (PDB:1BOO)!!!Chromosome segregation protein Spo0J, contains ParB-like nuclease domain (Spo0J) (PDB:1R71)"	7.291927516	0.006926512	0.259088998	M. intestini	COG0863!!!COG1475	GC_00002784	0	0.1154	61	26
+Flavodoxin (FldA) (PDB:1AG9)!!!Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)	7.291927516	0.006926512	0.259088998	M. smithii	COG0716!!!COG1143	GC_00000055	1	0.8846	61	26
+Uncharacterized phage protein gp47/JayE (JayE)	6.841792791	0.008904943	0.324327383	M. intestini	COG3299	"GC_00002170, GC_00002716"	0.0656	0.2692	61	26
+"Zn-dependent peptidase ImmA, M78 family (ImmA) (PDB:3DTE)"	6.702201799	0.009629393	0.341719988	M. intestini	COG2856	"GC_00001646, GC_00001721, GC_00002265, GC_00002352"	0.6557	0.9231	61	26
+"Transcriptional regulator, contains XRE-family HTH domain (HipB) (PDB:1ADR)"	6.409456773	0.011351414	0.392758919	M. intestini	COG1396	"GC_00001622, GC_00001720, GC_00002085, GC_00002256"	0.7213	0.9615	61	26
+ERCC4-type crossover junction endonuclease (MUS81) (PDB:1J22)	6.004419848	0.014270085	0.481702395	M. intestini	COG1948	"GC_00001929, GC_00002701, GC_00003094"	0.1475	0.3846	61	26
+"CRISPR/Cas system-associated protein Cas5, RAMP superfamily (Cas5)"	5.623460534	0.017721624	0.583969709	M. intestini	COG1688	"GC_00001798, GC_00001962, GC_00003116"	0.377	0.6538	61	26
+Fic family protein (PDB:3CUC)	5.364637449	0.020549059	0.645884929	M. intestini	COG3177	GC_00001713	0.2787	0.5385	61	26
+Prophage antirepressor	5.356162932	0.020649159	0.645884929	M. smithii	COG3617	GC_00001716	0.3607	0.1154	61	26
+CRISPR-Cas type I system-associated endonuclease/helicase Cas3 (Cas3)	5.164051905	0.023059041	0.645884929	M. intestini	COG1203	"GC_00001749, GC_00001902, GC_00003097, GC_00003353, GC_00003640"	0.4262	0.6923	61	26
+"G:T-mismatch repair DNA endonuclease Vsr, very short patch repair protein (Vsr) (PDB:1CW0)"	4.889604755	0.027018871	0.645884929	M. intestini	COG3727	GC_00001955	0.0656	0.2308	61	26
+Large exoprotein involved in heme utilization or adhesion (FhaB) (PDB:4RM6)	4.801610897	0.02843314	0.645884929	M. intestini	COG3210	"GC_00003545, GC_00003591, GC_00004136"	0	0.0769	61	26
+Phage terminase large subunit (XtmB) (PDB:4IDH)	4.68284304	0.030465289	0.645884929	M. intestini	COG1783	"GC_00001874, GC_00002311, GC_00002768"	0.2295	0.4615	61	26
+"Predicted transcriptional regulator, contains HTH domain (PDB:3LMM)"	4.277362927	0.038623227	0.645884929	M. intestini	COG2865	"GC_00001551, GC_00001660, GC_00001685, GC_00001893, GC_00002126, GC_00002449, GC_00002864, GC_00003194, GC_00003738, GC_00004142"	0.8525	1	61	26
+Predicted Rossmann fold nucleotide-binding protein DprA/Smf involved in DNA uptake (Smf) (PDB:3MAJ)	4.243585666	0.039398873	0.645884929	M. smithii	COG0758	GC_00001747	0.377	0.1538	61	26
+Restriction endonuclease S subunit (HsdS) (PDB:1YDX)	4.115858192	0.042482966	0.645884929	M. intestini	COG0732	"GC_00002010, GC_00002069, GC_00002211, GC_00002212, GC_00002253, GC_00002360, GC_00002403, GC_00002407, GC_00002425, GC_00002429, GC_00002507, GC_00002524, GC_00002533, GC_00002559, GC_00002641, GC_00002662, GC_00002663, GC_00002664, GC_00002668, GC_00002702, GC_00002703, GC_00002705, GC_00002729, GC_00002742, GC_00002755, GC_00002756, GC_00002764, GC_00002765, GC_00002772, GC_00002773, GC_00002795, GC_00002801, GC_00002882, GC_00002883, GC_00002884, GC_00002896, GC_00002926, GC_00002927, GC_00002940, GC_00003010, GC_00003030, GC_00003040, GC_00003041, GC_00003051, GC_00003058, GC_00003064, GC_00003070, GC_00003081, GC_00003082, GC_00003083, GC_00003130, GC_00003213, GC_00003214, GC_00003215, GC_00003216, GC_00003217, GC_00003218, GC_00003220, GC_00003224, GC_00003225, GC_00003232, GC_00003250, GC_00003251, GC_00003277, GC_00003291, GC_00003292, GC_00003293, GC_00003296, GC_00003297, GC_00003308, GC_00003313, GC_00003348, GC_00003359, GC_00003368, GC_00003369, GC_00003394, GC_00003440, GC_00003550, GC_00003639, GC_00003661, GC_00003667, GC_00003848, GC_00004077, GC_00004098, GC_00004164, GC_00004180, GC_00004184"	0.7869	0.9615	61	26
+"Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme (IlvB) (PDB:1BFD)!!!Sulfopyruvate decarboxylase, TPP-binding subunit (coenzyme M biosynthesis)"	4.072604707	0.043584018	0.645884929	M. intestini	COG0028!!!COG4032	GC_00002525	0.0164	0.1154	61	26
+"DNA-cytosine methylase (Dcm) (PDB:3LX6)!!!G:T-mismatch repair DNA endonuclease Vsr, very short patch repair protein (Vsr) (PDB:1CW0)"	4.072604707	0.043584018	0.645884929	M. intestini	COG0270!!!COG3727	GC_00002527	0.0164	0.1154	61	26
+Predicted ABC-type ATPase or kinase	3.98207109	0.045986986	0.645884929	M. smithii	COG4185	GC_00001639	0.541	0.3077	61	26
+"Type I restriction-modification system, DNA methylase subunit (HsdM) (PDB:2AR0) (PUBMED:26872910)"	3.818791859	0.050680769	0.645884929	M. intestini	COG0286	"GC_00001681, GC_00001851, GC_00001858, GC_00001947, GC_00002052, GC_00002072, GC_00002229, GC_00002369, GC_00002551, GC_00002706, GC_00003033, GC_00003337, GC_00003352, GC_00003456, GC_00003698"	0.7377	0.9231	61	26
+Superfamily II DNA or RNA helicase (SSL2) (PDB:6JDE)	3.753636907	0.052692742	0.645884929	M. smithii	COG1061	"GC_00002566, GC_00003018, GC_00003019, GC_00003056, GC_00003681"	0.1311	0	61	26
+"DNA uptake channel protein ComEC C-terminal domain, metallo-beta-lactamase superfamily (ComEC)"	3.753636907	0.052692742	0.645884929	M. smithii	COG2333	GC_00002121	0.1311	0	61	26
+"ATP-dependent helicase YprA,  contains C-terminal metal-binding DUF1998 domain (YprA)"	3.589805311	0.058135054	0.645884929	M. smithii	COG1205	"GC_00002240, GC_00002363, GC_00003406"	0.1967	0.0385	61	26
+"5-methylcytosine-specific restriction endonuclease McrBC, GTP-binding regulatory subunit McrB (McrB) (PDB:6HZ4)"	3.473519317	0.062358507	0.645884929	M. intestini	COG1401	"GC_00001606, GC_00002726, GC_00002858"	0.5574	0.7692	61	26
+"Type I site-specific restriction-modification system, R (restriction) subunit and related helicases ... (PDB:2W00)"	3.452889554	0.063141294	0.645884929	M. intestini	COG0610	"GC_00001679, GC_00001833, GC_00002259, GC_00003937"	0.4754	0.6923	61	26
+"Uncharacterized conserved protein, DUF1501 family"	3.396032468	0.065353437	0.645884929	M. smithii	COG4102	GC_00000114	0.6721	0.4615	61	26
+"CRISPR-Cas system type III CSM-effector complex subunit Csm5, RAMP superfamily Cas7 group (Csm5)"	3.311789196	0.068784564	0.645884929	M. intestini	COG1332	"GC_00001602, GC_00002001"	0.7541	0.9231	61	26
+"Uncharacterized conserved protein, DUF1802 family"	3.311789196	0.068784564	0.645884929	M. smithii	COG4293	"GC_00002249, GC_00002343, GC_00002397"	0.2459	0.0769	61	26
+"DNAse/DNA nickase specific for phosphorothioated or glycosylated phage DNA, GmrSD/DndB/SspE family, contains DUF262 and HNH nuclease domains (GmrSD) (PDB:6JIV) (PUBMED:17188297;32251370)!!!Uncharacterized protein domain, C-terminal to COG1479 DNAse/DNA nickase (PUBMED:17188297;32251370)"	3.246327697	0.071583672	0.645884929	M. smithii	COG1479!!!COG3586	"GC_00002535, GC_00002648"	0.1148	0	61	26
+Membrane protein TolA involved in colicin uptake (TolA) (PDB:1S62)	3.246327697	0.071583672	0.645884929	M. smithii	COG3064	"GC_00002354, GC_00002690"	0.1148	0	61	26
+SRSO17 transposase (Srso17)	3.246327697	0.071583672	0.645884929	M. smithii	COG5659	GC_00002202	0.1148	0	61	26
+Type IV pilus assembly protein PilF/PilW (PilF) (PDB:2VQ2) (PUBMED:16403447)!!!Cytochrome c-type biogenesis protein CcmH/NrfG (NrfG)	3.246327697	0.071583672	0.645884929	M. intestini	COG3063!!!COG4235	GC_00001399	0.8852	1	61	26
+Predicted ATP-dependent Lon-type protease	3.230496694	0.072278764	0.645884929	M. smithii	COG4930	"GC_00001801, GC_00001979, GC_00002957"	0.3443	0.1538	61	26
+Predicted nucleotidyltransferase MJ0435 (MJ0435) (PDB:1WOT)	3.082871415	0.079120727	0.645884929	M. smithii	COG1669	GC_00002004	0.1803	0.0385	61	26
+CRISPR-Cas system type III CSM-effector complex small subunit Csm2 (Csm2) (PDB:5AN6)	2.828632266	0.09259719	0.645884929	M. intestini	COG1421	"GC_00001599, GC_00001986"	0.7705	0.9231	61	26
+"CRISPR-Cas system type III CSM-effector complex subunit Csm4, RAMP superfamily Cas5 group (Csm4) (PDB:4QTS)"	2.828632266	0.09259719	0.645884929	M. intestini	COG1567	"GC_00001597, GC_00001995"	0.7705	0.9231	61	26
+"CRISPR-Cas system type III CSM-effector complex subunit Csm3, RAMP superfamily Cas7 group (Csm3) (PDB:6IFN)"	2.828632266	0.09259719	0.645884929	M. intestini	COG1337	"GC_00001596, GC_00001984"	0.7705	0.9231	61	26
+"Endonuclease YncB, thermonuclease family (YncB)!!!Methylphosphotriester-DNA--protein-cysteine methyltransferase (N-terminal fragment of Ada), contains Zn-binding and two AraC-type DNA-binding domains (AdaA) (PDB:1ADN)"	2.748155839	0.097366672	0.645884929	M. intestini	COG1525!!!COG2169	GC_00001518	0.9016	1	61	26
+Cyclopropane fatty-acyl-phospholipid synthase and related methyltransferases (Cfa) (PDB:5Z9O)	2.745827692	0.097508574	0.645884929	M. intestini	COG2230	GC_00001572	0.7213	0.8846	61	26
+"ATP-dependent Clp protease, ATP-binding subunit ClpA (ClpA) (PDB:1KSF)"	2.695922743	0.10060523	0.645884929	M. intestini	COG0542	"GC_00002405, GC_00003973, GC_00004174"	0.0492	0.1538	61	26
+"Uncharacterized conserved protein YecA, UPF0149 family, contains C-terminal Zn-binding SEC-C motif (YecA)"	2.595670691	0.10715607	0.645884929	M. smithii	COG3318	"GC_00002029, GC_00003290"	0.1639	0.0385	61	26
+Adenylosuccinate lyase (PurB) (PDB:2HVG)	2.375935454	0.123217768	0.645884929	M. smithii	COG0015	GC_00001448	1	0.9615	61	26
+UDP-N-acetyl-D-mannosaminuronate dehydrogenase (WecC) (PDB:3OJL)	2.375935454	0.123217768	0.645884929	M. smithii	COG0677	GC_00000074	1	0.9615	61	26
+"6,7-dimethyl-8-ribityllumazine synthase (Riboflavin synthase beta chain) (RibE) (PDB:1C2Y)"	2.375935454	0.123217768	0.645884929	M. smithii	COG0054	GC_00001431	1	0.9615	61	26
+"Uncharacterized conserved protein, DUF2264 domain"	2.375935454	0.123217768	0.645884929	M. smithii	COG4289	GC_00000052	1	0.9615	61	26
+"DNA-binding transcriptional regulator, XRE-family HTH domain (XRE) (PDB:1UTX)"	2.375935454	0.123217768	0.645884929	M. smithii	COG1476	GC_00001427	1	0.9615	61	26
+"DNA-binding transcriptional regulator, CsgD family (CsgD)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2771	GC_00003675	0	0.0385	61	26
+"FoF1-type ATP synthase, gamma subunit (AtpG) (PDB:3OAA) (PUBMED:15326535)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0224	GC_00004093	0	0.0385	61	26
+Multidrug efflux pump subunit AcrA (membrane-fusion protein) (AcrA) (PDB:1T5E)	2.375935454	0.123217768	0.645884929	M. intestini	COG0845	GC_00003495	0	0.0385	61	26
+50S ribosomal subunit-associated GTPase HflX (HflX) (PDB:2QTF) (PUBMED:22905870)	2.375935454	0.123217768	0.645884929	M. intestini	COG2262	GC_00003518	0	0.0385	61	26
+Twin-arginine protein secretion pathway components TatA and TatB (TatA) (PDB:2L16)	2.375935454	0.123217768	0.645884929	M. intestini	COG1826	GC_00003786	0	0.0385	61	26
+"Uncharacterized conserved protein YjbJ, UPF0337 family (yjbJ) (PDB:1RYK)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3237	GC_00003929	0	0.0385	61	26
+Copper homeostasis protein CutC (CutC) (PDB:1TWD)	2.375935454	0.123217768	0.645884929	M. intestini	COG3142	GC_00003979	0	0.0385	61	26
+"Type IV secretory pathway, VirD4 component, TraG/TraD family ATPase (VirD4) (PDB:1GL6)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3505	GC_00003778	0	0.0385	61	26
+Pullulanase/glycogen debranching enzyme (PulA) (PDB:2WSK)	2.375935454	0.123217768	0.645884929	M. intestini	COG1523	"GC_00003728, GC_00003904"	0	0.0385	61	26
+Protein involved in initiation of plasmid replication (PDB:2Z9O)	2.375935454	0.123217768	0.645884929	M. intestini	COG5527	GC_00003393	0	0.0385	61	26
+Phage protein D (gpD)	2.375935454	0.123217768	0.645884929	M. intestini	COG3500	GC_00003808	0	0.0385	61	26
+Opacity protein LomR and related surface antigens (LomR) (PDB:1Q9F)	2.375935454	0.123217768	0.645884929	M. intestini	COG3637	GC_00003382	0	0.0385	61	26
+"Two-component response regulator, YesN/AraC family, consists of REC and AraC-type DNA-binding domains (YesN)"	2.375935454	0.123217768	0.645884929	M. intestini	COG4753	GC_00004155	0	0.0385	61	26
+Mannitol-1-phosphate/altronate dehydrogenases (MtlD) (PDB:1LJ8)	2.375935454	0.123217768	0.645884929	M. intestini	COG0246	GC_00003668	0	0.0385	61	26
+"DNA repair protein RadC, contains a helix-hairpin-helix DNA-binding motif (RadC) (PDB:2QLC) (PUBMED:9695921)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2003	GC_00004111	0	0.0385	61	26
+"Fe-S cluster assembly protein CyaY, frataxin homolog (CyaY) (PDB:1EKG)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1965	GC_00003900	0	0.0385	61	26
+Na+/H+-dicarboxylate symporter (GltP) (PDB:1XFH)	2.375935454	0.123217768	0.645884929	M. intestini	COG1301	GC_00003741	0	0.0385	61	26
+Transcriptional regulators containing an AAA-type ATPase domain and a DNA-binding domain (PspF)	2.375935454	0.123217768	0.645884929	M. intestini	COG1221	GC_00004171	0	0.0385	61	26
+Phage-related minor tail protein	2.375935454	0.123217768	0.645884929	M. intestini	COG5281	"GC_00003287, GC_00004150"	0	0.0385	61	26
+DNA replication protein DnaC (DnaC) (PDB:2QGZ)	2.375935454	0.123217768	0.645884929	M. intestini	COG1484	GC_00004060	0	0.0385	61	26
+"Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrC (NqrC) (PDB:4P6V)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2869	GC_00004014	0	0.0385	61	26
+3-deoxy-D-manno-octulosonic-acid transferase (KdtA) (PDB:2XCI)	2.375935454	0.123217768	0.645884929	M. intestini	COG1519	GC_00003630	0	0.0385	61	26
+"Periplasmic serine protease, ClpP class (SppA) (PDB:3BEZ)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0616	GC_00003885	0	0.0385	61	26
+Phosphate/sulfate permease (PitA) (PUBMED:31358606)	2.375935454	0.123217768	0.645884929	M. intestini	COG0306	GC_00003627	0	0.0385	61	26
+Phosphotransferase system sorbitol-specific IIA component (SrlB) (PDB:2F9H)	2.375935454	0.123217768	0.645884929	M. intestini	COG3731	GC_00003947	0	0.0385	61	26
+"Aromatic ring-opening dioxygenase, catalytic subunit, LigB family (LigB) (PDB:2PW6) (PUBMED:23258706)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3384	GC_00003386	0	0.0385	61	26
+Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase (ArgE) (PDB:1CG2)	2.375935454	0.123217768	0.645884929	M. intestini	COG0624	GC_00003478	0	0.0385	61	26
+Cell shape-determining protein MreC (MreC) (PDB:2J5U)	2.375935454	0.123217768	0.645884929	M. intestini	COG1792	GC_00003422	0	0.0385	61	26
+Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair (DinP) (PDB:4R8U) (PUBMED:16544291)	2.375935454	0.123217768	0.645884929	M. intestini	COG0389	"GC_00003532, GC_00003943"	0	0.0385	61	26
+Protein thiol-disulfide isomerase DsbC (DsbG) (PDB:2HI7)	2.375935454	0.123217768	0.645884929	M. intestini	COG1651	GC_00003645	0	0.0385	61	26
+Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI (PhnI)	2.375935454	0.123217768	0.645884929	M. intestini	COG3626	GC_00004167	0	0.0385	61	26
+NADH:ubiquinone oxidoreductase subunit 4 (chain M) (NuoM) (PDB:6HUM)	2.375935454	0.123217768	0.645884929	M. intestini	COG1008	GC_00003994	0	0.0385	61	26
+Superfamily I DNA and/or RNA helicase (DNA2) (PDB:2GJK)!!!Very-short-patch-repair endonuclease (YcjD) (PDB:3HRL)	2.375935454	0.123217768	0.645884929	M. intestini	COG1112!!!COG2852	GC_00003330	0	0.0385	61	26
+sRNA-binding regulator protein Hfq (Hfq) (PDB:1HK9)	2.375935454	0.123217768	0.645884929	M. intestini	COG1923	GC_00004052	0	0.0385	61	26
+Glutamate racemase (MurI) (PDB:1B73)	2.375935454	0.123217768	0.645884929	M. intestini	COG0796	GC_00003335	0	0.0385	61	26
+"DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family (GlpR)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1349	GC_00003624	0	0.0385	61	26
+Na+/H+ antiporter NhaA (NhaA) (PDB:1ZCD) (PUBMED:25746996)	2.375935454	0.123217768	0.645884929	M. intestini	COG3004	GC_00003767	0	0.0385	61	26
+"Murein DD-endopeptidase MepM and murein hydrolase activator NlpD, contains LysM domain (NlpD) (PDB:2GU1)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0739	GC_00004170	0	0.0385	61	26
+AICAR transformylase/IMP cyclohydrolase PurH (PurH) (PDB:1G8M)	2.375935454	0.123217768	0.645884929	M. intestini	COG0138	GC_00003612	0	0.0385	61	26
+Adenosine deaminase (Add) (PDB:1A4L)	2.375935454	0.123217768	0.645884929	M. intestini	COG1816	GC_00003992	0	0.0385	61	26
+"Phosphotransferase system IIC components, glucose/maltose/N-acetylglucosamine-specific (PtsG1)!!!Phosphotransferase system IIB components (PtsG2) (PDB:1IBA)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1263!!!COG1264	GC_00003254	0	0.0385	61	26
+Choline-glycine betaine transporter (BetT) (PDB:2WIT)	2.375935454	0.123217768	0.645884929	M. intestini	COG1292	GC_00004109	0	0.0385	61	26
+"Transposase (or an inactivated derivative), DDE domain (Rve)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3316	GC_00003998	0	0.0385	61	26
+"EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase (EntF) (PDB:5ES5)!!!Acyl carrier protein/domain (AcpA) (PDB:2FQ1) (PUBMED:8759840;20663952)!!!Trans-aconitate methyltransferase (Tam) (PDB:2P35)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1020!!!COG3433!!!COG4106	GC_00003385	0	0.0385	61	26
+NADPH:quinone reductase or related Zn-dependent oxidoreductase (Qor) (PDB:2VCY)	2.375935454	0.123217768	0.645884929	M. intestini	COG0604	GC_00003561	0	0.0385	61	26
+"Alpha-glucosidase/xylosidase, GH31 family (YicI) (PDB:1WE5) (PUBMED:15294295)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1501	GC_00003726	0	0.0385	61	26
+Very-short-patch-repair endonuclease (YcjD) (PDB:3HRL)	2.375935454	0.123217768	0.645884929	M. intestini	COG2852	GC_00003634	0	0.0385	61	26
+ATPase/5-3 helicase helicase subunit RecD of the DNA repair enzyme RecBCD (exonuclease V) (RecD) (PDB:1W36) (PUBMED:29901759;30601118)	2.375935454	0.123217768	0.645884929	M. intestini	COG0507	"GC_00003420, GC_00003635, GC_00003863, GC_00004062"	0	0.0385	61	26
+Phage tail protein	2.375935454	0.123217768	0.645884929	M. intestini	COG4718	GC_00003714	0	0.0385	61	26
+"ABC-type antimicrobial peptide export system, ATPase component SapF (SapF)"	2.375935454	0.123217768	0.645884929	M. intestini	COG4167	GC_00003649	0	0.0385	61	26
+"Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific IIC component (ManY) (PDB:6K1H)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3715	GC_00003983	0	0.0385	61	26
+"Fermentation-respiration switch esterase FrsA, DUF1100 family (FrsA)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1073	GC_00003944	0	0.0385	61	26
+Ferredoxin-like protein FixX (FixX)	2.375935454	0.123217768	0.645884929	M. intestini	COG2440	GC_00003346	0	0.0385	61	26
+Phage tail protein (gp18)	2.375935454	0.123217768	0.645884929	M. intestini	COG4672	GC_00003991	0	0.0385	61	26
+"Murein L,D-transpeptidase YcbB/YkuD (YcbB) (PDB:6NTW) (PUBMED:18456808)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2989	GC_00003744	0	0.0385	61	26
+NADH:ubiquinone oxidoreductase subunit 2 (chain N) (NuoN) (PDB:4HE8)	2.375935454	0.123217768	0.645884929	M. intestini	COG1007	GC_00003608	0	0.0385	61	26
+"FoF1-type ATP synthase, alpha subunit (AtpA) (PDB:3OAA)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0056	GC_00003354	0	0.0385	61	26
+"DNA-binding transcriptional regulator, LacI/PurR family (PurR) (PDB:1BDH)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1609	"GC_00003650, GC_00003872"	0	0.0385	61	26
+Peroxiredoxin (Bcp) (PDB:5IPH)	2.375935454	0.123217768	0.645884929	M. intestini	COG1225	GC_00003777	0	0.0385	61	26
+"DNA-binding transcriptional regulator SgrR of sgrS sRNA, contains a MarR-type HTH domain and a periplasmic-type solute-binding domain (SgrR)"	2.375935454	0.123217768	0.645884929	M. intestini	COG4533	GC_00003889	0	0.0385	61	26
+Thiol-disulfide isomerase or thioredoxin (TrxA) (PDB:1XFL)	2.375935454	0.123217768	0.645884929	M. intestini	COG0526	GC_00003985	0	0.0385	61	26
+"DNA polymerase III, epsilon subunit or related 3'-5' exonuclease (DnaQ) (PDB:1J53)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0847	GC_00003405	0	0.0385	61	26
+"Adenylate cyclase, class I (CyaA)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3072	GC_00003774	0	0.0385	61	26
+16S rRNA U1498 N3-methylase RsmE (RsmE) (PDB:1NXZ)	2.375935454	0.123217768	0.645884929	M. intestini	COG1385	GC_00003340	0	0.0385	61	26
+"NADH pyrophosphatase NudC, Nudix superfamily (NPY1)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2816	GC_00004013	0	0.0385	61	26
+Anaerobic selenocysteine-containing dehydrogenase (BisC) (PDB:1EU1)	2.375935454	0.123217768	0.645884929	M. intestini	COG0243	GC_00004081	0	0.0385	61	26
+Nitrate reductase cytochrome c-type subunit NapB (NapB) (PDB:1JNI)	2.375935454	0.123217768	0.645884929	M. intestini	COG3043	GC_00003703	0	0.0385	61	26
+"Transposase and inactivated derivatives, TnpA family"	2.375935454	0.123217768	0.645884929	M. intestini	COG4644	"GC_00003486, GC_00003531, GC_00003562"	0	0.0385	61	26
+"Mg2+ and Co2+ transporter CorC, contains CBS pair and CorC-HlyC domains (CorC) (PDB:4HG0) (PUBMED:1779764)"	2.375935454	0.123217768	0.645884929	M. intestini	COG4535	GC_00003673	0	0.0385	61	26
+"Acyl carrier protein (AcpP) (PDB:1ACP)!!!EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase (EntF) (PDB:5ES5)!!!NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family (FabG) (PDB:6L1H)!!!Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG (UbiE) (PDB:4OBW)!!!Thioesterase domain of type I polyketide synthase or non-ribosomal peptide synthetase (EntF2) (PDB:5JA1)!!!Acyl transferase domain in polyketide synthase (PKS) enzymes (PksD) (PDB:6IYO)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0236!!!COG1020!!!COG1028!!!COG2226!!!COG3319!!!COG3321	"GC_00003821, GC_00003828"	0	0.0385	61	26
+Dihydroorotate dehydrogenase (PyrD) (PDB:1GT8)!!!NADPH-dependent glutamate synthase beta chain or related oxidoreductase (GltD) (PDB:1H7X)!!!Ferredoxin (NapF) (PDB:6FAH)	2.375935454	0.123217768	0.645884929	M. intestini	COG0167!!!COG0493!!!COG1145	GC_00003450	0	0.0385	61	26
+"Protein/nucleotide deglycase, PfpI/YajL/DJ-1 family (repair of methylglyoxal-glycated proteins and nucleic acids) (YajL) (PDB:5SY4) (PUBMED:19028889;28596309;26678554)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0693	GC_00003416	0	0.0385	61	26
+Polyferredoxin NapH (NapH) (PUBMED:27322068)	2.375935454	0.123217768	0.645884929	M. intestini	COG0348	GC_00003680	0	0.0385	61	26
+Predicted GTPase (YeeP)	2.375935454	0.123217768	0.645884929	M. intestini	COG3596	GC_00003840	0	0.0385	61	26
+"GGDEF domain, diguanylate cyclase (c-di-GMP synthetase) or its enzymatically inactive variants (GGDEF) (PDB:6D9M)!!!EAL domain, c-di-GMP-specific phosphodiesterase class I (or its enzymatically inactive variant) (EAL) (PDB:2BAS)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2199!!!COG2200	GC_00003603	0	0.0385	61	26
+Peptodoglycan polymerase FtsW/RodA/SpoVE (FtsW) (PDB:6BAR) (PUBMED:30692671)	2.375935454	0.123217768	0.645884929	M. intestini	COG0772	GC_00003722	0	0.0385	61	26
+"DNA-binding transcriptional regulator, FadR family (FadR) (PDB:1E2X)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2186	"GC_00003384, GC_00003961"	0	0.0385	61	26
+"Phospholipid biosynthesis protein PlsY, probable glycerol-3-phosphate acyltransferase (PlsY) (PDB:5XJ5) (PUBMED:29684280)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0344	GC_00003446	0	0.0385	61	26
+Recombinational DNA repair ATPase RecF (RecF) (PDB:5Z67)	2.375935454	0.123217768	0.645884929	M. intestini	COG1195	GC_00003644	0	0.0385	61	26
+Cyanate permease (CynX)	2.375935454	0.123217768	0.645884929	M. intestini	COG2807	GC_00004100	0	0.0385	61	26
+Recombinational DNA repair protein RecT (RecT)	2.375935454	0.123217768	0.645884929	M. intestini	COG3723	GC_00003490	0	0.0385	61	26
+"P pilus assembly protein, chaperone PapD (FimC) (PDB:1BF8)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3121	GC_00003600	0	0.0385	61	26
+Uncharacterized domain associated with phage/plasmid primase	2.375935454	0.123217768	0.645884929	M. intestini	COG4643	GC_00003842	0	0.0385	61	26
+"N-acetylglutamate synthase or related acetyltransferase, GNAT family (ArgA) (PDB:2R98)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1246	GC_00003445	0	0.0385	61	26
+Threonine/homoserine/homoserine lactone efflux protein (RhtB)	2.375935454	0.123217768	0.645884929	M. intestini	COG1280	GC_00003548	0	0.0385	61	26
+Phosphoglucomutase/phosphomannomutase (Pgm) (PDB:1C47) (PUBMED:30938049)	2.375935454	0.123217768	0.645884929	M. intestini	COG0033	GC_00004074	0	0.0385	61	26
+High-affinity Fe2+/Pb2+ permease (FTR1)	2.375935454	0.123217768	0.645884929	M. intestini	COG0672	GC_00004103	0	0.0385	61	26
+Fe2+ or Zn2+ uptake regulation protein Fur/Zur (Fur) (PDB:1MZB)	2.375935454	0.123217768	0.645884929	M. intestini	COG0735	GC_00003797	0	0.0385	61	26
+Preprotein translocase subunit SecD (SecD) (PDB:3AQP) (PUBMED:26100040)	2.375935454	0.123217768	0.645884929	M. intestini	COG0342	GC_00004152	0	0.0385	61	26
+Regulator of sigma D (Rsd) (PDB:2P7V)	2.375935454	0.123217768	0.645884929	M. intestini	COG3160	GC_00003509	0	0.0385	61	26
+L-rhamnose isomerase (RhaA) (PDB:1D8W)	2.375935454	0.123217768	0.645884929	M. intestini	COG4806	GC_00004113	0	0.0385	61	26
+"Membrane H+-translocase/NADH:ubiquinone oxidoreductase subunit 5 (chain L)/Multisubunit Na+/H+ antiporter, MnhA subunit (NuoL) (PDB:3RKO)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1009	"GC_00003683, GC_00003958"	0	0.0385	61	26
+"ABC-type Fe3+ transport system, permease component (FbpB)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1178	GC_00003431	0	0.0385	61	26
+Phosphopentomutase (DeoB) (PDB:3UN2)	2.375935454	0.123217768	0.645884929	M. intestini	COG1015	GC_00003305	0	0.0385	61	26
+Chromate transport protein ChrA (ChrA)	2.375935454	0.123217768	0.645884929	M. intestini	COG2059	GC_00003551	0	0.0385	61	26
+Uncharacterized membrane protein YeiB (YeiB)	2.375935454	0.123217768	0.645884929	M. intestini	COG2311	GC_00004009	0	0.0385	61	26
+"Transposase and inactivated derivatives, IS30 family (Tra8)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2826	GC_00003332	0	0.0385	61	26
+Dihydroneopterin aldolase (FolB) (PDB:1B9L)	2.375935454	0.123217768	0.645884929	M. intestini	COG1539	GC_00003261	0	0.0385	61	26
+"Endo-1,4-beta-D-glucanase Y (BcsZ) (PDB:1CEM)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3405	"GC_00003424, GC_00003670"	0	0.0385	61	26
+Predicted component of the type VI protein secretion system (PDB:5M2Y)	2.375935454	0.123217768	0.645884929	M. intestini	COG3522	GC_00004161	0	0.0385	61	26
+"EAL domain, c-di-GMP-specific phosphodiesterase class I (or its enzymatically inactive variant) (EAL) (PDB:2BAS)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2200	GC_00003483	0	0.0385	61	26
+"Transcription elongation factor, GreA/GreB family (GreA) (PDB:1GRJ)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0782	GC_00003955	0	0.0385	61	26
+Dethiobiotin synthetase (BioD) (PDB:1DTS)	2.375935454	0.123217768	0.645884929	M. intestini	COG0132	GC_00003457	0	0.0385	61	26
+tRNA G18 (ribose-2'-O)-methylase SpoU (SpoU) (PDB:1GZ0)	2.375935454	0.123217768	0.645884929	M. intestini	COG0566	GC_00003501	0	0.0385	61	26
+Disulfide bond formation protein DsbB (DsbB) (PDB:2LTQ)	2.375935454	0.123217768	0.645884929	M. intestini	COG1495	GC_00004076	0	0.0385	61	26
+"Predicted nucleotidyltransferase, MJ0604 family (MJ0604) (PDB:5YEP)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1708	GC_00003586	0	0.0385	61	26
+Site-specific recombinase XerC (XerC)	2.375935454	0.123217768	0.645884929	M. intestini	COG4973	GC_00003799	0	0.0385	61	26
+Outer membrane protein TolC (TolC) (PDB:1EK9)	2.375935454	0.123217768	0.645884929	M. intestini	COG1538	GC_00003404	0	0.0385	61	26
+UTP:GlnB (protein PII) uridylyltransferase (GlnD)	2.375935454	0.123217768	0.645884929	M. intestini	COG2844	GC_00003602	0	0.0385	61	26
+Bacterial nucleoid DNA-binding protein IHF-alpha (HimA) (PDB:1B8Z)	2.375935454	0.123217768	0.645884929	M. intestini	COG0776	GC_00004127	0	0.0385	61	26
+"Predicted Zn-dependent peptidase, M16 family (PqqL) (PDB:6OFS)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0612	GC_00003475	0	0.0385	61	26
+"Lysophospholipase, alpha-beta hydrolase superfamily (PldB) (PDB:5O7G)"	2.375935454	0.123217768	0.645884929	M. intestini	COG2267	GC_00003812	0	0.0385	61	26
+tRNA nucleotidyltransferase/poly(A) polymerase (PcnB) (PDB:3WFR)	2.375935454	0.123217768	0.645884929	M. intestini	COG0617	GC_00003851	0	0.0385	61	26
+Glucuronate isomerase (UxaC) (PDB:1J5S)	2.375935454	0.123217768	0.645884929	M. intestini	COG1904	GC_00003718	0	0.0385	61	26
+"Membrane protease subunit, stomatin/prohibitin family, contains C-terminal Zn-ribbon domain (YdjI)"	2.375935454	0.123217768	0.645884929	M. intestini	COG4260	GC_00003927	0	0.0385	61	26
+Endonuclease I (EndA) (PDB:1OUO)	2.375935454	0.123217768	0.645884929	M. intestini	COG2356	GC_00003775	0	0.0385	61	26
+Type IV pilus assembly protein FimV (FimV)	2.375935454	0.123217768	0.645884929	M. intestini	COG3170	GC_00003367	0	0.0385	61	26
+Siderophore synthetase component IucA/IucC/SbnC (IucA) (PDB:2W02) (PUBMED:19775248)	2.375935454	0.123217768	0.645884929	M. intestini	COG4264	GC_00003283	0	0.0385	61	26
+GTP cyclohydrolase I (FolE) (PDB:1A8R) (PUBMED:19767425;30692671)	2.375935454	0.123217768	0.645884929	M. intestini	COG0302	GC_00003467	0	0.0385	61	26
+Purine-nucleoside phosphorylase (DeoD) (PDB:1A69)	2.375935454	0.123217768	0.645884929	M. intestini	COG0813	GC_00003869	0	0.0385	61	26
+"D-arabinose 5-phosphate isomerase GutQ (GutQ) (PDB:5UQI)!!!Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains"	2.375935454	0.123217768	0.645884929	M. intestini	COG0794!!!COG2905	GC_00003739	0	0.0385	61	26
+Dihydrofolate reductase (FolA) (PDB:1DDR)	2.375935454	0.123217768	0.645884929	M. intestini	COG0262	GC_00003942	0	0.0385	61	26
+"DNA topoisomerase I, ssDNA-binding Zn-finger and Zn-ribbon domains (YrdD) (PDB:1YUA)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0551	GC_00003316	0	0.0385	61	26
+Tetraheme cytochrome c subunit NapC of nitrate or TMAO reductase (NapC)	2.375935454	0.123217768	0.645884929	M. intestini	COG3005	"GC_00003926, GC_00003972"	0	0.0385	61	26
+"Uncharacterized conserved protein YjbI, contains pentapeptide repeats (YjbI) (PDB:2BM4)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1357	"GC_00003780, GC_00003928"	0	0.0385	61	26
+"Uncharacterized conserved protein YjdB, contains Ig-like domain (YjdB)"	2.375935454	0.123217768	0.645884929	M. intestini	COG5492	GC_00003846	0	0.0385	61	26
+"Cell wall-associated hydrolase, NlpC_P60 family (NlpC) (PDB:2EVR)!!!Proteasome lid subunit RPN8/RPN11, contains Jab1/MPN domain metalloenzyme (JAMM) motif (Rri1) (PDB:2O95)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0791!!!COG1310	GC_00004125	0	0.0385	61	26
+Ribosomal protein L11 methylase PrmA (PrmA) (PDB:3GRZ)	2.375935454	0.123217768	0.645884929	M. intestini	COG2264	GC_00003660	0	0.0385	61	26
+Predicted membrane GTPase TypA/BipA involved in stress response (TypA) (PDB:5A9V)	2.375935454	0.123217768	0.645884929	M. intestini	COG1217	GC_00003580	0	0.0385	61	26
+Putative heme-binding protein PhuW (PhuW) (PDB:2G5G) (PUBMED:16950397)	2.375935454	0.123217768	0.645884929	M. intestini	COG3016	GC_00003852	0	0.0385	61	26
+Polyprenyltransferase (heme O synthase) (CyoE)	2.375935454	0.123217768	0.645884929	M. intestini	COG0109	GC_00003766	0	0.0385	61	26
+"Chromosome segregation protein Spo0J, contains ParB-like nuclease domain (Spo0J) (PDB:1R71)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1475	GC_00004099	0	0.0385	61	26
+Altronate dehydratase (UxaA) (PDB:6U7L)	2.375935454	0.123217768	0.645884929	M. intestini	COG2721	GC_00003984	0	0.0385	61	26
+"Oxidoreductase (NAD-binding), involved in siderophore biosynthesis (PchG) (PDB:4GMG)"	2.375935454	0.123217768	0.645884929	M. intestini	COG4693	GC_00004028	0	0.0385	61	26
+Stress response protein SCP2 (TerZ) (PDB:2QNG)	2.375935454	0.123217768	0.645884929	M. intestini	COG2310	GC_00003351	0	0.0385	61	26
+Apolipoprotein N-acyltransferase (Lnt) (PDB:6NWR)	2.375935454	0.123217768	0.645884929	M. intestini	COG0815	GC_00004162	0	0.0385	61	26
+Formamidopyrimidine-DNA glycosylase (Nei) (PDB:1EE8)	2.375935454	0.123217768	0.645884929	M. intestini	COG0266	GC_00003742	0	0.0385	61	26
+DNA recombination-dependent growth factor RdgC (RdgC) (PDB:2OWL)	2.375935454	0.123217768	0.645884929	M. intestini	COG2974	GC_00004090	0	0.0385	61	26
+RecA-family ATPase (RepA)	2.375935454	0.123217768	0.645884929	M. intestini	COG3598	GC_00003881	0	0.0385	61	26
+Phosphopantetheine adenylyltransferase (CoaD) (PDB:3F3M)	2.375935454	0.123217768	0.645884929	M. intestini	COG0669	GC_00003832	0	0.0385	61	26
+Transposase (InsQ)	2.375935454	0.123217768	0.645884929	M. intestini	COG0675	GC_00003659	0	0.0385	61	26
+Transketolase (TktA) (PDB:1AY0)	2.375935454	0.123217768	0.645884929	M. intestini	COG0021	GC_00003995	0	0.0385	61	26
+"Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IIB (AgaB) (PDB:1BLE)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3444	GC_00003592	0	0.0385	61	26
+"Aldo/keto reductase, related to diketogulonate reductase (ARA1) (PDB:1Q13)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0656	GC_00003381	0	0.0385	61	26
+"Predicted  kinase, aminoglycoside phosphotransferase (APT) family (YcbJ)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3173	GC_00004085	0	0.0385	61	26
+Pyruvate-formate lyase (PflD) (PDB:1CM5)	2.375935454	0.123217768	0.645884929	M. intestini	COG1882	"GC_00003432, GC_00004067"	0	0.0385	61	26
+"Serine transporter YbeC, amino acid:H+ symporter family (PotE) (PDB:3LRB)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0531	"GC_00003504, GC_00003781"	0	0.0385	61	26
+3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC and related HAD superfamily phosphatases (KdsC) (PDB:3I6B)	2.375935454	0.123217768	0.645884929	M. intestini	COG1778	GC_00003909	0	0.0385	61	26
+"Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific IID component (ManZ) (PDB:6K1H)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3716	GC_00003583	0	0.0385	61	26
+"Flp pilus assembly protein TadD, contains TPR repeats (TadD) (PDB:3WXX)"	2.375935454	0.123217768	0.645884929	M. intestini	COG5010	GC_00003284	0	0.0385	61	26
+"NAD(P)H-nitrite reductase, large subunit (NirB)"	2.375935454	0.123217768	0.645884929	M. intestini	COG1251	GC_00003288	0	0.0385	61	26
+Phosphotransferase system sorbitol-specific IIB component (SrlE)	2.375935454	0.123217768	0.645884929	M. intestini	COG3732	GC_00003910	0	0.0385	61	26
+Protein-L-isoaspartate O-methyltransferase (Pcm) (PDB:3LBF) (PUBMED:24909784)	2.375935454	0.123217768	0.645884929	M. intestini	COG2518	GC_00003933	0	0.0385	61	26
+"Phage-related protein, tail protein J"	2.375935454	0.123217768	0.645884929	M. intestini	COG4733	GC_00003265	0	0.0385	61	26
+RecG-like helicase (RecG) (PDB:1GM5)	2.375935454	0.123217768	0.645884929	M. intestini	COG1200	GC_00003734	0	0.0385	61	26
+"ABC-type taurine transport system, ATPase component (TauB)"	2.375935454	0.123217768	0.645884929	M. intestini	COG4525	GC_00003513	0	0.0385	61	26
+Single-stranded DNA-binding protein (Ssb) (PDB:1EQQ)	2.375935454	0.123217768	0.645884929	M. intestini	COG0629	GC_00003163	0	0.0385	61	26
+Beta-galactosidase/beta-glucuronidase (LacZ) (PDB:5N6U) (PUBMED:19291314)	2.375935454	0.123217768	0.645884929	M. intestini	COG3250	"GC_00003435, GC_00003652"	0	0.0385	61	26
+"Chaperedoxin CnoX, contains thioredoxin-like and TPR-like domains, YbbN/TrxSC family (CnoX) (PDB:3QDN) (PUBMED:21498507;29754824)!!!Flp pilus assembly protein TadD, contains TPR repeats (TadD) (PDB:3WXX)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3118!!!COG5010	"GC_00003408, GC_00003494"	0	0.0385	61	26
+"Translation elongation factor EF-Tu, a GTPase (TufA) (PDB:1EFU)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0050	GC_00003569	0	0.0385	61	26
+Fucose permease (FucP) (PDB:3O7P)	2.375935454	0.123217768	0.645884929	M. intestini	COG0738	"GC_00003719, GC_00004001"	0	0.0385	61	26
+Outer membrane receptor for ferrienterochelin and colicins (FepA) (PDB:2HDF) (PUBMED:16468998)	2.375935454	0.123217768	0.645884929	M. intestini	COG4771	GC_00003626	0	0.0385	61	26
+Adenylylsulfate kinase or related kinase (CysC) (PDB:2GKS)	2.375935454	0.123217768	0.645884929	M. intestini	COG0529	GC_00003536	0	0.0385	61	26
+Dipeptidyl aminopeptidase/acylaminoacyl peptidase (DAP2) (PDB:2JBW)	2.375935454	0.123217768	0.645884929	M. intestini	COG1506	GC_00003844	0	0.0385	61	26
+Arginine decarboxylase (spermidine biosynthesis) (SpeA) (PDB:3N2O)	2.375935454	0.123217768	0.645884929	M. intestini	COG1166	GC_00003584	0	0.0385	61	26
+Post-segregation antitoxin (ccd killing mechanism protein) encoded by the F plasmid (PDB:2ADL)	2.375935454	0.123217768	0.645884929	M. intestini	COG5302	GC_00003285	0	0.0385	61	26
+Arginine/lysine/ornithine decarboxylase (LdcC) (PDB:1C4K)	2.375935454	0.123217768	0.645884929	M. intestini	COG1982	GC_00004010	0	0.0385	61	26
+Type VI protein secretion system component TssL/VasF/DotU (DotU) (PDB:3U66) (PUBMED:25471186)	2.375935454	0.123217768	0.645884929	M. intestini	COG3455	GC_00003794	0	0.0385	61	26
+Sugar phosphate permease (UhpC) (PDB:1PW4)	2.375935454	0.123217768	0.645884929	M. intestini	COG2271	"GC_00003893, GC_00003986, GC_00004016, GC_00004084"	0	0.0385	61	26
+"Uncharacterized conserved protein YecM, predicted metalloenzyme (YecM) (PDB:1K4N) (PUBMED:12660999)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3102	GC_00003825	0	0.0385	61	26
+Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH (PhnH) (PDB:2FSU)	2.375935454	0.123217768	0.645884929	M. intestini	COG3625	GC_00003702	0	0.0385	61	26
+"tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain (TrmL) (PDB:4JAK)"	2.375935454	0.123217768	0.645884929	M. intestini	COG0219	GC_00003854	0	0.0385	61	26
+Na+/H+ antiporter NhaD or related arsenite permease (ArsB)	2.375935454	0.123217768	0.645884929	M. intestini	COG1055	GC_00004049	0	0.0385	61	26
+Na+/melibiose symporter or related transporter (MelB) (PDB:4M64)	2.375935454	0.123217768	0.645884929	M. intestini	COG2211	GC_00003989	0	0.0385	61	26
+"Uncharacterized conserved protein, contains a phytase-like domain"	2.375935454	0.123217768	0.645884929	M. intestini	COG4222	GC_00003560	0	0.0385	61	26
+S-adenosylmethionine synthetase (MetK) (PDB:1FUG)	2.375935454	0.123217768	0.645884929	M. intestini	COG0192	GC_00003760	0	0.0385	61	26
+L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily (RspA) (PDB:1BKH)	2.375935454	0.123217768	0.645884929	M. intestini	COG4948	"GC_00003637, GC_00004185"	0	0.0385	61	26
+"Small-conductance mechanosensitive channel MscK (MscK)!!!Septal ring factor EnvC, activator of murein hydrolases AmiA and AmiB (EnvC)"	2.375935454	0.123217768	0.645884929	M. intestini	COG3264!!!COG4942	"GC_00003819, GC_00003911"	0	0.0385	61	26
+Cu/Ag efflux pump CusA (CusA) (PDB:3K07)	2.375935454	0.123217768	0.645884929	M. intestini	COG3696	GC_00003748	0	0.0385	61	26
+Autotransporter adhesin AidA (AidA)	2.375935454	0.123217768	0.645884929	M. intestini	COG3468	"GC_00003892, GC_00003957, GC_00003993"	0	0.0385	61	26
+"Phage-related protein, tail assembly protein I"	2.375935454	0.123217768	0.645884929	M. intestini	COG4723	GC_00004050	0	0.0385	61	26
+Murein tripeptide amidase MpaA (MpaA) (PDB:1ARL)	2.375935454	0.123217768	0.645884929	M. intestini	COG2866	GC_00003902	0	0.0385	61	26
+Acyl-CoA dehydrogenase related to the alkylation response protein AidB (CaiA) (PDB:1BUC)	2.375935454	0.123217768	0.645884929	M. intestini	COG1960	GC_00003914	0	0.0385	61	26
+"CRISPR/Cas system-associated protein Cas10, large subunit of type III CRISPR-Cas systems, contains HD superfamily nuclease domain (Cas10) (PDB:6IFN)"	2.370213164	0.123670164	0.645884929	M. intestini	COG1353	GC_00001552	0.7869	0.9231	61	26
+"Predicted anti-virus defense system component AQ645, contains DUF2357 and  PD-(D/E)xK nuclease domains (AQ645)"	2.302387764	0.129175286	0.664975023	M. intestini	COG1700	"GC_00001609, GC_00003934"	0.5574	0.7308	61	26
+Tetratricopeptide (TPR) repeat (TPR) (PDB:3AS4)!!!Serine/threonine protein kinase (SPS1) (PDB:6G4J)	2.295758946	0.129727786	0.664975023	M. intestini	COG0457!!!COG0515	GC_00002413	0.0328	0.1154	61	26
+"Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain"	2.295758946	0.129727786	0.664975023	M. intestini	COG4625	GC_00002399	0.0328	0.1154	61	26
+Transposase InsO and inactivated derivatives (Tra5)	2.295758946	0.129727786	0.664975023	M. intestini	COG2801	"GC_00002498, GC_00003104, GC_00003179, GC_00003294, GC_00003364, GC_00003378, GC_00003526, GC_00003563, GC_00004128"	0.0328	0.1154	61	26
+"Kef-type K+ transport system, membrane component KefB (KefB) (PDB:4BWZ)"	2.295758946	0.129727786	0.664975023	M. smithii	COG0475	GC_00000063	0.9672	0.8846	61	26
+"ABC-type Fe3+-hydroxamate transport system, periplasmic component (FepB) (PDB:1ESZ)"	2.262153494	0.132569598	0.674545307	M. intestini	COG0614	GC_00000166	0.918	1	61	26
+"Predicted methyltransferase, contains TPR repeat"	2.262153494	0.132569598	0.674545307	M. intestini	COG4976	GC_00000116	0.918	1	61	26
+Uncharacterized N-terminal coiled-coil domain of peptidoglycan hydrolase CwlO (CwlO1) (PDB:4CGK)	2.234267725	0.134980559	0.684297046	M. intestini	COG3883	"GC_00001870, GC_00002022"	0.2951	0.4615	61	26
+Phage terminase large subunit!!!Uncharacterized conserved protein (PUBMED:23071111)	2.179793936	0.139833183	0.706310677	M. intestini	COG5362!!!COG5410	"GC_00002195, GC_00003050"	0.082	0.1923	61	26
+CRISPR/Cas system-associated endoribonuclease Cas2 (Cas2) (PDB:2I0X)	2.129326036	0.14450428	0.727250633	M. intestini	COG1343	"GC_00001561, GC_00001741, GC_00001906"	0.8525	0.9615	61	26
+Predicted transposase YbfD/YdcC associated with H repeats (YhhI)	2.004290097	0.156854709	0.786546804	M. intestini	COG5433	"GC_00002839, GC_00003941"	0.0164	0.0769	61	26
+DNA-adenine methylase (Dam) (PDB:4GOL)	1.926513382	0.165140404	0.825105844	M. smithii	COG0338	GC_00001827	0.2951	0.1538	61	26
+"Restriction endonuclease, type III RM system (PM0699)"	1.891979931	0.168978774	0.841246846	M. smithii	COG3587	"GC_00001884, GC_00003795"	0.2459	0.1154	61	26
+"Thiamin phosphate synthase YjbQ, UPF0047 family (YjbQ) (PDB:1VE0)"	1.787883905	0.181184201	0.882953992	M. intestini	COG0432	GC_00001505	0.9344	1	61	26
+Cobalamin biosynthesis protein CbiG (CbiG)	1.787883905	0.181184201	0.882953992	M. intestini	COG2073	GC_00001506	0.9344	1	61	26
+"Uncharacterized conserved protein, UPF0147 family (PDB:2QSB)"	1.787883905	0.181184201	0.882953992	M. intestini	COG1698	GC_00001504	0.9344	1	61	26
+"Zn-dependent peptidase ImmA, M78 family (ImmA) (PDB:3DTE)!!!DNA-binding transcriptional regulator YiaG, XRE-type HTH domain (YiaG) (PDB:5JAA)"	1.787883905	0.181184201	0.882953992	M. smithii	COG2856!!!COG2944	GC_00002481	0.0656	0	61	26
+Predicted helicase (PDB:5FFJ)	1.787883905	0.181184201	0.882953992	M. smithii	COG4889	GC_00002494	0.0656	0	61	26
+Tetratricopeptide (TPR) repeat (TPR) (PDB:3AS4)	1.787883905	0.181184201	0.882953992	M. smithii	COG0457	GC_00002465	0.0656	0	61	26
+"DNAse/DNA nickase specific for phosphorothioated or glycosylated phage DNA, GmrSD/DndB/SspE family, contains DUF262 and HNH nuclease domains (GmrSD) (PDB:6JIV) (PUBMED:17188297;32251370)!!!Uncharacterized conserved protein domain, often C-terminal to DUF262"	1.712572016	0.190652004	0.925832891	M. intestini	COG1479!!!COG3472	"GC_00001950, GC_00002008"	0.2459	0.3846	61	26
+"Type II restriction/modification system, endonuclease and methylase domains (YeeA) (PDB:5HR4)"	1.533740293	0.21555196	1	M. smithii	COG1002	"GC_00002138, GC_00002959, GC_00002985, GC_00003013, GC_00003031, GC_00003032, GC_00003336, GC_00003923"	0.1803	0.0769	61	26
+Transposase InsA (InsA)	1.32492896	0.249709369	1	M. intestini	COG3677	"GC_00000001, GC_00000054, GC_00001628"	0.9508	1	61	26
+Cobalamin biosynthesis protein CobD/CbiB (CbiB)	1.32492896	0.249709369	1	M. intestini	COG1270	GC_00001497	0.9508	1	61	26
+Wobble nucleotide-excising tRNase (RloC) (PUBMED:18681940)	1.32492896	0.249709369	1	M. smithii	COG4694	"GC_00002996, GC_00003448"	0.0492	0	61	26
+Histidinol-phosphate/aromatic aminotransferase or cobyric acid decarboxylase (HisC) (PDB:4R2N)!!!Choline kinase (PDB:4MND)	1.32492896	0.249709369	1	M. smithii	COG0079!!!COG1213	GC_00002779	0.0492	0	61	26
+"Alcohol dehydrogenase, class IV (EutG) (PDB:6AHC)"	1.32492896	0.249709369	1	M. smithii	COG1454	GC_00002693	0.0492	0	61	26
+"NTP pyrophosphatase, house-cleaning of non-canonical NTPs (MazG) (PDB:1VMG)"	1.285844109	0.256815243	1	M. intestini	COG1694	GC_00001900	0.1639	0.2692	61	26
+Transposase InsE and inactivated derivatives (InsE) (PDB:2JN6) (PUBMED:23818957)	1.243931784	0.264714646	1	M. intestini	COG2963	"GC_00002462, GC_00003155, GC_00003161, GC_00003578, GC_00003631, GC_00003876, GC_00004033"	0.0492	0.1154	61	26
+"Superfamily II DNA or RNA helicase, SNF2 family (HepA) (PDB:6UXV)!!!ERCC4-related helicase (MPH1) (PDB:1WP9)"	1.21224618	0.270887728	1	M. smithii	COG0553!!!COG1111	GC_00001839	0.2623	0.1538	61	26
+"Predicted antitoxin component YuzE of a toxin-antitoxin system, DUF2283 family (YuzE)"	1.075256569	0.299761123	1	M. intestini	COG5428	GC_00001617	0.5738	0.6923	61	26
+Phage portal protein BeeE (BeeE)	1.013211629	0.31413466	1	M. intestini	COG4695	GC_00002115	0.082	0.1538	61	26
+"Type I site-specific restriction endonuclease, part of a restriction-modification system (HsdR) (PDB:3H1T) (PUBMED:21169490)"	1.013211629	0.31413466	1	M. intestini	COG4096	GC_00002132	0.082	0.1538	61	26
+"Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family (CDA1) (PDB:1NY1)"	0.92067068	0.337298935	1	M. intestini	COG0726	"GC_00001987, GC_00003133"	0.1148	0.1923	61	26
+"5-methylthioribulose/5-deoxyribulose/Fuculose 1-phosphate aldolase (methionine salvage, sugar degradation) (AraD) (PDB:1FUA) (PUBMED:31950558)"	0.872888201	0.350156971	1	M. intestini	COG0235	"GC_00001485, GC_00003257, GC_00004151"	0.9672	1	61	26
+Epoxyqueuosine reductase QueG (queuosine biosynthesis) (QueG) (PDB:5D08) (PUBMED:2150253)	0.872888201	0.350156971	1	M. smithii	COG1600	GC_00003063	0.0328	0	61	26
+Chromosomal replication initiation ATPase DnaA (DnaA) (PDB:1L8Q)	0.872888201	0.350156971	1	M. smithii	COG0593	"GC_00003289, GC_00003514"	0.0328	0	61	26
+"Adenine-specific DNA methylase, contains a Zn-ribbon domain"	0.872888201	0.350156971	1	M. smithii	COG1743	GC_00003086	0.0328	0	61	26
+"Nucleoside phosphorylase/nucleosidase, includes 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase MtnN and futalosine hydrolase MqnB (MtnN) (PDB:1T8R) (PUBMED:18801996)!!!Uncharacterized protein HemY, contains HemY_N domain and TPR repeats (unrelated to protoporphyrinogen oxidase HemY) (HemYx)!!!Flp pilus assembly protein TadD, contains TPR repeats (TadD) (PDB:3WXX)"	0.808246967	0.368639044	1	M. intestini	COG0775!!!COG3071!!!COG5010	GC_00002568	0.0328	0.0769	61	26
+"Periplasmic serine protease, S1-C subfamily, contain C-terminal PDZ domain (DegQ) (PDB:2HGA) (PUBMED:29686141)"	0.751334122	0.386054168	1	M. smithii	COG0265	GC_00001574	0.5246	0.4231	61	26
+"CRISPR-Cas system type I effector complex subunit Cas7,  RAMP superfamily (Cas7)"	0.636682507	0.424914669	1	M. smithii	COG3649	"GC_00001898, GC_00003078"	0.2295	0.1538	61	26
+Choline kinase (PDB:4MND)	0.610913856	0.434443934	1	M. intestini	COG1213	"GC_00002412, GC_00002732"	0.0656	0.1154	61	26
+"Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family (OCDMu) (PDB:2I99)"	0.610913856	0.434443934	1	M. intestini	COG2423	GC_00002260	0.0656	0.1154	61	26
+"Glycerol-3-phosphate cytidylyltransferase, cytidylyltransferase family (TagD) (PDB:2B7L)!!!2-Methylisocitrate lyase and related enzymes, PEP mutase family (PrpB) (PDB:1XG3)"	0.610913856	0.434443934	1	M. intestini	COG0615!!!COG2513	GC_00002251	0.0656	0.1154	61	26
+"PAS domain (PAS) (PDB:2MWG)!!!Two-component sensor histidine kinase, HisKA and HATPase domains (PDB:4R39)"	0.607701607	0.43565451	1	M. smithii	COG2202!!!COG3920	"GC_00001678, GC_00001698, GC_00002586, GC_00002587"	0.4754	0.3846	61	26
+"Uncharacterized conserved protein, DUF2075 family (BH3996) (PUBMED:15547281)"	0.561397568	0.453697689	1	M. intestini	COG3410	"GC_00001901, GC_00002139, GC_00002415"	0.1967	0.2692	61	26
+"Transposase and inactivated derivatives, IS5 family (IS5)"	0.5369869	0.463684142	1	M. smithii	COG3039	"GC_00002117, GC_00003953"	0.082	0.0385	61	26
+"mRNA-degrading endonuclease RelE, toxin component of the RelBE toxin-antitoxin system (RelE) (PDB:1WMI)"	0.5369869	0.463684142	1	M. smithii	COG2026	"GC_00002609, GC_00002622"	0.082	0.0385	61	26
+Ribosomal protein L12E/L44/L45/RPP1/RPP2 (RPP1A)	0.431360149	0.511322297	1	M. intestini	COG2058	GC_00001445	0.9836	1	61	26
+"NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family (FabG) (PDB:6L1H)"	0.431360149	0.511322297	1	M. intestini	COG1028	"GC_00001057, GC_00002086, GC_00004149"	0.9836	1	61	26
+Ribosomal protein S19E (S16A) (RPS19A) (PDB:2V7F)	0.431360149	0.511322297	1	M. intestini	COG2238	GC_00001428	0.9836	1	61	26
+Fe-S-cluster-containing dehydrogenase component (DMSO reductase) (HybA) (PDB:2VPW)!!!Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)!!!Ferredoxin (NapF) (PDB:6FAH)!!!Predicted molibdopterin-dependent oxidoreductase YjgC (YjgC) (PDB:1AA6)	0.431360149	0.511322297	1	M. intestini	COG0437!!!COG1143!!!COG1145!!!COG3383	GC_00001443	0.9836	1	61	26
+"Asparagine N-glycosylation enzyme, membrane subunit Stt3 (Stt3) (PDB:2LGZ)"	0.431360149	0.511322297	1	M. intestini	COG1287	GC_00001464	0.9836	1	61	26
+Alanyl-tRNA synthetase (AlaS) (PDB:2ZZE)	0.431360149	0.511322297	1	M. intestini	COG0013	"GC_00001481, GC_00003350"	0.9836	1	61	26
+"Phosphoserine phosphatase (SerB) (PDB:3N28)!!!Uncharacterized coiled-coil protein, contains DUF342 domain"	0.431360149	0.511322297	1	M. intestini	COG0560!!!COG1340	GC_00001466	0.9836	1	61	26
+Broad-specificity NMP kinase (Fap7) (PDB:1RKB)	0.431360149	0.511322297	1	M. intestini	COG1936	GC_00001463	0.9836	1	61	26
+RNA-binding protein YhbY (YhbY) (PDB:1JO0)	0.431360149	0.511322297	1	M. intestini	COG1534	"GC_00001429, GC_00003458"	0.9836	1	61	26
+Ribosomal protein L1 (RplA) (PDB:3J65)	0.431360149	0.511322297	1	M. intestini	COG0081	GC_00001432	0.9836	1	61	26
+Preprotein translocase subunit Sss1 (Sss1) (PDB:2WWB)	0.431360149	0.511322297	1	M. intestini	COG2443	GC_00001435	0.9836	1	61	26
+"DNA-binding TFAR19-related protein, PDSD5 family (PDCD5) (PDB:1EIJ)"	0.431360149	0.511322297	1	M. intestini	COG2118	GC_00001425	0.9836	1	61	26
+Ribosomal protein L10 (RplJ) (PDB:5IT8)	0.431360149	0.511322297	1	M. intestini	COG0244	GC_00001441	0.9836	1	61	26
+"Predicted subunit of tRNA(5-methylaminomethyl-2-thiouridylate) methyltransferase, contains the PP-loop ATPase domain (PDB:3K32)"	0.431360149	0.511322297	1	M. intestini	COG2117	GC_00001440	0.9836	1	61	26
+"DNA-binding transcriptional regulator, HxlR family (HxlR) (PDB:1YYV)"	0.431360149	0.511322297	1	M. intestini	COG1733	"GC_00001503, GC_00001658, GC_00002244, GC_00003188, GC_00004153"	0.9836	1	61	26
+Transcription termination/antitermination protein NusG (NusG) (PDB:3EWG) (PUBMED:19500594)	0.431360149	0.511322297	1	M. intestini	COG0250	GC_00001430	0.9836	1	61	26
+Ribosomal protein L40E (RPL40A) (PDB:2AYJ)	0.431360149	0.511322297	1	M. intestini	COG1552	GC_00001424	0.9836	1	61	26
+Ribosomal protein L39E (RPL39) (PUBMED:16621811)	0.431360149	0.511322297	1	M. intestini	COG2167	GC_00001423	0.9836	1	61	26
+"DNA topoisomerase IA (TopA) (PDB:1CY0)!!!DNA topoisomerase I, ssDNA-binding Zn-finger and Zn-ribbon domains (YrdD) (PDB:1YUA)"	0.431360149	0.511322297	1	M. intestini	COG0550!!!COG0551	GC_00001457	0.9836	1	61	26
+"ABC-type transport system, periplasmic component (DdpA) (PDB:3RQT)"	0.431360149	0.511322297	1	M. intestini	COG0747	GC_00000060	0.9836	1	61	26
+Ribosome-interacting GTPase RBG1 (Rbg1) (PDB:4A9A)	0.431360149	0.511322297	1	M. intestini	COG1163	GC_00001454	0.9836	1	61	26
+Signal recognition particle GTPase FtsY (FtsY) (PDB:4AK9)	0.431360149	0.511322297	1	M. intestini	COG0552	GC_00001473	0.9836	1	61	26
+Superfamily II DNA or RNA helicase (SSL2) (PDB:6JDE)!!!HKD family nuclease	0.431360149	0.511322297	1	M. intestini	COG1061!!!COG3886	GC_00000056	0.9836	1	61	26
+Ribonuclease P protein subunit RPR2 (RPR2) (PDB:1X0T)	0.431360149	0.511322297	1	M. intestini	COG2023	GC_00001449	0.9836	1	61	26
+Adenylyl- and sulfurtransferase ThiI (thiamine and tRNA 4-thiouridine biosynthesis) (ThiI) (PDB:1VBK) (PUBMED:22773787)	0.431360149	0.511322297	1	M. intestini	COG0301	GC_00001469	0.9836	1	61	26
+"Poly-gamma-glutamate biosynthesis protein CapA/YwtB (capsule formation), metallophosphatase superfamily (CapA)"	0.431360149	0.511322297	1	M. intestini	COG2843	GC_00000058	0.9836	1	61	26
+NhaP-type Na+/H+ and K+/H+ antiporter with C-terminal TrkAC and CorC domains (NhaP2)	0.431360149	0.511322297	1	M. intestini	COG3263	GC_00001450	0.9836	1	61	26
+Translation initiation factor 6 (eIF-6) (TIF6) (PDB:1G61)	0.431360149	0.511322297	1	M. intestini	COG1976	GC_00001438	0.9836	1	61	26
+Ribosomal protein L20A (L18A) (RPL20A) (PDB:2JXT)	0.431360149	0.511322297	1	M. intestini	COG2157	GC_00001436	0.9836	1	61	26
+"Nitrous oxide reductase accessory protein NosD, contains tandem CASH domains (NosD) (PDB:2KZW)"	0.431360149	0.511322297	1	M. intestini	COG3420	GC_00001479	0.9836	1	61	26
+Ribosomal protein L31E (RPL31A)	0.431360149	0.511322297	1	M. intestini	COG2097	GC_00001439	0.9836	1	61	26
+"ABC-type dipeptide/oligopeptide/nickel transport system, permease component (DppB)"	0.431360149	0.511322297	1	M. intestini	COG0601	"GC_00000169, GC_00003471"	0.9836	1	61	26
+Uncharacterized conserved protein containing a metal-binding domain	0.431360149	0.511322297	1	M. intestini	COG5643	"GC_00000045, GC_00002578"	0.9836	1	61	26
+Ribosomal protein L11 (RplK) (PDB:2E34)	0.431360149	0.511322297	1	M. intestini	COG0080	GC_00001422	0.9836	1	61	26
+Cell division GTPase FtsZ (FtsZ) (PDB:1FSZ)	0.431360149	0.511322297	1	M. intestini	COG0206	GC_00001442	0.9836	1	61	26
+Prefoldin subunit 5 (GIM5) (PDB:6NR8)	0.431360149	0.511322297	1	M. intestini	COG1730	GC_00001426	0.9836	1	61	26
+"TATA-box binding protein (TBP), component of TFIID and TFIIIB (SPT15) (PDB:1NGM)"	0.431360149	0.511322297	1	M. intestini	COG2101	GC_00001433	0.9836	1	61	26
+Adenine-specific DNA N6-methylase (YtxK) (PDB:2F8L)	0.431360149	0.511322297	1	M. smithii	COG0827	GC_00003267	0.0164	0	61	26
+Restriction endonuclease Mrr (Mrr)	0.431360149	0.511322297	1	M. smithii	COG1715	GC_00004107	0.0164	0	61	26
+Ribosomal protein L27 (RpmA) (PDB:1VS6)	0.431360149	0.511322297	1	M. smithii	COG0211	GC_00003472	0.0164	0	61	26
+"Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase (BcsA) (PDB:4HG6)!!!Glycosyltransferase, GT2 family (WcaE) (PDB:2Z86)"	0.431360149	0.511322297	1	M. smithii	COG1215!!!COG1216	GC_00004183	0.0164	0	61	26
+"Uncharacterized conserved protein RhaS, contains 28 RHS repeats (RhsA) (PDB:4IGL)"	0.431360149	0.511322297	1	M. smithii	COG3209	GC_00003888	0.0164	0	61	26
+"Uncharacterized conserved protein YsxB, DUF464 family (YsxB) (PDB:1S12)"	0.431360149	0.511322297	1	M. smithii	COG2868	GC_00004022	0.0164	0	61	26
+Aspartyl aminopeptidase (LAP4) (PDB:1Y7E)	0.431360149	0.511322297	1	M. smithii	COG1362	GC_00003638	0.0164	0	61	26
+Ribosomal protein L21 (RplU) (PDB:1VS6)	0.431360149	0.511322297	1	M. smithii	COG0261	GC_00003978	0.0164	0	61	26
+"Uncharacterized conserved protein, DUF1778 family (PDB:1Y9B)"	0.431360149	0.511322297	1	M. smithii	COG4453	GC_00003925	0.0164	0	61	26
+"DNA uptake channel protein ComEC, N-terminal domain (ComEC)!!!DNA uptake channel protein ComEC C-terminal domain, metallo-beta-lactamase superfamily (ComEC)"	0.431360149	0.511322297	1	M. smithii	COG0658!!!COG2333	GC_00003805	0.0164	0	61	26
+"Alkylated DNA nucleotide flippase Atl1, participates in nucleotide excision repair, Ada-like DNA-binding domain (Atl1) (PDB:2KIF) (PUBMED:19516334)"	0.431360149	0.511322297	1	M. smithii	COG3695	GC_00003469	0.0164	0	61	26
+dGTP triphosphohydrolase (Dgt) (PDB:6OI7)	0.431360149	0.511322297	1	M. smithii	COG0232	GC_00003757	0.0164	0	61	26
+DNA mismatch repair ATPase MutL (MutL) (PDB:1B62)	0.431360149	0.511322297	1	M. smithii	COG0323	GC_00004106	0.0164	0	61	26
+Outer membrane porin OmpC/OmpF/PhoE (OmpC) (PDB:1PHO)	0.431360149	0.511322297	1	M. smithii	COG3203	GC_00004041	0.0164	0	61	26
+Primase-polymerase (Primpol) domain protein (PDB:6A9W) (PUBMED:29198957)	0.431360149	0.511322297	1	M. smithii	COG4983	GC_00003917	0.0164	0	61	26
+"Uncharacterized conserved protein, DUF2321 domain"	0.431360149	0.511322297	1	M. smithii	COG4306	GC_00003975	0.0164	0	61	26
+"Plasmid maintenance system antidote protein VapI, contains XRE-type HTH domain (VapI) (PDB:4MCT)"	0.431360149	0.511322297	1	M. smithii	COG3093	GC_00003835	0.0164	0	61	26
+"CheY-like REC (receiver) domain, includes chemotaxis protein CheY  and sporulation regulator Spo0F (CheY) (PDB:6QRJ)!!!PAS domain (PAS) (PDB:2MWG)"	0.410196763	0.521869653	1	M. smithii	COG0784!!!COG2202	GC_00001676	0.459	0.3846	61	26
+"Predicted ATP-dependent endonuclease of the OLD family, contains P-loop ATPase and TOPRIM domains (YbjD)"	0.40778349	0.523096667	1	M. smithii	COG3593	"GC_00002394, GC_00002688, GC_00002792, GC_00002835, GC_00002912, GC_00002961, GC_00003554, GC_00003956"	0.2131	0.1538	61	26
+Adenine specific DNA methylase Mod (Mod) (PDB:4ZCF)	0.40778349	0.523096667	1	M. smithii	COG2189	"GC_00001751, GC_00002210, GC_00002409, GC_00002550, GC_00002733, GC_00002903, GC_00002968, GC_00002991, GC_00003000, GC_00003068, GC_00003242, GC_00003830, GC_00004123"	0.2131	0.1538	61	26
+"N-glycosidase YbiA/RibX (riboflavin biosynthesis, damage control), NADAR superfamily (RibX) (PDB:2B3W) (PUBMED:22399070;25431972)"	0.39616762	0.529075124	1	M. intestini	COG3236	GC_00002821	0.0164	0.0385	61	26
+Phage capsid portal protein XkdE	0.39616762	0.529075124	1	M. intestini	COG5518	GC_00003121	0.0164	0.0385	61	26
+Retron-type reverse transcriptase (YkfC)	0.39616762	0.529075124	1	M. intestini	COG3344	GC_00003021	0.0164	0.0385	61	26
+Guanylate kinase (Gmk) (PDB:1EX6)	0.39616762	0.529075124	1	M. intestini	COG0194	GC_00003113	0.0164	0.0385	61	26
+"Predicted RNA-binding protein, contains PUA-like EVE domain (PDB:1WMM)"	0.39616762	0.529075124	1	M. intestini	COG1673	GC_00003085	0.0164	0.0385	61	26
+Glycosyltransferase involved in cell wall bisynthesis (WcaA) (PDB:5MLZ)!!!Spore maturation protein CgeB	0.39616762	0.529075124	1	M. intestini	COG0463!!!COG4641	GC_00003057	0.0164	0.0385	61	26
+Site-specific DNA recombinase SpoIVCA/DNA invertase PinE (SpoIVCA) (PDB:1GDT)	0.39616762	0.529075124	1	M. intestini	COG1961	"GC_00004179, GC_00004182"	0.0164	0.0385	61	26
+3'-phosphoadenosine 5'-phosphosulfate sulfotransferase (PAPS reductase)/FAD synthetase or related enzyme (CysD) (PDB:1ZUN)!!!Ferredoxin (NapF) (PDB:6FAH)	0.39616762	0.529075124	1	M. intestini	COG0175!!!COG1145	GC_00003027	0.0164	0.0385	61	26
+IS4 transposase InsG (InsG)	0.39616762	0.529075124	1	M. intestini	COG3385	"GC_00003338, GC_00004058"	0.0164	0.0385	61	26
+tRNA1(Val) A37 N6-methylase TrmN6 (TrmN6)	0.39616762	0.529075124	1	M. intestini	COG4123	GC_00002920	0.0164	0.0385	61	26
+"Uncharacterized conserved protein, contains restriction enzyme R protein N terminal (HSDR_N) domain"	0.39616762	0.529075124	1	M. intestini	COG4748	GC_00002975	0.0164	0.0385	61	26
+"GGDEF domain, diguanylate cyclase (c-di-GMP synthetase) or its enzymatically inactive variants (GGDEF) (PDB:6D9M)"	0.39616762	0.529075124	1	M. intestini	COG2199	"GC_00003577, GC_00003873"	0.0164	0.0385	61	26
+REP element-mobilizing transposase RayT (RAYT) (PDB:4ER8)	0.39616762	0.529075124	1	M. intestini	COG1943	"GC_00002770, GC_00004002"	0.0164	0.0385	61	26
+Replication initiaton protein REP (rolling circle plasmid replication) (REP)	0.39616762	0.529075124	1	M. intestini	COG5655	"GC_00004082, GC_00004144"	0.0164	0.0385	61	26
+"Anthranilate phosphoribosyltransferase, glycosyltransferase domain (TrpD) (PDB:1KGZ)"	0.39616762	0.529075124	1	M. smithii	COG0547	GC_00001490	0.9836	0.9615	61	26
+dTDP-4-dehydrorhamnose reductase (RfbD) (PDB:1KBZ)	0.39616762	0.529075124	1	M. smithii	COG1091	GC_00001492	0.9836	0.9615	61	26
+Indole-3-glycerol phosphate synthase (TrpC) (PDB:6BMA)	0.39616762	0.529075124	1	M. smithii	COG0134	GC_00001494	0.9836	0.9615	61	26
+Anthranilate/para-aminobenzoate synthases component I (TrpE) (PDB:1I1Q)	0.39616762	0.529075124	1	M. smithii	COG0147	GC_00001491	0.9836	0.9615	61	26
+3-5 helicase subunit RecB of the DNA repair enzyme RecBCD (exonuclease V) (RecB) (PDB:3U44) (PUBMED:29901759;30601118)	0.39616762	0.529075124	1	M. smithii	COG1074	"GC_00000022, GC_00002844"	0.9836	0.9615	61	26
+Tryptophan synthase beta chain (TrpB) (PDB:2DH5)!!!Indole-3-glycerol phosphate synthase (TrpC) (PDB:6BMA)!!!Phosphoribosylanthranilate isomerase (TrpF) (PDB:1DL3)	0.39616762	0.529075124	1	M. smithii	COG0133!!!COG0134!!!COG0135	GC_00000065	0.9836	0.9615	61	26
+Anthranilate/para-aminobenzoate synthase component II (glutamine amidotransferase) (PabA) (PDB:1I1Q)	0.39616762	0.529075124	1	M. smithii	COG0512	"GC_00001465, GC_00003389"	0.9836	0.9615	61	26
+Tryptophan synthase alpha chain (TrpA) (PDB:6HUL)	0.39616762	0.529075124	1	M. smithii	COG0159	GC_00001486	0.9836	0.9615	61	26
+"CRISPR/Cas system endoribonuclease Cas6, RAMP superfamily (Cas6) (PDB:5YI6)"	0.295837261	0.586503931	1	M. intestini	COG1583	"GC_00001616, GC_00001892"	0.7541	0.8077	61	26
+"Global stress regulator YbjN, DUF2299 family (YbjN) (PDB:3CXJ) (PUBMED:28426806;21980417)"	0.282273329	0.595215053	1	M. intestini	COG5440	GC_00001527	0.8852	0.9231	61	26
+"Molecular chaperone, HSP90 family (HtpG) (PDB:1Y4S) (PUBMED:30150682)"	0.282273329	0.595215053	1	M. smithii	COG0326	"GC_00002442, GC_00002502"	0.1148	0.0769	61	26
+"Photosystem I assembly protein Ycf37, contains TPR repeats (Ycf37)"	0.25819585	0.611362348	1	M. intestini	COG5714	GC_00002416	0.0492	0.0769	61	26
+"Superfamily II DNA or RNA helicase, SNF2 family (HepA) (PDB:6UXV)"	0.25819585	0.611362348	1	M. intestini	COG0553	"GC_00002672, GC_00003149"	0.0492	0.0769	61	26
+"Superfamily I DNA or RNA helicase (UvrD) (PDB:6PPR)!!!DNA topoisomerase I, ssDNA-binding Zn-finger and Zn-ribbon domains (YrdD) (PDB:1YUA)"	0.247038795	0.619167914	1	M. smithii	COG0210!!!COG0551	GC_00002438	0.0656	0.0385	61	26
+"DNAse/DNA nickase specific for phosphorothioated or glycosylated phage DNA, GmrSD/DndB/SspE family, contains DUF262 and HNH nuclease domains (GmrSD) (PDB:6JIV) (PUBMED:17188297;32251370)"	0.24181912	0.622895327	1	M. smithii	COG1479	"GC_00001761, GC_00001814, GC_00003102, GC_00004163"	0.5574	0.5	61	26
+CRISPR-Cas system type I-B effector complex large subunit Cas8b1 (Cas8b1)	0.223569588	0.636333429	1	M. smithii	COG5938	GC_00001899	0.1967	0.1538	61	26
+"Predicted P-loop ATPase, KAP-like"	0.157999578	0.691004974	1	M. smithii	COG4928	"GC_00002445, GC_00003069, GC_00003101, GC_00003142, GC_00003721, GC_00004145"	0.1475	0.1154	61	26
+"Putative cell wall-binding domain (amidase enhancer), LytB superfamily (LytB) (PDB:5J6Q)"	0.100901936	0.750749949	1	M. smithii	COG2247	GC_00002142	0.0984	0.0769	61	26
+DNA-cytosine methylase (Dcm) (PDB:3LX6)	0.047558114	0.827368159	1	M. intestini	COG0270	"GC_00000064, GC_00002078, GC_00002099, GC_00002120, GC_00002333, GC_00002432, GC_00002447, GC_00002544, GC_00002574, GC_00002654, GC_00003028, GC_00004006, GC_00004134"	0.9508	0.9615	61	26
+"Uncharacterized conserved protein YydD, contains DUF2326 domain (YydB)"	0.047558114	0.827368159	1	M. smithii	COG5293	GC_00002571	0.0492	0.0385	61	26
+DNA modification methylase (YhdJ) (PDB:1BOO)	0.047558114	0.827368159	1	M. smithii	COG0863	"GC_00003154, GC_00003939, GC_00004158"	0.0492	0.0385	61	26
+DNA mismatch repair protein MutH (MutH) (PDB:1AZO)	0.040691203	0.840135152	1	M. smithii	COG3066	GC_00002077	0.1311	0.1154	61	26
+"Uncharacterized protein domain, C-terminal to COG1479 DNAse/DNA nickase (PUBMED:17188297;32251370)"	0.040691203	0.840135152	1	M. smithii	COG3586	GC_00002071	0.1311	0.1154	61	26
+"Predicted NTPase, NACHT family domain (NACHT)"	0.033458635	0.85486313	1	M. intestini	COG5635	"GC_00002261, GC_00002266, GC_00002528, GC_00002564, GC_00002952, GC_00003547"	0.2131	0.2308	61	26
+Phage-related protein	0.02747106	0.86835845	1	M. intestini	COG5412	"GC_00001939, GC_00002049, GC_00003067"	0.3279	0.3462	61	26
+Uncharacterized radical SAM domain-containing protein	0.017779541	0.893924537	1	M. intestini	COG2108	GC_00002629	0.0328	0.0385	61	26
+Lysyl-tRNA synthetase (class II) (LysU) (PDB:1BBU)	0.017779541	0.893924537	1	M. intestini	COG1190	GC_00002791	0.0328	0.0385	61	26
+"Integrase/recombinase, includes phage integrase (FimB)"	0.017779541	0.893924537	1	M. intestini	COG0582	"GC_00003279, GC_00003537, GC_00003785"	0.0328	0.0385	61	26
+"Transposase and inactivated derivatives, IS1 family (InsB)"	0.017779541	0.893924537	1	M. intestini	COG1662	GC_00002845	0.0328	0.0385	61	26
+"Uncharacterized protein, contains phage Mu head morphogenesis gpF-like domain"	0.017779541	0.893924537	1	M. intestini	COG2369	GC_00002558	0.0328	0.0385	61	26
+"Uncharacterized membrane protein YkvA, DUF1232 family (YkvA)"	0.006407602	0.93619948	1	M. smithii	COG3339	GC_00002262	0.082	0.0769	61	26
+Uncharacterized conserved protein MJ0452 (PDB:1KJN)	0	1	1	NA	COG4081	GC_00000634	1	1	61	26
+Myo-inositol-1-phosphate synthase (INO1) (PDB:1GR0)	0	1	1	NA	COG1260	GC_00001087	1	1	61	26
+"Iron-guanylylpyridinol (FeGP) cofactor biosynthesis protein, fibrillarin family (HcgG) (PUBMED:25882909)"	0	1	1	NA	COG4018	GC_00000712	1	1	61	26
+tRNA A58 N-methylase Trm61 (Gcd14) (PDB:1I9G)	0	1	1	NA	COG2519	GC_00000675	1	1	61	26
+"Predicted metal-binding protein, contains two cysteine clusters, UPF0179 family (PUBMED:18675376)"	0	1	1	NA	COG1860	GC_00000603	1	1	61	26
+Acyl-CoA thioesterase FadM (FadM) (PDB:2FUJ)	0	1	1	NA	COG0824	GC_00000870	1	1	61	26
+"Protoporphyrinogen IX oxidase, menaquinone-dependent (flavodoxin domain) (HemG) (PUBMED:17873039)"	0	1	1	NA	COG4635	"GC_00000943, GC_00003567"	1	1	61	26
+Kynurenine formamidase (PDB:1R61)	0	1	1	NA	COG1878	GC_00000931	1	1	61	26
+"Nucleotide monophosphate nucleosidase PpnN/YdgH, Lonely Guy (LOG) family (PpnN) (PDB:2PMB) (PUBMED:25728768;27941785;31023582;31420341)"	0	1	1	NA	COG1611	GC_00001408	1	1	61	26
+DNA primase (bacterial type) (DnaG) (PDB:3B39) (PUBMED:28128549)	0	1	1	NA	COG0358	GC_00000676	1	1	61	26
+Cysteine synthase (CysK) (PDB:1FCJ)	0	1	1	NA	COG0031	GC_00000493	1	1	61	26
+"Transcription initiation factor IIE, alpha subunit (TFA1) (PDB:5FYW)"	0	1	1	NA	COG1675	GC_00000376	1	1	61	26
+"Acid resistance membrane protein HdeD, DUF308 family (HdeD) (PUBMED:12694615;28802266)"	0	1	1	NA	COG3247	GC_00000904	1	1	61	26
+Zn-dependent protease (includes sporulation protein SpoIVFB) (SpoIVFB) (PDB:3B4R)	0	1	1	NA	COG1994	GC_00000518	1	1	61	26
+Aspartyl/asparaginyl-tRNA synthetase (AsnS) (PDB:3KFU)	0	1	1	NA	COG0017	GC_00000893	1	1	61	26
+Flavorubredoxin (NorV) (PDB:4D02)	0	1	1	NA	COG1773	"GC_00000233, GC_00000234"	1	1	61	26
+"DNA topoisomerase VI, subunit B (PDB:1MU5)"	0	1	1	NA	COG1389	GC_00000152	1	1	61	26
+"NDP-sugar epimerase, includes UDP-GlcNAc-inverting 4,6-dehydratase FlaA1 and capsular polysaccharide biosynthesis protein EpsC (FlaA1) (PDB:2GN4)!!!Sugar transferase involved in LPS biosynthesis (colanic, teichoic acid) (WcaJ) (PDB:5W7L)"	0	1	1	NA	COG1086!!!COG2148	GC_00001014	1	1	61	26
+"Uncharacterized conserved protein YfaS, alpha-2-macroglobulin family (YfaS) (PDB:2A73)!!!Nitrous oxide reductase accessory protein NosD, contains tandem CASH domains (NosD) (PDB:2KZW)"	0	1	1	NA	COG2373!!!COG3420	"GC_00000041, GC_00001261, GC_00001553, GC_00001580, GC_00001588, GC_00001712, GC_00001732, GC_00001971, GC_00003241"	1	1	61	26
+4-amino-2-methyl-5-hydroxymethylpyrimidine (HMP) synthase ThiC (ThiC) (PDB:3EPN) (PUBMED:15326535)	0	1	1	NA	COG0422	"GC_00000456, GC_00000457"	1	1	61	26
+Valyl-tRNA synthetase (ValS) (PDB:1GAX)	0	1	1	NA	COG0525	GC_00001244	1	1	61	26
+Activator of 2-hydroxyglutaryl-CoA dehydratase (HSP70-class ATPase domain) (YjiL) (PDB:1HUX)	0	1	1	NA	COG1924	GC_00000772	1	1	61	26
+tRNA-dihydrouridine synthase (DusA) (PDB:1VHN)	0	1	1	NA	COG0042	"GC_00001271, GC_00003641"	1	1	61	26
+Predicted ATP-dependent protease (LonB) (PDB:3K1J)	0	1	1	NA	COG1067	GC_00000432	1	1	61	26
+Shikimate 5-dehydrogenase (AroE) (PDB:1NPD)	0	1	1	NA	COG0169	"GC_00001334, GC_00003355"	1	1	61	26
+"DNA-directed RNA polymerase, subunit M/Transcription elongation factor TFIIS (RPB9) (PDB:5FJ8)"	0	1	1	NA	COG1594	"GC_00000289, GC_00000385, GC_00001607"	1	1	61	26
+"Transcription initiation factor TFIIIB, Brf1 subunit/Transcription initiation factor TFIIB (SUA7) (PDB:1DL6)"	0	1	1	NA	COG1405	"GC_00000250, GC_00001511"	1	1	61	26
+Ribosomal protein S2 (RpsB) (PDB:4V4H)	0	1	1	NA	COG0052	GC_00000324	1	1	61	26
+"Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family (SpsF)"	0	1	1	NA	COG1861	GC_00001293	1	1	61	26
+Ca2+/Na+ antiporter (ECM27) (PDB:3V5S)	0	1	1	NA	COG0530	"GC_00001161, GC_00003749"	1	1	61	26
+Quinol monooxygenase YgiN (YgiN) (PDB:1R6Y) (PUBMED:15613473)	0	1	1	NA	COG1359	GC_00001265	1	1	61	26
+Cysteinyl-tRNA synthetase (CysS) (PDB:1LI5)	0	1	1	NA	COG0215	GC_00000787	1	1	61	26
+Pyruvoyl-dependent arginine decarboxylase (PdaD) (PDB:1MT1)	0	1	1	NA	COG1945	GC_00000980	1	1	61	26
+"ABC-type polysaccharide/polyol phosphate transport system, ATPase component (TagH) (PDB:6JBH)"	0	1	1	NA	COG1134	"GC_00001030, GC_00001310"	1	1	61	26
+Archaeal IMP cyclohydrolase (PurO) (PDB:1KUU) (PUBMED:21323758)	0	1	1	NA	COG3363	GC_00000377	1	1	61	26
+"Tetrahydromethanopterin S-methyltransferase, subunit F (MtrF) (PUBMED:16647082)"	0	1	1	NA	COG4218	GC_00000392	1	1	61	26
+"ABC-type cobalt transport system, periplasmic component (CbiN)"	0	1	1	NA	COG1930	GC_00000539	1	1	61	26
+"Aspartate carbamoyltransferase, regulatory subunit (PyrI) (PDB:1NBE)"	0	1	1	NA	COG1781	GC_00000752	1	1	61	26
+Uncharacterized conserved protein related to proFAR isomerase (HisA)	0	1	1	NA	COG1411	GC_00001115	1	1	61	26
+"Coenzyme F420-reducing hydrogenase, beta subunit (FrhB) (PDB:3ZFS)"	0	1	1	NA	COG1035	"GC_00000771, GC_00001234"	1	1	61	26
+"Glycerol-3-phosphate cytidylyltransferase, cytidylyltransferase family (TagD) (PDB:2B7L)!!!Predicted dehydrogenase (MviM) (PDB:3UUW)"	0	1	1	NA	COG0615!!!COG0673	GC_00000176	1	1	61	26
+"Multisubunit Na+/H+ antiporter, MnhF subunit (MnhF) (PDB:6CFW)"	0	1	1	NA	COG2212	GC_00000400	1	1	61	26
+"Uncharacterized metal-binding protein MJ1132, UPF0058 family (PDB:2GF4)"	0	1	1	NA	COG1745	GC_00000581	1	1	61	26
+"DNA-binding protein, AcrR family, includes nucleoid occlusion protein SlmA (AcrR) (PDB:2QOP)"	0	1	1	NA	COG1309	"GC_00000677, GC_00001136, GC_00003474"	1	1	61	26
+"Putative translation regulator, IMPACT (imprinted ancient) protein family (YIH1) (PDB:1VI7) (PUBMED:15126500)"	0	1	1	NA	COG1739	GC_00001298	1	1	61	26
+"DNA polymerase III sliding clamp (beta) subunit, PCNA homolog (DnaN) (PDB:1JQJ)"	0	1	1	NA	COG0592	"GC_00000305, GC_00002342, GC_00003123, GC_00003588"	1	1	61	26
+Site-specific recombinase XerD (XerD) (PDB:1A0P)	0	1	1	NA	COG4974	"GC_00000869, GC_00001098, GC_00001534, GC_00001648, GC_00001738, GC_00001999, GC_00002122, GC_00002151, GC_00002293, GC_00002453, GC_00002589, GC_00002617, GC_00003212, GC_00003421, GC_00003733, GC_00003817, GC_00003886"	1	1	61	26
+Nitrogen regulatory protein PII (GlnK) (PDB:2GW8) (PUBMED:24610711)	0	1	1	NA	COG0347	GC_00000292	1	1	61	26
+"Holliday junction resolvase Hjc, archaeal type (PDB:1GEF)"	0	1	1	NA	COG1591	GC_00000285	1	1	61	26
+Homoserine O-acetyltransferase (MET2) (PDB:2VAT)	0	1	1	NA	COG2021	GC_00001210	1	1	61	26
+"DNA-directed RNA polymerase, subunit E'/Rpb7 (RPB7) (PDB:1NT9)"	0	1	1	NA	COG1095	GC_00000312	1	1	61	26
+Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB) (PDB:6HUL)	0	1	1	NA	COG1350	GC_00000862	1	1	61	26
+Glyceraldehyde-3-phosphate dehydrogenase/erythrose-4-phosphate dehydrogenase (GapA) (PDB:3ZDF)	0	1	1	NA	COG0057	GC_00000884	1	1	61	26
+tRNA-binding EMAP/Myf domain (EMAP) (PDB:1MKH)!!!Methionyl-tRNA synthetase (MetG) (PDB:1A8H)	0	1	1	NA	COG0073!!!COG0143	GC_00001144	1	1	61	26
+"DNA polymerase III, delta prime subunit (HolB) (PDB:1A5T)"	0	1	1	NA	COG0470	GC_00000750	1	1	61	26
+"Tartrate dehydratase beta subunit/Fumarate hydratase class I, C-terminal domain (FumA) (PDB:5L2R)"	0	1	1	NA	COG1838	"GC_00000842, GC_00001178"	1	1	61	26
+"Heterodisulfide reductase, subunit B (HdrB) (PDB:5ODC)"	0	1	1	NA	COG2048	"GC_00000338, GC_00000741"	1	1	61	26
+"Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit (PurS) (PDB:1GTD)"	0	1	1	NA	COG1828	GC_00000337	1	1	61	26
+"5'-3' exoribonuclease TrpH/YciV (RNase AM), contains PHP domain (YciV) (PDB:3E0F) (PUBMED:25871919)"	0	1	1	NA	COG0613	GC_00001062	1	1	61	26
+"Uncharacterized conserved protein YfaS, alpha-2-macroglobulin family (YfaS) (PDB:2A73)"	0	1	1	NA	COG2373	"GC_00000012, GC_00000091, GC_00000156, GC_00000196, GC_00000214, GC_00001401, GC_00001411, GC_00001416, GC_00001421, GC_00001483, GC_00001598, GC_00001680, GC_00001734, GC_00001788, GC_00001789, GC_00001805, GC_00001815, GC_00001817, GC_00001977, GC_00002148, GC_00002205, GC_00002325, GC_00002560, GC_00002584, GC_00003229, GC_00003598"	1	1	61	26
+"Carbonic anhydrase or acetyltransferase, isoleucine patch superfamily (PaaY) (PDB:6IVE)"	0	1	1	NA	COG0663	"GC_00000375, GC_00001500, GC_00003912"	1	1	61	26
+"tRNA/tmRNA/rRNA uracil-C5-methylase, TrmA/RlmC/RlmD family (TrmA) (PDB:1UWV)"	0	1	1	NA	COG2265	GC_00001237	1	1	61	26
+ADP-ribosylglycohydrolase (DraG) (PDB:1T5J)	0	1	1	NA	COG1397	GC_00000110	1	1	61	26
+Thymidylate synthase (ThyA) (PDB:1AN5)	0	1	1	NA	COG0207	"GC_00000078, GC_00002362"	1	1	61	26
+"Uncharacterized conserved protein, DUF2121 domain"	0	1	1	NA	COG4079	GC_00000624	1	1	61	26
+"Fe-S-cluster-containing hydrogenase component 2 (HycB)!!!Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)!!!TPP-dependent indolepyruvate ferredoxin oxidoreductase, alpha subunit (IorA)"	0	1	1	NA	COG1142!!!COG1143!!!COG4231	GC_00000714	1	1	61	26
+Biopolymer transport protein ExbB/TolQ (TolQ) (PDB:5SV0)	0	1	1	NA	COG0811	"GC_00000142, GC_00000327, GC_00001550"	1	1	61	26
+"DNA-directed RNA polymerase, subunit H, RpoH/RPB5 (RPB5) (PDB:1DZF)"	0	1	1	NA	COG2012	GC_00000336	1	1	61	26
+RNase P/RNase MRP subunit p29 (POP4) (PDB:1OQK)	0	1	1	NA	COG1588	GC_00000713	1	1	61	26
+"dTDP-D-glucose 4,6-dehydratase (RfbB) (PDB:1G1A)"	0	1	1	NA	COG1088	GC_00000940	1	1	61	26
+"ABC-type phosphate transport system, periplasmic component (PstS) (PDB:2Q9T)"	0	1	1	NA	COG0226	GC_00000695	1	1	61	26
+"Iron-guanylylpyridinol (FeGP) cofactor biosynthesis protein, methyltransferase HcgC (HcgC) (PDB:5D4T) (PUBMED:25882909)"	0	1	1	NA	COG4017	GC_00001325	1	1	61	26
+Pyrroline-5-carboxylate reductase (ProC) (PDB:3GT0) (PUBMED:22125496;26507882)	0	1	1	NA	COG0345	GC_00000109	1	1	61	26
+"Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)!!!Dissimilatory sulfite reductase (desulfoviridin), alpha and beta subunits (DsrA)!!!TPP-dependent indolepyruvate ferredoxin oxidoreductase, alpha subunit (IorA)"	0	1	1	NA	COG1143!!!COG2221!!!COG4231	GC_00000023	1	1	61	26
+GTP:adenosylcobinamide-phosphate guanylyltransferase (PDB:2MZB) (PUBMED:16895922)	0	1	1	NA	COG2266	GC_00000795	1	1	61	26
+"Uncharacterized conserved protein, DUF2193 domain"	0	1	1	NA	COG4883	GC_00000086	1	1	61	26
+Molybdopterin-guanine dinucleotide biosynthesis protein (MobB) (PDB:1NP6) (PUBMED:32239579)	0	1	1	NA	COG1763	GC_00001227	1	1	61	26
+Phosphosulfolactate phosphohydrolase or related enzyme (ComB) (PDB:1VR0)	0	1	1	NA	COG2045	GC_00001167	1	1	61	26
+Ribosomal protein L2 (RplB) (PDB:1VS6)	0	1	1	NA	COG0090	GC_00000230	1	1	61	26
+Flavin prenyltransferase UbiX (UbiX) (PDB:1SBZ) (PUBMED:28754323;26083743)	0	1	1	NA	COG0163	GC_00000583	1	1	61	26
+3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase (MmsB) (PDB:1I36)	0	1	1	NA	COG2084	GC_00000960	1	1	61	26
+4-hydroxybenzoate synthetase (chorismate-pyruvate lyase) (UbiC) (PDB:1FW9)	0	1	1	NA	COG3161	GC_00000531	1	1	61	26
+Threonyl-tRNA synthetase (ThrS) (PDB:1NYQ)	0	1	1	NA	COG0441	GC_00001254	1	1	61	26
+"ABC-type dipeptide/oligopeptide/nickel transport system, permease component (DppC)"	0	1	1	NA	COG1173	"GC_00001029, GC_00003522"	1	1	61	26
+Citrate synthase (GltA) (PDB:3TQG) (PUBMED:25211225)	0	1	1	NA	COG0372	GC_00000723	1	1	61	26
+"Tartrate dehydratase alpha subunit/Fumarate hydratase class I, N-terminal domain (TtdA) (PDB:5L2R) (PUBMED:15613473)"	0	1	1	NA	COG1951	"GC_00001127, GC_00001249"	1	1	61	26
+"Stage II sporulation protein SpoIIM, component of the engulfment complex (SpoIIM)"	0	1	1	NA	COG1300	GC_00001130	1	1	61	26
+Ribosomal protein L15 (RplO) (PDB:1VS6)	0	1	1	NA	COG0200	GC_00000310	1	1	61	26
+"Na+/melibiose symporter or related transporter (MelB) (PDB:4M64)!!!Predicted arabinose efflux permease AraJ, MFS family (AraJ) (PDB:4LDS)"	0	1	1	NA	COG2211!!!COG2814	"GC_00001252, GC_00001470, GC_00001759"	1	1	61	26
+Ribosomal protein L23 (RplW) (PDB:1VS6)	0	1	1	NA	COG0089	GC_00000445	1	1	61	26
+Beta-ribofuranosylaminobenzene 5'-phosphate synthase (methanopterin biosynthesis) (bRFAP) (PDB:6YQQ) (PUBMED:16817932)	0	1	1	NA	COG1907	GC_00000976	1	1	61	26
+RNA degradosome component RraA (regulator of RNase E activity) (RraA) (PDB:1J3L) (PUBMED:20471400)	0	1	1	NA	COG0684	GC_00000801	1	1	61	26
+Dihydropteroate synthase (FolP) (PDB:1AD1)	0	1	1	NA	COG0294	GC_00000885	1	1	61	26
+Energy-converting hydrogenase Eha subunit F (EhaF) (PUBMED:19495416)	0	1	1	NA	COG4037	GC_00000974	1	1	61	26
+Precorrin-4 methylase (CobM) (PDB:4E16)	0	1	1	NA	COG2875	GC_00000897	1	1	61	26
+Arginyl-tRNA synthetase (ArgS) (PDB:1BS2)	0	1	1	NA	COG0018	GC_00001120	1	1	61	26
+"S-layer protein MJ0795, predicted component of type IV pili-like system (MJ0795)"	0	1	1	NA	COG1361	"GC_00000003, GC_00000020"	1	1	61	26
+"Translation initiation factor RLI1, contains Fe-S and AAA+ ATPase domains (Rli1) (PDB:3J16)"	0	1	1	NA	COG1245	GC_00000981	1	1	61	26
+"Membrane-associated protease RseP, regulator of RpoE activity (RseP)"	0	1	1	NA	COG0750	GC_00000149	1	1	61	26
+"TPP-dependent indolepyruvate ferredoxin oxidoreductase, alpha subunit (IorA)"	0	1	1	NA	COG4231	"GC_00000270, GC_00001219, GC_00001383"	1	1	61	26
+rRNA-processing protein FCF1 (Fcf1) (PDB:4MJ7)	0	1	1	NA	COG1412	GC_00000350	1	1	61	26
+NaMN:DMB phosphoribosyltransferase (CobT) (PDB:1D0S)	0	1	1	NA	COG2038	GC_00001229	1	1	61	26
+dTDP-glucose pyrophosphorylase (RmlA1) (PDB:1FXO)	0	1	1	NA	COG1209	GC_00001093	1	1	61	26
+ATP-dependent 26S proteasome regulatory subunit (RPT1) (PDB:5EQT)	0	1	1	NA	COG1222	GC_00000339	1	1	61	26
+Ribosomal protein S28E/S33 (RPS28A) (PDB:1NE3) (PUBMED:17307853)	0	1	1	NA	COG2053	GC_00000235	1	1	61	26
+"Sulfur incorporation enzyme MA1821 (anaerobic homocysteine biosynthesis), HcyBio/DUF39 family (HcyBio) (PUBMED:25315403)"	0	1	1	NA	COG1900	GC_00000175	1	1	61	26
+Exonuclease III (XthA) (PDB:1AKO)	0	1	1	NA	COG0708	"GC_00000510, GC_00002013, GC_00002837"	1	1	61	26
+Threonine dehydrogenase or related Zn-dependent dehydrogenase (Tdh) (PDB:4A2C)	0	1	1	NA	COG1063	"GC_00000083, GC_00000596"	1	1	61	26
+"ABC-type glutathione transport system ATPase component, contains duplicated ATPase domain (GsiA)"	0	1	1	NA	COG1123	"GC_00000076, GC_00000153, GC_00000543"	1	1	61	26
+"NAD kinase (NadK) (PDB:1SUW)!!!Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family (SuhB) (PDB:1AWB)"	0	1	1	NA	COG0061!!!COG0483	GC_00001149	1	1	61	26
+"Small heat shock protein IbpA, HSP20 family (IbpA) (PDB:1GME)"	0	1	1	NA	COG0071	"GC_00001209, GC_00003534"	1	1	61	26
+"Lysyl-tRNA synthetase, class I (LysS) (PDB:1IRX)"	0	1	1	NA	COG1384	GC_00001007	1	1	61	26
+"Pilus assembly protein, ATPase of CpaF family (CpaF)"	0	1	1	NA	COG4962	GC_00001309	1	1	61	26
+"Predicted transcriptional regulator, ArsR family (PDB:2P4W)"	0	1	1	NA	COG1777	GC_00000977	1	1	61	26
+Homoserine dehydrogenase (ThrA) (PDB:5AVO) (PUBMED:29124164)	0	1	1	NA	COG0460	GC_00001076	1	1	61	26
+"Predicted metal-dependent RNase, contains metallo-beta-lactamase and KH domains (PDB:3AF5)"	0	1	1	NA	COG1782	GC_00000586	1	1	61	26
+Peptide methionine sulfoxide reductase MsrA (MsrA) (PDB:1FF3)!!!Peptide methionine sulfoxide reductase MsrB (MsrB) (PDB:1L1D)	0	1	1	NA	COG0225!!!COG0229	"GC_00000085, GC_00000188"	1	1	61	26
+Ammonia channel protein AmtB (AmtB) (PDB:1U77)	0	1	1	NA	COG0004	GC_00001012	1	1	61	26
+"Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain (PurL2) (PDB:1T3T)"	0	1	1	NA	COG0047	GC_00000431	1	1	61	26
+UDP-galactopyranose mutase (Glf) (PDB:1I8T)	0	1	1	NA	COG0562	GC_00000923	1	1	61	26
+"2-phospho-L-lactate guanylyltransferase, coenzyme F420 biosynthesis enzyme, CobY/MobA/RfbA family (PDB:6BWH)"	0	1	1	NA	COG1920	GC_00000461	1	1	61	26
+S-formylglutathione hydrolase FrmB (FrmB) (PDB:1DQY)	0	1	1	NA	COG0627	GC_00001354	1	1	61	26
+"Predicted ATPase, PP-loop superfamily"	0	1	1	NA	COG1365	GC_00001255	1	1	61	26
+Biotin carboxyl carrier protein (AccB) (PDB:1A6X)!!!Pyruvate/oxaloacetate carboxyltransferase (OadA1) (PDB:2NX9) (PUBMED:18681940)	0	1	1	NA	COG0511!!!COG5016	GC_00000922	1	1	61	26
+"NDP-sugar epimerase, includes UDP-GlcNAc-inverting 4,6-dehydratase FlaA1 and capsular polysaccharide biosynthesis protein EpsC (FlaA1) (PDB:2GN4)"	0	1	1	NA	COG1086	GC_00000296	1	1	61	26
+"tRNA U55 pseudouridine synthase TruB, may also work on U342 of tmRNA (TruB) (PDB:1K8W)"	0	1	1	NA	COG0130	GC_00000804	1	1	61	26
+"Proteasome lid subunit RPN8/RPN11, contains Jab1/MPN domain metalloenzyme (JAMM) motif (Rri1) (PDB:2O95)"	0	1	1	NA	COG1310	GC_00001323	1	1	61	26
+Uncharacterized archaeal Zn-finger protein	0	1	1	NA	COG1326	GC_00001018	1	1	61	26
+Glutamate synthase domain 3 (GltB3) (PDB:1EA0)	0	1	1	NA	COG0070	GC_00000137	1	1	61	26
+"Inosine/xanthosine triphosphate pyrophosphatase, all-alpha NTP-PPase family (RdgB) (PDB:1B78)"	0	1	1	NA	COG0127	GC_00000917	1	1	61	26
+Flavorubredoxin (NorV) (PDB:4JHC)	0	1	1	NA	COG0426	"GC_00000484, GC_00000485"	1	1	61	26
+"Sulfatase maturation enzyme AslB, radical SAM superfamily (AslB) (PDB:4K37)"	0	1	1	NA	COG0641	"GC_00001320, GC_00002553"	1	1	61	26
+Glutamate synthase domain 2 (GltB2) (PDB:1EA0)	0	1	1	NA	COG0069	GC_00000349	1	1	61	26
+Imidazole glycerol phosphate synthase subunit HisF (HisF) (PDB:1OX4)	0	1	1	NA	COG0107	GC_00000580	1	1	61	26
+"Fructose-bisphosphate aldolase class Ia, DhnA family (FbaB) (PDB:1OJX)"	0	1	1	NA	COG1830	GC_00000343	1	1	61	26
+Molybdopterin Mo-transferase (molybdopterin biosynthesis) (MoeA) (PDB:2NQU) (PUBMED:18801996;32239579)	0	1	1	NA	COG0303	"GC_00001105, GC_00001159"	1	1	61	26
+"DNA replicative helicase MCM subunit Mcm2, Cdc46/Mcm family (Mcm2) (PDB:3F8T)"	0	1	1	NA	COG1241	"GC_00000379, GC_00002808, GC_00002849, GC_00003302"	1	1	61	26
+"Uncharacterized conserved protein YurZ, alkylhydroperoxidase/carboxymuconolactone decarboxylase family (YurZ) (PDB:3BEY)"	0	1	1	NA	COG0599	GC_00000809	1	1	61	26
+Ribosomal protein S11 (RpsK) (PDB:4V4H)	0	1	1	NA	COG0100	GC_00000216	1	1	61	26
+"Predicted phosphodiesterase, calcineurin family (YfcE) (PDB:1SU1) (PUBMED:17586769)"	0	1	1	NA	COG0622	GC_00000139	1	1	61	26
+Cytidylate kinase (CmkB)	0	1	1	NA	COG1102	GC_00000735	1	1	61	26
+"Cdc6-related protein, AAA superfamily ATPase (CDC6) (PDB:1FNN)"	0	1	1	NA	COG1474	"GC_00000365, GC_00000906"	1	1	61	26
+dsDNA-specific endonuclease/ATPase MutS2 (MutS2)	0	1	1	NA	COG1193	GC_00001336	1	1	61	26
+"Queuosine precursor transporter YhhQ, DUF165 family (YhhQ) (PUBMED:31481610)"	0	1	1	NA	COG1738	"GC_00000103, GC_00001023"	1	1	61	26
+Uncharacterized membrane protein	0	1	1	NA	COG4713	"GC_00000206, GC_00001171, GC_00001515, GC_00001533, GC_00001576, GC_00001605, GC_00001760, GC_00001973, GC_00002165, GC_00003363"	1	1	61	26
+CBS-domain-containing membrane protein	0	1	1	NA	COG3448	GC_00000448	1	1	61	26
+"2,3-bisphosphoglycerate-independent phosphoglycerate mutase, archeal type (ApgM) (PDB:2ZKT)"	0	1	1	NA	COG3635	"GC_00000595, GC_00001379"	1	1	61	26
+Archaeal DNA repair protein NreA (NreA) (PUBMED:26337406)	0	1	1	NA	COG1602	GC_00000963	1	1	61	26
+Precorrin-8X methylmutase CbiC/CobH (CobH) (PDB:1F2V)	0	1	1	NA	COG2082	GC_00000575	1	1	61	26
+"Transcriptional regulator, contains XRE-family HTH domain (HipB) (PDB:1ADR)!!!Cupin domain protein related to quercetin dioxygenase (QdoI) (PDB:2H0V)"	0	1	1	NA	COG1396!!!COG1917	"GC_00000466, GC_00000604"	1	1	61	26
+"Uncharacterized conserved protein, DUF371 domain (PDB:3CBN)"	0	1	1	NA	COG2090	GC_00000740	1	1	61	26
+"Phenylacetate-coenzyme A ligase PaaK, adenylate-forming domain family (PaaK) (PDB:2Y4O)"	0	1	1	NA	COG1541	"GC_00000793, GC_00000794"	1	1	61	26
+"Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, gamma subunit (PorG) (PDB:1B0P)"	0	1	1	NA	COG1014	"GC_00000362, GC_00000508, GC_00000971"	1	1	61	26
+Ketopantoate reductase (PanE) (PDB:1BG6)	0	1	1	NA	COG1893	GC_00001278	1	1	61	26
+Glutamyl-tRNA reductase (HemA) (PDB:2XOE)	0	1	1	NA	COG0373	GC_00000791	1	1	61	26
+Ribosome maturation protein Sdo1 (Sdo1)	0	1	1	NA	COG1500	GC_00000597	1	1	61	26
+"Uncharacterized conserved protein, DUF2096 domain"	0	1	1	NA	COG4010	GC_00000698	1	1	61	26
+"Uncharacterized conserved protein, DUF447 domain (PDB:2IML)"	0	1	1	NA	COG2457	GC_00000841	1	1	61	26
+"DNA replication initiation complex subunit, GINS family"	0	1	1	NA	COG1711	GC_00001066	1	1	61	26
+"Prefoldin, chaperonin cofactor (GimC) (PDB:1FXK)"	0	1	1	NA	COG1382	GC_00000226	1	1	61	26
+GTP cyclohydrolase FolE2 (FolE2) (PDB:2R5R) (PUBMED:19767425)	0	1	1	NA	COG1469	GC_00000730	1	1	61	26
+Prephenate dehydratase (PheA2) (PDB:1PHZ)	0	1	1	NA	COG0077	GC_00000952	1	1	61	26
+"Thiamin-binding stress-response protein YqgV, UPF0045 family (YqgV) (PDB:1LXJ) (PUBMED:20471400)"	0	1	1	NA	COG0011	GC_00000449	1	1	61	26
+Pyruvate-formate lyase-activating enzyme (PflA) (PDB:3CAN)	0	1	1	NA	COG1180	"GC_00000053, GC_00000187, GC_00000605"	1	1	61	26
+"Predicted archaeal cell division protein, SepF family (SepFarc) (PDB:3ZIE)"	0	1	1	NA	COG2450	GC_00000455	1	1	61	26
+"Glycosyltransferase involved in cell wall bisynthesis (WcaA) (PDB:5MLZ)!!!CDP-glycerol glycerophosphotransferase, TagB/SpsB family (TagB)"	0	1	1	NA	COG0463!!!COG1887	"GC_00000088, GC_00001496"	1	1	61	26
+"Translation initiation factor 2, gamma subunit (eIF-2gamma; GTPase) (GCD11) (PDB:1KJZ)"	0	1	1	NA	COG5257	GC_00000275	1	1	61	26
+Argininosuccinate synthase (ArgG) (PDB:1J1Z)	0	1	1	NA	COG0137	GC_00000679	1	1	61	26
+"Uncharacterized conserved protein, DUF2112 domain"	0	1	1	NA	COG4050	"GC_00000048, GC_00000428"	1	1	61	26
+Ornithine carbamoyltransferase (ArgF) (PDB:1A1S)	0	1	1	NA	COG0078	GC_00000835	1	1	61	26
+"ABC-type lipoprotein export system, ATPase component (LolD) (PDB:5GKO)"	0	1	1	NA	COG1136	"GC_00000618, GC_00003932"	1	1	61	26
+tRNA A37 threonylcarbamoyladenosine synthetase subunit TsaC/SUA5/YrdC (TsaC) (PDB:1HRU)	0	1	1	NA	COG0009	GC_00001207	1	1	61	26
+IMP dehydrogenase/GMP reductase (GuaB) (PDB:1B3O)!!!CBS domain (CBS) (PDB:1B3O)	0	1	1	NA	COG0516!!!COG0517	GC_00000934	1	1	61	26
+"Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)!!!Dissimilatory sulfite reductase (desulfoviridin), alpha and beta subunits (DsrA)"	0	1	1	NA	COG1143!!!COG2221	GC_00000729	1	1	61	26
+tRNA(Ile2) C34 agmatinyltransferase TiaS (TiaS) (PDB:3AMT)	0	1	1	NA	COG1571	"GC_00001348, GC_00001458"	1	1	61	26
+Cytochrome c biogenesis protein CcdA (CcdA) (PDB:5VKV)	0	1	1	NA	COG0785	GC_00001113	1	1	61	26
+"rRNA maturation protein Rpf1, contains Brix/IMP4 (anticodon-binding) domain (IMP4) (PDB:5O9E) (PUBMED:15654320)"	0	1	1	NA	COG2136	GC_00000585	1	1	61	26
+Glutamate synthase domain 1 (GltB1) (PDB:1EA0)	0	1	1	NA	COG0067	GC_00000334	1	1	61	26
+Archaeal dephospho-CoA kinase (DPCK) (PUBMED:31337720)	0	1	1	NA	COG1909	GC_00000317	1	1	61	26
+Predicted transporter	0	1	1	NA	COG4827	"GC_00000138, GC_00003685"	1	1	61	26
+"DNA-binding protein, stimulates sugar fermentation (SfsA) (PDB:4DA2)"	0	1	1	NA	COG1489	GC_00000119	1	1	61	26
+UDP-N-acetylmuramyl tripeptide synthase (MurE) (PDB:1E8C)	0	1	1	NA	COG0769	"GC_00000172, GC_00001217, GC_00001346, GC_00001385"	1	1	61	26
+"Uncharacterized conserved protein YprB, contains RNaseH-like and TPR domains (YprB)"	0	1	1	NA	COG3359	GC_00000163	1	1	61	26
+Ribosomal protein S18 acetylase RimI and related acetyltransferases (RimI) (PDB:1GHE)	0	1	1	NA	COG0456	"GC_00000513, GC_00000972, GC_00001226, GC_00001591, GC_00001711, GC_00003485"	1	1	61	26
+Formylmethanofuran dehydrogenase subunit A (FwdA) (PDB:5T5I)	0	1	1	NA	COG1229	GC_00000707	1	1	61	26
+Preprotein translocase subunit SecY (SecY) (PDB:1RH5)	0	1	1	NA	COG0201	GC_00000647	1	1	61	26
+"Na+-driven multidrug efflux pump, DinF/NorM/MATE family (NorM) (PDB:3VVN) (PUBMED:29915058)"	0	1	1	NA	COG0534	"GC_00000005, GC_00000211, GC_00001230, GC_00001390, GC_00002435, GC_00002666, GC_00003901"	1	1	61	26
+Ribosomal protein L24 (RplX) (PDB:1VS6)	0	1	1	NA	COG0198	GC_00000302	1	1	61	26
+Transcription factor homologous to NACalpha-BTF3 (EGD2) (PDB:1TR8)	0	1	1	NA	COG1308	GC_00000590	1	1	61	26
+2-phosphoglycerate kinase/Mevalonate-3-phosphate 5-kinase (Pgk2)	0	1	1	NA	COG2074	GC_00000649	1	1	61	26
+Energy-converting hydrogenase Eha subunit D (EhaD) (PUBMED:19495416)	0	1	1	NA	COG4039	GC_00000500	1	1	61	26
+"Predicted RNA-binding protein, contains C-terminal EMAP domain (PDB:2E8G) (PUBMED:17114934)"	0	1	1	NA	COG2517	GC_00000711	1	1	61	26
+"Protein N-acetyltransferase, RimJ/RimL family (RimL) (PDB:1S7F)"	0	1	1	NA	COG1670	GC_00000160	1	1	61	26
+Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH (HisH) (PDB:1OX4)	0	1	1	NA	COG0118	GC_00000918	1	1	61	26
+"DNA topoisomerase VI, subunit A (Spo11) (PDB:1D3Y)"	0	1	1	NA	COG1697	GC_00000330	1	1	61	26
+"Predicted metal-dependent hydrolase, TIM-barrel fold (PDB:3GUW)"	0	1	1	NA	COG1099	GC_00000840	1	1	61	26
+NCAIR mutase (PurE)-related protein	0	1	1	NA	COG1691	GC_00001004	1	1	61	26
+Arginase/agmatinase family enzyme (SpeB) (PDB:1CEV)	0	1	1	NA	COG0010	GC_00001326	1	1	61	26
+"Chromosome segregation protein Spo0J, contains ParB-like nuclease domain (Spo0J) (PDB:1R71)!!!Predicted transcriptional regulator, contains C-terminal CBS domains"	0	1	1	NA	COG1475!!!COG2524	GC_00000475	1	1	61	26
+Ribosomal protein L18 (RplR) (PDB:1VS6)	0	1	1	NA	COG0256	GC_00000630	1	1	61	26
+"GTP-binding protein, GTP1/Obg family (Nog1) (PDB:2E87)"	0	1	1	NA	COG1084	GC_00000706	1	1	61	26
+"tRNA threonylcarbamoyladenosine modification (KEOPS) complex,  Cgi121 subunit (Cgi121) (PDB:1ZD0) (PUBMED:23258706)"	0	1	1	NA	COG1617	GC_00001091	1	1	61	26
+Predicted transcriptional regulator	0	1	1	NA	COG1395	GC_00000617	1	1	61	26
+Archaeal/vacuolar-type H+-ATPase subunit B/Vma2 (NtpB) (PDB:3GQB)	0	1	1	NA	COG1156	GC_00000274	1	1	61	26
+"RNA 2',3'-cyclic phosphodiesterase (2'-5' RNA ligase) (ThpR) (PDB:1IUH) (PUBMED:25239919)"	0	1	1	NA	COG1514	GC_00001059	1	1	61	26
+tRNA U34 5-methylaminomethyl-2-thiouridine-forming methyltransferase MnmC (MnmC) (PDB:3AWI)	0	1	1	NA	COG4121	GC_00001160	1	1	61	26
+"Multisubunit Na+/H+ antiporter, MnhG subunit (MnhG) (PDB:6CFW)"	0	1	1	NA	COG1320	GC_00000631	1	1	61	26
+Ribosomal protein S10 (RpsJ) (PDB:4V4H)	0	1	1	NA	COG0051	GC_00000228	1	1	61	26
+"Methanofuran synthetase MfnF, hydantoinase/oxoprolinase family (MfnF) (PDB:3C0B) (PUBMED:26100040)"	0	1	1	NA	COG1548	GC_00000194	1	1	61	26
+16S rRNA A1518 and A1519 N6-dimethyltransferase RsmA/KsgA/DIM1 (may also have DNA glycosylase/AP lyase activity) (RsmA) (PDB:1QYR)	0	1	1	NA	COG0030	"GC_00001077, GC_00003878"	1	1	61	26
+"3-Methyladenine DNA glycosylase, HhH-GPD/Endo3 superfamily (HP0602) (PDB:1PU6) (PUBMED:14517230;20410075)"	0	1	1	NA	COG2231	GC_00001053	1	1	61	26
+Triosephosphate isomerase (TpiA) (PDB:1HG3)	0	1	1	NA	COG0149	GC_00000141	1	1	61	26
+CBS domain (CBS) (PDB:1B3O)	0	1	1	NA	COG0517	"GC_00000481, GC_00000846"	1	1	61	26
+Phosphopantetheine adenylyltransferase (CAB4) (PDB:3DO8)	0	1	1	NA	COG1019	GC_00000526	1	1	61	26
+Uncharacterized spore protein YtfJ (YtfJ)	0	1	1	NA	COG3874	GC_00000688	1	1	61	26
+Exonuclease VII small subunit (XseB) (PDB:1VP7)	0	1	1	NA	COG1722	GC_00000320	1	1	61	26
+Adenine deaminase (AdeC) (PDB:3NQB)	0	1	1	NA	COG1001	GC_00001329	1	1	61	26
+"FMN-dependent dehydrogenase, includes L-lactate dehydrogenase and type II isopentenyl diphosphate isomerase (LldD) (PDB:6AI7)"	0	1	1	NA	COG1304	GC_00000803	1	1	61	26
+Carbamoyl dehydratase HypE (hydrogenase maturation factor) (HypE) (PDB:2I6R) (PUBMED:28618091)	0	1	1	NA	COG0309	GC_00000412	1	1	61	26
+mRNA degradation ribonuclease J1/J2 (RnjA) (PDB:3T3N)	0	1	1	NA	COG0595	GC_00000553	1	1	61	26
+"GMP synthase, PP-ATPase domain/subunit (GuaA2) (PDB:4WIM)"	0	1	1	NA	COG0519	GC_00000555	1	1	61	26
+Ribosomal protein S4E (RPS4A)	0	1	1	NA	COG1471	GC_00000535	1	1	61	26
+"ABC-type phosphate transport system, ATPase component (PstB)"	0	1	1	NA	COG1117	GC_00000487	1	1	61	26
+"ABC-type polar amino acid transport system, ATPase component (GlnQ) (PDB:4YMS)"	0	1	1	NA	COG1126	GC_00000953	1	1	61	26
+Hydrogenase maturation factor HypF (carbamoyltransferase) (HypF) (PDB:3TSP)	0	1	1	NA	COG0068	GC_00001317	1	1	61	26
+Ribosomal protein S3 (RpsC) (PDB:1VS6)	0	1	1	NA	COG0092	GC_00000331	1	1	61	26
+5-(aminomethyl)-3-furanmethanol-phosphate kinase MfnE (methanofuran biosynthesis) (MfnE) (PUBMED:26100040)	0	1	1	NA	COG2054	GC_00000799	1	1	61	26
+Flavodoxin (FldA) (PDB:1AG9)!!!Ferredoxin (NapF) (PDB:6FAH)	0	1	1	NA	COG0716!!!COG1145	GC_00001143	1	1	61	26
+"Uncharacterized membrane protein YhgE, phage infection protein (PIP) family (YhgE)"	0	1	1	NA	COG1511	"GC_00001163, GC_00002500"	1	1	61	26
+Phosphoribosylamine-glycine ligase (PurD) (PDB:1GSO)	0	1	1	NA	COG0151	GC_00001067	1	1	61	26
+"Archaeal Glu-tRNAGln amidotransferase subunit E, contains GAD domain (GatE) (PDB:2D6F)"	0	1	1	NA	COG2511	GC_00001128	1	1	61	26
+"Heterodisulfide reductase, subunit C (HdrC) (PDB:5ODC)"	0	1	1	NA	COG1150	"GC_00000763, GC_00000933"	1	1	61	26
+Predicted N-acetyltransferase YhbS (yhbS) (PDB:4ZBG)	0	1	1	NA	COG3153	"GC_00001402, GC_00001544, GC_00004102"	1	1	61	26
+Queuine/archaeosine tRNA-ribosyltransferase (Tgt) (PDB:1XW8) (PUBMED:15805528)	0	1	1	NA	COG0343	GC_00001275	1	1	61	26
+"Exosome subunit, RNA binding protein with dsRBD fold (PDB:2NRQ)"	0	1	1	NA	COG1325	GC_00000454	1	1	61	26
+"Predicted redox protein with CxxCxxC motif, DUF116 family (PUBMED:25583072)"	0	1	1	NA	COG1852	"GC_00000623, GC_00001359"	1	1	61	26
+ERCC4-related helicase (MPH1) (PDB:1WP9)!!!ERCC4-type crossover junction endonuclease (MUS81) (PDB:1J22)	0	1	1	NA	COG1111!!!COG1948	GC_00000639	1	1	61	26
+Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein (Apt) (PDB:1QB7)	0	1	1	NA	COG0503	GC_00000751	1	1	61	26
+"Fructoselysine-6-P-deglycase FrlB or related protein, duplicated sugar isomerase (SIS) domain (AgaS) (PDB:3C3J) (PUBMED:16153181)"	0	1	1	NA	COG2222	GC_00001367	1	1	61	26
+"Outer membrane protein chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains (BepA) (PDB:6AIT) (PUBMED:24003122)"	0	1	1	NA	COG4783	GC_00000202	1	1	61	26
+DNA-binding transcriptional regulator ModE (molybdenum-dependent) (ModE) (PDB:1B9M) (PUBMED:19779461)!!!Molybdopterin-binding protein MopI (MopI) (PDB:1B9M)	0	1	1	NA	COG2005!!!COG3585	GC_00000865	1	1	61	26
+UDP-N-acetylmuramyl pentapeptide synthase (MurF) (PDB:4CVK)	0	1	1	NA	COG0770	GC_00001135	1	1	61	26
+"Arsenite efflux pump ArsB, ACR3 family (ACR3)"	0	1	1	NA	COG0798	GC_00000057	1	1	61	26
+RNase P/RNase MRP subunit p30 (RPP1) (PDB:1V77)	0	1	1	NA	COG1603	GC_00000190	1	1	61	26
+Prolyl-tRNA synthetase (ProS) (PDB:5XIF)	0	1	1	NA	COG0442	GC_00000757	1	1	61	26
+Predicted flavoprotein YhiN (YhiN) (PDB:3V76)	0	1	1	NA	COG2081	GC_00001192	1	1	61	26
+Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase (IlvE) (PDB:1A3G)	0	1	1	NA	COG0115	GC_00000135	1	1	61	26
+Formate hydrogenlyase subunit HyfC (HyfC) (PDB:6CFW)	0	1	1	NA	COG0650	"GC_00000769, GC_00001199, GC_00003400"	1	1	61	26
+"Uncharacterized pentameric protein YbjQ, UPF0145 family (YbjQ) (PDB:1VR4) (PUBMED:23935051)"	0	1	1	NA	COG0393	"GC_00000290, GC_00000492, GC_00000660"	1	1	61	26
+"Uncharacterized membrane protein, DUF368 family"	0	1	1	NA	COG2035	GC_00000855	1	1	61	26
+Ribosomal protein S17 (RpsQ) (PDB:4V4H)	0	1	1	NA	COG0186	GC_00000215	1	1	61	26
+Orotidine-5'-phosphate decarboxylase (PyrF) (PDB:1DBT)	0	1	1	NA	COG0284	GC_00001250	1	1	61	26
+"ABC-type Co2+ transport system, permease component (CbiM) (PDB:4M58) (PUBMED:25313401)"	0	1	1	NA	COG0310	"GC_00000157, GC_00000573, GC_00001467"	1	1	61	26
+Phosphoribosylpyrophosphate synthetase (PrsA) (PDB:1DKR)	0	1	1	NA	COG0462	GC_00000566	1	1	61	26
+Ribonuclease PH (Rph) (PDB:1UDO)	0	1	1	NA	COG0689	GC_00000935	1	1	61	26
+NAD(P)H-flavin reductase (Mcr1) (PDB:3A1F)	0	1	1	NA	COG0543	"GC_00000851, GC_00003967"	1	1	61	26
+Fe2+ transport protein FeoA (FeoA) (PDB:2GCX)	0	1	1	NA	COG1918	GC_00000222	1	1	61	26
+"Predicted membrane flippase AglD2/YbhN, UPF0104 family (AglD2) (PUBMED:25583072)"	0	1	1	NA	COG0392	GC_00000924	1	1	61	26
+Acetylornithine/succinyldiaminopimelate/putrescine aminotransferase (ArgD) (PDB:2E54)	0	1	1	NA	COG4992	"GC_00001039, GC_00003606"	1	1	61	26
+Carbamoylphosphate synthase large subunit (CarB) (PDB:1C30)	0	1	1	NA	COG0458	"GC_00000829, GC_00000880"	1	1	61	26
+GyrI-like small molecule binding domain (BltR2) (PDB:1BOW)	0	1	1	NA	COG4978	GC_00000728	1	1	61	26
+H+/Cl- antiporter ClcA (ClcA) (PDB:1KPK)	0	1	1	NA	COG0038	GC_00001282	1	1	61	26
+23S rRNA G2069 N7-methylase RlmK or C1962 C5-methylase RlmI (RlmK) (PDB:2B78)	0	1	1	NA	COG1092	GC_00001235	1	1	61	26
+"Fe-S-cluster-containing hydrogenase component 2 (HycB)!!!Ferredoxin (NapF) (PDB:6FAH)!!!TPP-dependent indolepyruvate ferredoxin oxidoreductase, alpha subunit (IorA)"	0	1	1	NA	COG1142!!!COG1145!!!COG4231	GC_00001078	1	1	61	26
+Ribosomal protein L44E (RPL42A)	0	1	1	NA	COG1631	GC_00000225	1	1	61	26
+Siroheme synthase (precorrin-2 oxidase/ferrochelatase domain) (CysG2) (PDB:1PJQ)	0	1	1	NA	COG1648	GC_00001043	1	1	61	26
+Hydrogenase maturation factor HypE (HypE2)	0	1	1	NA	COG1973	GC_00000665	1	1	61	26
+Chorismate mutase (PheA) (PDB:1ECM)	0	1	1	NA	COG1605	GC_00000333	1	1	61	26
+Archaeal histone H3/H4 (HHT1) (PDB:6GEJ)	0	1	1	NA	COG2036	"GC_00000002, GC_00002278"	1	1	61	26
+5'-3' exonuclease Xni/ExoIX (flap endonuclease) (ExoIX) (PDB:3ZDA) (PUBMED:19000038;23821668)	0	1	1	NA	COG0258	GC_00001174	1	1	61	26
+Organic radical activating enzyme NrdG/QueE (QueE) (PUBMED:14660578;17384645)	0	1	1	NA	COG0602	GC_00000848	1	1	61	26
+"NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit (PreA)"	0	1	1	NA	COG1146	"GC_00000277, GC_00000329"	1	1	61	26
+Glutamyl- or glutaminyl-tRNA synthetase (GlnS) (PDB:1EUQ)	0	1	1	NA	COG0008	GC_00000098	1	1	61	26
+"Uncharacterized conserved protein, DUF763 domain"	0	1	1	NA	COG1415	GC_00000200	1	1	61	26
+Geranylgeranyl pyrophosphate synthase (IspA) (PDB:2AZJ)	0	1	1	NA	COG0142	GC_00001177	1	1	61	26
+"Zn/Ni/Co-binding GTPase YjiA, predicted metallochaperone, CobW/Nha3/YciC family (YjiA) (PUBMED:24449932)"	0	1	1	NA	COG2403	GC_00000148	1	1	61	26
+Predicted nucleotidyltransferase AF1967 (AF1967)	0	1	1	NA	COG1665	GC_00001212	1	1	61	26
+"ssDNA-binding replication factor A, large subunit (RFA1) (PDB:4GNX)"	0	1	1	NA	COG1599	GC_00001384	1	1	61	26
+"Glycosyltransferase involved in cell wall bisynthesis (RfaB) (PDB:2IV7)!!!Glycosyltransferase, GT2 family (WcaE) (PDB:2Z86)"	0	1	1	NA	COG0438!!!COG1216	"GC_00000637, GC_00001343, GC_00001395"	1	1	61	26
+CTP synthase (UTP-ammonia lyase) (PyrG) (PDB:1S1M)	0	1	1	NA	COG0504	GC_00001131	1	1	61	26
+Thymidylate kinase (Tmk) (PDB:3LV8)	0	1	1	NA	COG0125	"GC_00000084, GC_00001119"	1	1	61	26
+Uncharacterized MnhB-related membrane protein (PDB:6CFW)	0	1	1	NA	COG1563	GC_00000257	1	1	61	26
+Hydroxymethylglutaryl-CoA reductase (HMG1) (PDB:1DQ8)	0	1	1	NA	COG1257	GC_00001266	1	1	61	26
+"Methyl coenzyme M reductase, alpha subunit (McorA) (PDB:1E6V)"	0	1	1	NA	COG4058	GC_00000094	1	1	61	26
+"Glycyl-tRNA synthetase, class II (GRS1) (PDB:2PME)"	0	1	1	NA	COG0423	GC_00001195	1	1	61	26
+Polyphosphate kinase (Ppk) (PDB:1XDO)	0	1	1	NA	COG0855	GC_00000207	1	1	61	26
+"Archaeosine formation enzyme, radical SAM superfamily (RaSEA) (PDB:6P78) (PUBMED:31740832)"	0	1	1	NA	COG1244	GC_00001371	1	1	61	26
+Ribosomal protein L3 (RplC) (PDB:1VS6)	0	1	1	NA	COG0087	GC_00000439	1	1	61	26
+"Predicted RNA methylase MTH1, SPOUT superfamily (MTH1) (PDB:1K3R)"	0	1	1	NA	COG2106	GC_00000635	1	1	61	26
+3-polyprenyl-4-hydroxybenzoate decarboxylase (UbiD) (PDB:2IDB) (PUBMED:28057757)	0	1	1	NA	COG0043	"GC_00001168, GC_00004095"	1	1	61	26
+Aspartate-semialdehyde dehydrogenase (Asd) (PDB:1BRM)	0	1	1	NA	COG0136	GC_00000579	1	1	61	26
+TctA family transporter (PUBMED:14499931)	0	1	1	NA	COG1784	GC_00000197	1	1	61	26
+Histidinol phosphatase or related hydrolase of the PHP family (HIS2) (PDB:1M65)	0	1	1	NA	COG1387	GC_00000490	1	1	61	26
+Peptide chain release factor 1 (eRF1) (eRF1) (PDB:3E1Y)	0	1	1	NA	COG1503	GC_00000970	1	1	61	26
+"Succinate dehydrogenase/fumarate reductase, flavoprotein subunit (SdhA) (PDB:1KF6)"	0	1	1	NA	COG1053	GC_00001054	1	1	61	26
+Methylase of polypeptide chain release factors (HemK) (PDB:1NV8)	0	1	1	NA	COG2890	GC_00000557	1	1	61	26
+"Predicted small methyltransferase MTH1000, UPF0146 family (MTH1000) (PDB:2K4M)"	0	1	1	NA	COG1255	GC_00000560	1	1	61	26
+"Methyl coenzyme M reductase, gamma subunit (McorG) (PDB:5N1Q)"	0	1	1	NA	COG4057	GC_00000097	1	1	61	26
+Ribosomal protein S12 (RpsL) (PDB:4V4H)	0	1	1	NA	COG0048	GC_00000217	1	1	61	26
+Ribosomal protein L18E (RPL18A)	0	1	1	NA	COG1727	GC_00000242	1	1	61	26
+Predicted PurR-regulated permease PerM (PerM)	0	1	1	NA	COG0628	GC_00000995	1	1	61	26
+Phosphoribosylaminoimidazole (AIR) synthetase (PurM) (PDB:1CLI)	0	1	1	NA	COG0150	GC_00001134	1	1	61	26
+"Uncharacterized membrane protein YvlD, DUF360 family (YvlD)"	0	1	1	NA	COG1950	GC_00001295	1	1	61	26
+Predicted deacylase (PDB:3CDX)	0	1	1	NA	COG3608	"GC_00000185, GC_00001733"	1	1	61	26
+"DNA-binding transcriptional regulator, ArsR family (ArsR) (PDB:3F6V)!!!Predicted hydrocarbon binding protein, contains 4VR domain (PDB:2OSD)"	0	1	1	NA	COG0640!!!COG1719	GC_00000747	1	1	61	26
+Proteasome assembly chaperone (PAC2) family protein (PDB:3VR0)	0	1	1	NA	COG2047	GC_00000522	1	1	61	26
+"DNA-binding transcriptional regulator, Lrp family (Lrp) (PDB:1I1G)"	0	1	1	NA	COG1522	"GC_00000371, GC_00003530"	1	1	61	26
+Serine acetyltransferase (CysE) (PDB:1T3D)	0	1	1	NA	COG1045	GC_00000450	1	1	61	26
+"DNA-directed RNA polymerase, alpha subunit/40 kD subunit (RpoA) (PDB:4KN7)"	0	1	1	NA	COG0202	GC_00000814	1	1	61	26
+Ribonuclease HII (RnhB) (PDB:1EKE)	0	1	1	NA	COG0164	GC_00000608	1	1	61	26
+CBS domain (CBS) (PDB:1B3O)!!!Homoserine O-acetyltransferase (MET2) (PDB:2VAT)	0	1	1	NA	COG0517!!!COG2021	GC_00001240	1	1	61	26
+"Tetrahydromethanopterin S-methyltransferase, subunit E (MtrE)"	0	1	1	NA	COG4059	GC_00000569	1	1	61	26
+Putative Mn2+ efflux pump MntP (MntP)	0	1	1	NA	COG1971	GC_00000107	1	1	61	26
+"Phosphosulfolactate synthase, CoM biosynthesis protein A (ComA) (PDB:1QWG)"	0	1	1	NA	COG1809	GC_00000760	1	1	61	26
+"Outer membrane protein assembly factor BamB, contains PQQ-like beta-propeller repeat (PQQ) (PDB:6TJG)"	0	1	1	NA	COG1520	GC_00001319	1	1	61	26
+Cytidylyltransferase family enzyme (PUBMED:25583072)	0	1	1	NA	COG1836	GC_00000477	1	1	61	26
+Co/Zn/Cd efflux system component (CzcD)	0	1	1	NA	COG1230	GC_00001083	1	1	61	26
+rRNA maturation endonuclease Nob1 (Nob1) (PDB:2CON)	0	1	1	NA	COG1439	GC_00000775	1	1	61	26
+"Predicted nucleic acid-binding protein, contains Zn-ribbon domain"	0	1	1	NA	COG4068	GC_00000467	1	1	61	26
+Phosphoenolpyruvate synthase/pyruvate phosphate dikinase (PpsA) (PDB:5HV6)	0	1	1	NA	COG0574	"GC_00000199, GC_00001152"	1	1	61	26
+Translation elongation factor P (EF-P)/translation initiation factor 5A (eIF-5A) (Efp) (PDB:1UEB)	0	1	1	NA	COG0231	GC_00000239	1	1	61	26
+Dehydrogenase (flavoprotein) (FixC) (PDB:4OPU)	0	1	1	NA	COG0644	"GC_00000140, GC_00003798"	1	1	61	26
+"Uncharacterized conserved protein, contains ACT domain"	0	1	1	NA	COG2061	GC_00000724	1	1	61	26
+Glycine/serine hydroxymethyltransferase (GlyA) (PDB:1BJ4)	0	1	1	NA	COG0112	GC_00000452	1	1	61	26
+Precorrin-2 methylase (CobF) (PDB:2QBU)	0	1	1	NA	COG2243	GC_00000726	1	1	61	26
+"GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA) (MoaA) (PDB:1TV7)"	0	1	1	NA	COG2896	GC_00001206	1	1	61	26
+Phosphorylcholine metabolism protein LicD (LicD)	0	1	1	NA	COG3475	"GC_00000082, GC_00000891, GC_00001508, GC_00002451, GC_00002610, GC_00002759"	1	1	61	26
+Na+/proline symporter (PutP) (PDB:5NVA)	0	1	1	NA	COG0591	GC_00000146	1	1	61	26
+Predicted metal-binding protein	0	1	1	NA	COG5423	GC_00000666	1	1	61	26
+"Phenylpyruvate tautomerase PptA, 4-oxalocrotonate tautomerase family (PptA) (PDB:1BJP)"	0	1	1	NA	COG1942	GC_00000554	1	1	61	26
+"Translation initiation factor 2, beta subunit (eIF-2beta)/eIF-5 N-terminal domain (GCD7) (PDB:1K81)"	0	1	1	NA	COG1601	GC_00000221	1	1	61	26
+"ABC-type multidrug transport system, ATPase component (CcmA) (PDB:5DO7)"	0	1	1	NA	COG1131	"GC_00000170, GC_00001000, GC_00001256, GC_00004045"	1	1	61	26
+Archaeal/vacuolar-type H+-ATPase catalytic subunit A/Vma1 (NtpA) (PDB:3J9T)	0	1	1	NA	COG1155	GC_00000476	1	1	61	26
+"Predicted methyltransferase MtxX, methanogen marker protein 4"	0	1	1	NA	COG4002	GC_00000875	1	1	61	26
+"7,8-dihydroneopterin aldolase MptD (tetrahydrofolate and tetrahydromethanopterin biosynthesis) (MptD) (PDB:2I52) (PUBMED:22931285)"	0	1	1	NA	COG2098	GC_00000613	1	1	61	26
+Cupin domain protein related to quercetin dioxygenase (QdoI) (PDB:2H0V)	0	1	1	NA	COG1917	GC_00000421	1	1	61	26
+"Predicted metal-binding transcription factor, methanogenesis marker domain 9"	0	1	1	NA	COG4008	GC_00000363	1	1	61	26
+"Glycosyltransferase involved in cell wall bisynthesis (WcaA) (PDB:5MLZ)!!!UDP:flavonoid glycosyltransferase YjiC, YdhE family (YjiC) (PDB:2ACV) (PUBMED:23974133)"	0	1	1	NA	COG0463!!!COG1819	GC_00001391	1	1	61	26
+"Uncharacterized conserved protein, DUF2149 domain"	0	1	1	NA	COG4744	"GC_00000129, GC_00001079"	1	1	61	26
+Glycosyltransferase involved in cell wall bisynthesis (RfaB) (PDB:2IV7)	0	1	1	NA	COG0438	"GC_00000210, GC_00001418, GC_00003916"	1	1	61	26
+"DNA-binding transcriptional regulator, FrmR family (FrmR) (PDB:2HH7)"	0	1	1	NA	COG1937	GC_00000856	1	1	61	26
+Glutamine amidotransferase related to the GATase domain of CobQ (PDB:5N9M)	0	1	1	NA	COG3442	GC_00000941	1	1	61	26
+Ribosomal protein S9 (RpsI) (PDB:4V4H)	0	1	1	NA	COG0103	GC_00000265	1	1	61	26
+"Radical SAM superfamily maturase, SkfB/NifB/PqqE family (SkfB) (PDB:6Q2P) (PUBMED:23282011)"	0	1	1	NA	COG0535	"GC_00000509, GC_00001548"	1	1	61	26
+Histidinol dehydrogenase (HisD) (PDB:1K75)	0	1	1	NA	COG0141	GC_00001203	1	1	61	26
+"5,10-methenyltetrahydromethanopterin hydrogenase (Mth) (PDB:2B0J)"	0	1	1	NA	COG4074	GC_00000120	1	1	61	26
+Ribosomal protein S8 (RpsH) (PDB:4V4H)	0	1	1	NA	COG0096	GC_00000229	1	1	61	26
+"Uncharacterized protein, contains PhoU and TrkA_C domains (PDB:1VCT)"	0	1	1	NA	COG3273	GC_00000318	1	1	61	26
+"Radical SAM superfamily maturase, SkfB/NifB/PqqE family (SkfB) (PDB:6Q2P) (PUBMED:23282011)!!!Uncharacterized conserved protein"	0	1	1	NA	COG0535!!!COG4001	"GC_00001407, GC_00002385"	1	1	61	26
+"CRISPR/Cas system-associated exonuclease Cas4, RecB family (Cas4) (PDB:4R5Q)"	0	1	1	NA	COG1468	"GC_00001202, GC_00001748, GC_00001927"	1	1	61	26
+Permease of the drug/metabolite transporter (DMT) superfamily (RhaT) (PDB:5I20)	0	1	1	NA	COG0697	GC_00001094	1	1	61	26
+Archaeal/vacuolar-type H+-ATPase subunit E/Vma4 (NtpE) (PDB:2DM9)	0	1	1	NA	COG1390	GC_00000469	1	1	61	26
+"ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation (RecJ) (PDB:1IR6)"	0	1	1	NA	COG0608	"GC_00000180, GC_00000191"	1	1	61	26
+ATP phosphoribosyltransferase (HisG) (PDB:1H3D)	0	1	1	NA	COG0040	GC_00000881	1	1	61	26
+"Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain (TrkA) (PDB:4XTT) (PUBMED:23815639;25957408;31868587;32095817)"	0	1	1	NA	COG0569	GC_00000766	1	1	61	26
+"rRNA maturation protein Nop10, contains Zn-ribbon domain (Nop10) (PDB:1Y2Y)"	0	1	1	NA	COG2260	GC_00000501	1	1	61	26
+NMD protein affecting ribosome stability and mRNA decay (NMD3)	0	1	1	NA	COG1499	GC_00001366	1	1	61	26
+Carbamoylphosphate synthase small subunit (CarA) (PDB:1C30)	0	1	1	NA	COG0505	GC_00001204	1	1	61	26
+4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase (DapA) (PDB:2R91) (PUBMED:27574185)	0	1	1	NA	COG0329	GC_00000965	1	1	61	26
+tRNA(His) 5'-end guanylyltransferase (Thg1) (PDB:3OTB)	0	1	1	NA	COG4021	GC_00000177	1	1	61	26
+"Ferredoxin (NapF) (PDB:6FAH)!!!Uncharacterized 2Fe-2S and 4Fe-4S clusters-containing protein, contains DUF4445 domain (PDB:4C1N)"	0	1	1	NA	COG1145!!!COG3894	GC_00001373	1	1	61	26
+Uncharacterized membrane protein (PDB:1EUT)	0	1	1	NA	COG1470	GC_00000090	1	1	61	26
+"Mevalonate 5-phosphate dehydratase subunit 1, aconitase superfamily (modified mevalonate pathway) (AcnX1) (PUBMED:30224495)"	0	1	1	NA	COG1679	GC_00000888	1	1	61	26
+"DNA-directed RNA polymerase, beta' subunit/160 kD subunit (RpoC) (PDB:1NT9)"	0	1	1	NA	COG0086	"GC_00000073, GC_00000444"	1	1	61	26
+Ribosomal protein S24E (RPS24A) (PDB:1XN9)	0	1	1	NA	COG2004	GC_00000479	1	1	61	26
+"Tetrahydromethanopterin S-methyltransferase, subunit D (MtrD)"	0	1	1	NA	COG4060	GC_00000827	1	1	61	26
+"6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase MptE (tetrahydrofolate and tetrahydromethanopterin biosynthesis) (FolK) (PUBMED:22931285)"	0	1	1	NA	COG1634	GC_00001064	1	1	61	26
+"Mn-dependent transcriptional regulator MntR, DtxR family (MntR) (PDB:1B1B)!!!Fe2+ transport protein FeoA (FeoA) (PDB:2GCX)"	0	1	1	NA	COG1321!!!COG1918	GC_00000694	1	1	61	26
+Isoleucyl-tRNA synthetase (IleS) (PDB:1FFY)	0	1	1	NA	COG0060	GC_00001374	1	1	61	26
+Flavodoxin (FldA) (PDB:1AG9)	0	1	1	NA	COG0716	"GC_00000626, GC_00000758, GC_00000808, GC_00001823"	1	1	61	26
+Uncharacterized conserved protein MJ0498	0	1	1	NA	COG4029	GC_00000460	1	1	61	26
+Isopropylmalate/homocitrate/citramalate synthases (LeuA) (PDB:4JN6)	0	1	1	NA	COG0119	"GC_00000458, GC_00000831, GC_00001041"	1	1	61	26
+"Ligand-binding C-terminal domain of pyruvate kinase, DUF1867 (PK) (PDB:1T57) (PUBMED:32095817)"	0	1	1	NA	COG1751	GC_00001020	1	1	61	26
+"L-lactate utilization protein LutB, contains a ferredoxin-type domain (LutB)"	0	1	1	NA	COG1139	GC_00001112	1	1	61	26
+Selenophosphate synthetase-related protein	0	1	1	NA	COG2144	GC_00000577	1	1	61	26
+Ribosomal protein L15E (RPL15A)	0	1	1	NA	COG1632	GC_00000283	1	1	61	26
+Glycerol uptake facilitator or related aquaporin (Major Intrinsic protein Family) (GlpF) (PDB:1FQY)	0	1	1	NA	COG0580	"GC_00001108, GC_00001928"	1	1	61	26
+"Phage repressor protein C, contains Cro/C1-type HTH and peptisase s24 domains"	0	1	1	NA	COG2932	"GC_00000643, GC_00000946"	1	1	61	26
+Uncharacterized conserved protein	0	1	1	NA	COG1849	"GC_00000276, GC_00000968, GC_00001221, GC_00002386"	1	1	61	26
+Inorganic pyrophosphatase (Ppa) (PDB:117E)	0	1	1	NA	COG0221	GC_00000393	1	1	61	26
+"Glycosyltransferase involved in cell wall bisynthesis (WcaA) (PDB:5MLZ)!!!Septal ring factor EnvC, activator of murein hydrolases AmiA and AmiB (EnvC)"	0	1	1	NA	COG0463!!!COG4942	"GC_00001164, GC_00001337, GC_00001825, GC_00002316, GC_00003153"	1	1	61	26
+Fe-S cluster assembly ATPase SufC (SufC) (PDB:2D3W)	0	1	1	NA	COG0396	GC_00000955	1	1	61	26
+Diphthamide synthase (EF-2-diphthine--ammonia ligase) (Dph6) (PDB:2D13)	0	1	1	NA	COG2102	GC_00000702	1	1	61	26
+Ribosomal protein L22 (RplV) (PDB:1VS6)	0	1	1	NA	COG0091	GC_00000267	1	1	61	26
+Ribosomal protein L37AE/L43A (RPL43A) (PDB:1JJ2)	0	1	1	NA	COG1997	GC_00000255	1	1	61	26
+Predicted dehydrogenase (MviM) (PDB:3UUW)	0	1	1	NA	COG0673	GC_00000563	1	1	61	26
+Energy-coupling factor transporter ATP-binding protein EcfA2 (EcfA2) (PDB:4HUQ)	0	1	1	NA	COG1122	"GC_00001031, GC_00001032"	1	1	61	26
+Pyridoxal 5'-phosphate synthase subunit PdxT (glutamine amidotransferase) (PdxT) (PDB:2NV0) (PUBMED:18801996;24083939)	0	1	1	NA	COG0311	GC_00000879	1	1	61	26
+Ribosomal protein L13 (RplM) (PDB:1VS6)	0	1	1	NA	COG0102	GC_00000246	1	1	61	26
+Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase (Acs) (PDB:4B2O) (PUBMED:14638756)	0	1	1	NA	COG0365	"GC_00000426, GC_00003372"	1	1	61	26
+"Sporulation protein YlmC, YlmC/YmxH family, contains PRC-barrel domain (YlmC) (PDB:1PM3)"	0	1	1	NA	COG1873	"GC_00000294, GC_00000578, GC_00000616, GC_00000646"	1	1	61	26
+"Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)!!!MinD superfamily P-loop ATPase, contains an inserted ferredoxin domain!!!Dissimilatory sulfite reductase (desulfoviridin), alpha and beta subunits (DsrA)"	0	1	1	NA	COG1143!!!COG1149!!!COG2221	GC_00001262	1	1	61	26
+Nitrogenase ATPase subunit NifH/coenzyme F430 biosynthesis subunit CfbC (NifH/CfbC) (PDB:1CP2) (PUBMED:28225763)	0	1	1	NA	COG1348	GC_00000817	1	1	61	26
+Uridylate kinase (PyrH) (PDB:2BND)	0	1	1	NA	COG0528	GC_00000309	1	1	61	26
+Phosphatidylserine synthase (PssA)	0	1	1	NA	COG1183	GC_00000669	1	1	61	26
+tRNA A37 methylthiotransferase MiaB (MiaB) (PDB:4JC0) (PUBMED:17407324;20472640;20584901)	0	1	1	NA	COG0621	GC_00000988	1	1	61	26
+"tRNA G26 N,N-dimethylase Trm1 (TRM1) (PDB:2DUL)"	0	1	1	NA	COG1867	GC_00001263	1	1	61	26
+UTP-glucose-1-phosphate uridylyltransferase (GalU) (PDB:2E3D)	0	1	1	NA	COG1210	GC_00001238	1	1	61	26
+UDP-N-acetylglucosamine 2-epimerase (WecB) (PDB:1F6D) (PUBMED:26641313;30389844)	0	1	1	NA	COG0381	GC_00001208	1	1	61	26
+Carbonic anhydrase (CynT) (PDB:1EKJ) (PUBMED:22081392)	0	1	1	NA	COG0288	GC_00000642	1	1	61	26
+UDP-glucose 4-epimerase (GalE) (PDB:1A9Y)	0	1	1	NA	COG1087	"GC_00000161, GC_00001197"	1	1	61	26
+Glutaredoxin (GrxC) (PDB:1AAZ)	0	1	1	NA	COG0695	GC_00000785	1	1	61	26
+CDP-diglyceride synthetase (CdsA) (PDB:4Q2E)	0	1	1	NA	COG0575	GC_00001033	1	1	61	26
+"Trk-type K+ transport system, membrane component (TrkG) (PDB:3PJZ)"	0	1	1	NA	COG0168	GC_00001375	1	1	61	26
+"GMP synthase, glutamine amidotransferase domain (GuaA1) (PDB:4WIM)"	0	1	1	NA	COG0518	GC_00000871	1	1	61	26
+Orotate phosphoribosyltransferase homolog (PyrE2)	0	1	1	NA	COG0856	GC_00000568	1	1	61	26
+Ribosomal protein L32E (Rpl32e)	0	1	1	NA	COG1717	GC_00000342	1	1	61	26
+Adenosylcobinamide amidohydrolase (CbiZ) (PUBMED:14990804)	0	1	1	NA	COG1865	GC_00001281	1	1	61	26
+Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)	0	1	1	NA	COG1143	"GC_00000298, GC_00000351, GC_00000497"	1	1	61	26
+RecA/RadA recombinase (RecA) (PDB:1B22)	0	1	1	NA	COG0468	"GC_00000395, GC_00000538"	1	1	61	26
+Surface polysaccharide O-acyltransferase WecH (WecH) (PUBMED:16936038)	0	1	1	NA	COG3274	"GC_00000179, GC_00001156, GC_00001735, GC_00001773, GC_00002083"	1	1	61	26
+Predicted glycosyltransferase	0	1	1	NA	COG1817	GC_00000369	1	1	61	26
+Asp-tRNAAsn/Glu-tRNAGln amidotransferase B subunit (GatB) (PDB:3H0M)	0	1	1	NA	COG0064	GC_00000491	1	1	61	26
+Cytosine/adenosine deaminase or related metal-dependent hydrolase (SsnA) (PDB:3O7U)	0	1	1	NA	COG0402	"GC_00000661, GC_00001104"	1	1	61	26
+"Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, alpha subunit (PorA) (PDB:5C4I)"	0	1	1	NA	COG0674	"GC_00000382, GC_00000520, GC_00000782"	1	1	61	26
+Diphthamide biosynthesis methyltransferase (DPH5) (PDB:2EGL)	0	1	1	NA	COG1798	GC_00000192	1	1	61	26
+Ribosomal protein S3AE (RPS3A) (PDB:4CUY)	0	1	1	NA	COG1890	GC_00000402	1	1	61	26
+Ribosomal protein L30/L7E (RpmD) (PDB:1VS6)	0	1	1	NA	COG1841	GC_00000341	1	1	61	26
+Endonuclease III (Nth) (PDB:4UOB)	0	1	1	NA	COG0177	GC_00000690	1	1	61	26
+Ribosomal protein S15P/S13E (RpsO) (PDB:4V4H)	0	1	1	NA	COG0184	GC_00000259	1	1	61	26
+"Hydrogenase maturation factor HybG, HypC/HupF family (HypC) (PDB:2OT2)"	0	1	1	NA	COG0298	GC_00000260	1	1	61	26
+tRNA (Thr-GGU) A37 N6-methylase (TrmO) (PDB:1XQB) (PUBMED:22905870)	0	1	1	NA	COG1720	GC_00001050	1	1	61	26
+"Fe-S cluster assembly scaffold protein IscU, NifU family (IscU) (PDB:1Q48)"	0	1	1	NA	COG0822	GC_00000961	1	1	61	26
+"Uncharacterized conserved protein, DUF356 domain"	0	1	1	NA	COG1844	GC_00000323	1	1	61	26
+"Uncharacterized conserved protein, DUF2117 domain"	0	1	1	NA	COG4069	GC_00001300	1	1	61	26
+Cobalamin synthase CobS (adenosylcobinamide-GDP ribazoletransferase) (CobS) (PUBMED:31481610)	0	1	1	NA	COG0368	GC_00001061	1	1	61	26
+"Coenzyme F420-reducing hydrogenase, alpha subunit (FrhA) (PDB:3ZFS)"	0	1	1	NA	COG3259	"GC_00000095, GC_00000902"	1	1	61	26
+Nucleoside diphosphate kinase (Ndk) (PDB:1B4S)	0	1	1	NA	COG0105	GC_00000286	1	1	61	26
+"Archaeal ribosome-binding protein aMBF1, putative translation factor, contains Zn-ribbon and HTH domains (aMBF1) (PDB:2MEZ) (PUBMED:24825021)"	0	1	1	NA	COG1813	GC_00000417	1	1	61	26
+"Pheromone shutdown protein TraB, contains GTxH motif (function unknown)"	0	1	1	NA	COG1916	GC_00000916	1	1	61	26
+"tRNA threonylcarbamoyladenosine modification (KEOPS) complex,  Pcc1 subunit (Pcc1) (PDB:3ENC)"	0	1	1	NA	COG2892	GC_00000381	1	1	61	26
+Chaperonin GroEL (HSP60 family) (GroEL) (PDB:1AON)	0	1	1	NA	COG0459	"GC_00000352, GC_00000353"	1	1	61	26
+Uroporphyrinogen-III methylase (siroheme synthase) (CysG) (PDB:1PJQ)	0	1	1	NA	COG0007	GC_00000529	1	1	61	26
+"Uncharacterized conserved protein, DUF366 domain (PDB:2DDZ)"	0	1	1	NA	COG2029	GC_00001085	1	1	61	26
+Formylmethanofuran dehydrogenase subunit B (FwdB) (PDB:5T5I)	0	1	1	NA	COG1029	GC_00000295	1	1	61	26
+Energy-converting hydrogenase Eha subunit G (EhaG) (PUBMED:19495416)	0	1	1	NA	COG4036	GC_00000418	1	1	61	26
+"Desulfoferrodoxin, superoxide reductase-like (SORL) domain (SORL) (PDB:1DFX)"	0	1	1	NA	COG2033	GC_00000659	1	1	61	26
+Predicted molibdopterin-dependent oxidoreductase YjgC (YjgC) (PDB:1AA6)	0	1	1	NA	COG3383	"GC_00000749, GC_00001779"	1	1	61	26
+Predicted dinucleotide-binding enzyme (PDB:2VNS)	0	1	1	NA	COG2085	"GC_00000558, GC_00003581"	1	1	61	26
+N-acetyl-gamma-glutamylphosphate reductase (ArgC) (PDB:3DR3)	0	1	1	NA	COG0002	"GC_00001332, GC_00003756"	1	1	61	26
+Threonine synthase (ThrC) (PDB:1VB3)	0	1	1	NA	COG0498	GC_00000516	1	1	61	26
+AraC-type DNA-binding domain and AraC-containing proteins (AraC) (PDB:1BL0)	0	1	1	NA	COG2207	GC_00001381	1	1	61	26
+"Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains (GlmS) (PDB:2J6H)"	0	1	1	NA	COG0449	GC_00000816	1	1	61	26
+"DNA-directed RNA polymerase, subunit N (RpoN/RPB10) (RPB10) (PDB:1EF4)"	0	1	1	NA	COG1644	GC_00000252	1	1	61	26
+Phosphoglycerate dehydrogenase or related dehydrogenase (SerA) (PDB:3OET)	0	1	1	NA	COG0111	GC_00000610	1	1	61	26
+"Archease, activates RNA ligation by RtcB (tRNA splicing) (ARCH) (PDB:1J5U) (PUBMED:24435797)"	0	1	1	NA	COG1371	GC_00000956	1	1	61	26
+"Cobalamin biosynthesis protein CobN, Mg-chelatase (CobN) (PDB:4ZHJ)"	0	1	1	NA	COG1429	"GC_00001410, GC_00001661, GC_00003401"	1	1	61	26
+Metal-sulfur cluster biosynthetic enzyme (PaaD) (PDB:1UWD)	0	1	1	NA	COG2151	GC_00000415	1	1	61	26
+Glycerol-3-phosphate dehydrogenase (GpsA) (PDB:1EVY)	0	1	1	NA	COG0240	"GC_00000147, GC_00001525"	1	1	61	26
+"ABC-type transport system involved in lipoprotein release, permease component LolC (LolE) (PDB:6F49)"	0	1	1	NA	COG4591	"GC_00001415, GC_00003380, GC_00003720"	1	1	61	26
+Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase (ThiD) (PDB:1Y9X) (PUBMED:17351295)	0	1	1	NA	COG0351	GC_00000959	1	1	61	26
+"CDP-glycerol glycerophosphotransferase, TagB/SpsB family (TagB)"	0	1	1	NA	COG1887	GC_00001107	1	1	61	26
+DNA repair exonuclease SbcCD ATPase subunit (SbcC) (PDB:3QKR)	0	1	1	NA	COG0419	"GC_00000165, GC_00002105, GC_00002557, GC_00002567, GC_00004055, GC_00004071"	1	1	61	26
+"Translation elongation factor EF-G, a GTPase (FusA) (PDB:1DAR)"	0	1	1	NA	COG0480	"GC_00000519, GC_00003376"	1	1	61	26
+"HD superfamily phosphodieaserase, includes HD domain of RNase Y (RnaY) (PDB:3DTO) (PUBMED:19779461)"	0	1	1	NA	COG1418	GC_00000625	1	1	61	26
+Translation initiation factor IF-1 (InfA) (PDB:5FIM)	0	1	1	NA	COG0361	GC_00000546	1	1	61	26
+F420-0:Gamma-glutamyl ligase (F420 biosynthesis) (CofE) (PDB:2G9I)	0	1	1	NA	COG1478	GC_00000620	1	1	61	26
+3'->5' ssDNA/RNA exonuclease TatD (TatD) (PDB:1J6O) (PUBMED:10747959;25114049)	0	1	1	NA	COG0084	"GC_00001133, GC_00001239"	1	1	61	26
+"Glycosyltransferase, GT2 family (WcaE) (PDB:2Z86)!!!Spore maturation protein CgeB"	0	1	1	NA	COG1216!!!COG4641	"GC_00001268, GC_00001405"	1	1	61	26
+Ribosome biogenesis protein Tsr3 (rRNA maturation) (Tsr3) (PDB:5AP8) (PUBMED:24417346)	0	1	1	NA	COG2042	GC_00000303	1	1	61	26
+"Ribonuclease BN, tRNA processing enzyme (ElaC) (PDB:1WW1)"	0	1	1	NA	COG1234	GC_00000825	1	1	61	26
+Translation elongation factor EF-1alpha (GTPase) (TEF1) (PDB:1F60)	0	1	1	NA	COG5256	GC_00000657	1	1	61	26
+Hydroxymethylpyrimidine pyrophosphatase and other HAD family phosphatases (Cof) (PDB:1YMQ)	0	1	1	NA	COG0561	"GC_00000987, GC_00003470, GC_00003877"	1	1	61	26
+"DNA-binding transcriptional regulator, LysR family (LysR) (PDB:2FYI)"	0	1	1	NA	COG0583	"GC_00000882, GC_00003465, GC_00003543, GC_00003664, GC_00004199"	1	1	61	26
+"Heterodisulfide reductase, subunit A (polyferredoxin) (HdrA) (PDB:5ODC)!!!Coenzyme F420-reducing hydrogenase, delta subunit (FrhD) (PDB:5ODC)"	0	1	1	NA	COG1148!!!COG1908	GC_00001011	1	1	61	26
+Acyl-CoA synthetase (NDP forming) (PatZN) (PDB:4YAK) (PUBMED:26251518)	0	1	1	NA	COG1042	GC_00001049	1	1	61	26
+"Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain (PurL1) (PDB:3VIU)"	0	1	1	NA	COG0046	GC_00001291	1	1	61	26
+"Coenzyme F420-reducing hydrogenase, gamma subunit (FrhG) (PDB:5ODC)"	0	1	1	NA	COG1941	"GC_00000406, GC_00000830"	1	1	61	26
+Glutamate synthase domain 2 (GltB2) (PDB:1EA0)!!!Flavorubredoxin (NorV) (PDB:4D02)	0	1	1	NA	COG0069!!!COG1773	GC_00000208	1	1	61	26
+Orotate phosphoribosyltransferase (PyrE) (PDB:4WML)	0	1	1	NA	COG0461	GC_00000927	1	1	61	26
+Energy-converting hydrogenase Eha subunit E (EhaE) (PUBMED:19495416)	0	1	1	NA	COG4038	GC_00000261	1	1	61	26
+Ferritin (FtnA) (PDB:1AEW) (PUBMED:24380371)	0	1	1	NA	COG1528	GC_00000552	1	1	61	26
+"Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase (PhnP) (PDB:6B9V)"	0	1	1	NA	COG1235	"GC_00001169, GC_00003417"	1	1	61	26
+Acetyl-CoA acetyltransferase (PaaJ) (PDB:1AFW)	0	1	1	NA	COG0183	"GC_00000436, GC_00003304"	1	1	61	26
+"Exosome complex RNA-binding protein Rrp42, RNase PH superfamily (Rrp42) (PDB:4IFD) (PUBMED:23319881)"	0	1	1	NA	COG2123	GC_00000764	1	1	61	26
+Uracil phosphoribosyltransferase (Upp) (PDB:2EHJ)	0	1	1	NA	COG0035	GC_00000727	1	1	61	26
+Ribosomal protein L24E (RPL24A)	0	1	1	NA	COG2075	GC_00000248	1	1	61	26
+"DNA polymerase III, gamma/tau subunits (DnaX) (PDB:1A5T)"	0	1	1	NA	COG2812	GC_00001382	1	1	61	26
+Molybdopterin biosynthesis enzyme MoaB/MogA (MoaB) (PDB:1DI6) (PUBMED:32239579)	0	1	1	NA	COG0521	GC_00000345	1	1	61	26
+"Uncharacterized protein MTH814, DUF2098 family"	0	1	1	NA	COG4014	GC_00000542	1	1	61	26
+Chorismate synthase (AroC) (PDB:1Q1L)	0	1	1	NA	COG0082	GC_00001301	1	1	61	26
+Predicted RNA methylase (PDB:6H2U)	0	1	1	NA	COG2263	GC_00001341	1	1	61	26
+Anaerobic ribonucleoside-triphosphate reductase (NrdD) (PDB:4COI)	0	1	1	NA	COG1328	GC_00000685	1	1	61	26
+Dephospho-CoA kinase (CoaE) (PDB:1JJV)	0	1	1	NA	COG0237	GC_00000733	1	1	61	26
+"ABC-type amino acid transport/signal transduction system, periplasmic component/domain (HisJ) (PDB:1GGG)"	0	1	1	NA	COG0834	GC_00000532	1	1	61	26
+"Predicted transcriptional regulator, contains XRE-type HTH domain (AF0184)"	0	1	1	NA	COG2522	GC_00000736	1	1	61	26
+"3,4-dihydroxy-2-butanone 4-phosphate synthase (RibB) (PDB:1G57)"	0	1	1	NA	COG0108	GC_00000517	1	1	61	26
+"ABC-type nitrate/sulfonate/bicarbonate transport system, permease component (TauC)"	0	1	1	NA	COG0600	"GC_00000784, GC_00003605"	1	1	61	26
+Phenylalanyl-tRNA synthetase beta subunit (PheT) (PDB:3L4G)	0	1	1	NA	COG0072	GC_00001386	1	1	61	26
+General stress protein 26 (function unknown) (YzzA) (PDB:2I02)	0	1	1	NA	COG3871	GC_00000674	1	1	61	26
+Phosphatidylglycerophosphate synthase (PgsA) (PDB:4MND)	0	1	1	NA	COG0558	"GC_00001048, GC_00001182, GC_00001770"	1	1	61	26
+23S rRNA U2552 (ribose-2'-O)-methylase RlmE/FtsJ (RlmE) (PDB:1EIZ) (PUBMED:10769117)	0	1	1	NA	COG0293	GC_00000567	1	1	61	26
+"Archaeal YidC/Oxa1-related membrane protein, DUF106 family (YidC) (PDB:5C8J)"	0	1	1	NA	COG1422	GC_00000237	1	1	61	26
+Asp-tRNAAsn/Glu-tRNAGln amidotransferase C subunit (GatC) (PDB:3H0L)	0	1	1	NA	COG0721	GC_00000459	1	1	61	26
+3-dehydroquinate dehydratase (AroD) (PDB:1GQN)	0	1	1	NA	COG0710	GC_00000551	1	1	61	26
+Fibrillarin-like rRNA 2'-O-methylase NOP1 (NOP1) (PDB:1NT2)	0	1	1	NA	COG1889	GC_00000864	1	1	61	26
+Nitroreductase (NfnB) (PDB:1F5V)	0	1	1	NA	COG0778	"GC_00000111, GC_00000839, GC_00001006, GC_00001453"	1	1	61	26
+"3-dehydroquinate synthase, class II (AroB2)"	0	1	1	NA	COG1465	GC_00000708	1	1	61	26
+"tRNA U38,U39,U40 pseudouridine synthase TruA (TruA) (PDB:1DJ0)"	0	1	1	NA	COG0101	GC_00000930	1	1	61	26
+Uncharacterized conserved protein MJ1451	0	1	1	NA	COG4065	GC_00001044	1	1	61	26
+Ribosomal protein S27E (RPS27A) (PDB:1QXF)	0	1	1	NA	COG2051	GC_00000245	1	1	61	26
+"Metal-responsive transcriptional regulator, contains CopG/Arc/MetJ DNA-binding domain (NikR) (PDB:1Q5V)"	0	1	1	NA	COG0864	GC_00000721	1	1	61	26
+Precorrin-6B methylase 1 (CobL)	0	1	1	NA	COG2241	GC_00000668	1	1	61	26
+"Aspartate carbamoyltransferase, catalytic subunit (PyrB) (PDB:1NBE)"	0	1	1	NA	COG0540	GC_00000958	1	1	61	26
+7-cyano-7-deazaguanine synthase (queuosine biosynthesis) (QueC) (PDB:2PG3) (PUBMED:14660578;17384645)	0	1	1	NA	COG0603	"GC_00001248, GC_00003946"	1	1	61	26
+"Transcription antitermination factor NusA, contains S1 and KH domains (NusA) (PDB:1HH2)"	0	1	1	NA	COG0195	GC_00000263	1	1	61	26
+Archaeal/vacuolar-type H+-ATPase subunit C/Vma6 (NtpC) (PDB:1R5Z)	0	1	1	NA	COG1527	GC_00000278	1	1	61	26
+"Tetrahydromethanopterin S-methyltransferase, subunit B (MtrB)"	0	1	1	NA	COG4062	GC_00000638	1	1	61	26
+Uncharacterized conserved protein MJ0501	0	1	1	NA	COG4073	GC_00001042	1	1	61	26
+DnaJ-class molecular chaperone with C-terminal Zn finger domain (DnaJ) (PDB:1BQ0)	0	1	1	NA	COG0484	GC_00000480	1	1	61	26
+"DNA-directed RNA polymerase, subunit K/omega (RpoZ) (PDB:3LU0)"	0	1	1	NA	COG1758	GC_00000224	1	1	61	26
+Glutamate dehydrogenase/leucine dehydrogenase (GdhA) (PDB:1B3B) (PUBMED:24391520)	0	1	1	NA	COG0334	GC_00000962	1	1	61	26
+Glutamate N-acetyltransferase (ornithine transacetylase) (ArgJ) (PDB:1VRA)	0	1	1	NA	COG1364	GC_00000872	1	1	61	26
+tRNA U54 and U55 pseudouridine synthase Pus10 (Pus10)	0	1	1	NA	COG1258	GC_00001068	1	1	61	26
+L-asparaginase/archaeal Glu-tRNAGln amidotransferase subunit D (AnsA) (PDB:1ZQ1)	0	1	1	NA	COG0252	GC_00001173	1	1	61	26
+"Acetyl/propionyl-CoA carboxylase, alpha subunit (PccA) (PDB:3U9S)"	0	1	1	NA	COG4770	GC_00000673	1	1	61	26
+UDP-N-acetylglucosamine:LPS N-acetylglucosamine transferase (MurG) (PDB:1F0K)	0	1	1	NA	COG0707	"GC_00001140, GC_00004165"	1	1	61	26
+"Uncharacterized conserved protein AF1278, contains saccharopine dehydrogenase N-terminal (SDHN) domain (PDB:3C2Q)"	0	1	1	NA	COG1915	GC_00000282	1	1	61	26
+"Nucleotide-binding universal stress protein,  UspA family (UspA) (PDB:1JMV)"	0	1	1	NA	COG0589	"GC_00000435, GC_00000783, GC_00001446, GC_00003387"	1	1	61	26
+Phosphatidylglycerophosphatase A (PgpA) (PDB:1RFZ)	0	1	1	NA	COG1267	"GC_00000743, GC_00004140"	1	1	61	26
+Seryl-tRNA synthetase (SerS) (PDB:1SER)	0	1	1	NA	COG0172	GC_00000574	1	1	61	26
+Fe-S-cluster-containing hydrogenase component 2 (HycB)	0	1	1	NA	COG1142	GC_00000123	1	1	61	26
+Archaeal flavoprotein (AfpA) (PDB:3WIS)	0	1	1	NA	COG1036	GC_00000465	1	1	61	26
+Precorrin-6B methylase 2 (CobL) (PDB:1F38)	0	1	1	NA	COG2242	GC_00000796	1	1	61	26
+Dihydroxyacid dehydratase/phosphogluconate dehydratase (IlvD) (PDB:2GP4)	0	1	1	NA	COG0129	"GC_00001247, GC_00004015"	1	1	61	26
+Uroporphyrinogen-III decarboxylase HemE (HemE) (PDB:2DG5)	0	1	1	NA	COG0407	"GC_00001103, GC_00003516"	1	1	61	26
+PHP family phosphoesterase with a Zn ribbon (YqxK) (PDB:5ZB8)	0	1	1	NA	COG1379	GC_00001349	1	1	61	26
+Triphosphoribosyl-dephospho-CoA synthetase (CitG) (PDB:3H9P)	0	1	1	NA	COG1767	GC_00001146	1	1	61	26
+Histidyl-tRNA synthetase (HisS) (PDB:1KMM)	0	1	1	NA	COG0124	GC_00000010	1	1	61	26
+Archaeal riboflavin synthase (RibC2) (PDB:5IM5)	0	1	1	NA	COG1731	GC_00000424	1	1	61	26
+"Archaeal 2-phospho-L-lactate transferase/Bacterial gluconeogenesis factor, CofD/UPF0052 family (CofD) (PDB:1ZX8) (PUBMED:11888293;18252724)"	0	1	1	NA	COG0391	GC_00001036	1	1	61	26
+Tryptophanyl-tRNA synthetase (TrpS) (PDB:3N9I)	0	1	1	NA	COG0180	GC_00001211	1	1	61	26
+ACT domain-containing protein (ACTx2)	0	1	1	NA	COG4747	"GC_00000621, GC_00001028"	1	1	61	26
+6-pyruvoyl-tetrahydropterin synthase (QueD) (PDB:1B66) (PUBMED:14660578;17384645)	0	1	1	NA	COG0720	GC_00000966	1	1	61	26
+"Archaeal fructose 1,6-bisphosphatase (FbpA) (PDB:1UMG)"	0	1	1	NA	COG1980	GC_00000887	1	1	61	26
+Gamma-glutamyl ligase family protein MJ1361 (PDB:2PHN) (PUBMED:17669425;12911320)	0	1	1	NA	COG4071	GC_00001276	1	1	61	26
+"Heterodisulfide reductase, subunit A (polyferredoxin) (HdrA) (PDB:5ODC)"	0	1	1	NA	COG1148	GC_00000915	1	1	61	26
+"Uncharacterized conserved protein related to methyl-CoM reductase subunit C, methanogenesis marker protein 7"	0	1	1	NA	COG4052	GC_00000591	1	1	61	26
+Chromosome segregation ATPase Smc (Smc) (PDB:5XG3)	0	1	1	NA	COG1196	"GC_00000062, GC_00003349"	1	1	61	26
+CTP:molybdopterin cytidylyltransferase MocA (MocA) (PDB:2WAW)	0	1	1	NA	COG2068	GC_00000894	1	1	61	26
+2-iminoacetate synthase ThiH/Menaquinone biosynthesis enzymes MqnC and MqnE (ThiH) (PDB:4WCX) (PUBMED:18801996)	0	1	1	NA	COG1060	"GC_00000989, GC_00001216"	1	1	61	26
+"Sugar or nucleoside kinase, ribokinase family (RbsK) (PDB:2QCV)"	0	1	1	NA	COG0524	"GC_00000957, GC_00001241, GC_00001283"	1	1	61	26
+"Cyclophilin family protein MJ1412, methanogenesis marker protein 3 (MJ1412)"	0	1	1	NA	COG4070	GC_00001124	1	1	61	26
+"Xanthine/guanine/uracil/vitamin C permease GhxP/GhxQ, nucleobase:cation symporter 2 ( NCS2) family (NCS2) (PUBMED:24169576;24214977)"	0	1	1	NA	COG2252	GC_00000890	1	1	61	26
+Uncharacterized conserved protein MJ0453 (PDB:1Z9V)	0	1	1	NA	COG4033	GC_00000592	1	1	61	26
+Molecular chaperone DnaK (HSP70) (DnaK) (PDB:3I33)	0	1	1	NA	COG0443	GC_00000898	1	1	61	26
+"Tetrahydromethanopterin S-methyltransferase, subunit H (MtrH)"	0	1	1	NA	COG1962	GC_00000008	1	1	61	26
+"FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis) (YigB) (PDB:4JB3) (PUBMED:24123841)"	0	1	1	NA	COG1011	"GC_00000470, GC_00004005"	1	1	61	26
+Methionine synthase II (cobalamin-independent) (MetE) (PDB:1T7L)	0	1	1	NA	COG0620	GC_00000907	1	1	61	26
+"Uncharacterized conserved protein MJ0802, methanogenesis marker protein 17, contains DUF2113 domain"	0	1	1	NA	COG4051	GC_00000386	1	1	61	26
+"ATP-dependent helicase YprA,  contains C-terminal metal-binding DUF1998 domain (YprA)!!!Cell division protein CpoB, coordinates peptidoglycan biosynthesis and outer membrane constriction (CpoB) (PDB:2WZ7) (PUBMED:25951518)"	0	1	1	NA	COG1205!!!COG1729	GC_00001396	1	1	61	26
+UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase (LpxD) (PDB:6P83)	0	1	1	NA	COG1044	GC_00000550	1	1	61	26
+"Hydroxyethylthiazole kinase, sugar kinase family (ThiM) (PDB:1C3Q)"	0	1	1	NA	COG2145	GC_00001290	1	1	61	26
+"Delta-aminolevulinic acid dehydratase, porphobilinogen synthase (HemB) (PDB:1I8J)"	0	1	1	NA	COG0113	GC_00000601	1	1	61	26
+"Cysteine desulfurase/Cysteine sulfinate desulfinase IscS or related enzyme, NifS family (NifS) (PDB:4IXO) (PUBMED:22773787;25825430)"	0	1	1	NA	COG1104	GC_00001270	1	1	61	26
+"Predicted DNA-binding protein MJ1475, contains C-terminal HTH domain (MJ1475)"	0	1	1	NA	COG1710	GC_00001200	1	1	61	26
+ECF-type transporter transmembrane protein EcfT (EcfT) (PDB:4HZU)	0	1	1	NA	COG0619	"GC_00000824, GC_00001157, GC_00001307"	1	1	61	26
+N-acetylglutamate kinase (ArgB) (PDB:3S6G)	0	1	1	NA	COG0548	GC_00000629	1	1	61	26
+"Formate/nitrite transporter FocA, FNT family (FocA) (PDB:3KCU)"	0	1	1	NA	COG2116	GC_00000154	1	1	61	26
+"Multisubunit Na+/H+ antiporter, MnhC subunit (MnhC) (PDB:6CFW)"	0	1	1	NA	COG1006	GC_00000697	1	1	61	26
+"Ni,Fe-hydrogenase maturation factor (HyaD) (PDB:1CFZ) (PUBMED:15294295)"	0	1	1	NA	COG0680	"GC_00000348, GC_00001222"	1	1	61	26
+DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase) (AdaB) (PDB:6RLA) (PUBMED:29061663)	0	1	1	NA	COG0350	GC_00001308	1	1	61	26
+Translation initiation factor 1 (eIF-1/SUI1) (SUI1) (PDB:1D1R)	0	1	1	NA	COG0023	GC_00000219	1	1	61	26
+Dihydroorotate dehydrogenase (PyrD) (PDB:1GT8)	0	1	1	NA	COG0167	GC_00001176	1	1	61	26
+Fe-S cluster assembly scaffold protein SufB (SufB) (PDB:1VH4)	0	1	1	NA	COG0719	GC_00000619	1	1	61	26
+"Hemolysin-related protein, contains CBS domains, UPF0053 family (TlyC) (PDB:2NQW)"	0	1	1	NA	COG1253	GC_00001092	1	1	61	26
+"Tyramine-glutamate ligase MfnD (methanofuran biosynthesis), ATP-grasp superfamily (MfnD) (PDB:3DF7) (PUBMED:25211225)"	0	1	1	NA	COG1821	GC_00001100	1	1	61	26
+Methionine aminopeptidase (Map) (PDB:3J2I)	0	1	1	NA	COG0024	GC_00001089	1	1	61	26
+tRNA-Met C34-N4-acetylcytidine synthase TmcAL (TmcAL) (PDB:5Y0T) (PUBMED:30150682)	0	1	1	NA	COG1323	"GC_00001321, GC_00001355"	1	1	61	26
+Molecular chaperone GrpE (heat shock protein HSP-70) (GrpE) (PDB:1DKG)	0	1	1	NA	COG0576	GC_00000699	1	1	61	26
+"HD-GYP domain, c-di-GMP phosphodiesterase class II (or its inactivated variant) (HDGYP) (PDB:5Z7C) (PUBMED:23475961)"	0	1	1	NA	COG2206	GC_00001345	1	1	61	26
+tRNA G37 N-methylase Trm5 (Trm5) (PDB:2YX1)	0	1	1	NA	COG2520	"GC_00000876, GC_00001096, GC_00001668"	1	1	61	26
+Molybdopterin-guanine dinucleotide biosynthesis protein A (MobA) (PDB:1E5K) (PUBMED:32239579)	0	1	1	NA	COG0746	GC_00001194	1	1	61	26
+"3-keto-L-gulonate-6-phosphate decarboxylase (UlaD) (PDB:3F4W)!!!Formaldehyde-activating enzyme (5,6,7,8-tetrahydromethanopterin hydrolyase) (Fae) (PDB:1Y5Y) (PUBMED:16237021)"	0	1	1	NA	COG0269!!!COG1795	GC_00000853	1	1	61	26
+"Iron-guanylylpyridinol (FeGP) cofactor biosynthesis protein HcgB, guanylyltransferase (HcgB) (PDB:3BRC) (PUBMED:25882909)"	0	1	1	NA	COG4019	GC_00000996	1	1	61	26
+Rad3-related DNA helicase DinG (DinG) (PDB:5H8W)	0	1	1	NA	COG1199	"GC_00001251, GC_00001905, GC_00001942, GC_00003857"	1	1	61	26
+Homoaconitase/3-isopropylmalate dehydratase large subunit (LeuC) (PDB:4KP1)	0	1	1	NA	COG0065	"GC_00001069, GC_00001460"	1	1	61	26
+Ketol-acid reductoisomerase (IlvC) (PDB:1NP3)	0	1	1	NA	COG0059	GC_00000483	1	1	61	26
+3-phosphoglycerate kinase (Pgk) (PDB:13PK)	0	1	1	NA	COG0126	GC_00001231	1	1	61	26
+"Uncharacterized protein, DUF1786 family, actin-like ATPase superfamily (AF0413)"	0	1	1	NA	COG4012	GC_00001305	1	1	61	26
+4-hydroxy-tetrahydrodipicolinate reductase (DapB) (PDB:1ARZ) (PUBMED:29684280)	0	1	1	NA	COG0289	GC_00000416	1	1	61	26
+Ribosomal protein S6E (S10) (RPS6A) (PDB:4UER)	0	1	1	NA	COG2125	GC_00000413	1	1	61	26
+Ribosomal protein L14E/L6E/L27E (RPL14A) (PDB:3IZS)	0	1	1	NA	COG2163	GC_00000232	1	1	61	26
+Signal recognition particle GTPase (Ffh) (PDB:2V3C)	0	1	1	NA	COG0541	GC_00000544	1	1	61	26
+"Succinyl-CoA synthetase, beta subunit (SucC) (PDB:1SCU)"	0	1	1	NA	COG0045	GC_00000845	1	1	61	26
+Energy-converting hydrogenase Eha subunit H (EhaH) (PUBMED:19495416)	0	1	1	NA	COG4078	GC_00000541	1	1	61	26
+Serine/threonine-protein kinase RIO1 (RIO1) (PDB:4OTP)	0	1	1	NA	COG1718	GC_00000442	1	1	61	26
+Dolichol kinase (SEC59)	0	1	1	NA	COG0170	GC_00000105	1	1	61	26
+Divalent metal cation (Fe/Co/Zn/Cd) efflux pump (FieF) (PDB:2QFI)	0	1	1	NA	COG0053	"GC_00000857, GC_00003717"	1	1	61	26
+"Predicted RNA modification protein, AMMECR1 domain (AMMECR1) (PDB:1VAJ) (PUBMED:24646681)"	0	1	1	NA	COG2078	GC_00000837	1	1	61	26
+"Superfamily II helicase, archaea-specific"	0	1	1	NA	COG1202	GC_00001360	1	1	61	26
+Ankyrin repeat (ANKYR) (PDB:6AUN)	0	1	1	NA	COG0666	GC_00001047	1	1	61	26
+Molybdenum cofactor biosynthesis enzyme MoaC (MoaC) (PDB:1EKR) (PUBMED:32239579)	0	1	1	NA	COG0315	GC_00000533	1	1	61	26
+Asparagine synthetase B (glutamine-hydrolyzing) (AsnB) (PDB:2ETD) (PUBMED:25951518)	0	1	1	NA	COG0367	GC_00001409	1	1	61	26
+Pyridoxal 5'-phosphate synthase subunit PdxS (PdxS) (PDB:2NV2)	0	1	1	NA	COG0214	GC_00000266	1	1	61	26
+Ribosomal protein L7Ae or related RNA K-turn-binding protein (Rpl7Ae) (PDB:4LCK)	0	1	1	NA	COG1358	GC_00000315	1	1	61	26
+Glutamine phosphoribosylpyrophosphate amidotransferase (PurF) (PDB:1ECB)	0	1	1	NA	COG0034	GC_00000096	1	1	61	26
+Sirohydrochlorin ferrochelatase (SirB) (PDB:1TJN)	0	1	1	NA	COG2138	"GC_00000081, GC_00001034"	1	1	61	26
+Ribosomal protein S12 methylthiotransferase accessory factor YcaO (YcaO) (PDB:4BS9)	0	1	1	NA	COG1944	GC_00001387	1	1	61	26
+"3',5'-cyclic AMP phosphodiesterase CpdA (CpdA) (PDB:2ZO9)"	0	1	1	NA	COG1409	GC_00000911	1	1	61	26
+"DNA-binding transcriptional regulator, ArsR family (ArsR) (PDB:3F6V)"	0	1	1	NA	COG0640	"GC_00000410, GC_00000530, GC_00002000, GC_00003174"	1	1	61	26
+Methanogenic corrinoid protein MtbC1 (MtbC1) (PDB:1Y80)	0	1	1	NA	COG5012	GC_00000716	1	1	61	26
+5-formaminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate synthetase (purine biosynthesis) (PurP) (PDB:2PBZ) (PUBMED:15623504)	0	1	1	NA	COG1759	GC_00000912	1	1	61	26
+Molybdopterin-binding protein MopI (MopI) (PDB:1B9M)	0	1	1	NA	COG3585	GC_00000272	1	1	61	26
+"FoF1-type ATP synthase, membrane subunit c/Archaeal/vacuolar-type H+-ATPase, subunit K (AtpE) (PDB:1C17)"	0	1	1	NA	COG0636	GC_00000280	1	1	61	26
+"Cysteine protease, C1A family (PDB:1AEC)"	0	1	1	NA	COG4870	"GC_00000070, GC_00000118, GC_00001565, GC_00001581, GC_00001592, GC_00001608, GC_00002179, GC_00002873, GC_00003093, GC_00003151, GC_00003176, GC_00003747"	1	1	61	26
+"Predicted transcriptional regulator, contains HTH domain"	0	1	1	NA	COG4742	"GC_00000075, GC_00000762, GC_00001286"	1	1	61	26
+"Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family (Mrp) (PDB:2PH1) (PUBMED:18616280;19114487;31709520)"	0	1	1	NA	COG0489	GC_00000423	1	1	61	26
+"Predicted regulator of amino acid metabolism, contains ACT domain"	0	1	1	NA	COG2150	GC_00000598	1	1	61	26
+"Tetrahydromethanopterin S-methyltransferase, subunit G (MtrG)"	0	1	1	NA	COG4064	GC_00000396	1	1	61	26
+"Endonuclease YncB, thermonuclease family (YncB)"	0	1	1	NA	COG1525	"GC_00000746, GC_00002347"	1	1	61	26
+Molybdopterin or thiamine biosynthesis adenylyltransferase (ThiF) (PDB:1ZUD) (PUBMED:32239579)	0	1	1	NA	COG0476	GC_00001338	1	1	61	26
+Cobalamin biosynthesis cobaltochelatase CobT subunit (CobT2)	0	1	1	NA	COG4547	"GC_00001312, GC_00001482, GC_00001621, GC_00002276"	1	1	61	26
+Ribosomal protein S7 (RpsG) (PDB:4V4H)	0	1	1	NA	COG0049	GC_00000243	1	1	61	26
+"Translation initiation factor IF-2, a GTPase (InfB) (PDB:5ME0)"	0	1	1	NA	COG0532	GC_00000663	1	1	61	26
+RNA polymerase subunit RPABC4/transcription elongation factor Spt4 (Spt4) (PDB:1RYQ)	0	1	1	NA	COG2093	GC_00000316	1	1	61	26
+"Tetrahydromethanopterin S-methyltransferase, subunit A (MtrA) (PDB:5L8X)"	0	1	1	NA	COG4063	GC_00000774	1	1	61	26
+"Multisubunit Na+/H+ antiporter, MnhE subunit (MnhE) (PDB:6CFW)"	0	1	1	NA	COG1863	GC_00000366	1	1	61	26
+"DNA-directed RNA polymerase, beta subunit/140 kD subunit (RpoB) (PDB:5UAJ)"	0	1	1	NA	COG0085	"GC_00000128, GC_00000653, GC_00004042"	1	1	61	26
+Predicted dinucleotide-utilizing enzyme of the ThiF/HesA family	0	1	1	NA	COG4015	GC_00001242	1	1	61	26
+Superfamily II DNA and RNA helicase (SrmB) (PDB:3RRM)	0	1	1	NA	COG0513	GC_00000430	1	1	61	26
+"Exosome complex RNA-binding protein Csl4, contains S1 and Zn-ribbon domains (Csl4) (PDB:2BA1)"	0	1	1	NA	COG1096	GC_00000344	1	1	61	26
+Nicotinamide mononucleotide adenylyltransferase (NadR) (PDB:1LW7)	0	1	1	NA	COG1056	GC_00000662	1	1	61	26
+Peptidyl-prolyl cis-trans isomerase (rotamase) - cyclophilin family (PpiB) (PDB:4DGD)	0	1	1	NA	COG0652	GC_00000359	1	1	61	26
+tRNA nucleotidyltransferase (CCA-adding enzyme) (CCA1) (PDB:3OUY)	0	1	1	NA	COG1746	GC_00001327	1	1	61	26
+"ADP-ribose pyrophosphatase YjhB, NUDIX family (YjhB) (PDB:3GZ5)"	0	1	1	NA	COG1051	"GC_00000151, GC_00000984, GC_00001536"	1	1	61	26
+"Cell shape-determining ATPase MreB, actin-like superfamily (MreB) (PDB:1JCE)"	0	1	1	NA	COG1077	GC_00000360	1	1	61	26
+Predicted RNA methylase	0	1	1	NA	COG4076	GC_00000910	1	1	61	26
+"Putative GTP cyclohydrolase 1 type 2, NIF3 family (NIF3) (PDB:3SY1) (PUBMED:24435797;26385509)"	0	1	1	NA	COG0327	GC_00001285	1	1	61	26
+2-methylcitrate dehydratase PrpD (PrpD) (PDB:1SZQ)	0	1	1	NA	COG2079	GC_00000127	1	1	61	26
+"Ribosome-binding ATPase YchF, GTP1/OBG family (GTP1) (PDB:2DWQ) (PUBMED:21527254)"	0	1	1	NA	COG0012	GC_00000471	1	1	61	26
+"Multisubunit Na+/H+ antiporter, MnhB subunit (MnhB)"	0	1	1	NA	COG2111	"GC_00000401, GC_00000860"	1	1	61	26
+"Uncharacterized membrane protein MJ0419, predicted role in archaeal polysaccharide biosynthesis (MJ0419) (PUBMED:25583072)"	0	1	1	NA	COG1822	"GC_00001315, GC_00001335"	1	1	61	26
+Archaeal pantoate kinase (PDB:6JBC) (PUBMED:22865846)	0	1	1	NA	COG1829	GC_00001358	1	1	61	26
+"Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family (AllD) (PDB:1NXU)"	0	1	1	NA	COG2055	GC_00000718	1	1	61	26
+Phosphate uptake regulator PhoU (PhoU) (PDB:1T8B)	0	1	1	NA	COG0704	"GC_00000806, GC_00001342"	1	1	61	26
+HD superfamily phosphohydrolase (YdhJ) (PDB:2HEK)	0	1	1	NA	COG1078	GC_00000928	1	1	61	26
+"DNA-directed RNA polymerase, subunit F (RpoF)"	0	1	1	NA	COG1460	GC_00000664	1	1	61	26
+"Uncharacterized conserved protein, contains N-terminal Zn-finger domain"	0	1	1	NA	COG1771	GC_00001151	1	1	61	26
+ATP-dependent DNA ligase (CDC9) (PDB:1A0I)	0	1	1	NA	COG1793	GC_00001193	1	1	61	26
+Methenyltetrahydromethanopterin cyclohydrolase (Mch) (PDB:1QLM)	0	1	1	NA	COG3252	GC_00000387	1	1	61	26
+DNA/RNA-binding protein AlbA/Ssh10b (AlbA) (PDB:1H0X) (PUBMED:18821773)	0	1	1	NA	COG1581	GC_00000240	1	1	61	26
+"Predicted transcriptional regulator YdeE, contains AraC-type DNA-binding domain (YdeE)"	0	1	1	NA	COG3708	GC_00000422	1	1	61	26
+"AAA+-type ATPase, SpoVK/Ycf46/Vps4 family (SpoVK) (PDB:3SYL)"	0	1	1	NA	COG0464	"GC_00000761, GC_00003824"	1	1	61	26
+"dTDP-4-amino-4,6-dideoxygalactose transaminase (WecE) (PDB:4PIW) (PUBMED:15271350)"	0	1	1	NA	COG0399	"GC_00000986, GC_00001228, GC_00001376"	1	1	61	26
+tRNA(Arg) A34 adenosine deaminase TadA (TadA) (PDB:2A8N)	0	1	1	NA	COG0590	GC_00001017	1	1	61	26
+"Clumping factor A-related surface protein, MSCRAMM (microbial surface components recognizing adhesive matrix molecules) family, DEv-IgG fold (ClfA) (PDB:1N67) (PUBMED:12485987)"	0	1	1	NA	COG4932	"GC_00000026, GC_00000037, GC_00000213, GC_00001417, GC_00001535, GC_00001559, GC_00001612, GC_00001620, GC_00001636, GC_00001637, GC_00001647, GC_00001650, GC_00001754, GC_00001762, GC_00001775, GC_00001790, GC_00001791, GC_00001796, GC_00001832, GC_00001837, GC_00001846, GC_00001960, GC_00002006, GC_00002104, GC_00002250, GC_00002387, GC_00002440, GC_00002863, GC_00003167"	1	1	61	26
+Porphobilinogen deaminase (HemC) (PDB:1AH5)	0	1	1	NA	COG0181	GC_00000790	1	1	61	26
+"ABC-type proline/glycine betaine transport system, permease component (OpuBB)!!!Periplasmic glycine betaine/choline-binding (lipo)protein of an ABC-type transport system (osmoprotectant binding protein) (OsmF) (PDB:4WEP)"	0	1	1	NA	COG1174!!!COG1732	GC_00000011	1	1	61	26
+"Uncharacterized conserved membrane protein, UPF0127 family (PDB:3M7A)"	0	1	1	NA	COG1430	GC_00000373	1	1	61	26
+Ribosomal protein L4 (RplD) (PDB:1VS6)	0	1	1	NA	COG0088	GC_00000124	1	1	61	26
+CRISPR-Cas system-associated integrase Cas1 (Cas1) (PDB:2YZS)	0	1	1	NA	COG1518	"GC_00000050, GC_00001558, GC_00001723, GC_00001923"	1	1	61	26
+"tRNA U34 5-carboxymethylaminomethylation enzyme Elp3 (RNA elongator complex protein 3), contains radical SAM and acetyltransferase domains (ELP3) (PDB:6IA8) (PUBMED:25151136;27455459)"	0	1	1	NA	COG1243	GC_00001141	1	1	61	26
+Archaeal/vacuolar-type H+-ATPase subunit D/Vma8 (NtpD) (PDB:3AON)	0	1	1	NA	COG1394	GC_00000287	1	1	61	26
+Formylmethanofuran:tetrahydromethanopterin formyltransferase (Ftr) (PDB:1FTR)	0	1	1	NA	COG2037	"GC_00000420, GC_00000983"	1	1	61	26
+"Multimeric flavodoxin WrbA, includes NAD(P)H:quinone oxidoreductase (WrbA) (PDB:4DY4)"	0	1	1	NA	COG0655	"GC_00000087, GC_00000652, GC_00000937, GC_00001180, GC_00001184"	1	1	61	26
+Diphthamide synthase subunit DPH2 (DPH2) (PDB:3LZC)	0	1	1	NA	COG1736	GC_00000919	1	1	61	26
+"Predicted permease, AEC (auxin efflux carrier) family (YfdV)"	0	1	1	NA	COG0679	GC_00000715	1	1	61	26
+Archaeal/vacuolar-type H+-ATPase subunit F/Vma7 (NtpF) (PDB:2D00)	0	1	1	NA	COG1436	GC_00000273	1	1	61	26
+"Eukaryotic-type DNA primase, catalytic (small) subunit (PRI1) (PDB:1G71)"	0	1	1	NA	COG1467	GC_00001172	1	1	61	26
+"Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II (GloB) (PDB:1QH3) (PUBMED:25670698)"	0	1	1	NA	COG0491	GC_00000441	1	1	61	26
+"DNA-binding transcriptional regulator, PadR family (PadR) (PDB:1XMA) (PUBMED:19096365)"	0	1	1	NA	COG1695	"GC_00000549, GC_00002471, GC_00003451"	1	1	61	26
+"O-acetylhomoserine/O-acetylserine sulfhydrylase, pyridoxal phosphate-dependent (MET17) (PDB:2CTZ)"	0	1	1	NA	COG2873	"GC_00000753, GC_00000754"	1	1	61	26
+Nicotinate-nucleotide pyrophosphorylase (NadC) (PDB:1O4U)	0	1	1	NA	COG0157	GC_00000950	1	1	61	26
+Purine nucleoside phosphorylase (XapA) (PDB:1YQQ)	0	1	1	NA	COG0005	GC_00001005	1	1	61	26
+"Eukaryotic-type DNA primase, large subunit (PRI2)"	0	1	1	NA	COG2219	GC_00001257	1	1	61	26
+Isopentenyl phosphate kinase (PDB:3LKK) (PUBMED:16621811)	0	1	1	NA	COG1608	GC_00000540	1	1	61	26
+"Predicted membrane-associated lipid hydrolase, neutral ceramidase superfamily (PUBMED:10781606)"	0	1	1	NA	COG3356	GC_00001220	1	1	61	26
+3-hydroxy-3-methylglutaryl CoA synthase (PksG) (PDB:1TVZ)	0	1	1	NA	COG3425	GC_00000429	1	1	61	26
+Archaeal CTP-dependent riboflavin kinase (Rfk) (PDB:2OYN)	0	1	1	NA	COG1339	GC_00000434	1	1	61	26
+"Predicted DNA-binding protein, UPF0251 family"	0	1	1	NA	COG1342	GC_00000810	1	1	61	26
+Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)!!!Ferredoxin (NapF) (PDB:6FAH)	0	1	1	NA	COG1143!!!COG1145	GC_00000789	1	1	61	26
+"Fe-S cluster-containing oxidoreductase, includes glycolate oxidase subunit GlcF (GlpC)"	0	1	1	NA	COG0247	"GC_00000797, GC_00001001"	1	1	61	26
+Sortase (surface protein transpeptidase) (SrtA) (PDB:1IJA)	0	1	1	NA	COG3764	GC_00000812	1	1	61	26
+rRNA processing protein Gar1 (GAR1) (PDB:2EQN)	0	1	1	NA	COG3277	GC_00000388	1	1	61	26
+"Precorrin-3B methylase (CobJ) (PDB:2ZVB)!!!Uncharacterized conserved protein, contains a Zn-finger-like domain (PUBMED:17250770)"	0	1	1	NA	COG1010!!!COG2158	GC_00000938	1	1	61	26
+Uncharacterized conserved protein MJ0491	0	1	1	NA	COG4077	GC_00000742	1	1	61	26
+Undecaprenyl pyrophosphate phosphatase (UppP) (PDB:5OON)	0	1	1	NA	COG1968	GC_00000611	1	1	61	26
+"Uncharacterized protein, contains ACT and PBP-like DUF5612 domains, MJ1458 family (AF1403) (PDB:1Y7P)"	0	1	1	NA	COG1707	GC_00000565	1	1	61	26
+Imidazoleglycerol phosphate dehydratase HisB (HisB2) (PDB:1RHY)	0	1	1	NA	COG0131	GC_00000954	1	1	61	26
+"ABC-type transport system involved in multi-copper enzyme maturation, permease component (NosY)"	0	1	1	NA	COG1277	"GC_00000100, GC_00001022"	1	1	61	26
+"Cobyrinic acid a,c-diamide synthase (CobB)"	0	1	1	NA	COG1797	GC_00001279	1	1	61	26
+"Sialic acid synthase SpsE, contains C-terminal SAF domain (SpsE) (PDB:1VLI)"	0	1	1	NA	COG2089	GC_00001314	1	1	61	26
+Predicted oxidoreductase of the aldo/keto reductase family	0	1	1	NA	COG1453	"GC_00001148, GC_00001170, GC_00001353, GC_00001404"	1	1	61	26
+"Predicted phosphohydrolase, HAD superfamily (PDB:1Y8A)"	0	1	1	NA	COG4030	GC_00001340	1	1	61	26
+Exopolyphosphatase/pppGpp-phosphohydrolase (GppA) (PDB:1T6C)	0	1	1	NA	COG0248	GC_00001074	1	1	61	26
+"Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, beta subunit (PorB) (PDB:1B0P)"	0	1	1	NA	COG1013	"GC_00000364, GC_00000807"	1	1	61	26
+"Mevalonate 5-phosphate dehydratase subunit 2, swiveling domain (modified mevalonate pathway) (AcnX2) (PDB:2HI6) (PUBMED:30224495)"	0	1	1	NA	COG1786	GC_00000523	1	1	61	26
+"Predicted ATPase, PilT family, contains N-terminal PIN domain (PilT) (PDB:5F4H)"	0	1	1	NA	COG1855	GC_00000204	1	1	61	26
+"L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily (UlaG) (PDB:2WYM)"	0	1	1	NA	COG2220	GC_00000570	1	1	61	26
+"Ni,Fe-hydrogenase III large subunit (HycE2) (PDB:6CFW)"	0	1	1	NA	COG3261	"GC_00000496, GC_00000609"	1	1	61	26
+Ribosomal protein L14 (RplN) (PDB:4V4H)	0	1	1	NA	COG0093	GC_00000231	1	1	61	26
+MoxR-like ATPase (MoxR) (PDB:2R44)	0	1	1	NA	COG0714	"GC_00000778, GC_00003807, GC_00003868, GC_00004146"	1	1	61	26
+"Uncharacterized OB-fold protein, contains Zn-ribbon domain (PDB:3IRB)"	0	1	1	NA	COG1545	GC_00000247	1	1	61	26
+Ribosomal protein S5 (RpsE) (PDB:4V4H)	0	1	1	NA	COG0098	GC_00000319	1	1	61	26
+"Formate dehydrogenase assembly factor FdhD, a sulfurtransferase (FdhD) (PDB:2PW9)"	0	1	1	NA	COG1526	"GC_00001398, GC_00001477, GC_00001868"	1	1	61	26
+"Uncharacterized conserved protein, DUF2099 domain"	0	1	1	NA	COG4022	"GC_00001370, GC_00003647"	1	1	61	26
+Glycerol-1-phosphate heptaprenyltransferase (PcrB) (PDB:1VIZ)	0	1	1	NA	COG1646	GC_00000979	1	1	61	26
+ParA-like ATPase involved in chromosome/plasmid partitioning or cellulose biosynthesis protein BcsQ (ParA) (PDB:6NOO)	0	1	1	NA	COG1192	"GC_00000505, GC_00003654"	1	1	61	26
+"Ni,Fe-hydrogenase III small subunit (HycG) (PDB:6CFW)"	0	1	1	NA	COG3260	"GC_00000374, GC_00000433"	1	1	61	26
+Predicted nucleic acid-binding OB-fold protein (PDB:2I5H)	0	1	1	NA	COG1491	GC_00000133	1	1	61	26
+"Uncharacterized conserved protein, DUF1284 domain"	0	1	1	NA	COG3543	GC_00001010	1	1	61	26
+4-hydroxybenzoate polyprenyltransferase (UbiA) (PDB:4OD4) (PUBMED:28830929)	0	1	1	NA	COG0382	GC_00000684	1	1	61	26
+Formylmethanofuran dehydrogenase subunit E (FwdE) (PDB:2GLZ)	0	1	1	NA	COG2191	GC_00000478	1	1	61	26
+Glutamine synthetase (GlnA) (PDB:1F1H)	0	1	1	NA	COG0174	GC_00000615	1	1	61	26
+Glutamate-1-semialdehyde aminotransferase (HemL) (PDB:2CFB)	0	1	1	NA	COG0001	GC_00001190	1	1	61	26
+HEAT repeat (HEAT) (PDB:1OYZ)	0	1	1	NA	COG1413	"GC_00000717, GC_00000993"	1	1	61	26
+"Na+-dependent transporter, SNF family (YocR) (PDB:2A65)"	0	1	1	NA	COG0733	"GC_00000004, GC_00001475"	1	1	61	26
+Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase (AdhE) (PDB:1A4S)	0	1	1	NA	COG1012	GC_00001302	1	1	61	26
+"Exonuclease VII, large subunit (XseA)"	0	1	1	NA	COG1570	GC_00000071	1	1	61	26
+Zn-dependent protease with chaperone function (HtpX) (PDB:2YPT)	0	1	1	NA	COG0501	GC_00000866	1	1	61	26
+"Uncharacterized conserved protein, DUF169 family"	0	1	1	NA	COG2043	GC_00000765	1	1	61	26
+"Predicted protein kinase regulating ubiquinone biosynthesis, AarF/ABC1/UbiB family (AarF) (PDB:4PED)"	0	1	1	NA	COG0661	GC_00001388	1	1	61	26
+Small-conductance mechanosensitive channel MscK (MscK)	0	1	1	NA	COG3264	GC_00001162	1	1	61	26
+"Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I) (NuoI) (PDB:1B0P)!!!TPP-dependent indolepyruvate ferredoxin oxidoreductase, alpha subunit (IorA)"	0	1	1	NA	COG1143!!!COG4231	GC_00000696	1	1	61	26
+"Sulfopyruvate decarboxylase, TPP-binding subunit (coenzyme M biosynthesis)"	0	1	1	NA	COG4032	GC_00000704	1	1	61	26
+Creatinine amidohydrolase/Fe(II)-dependent FAPy formamide hydrolase (riboflavin and F420 biosynthesis) (ArfB) (PDB:1J2T)	0	1	1	NA	COG1402	GC_00000602	1	1	61	26
+F420-dependent methylenetetrahydromethanopterin dehydrogenase (Mtd) (PDB:1QV9)	0	1	1	NA	COG1927	GC_00000612	1	1	61	26
+Repressor of nif and glnA expression (PDB:3NEK)	0	1	1	NA	COG1693	GC_00001311	1	1	61	26
+Sulfur carrier protein ThiS (thiamine biosynthesis) (ThiS) (PDB:1F0Z)	0	1	1	NA	COG2104	GC_00000588	1	1	61	26
+Ribose 5-phosphate isomerase (RpiA) (PDB:1KS2)	0	1	1	NA	COG0120	GC_00000725	1	1	61	26
+Ribosomal protein S17E (RPS17A) (PDB:1RQ6)	0	1	1	NA	COG1383	GC_00000238	1	1	61	26
+"Uncharacterized conserved protein, UPF0280 family, ApbE superfamily (PDB:2O34)"	0	1	1	NA	COG2122	GC_00001213	1	1	61	26
+Ribosomal protein S13 (RpsM) (PDB:4V4H)	0	1	1	NA	COG0099	GC_00000326	1	1	61	26
+Translation elongation factor EF-1beta (EFB1) (PDB:2B7B)	0	1	1	NA	COG2092	GC_00000384	1	1	61	26
+Peptidyl-tRNA hydrolase (Pth2) (PDB:1Q7S)	0	1	1	NA	COG1990	GC_00000474	1	1	61	26
+"ABC-type phosphate transport system, permease component (PstC)"	0	1	1	NA	COG0573	GC_00000548	1	1	61	26
+"Uncharacterized conserved protein MTH_811, UPF0305 family"	0	1	1	NA	COG4066	"GC_00000921, GC_00000992"	1	1	61	26
+"Methyl coenzyme M reductase, beta subunit (McorB) (PDB:5N28)"	0	1	1	NA	COG4054	GC_00000093	1	1	61	26
+"Predicted ATPase, AAA+ superfamily"	0	1	1	NA	COG1373	"GC_00000016, GC_00000036, GC_00000039, GC_00000203, GC_00000820, GC_00001507, GC_00001519, GC_00001523, GC_00001541, GC_00001557, GC_00001590, GC_00001916, GC_00002015, GC_00002448, GC_00002581, GC_00002588, GC_00002855, GC_00003084, GC_00003192"	1	1	61	26
+5-enolpyruvylshikimate-3-phosphate synthase (AroA) (PDB:4N3P)	0	1	1	NA	COG0128	GC_00001357	1	1	61	26
+"Glycerol-3-phosphate cytidylyltransferase, cytidylyltransferase family (TagD) (PDB:2B7L)"	0	1	1	NA	COG0615	GC_00000599	1	1	61	26
+Argininosuccinate lyase (ArgH) (PDB:1AOS)	0	1	1	NA	COG0165	GC_00000419	1	1	61	26
+"Permease, similar to cation transporters (MgtE2)"	0	1	1	NA	COG1824	GC_00001086	1	1	61	26
+Ribosomal protein S8E (RPS8A) (PDB:2KCO)	0	1	1	NA	COG2007	GC_00000258	1	1	61	26
+"Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, beta subunit (PorB) (PDB:1B0P)!!!Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, gamma subunit (PorG) (PDB:1B0P)"	0	1	1	NA	COG1013!!!COG1014	GC_00001051	1	1	61	26
+Enolase (Eno) (PDB:1E9I)	0	1	1	NA	COG0148	"GC_00000383, GC_00003651"	1	1	61	26
+3-isopropylmalate dehydratase small subunit (LeuD) (PDB:3Q3W)	0	1	1	NA	COG0066	"GC_00000683, GC_00001501, GC_00002853"	1	1	61	26
+Xaa-Pro aminopeptidase (PepP) (PDB:1A16)	0	1	1	NA	COG0006	GC_00001292	1	1	61	26
+"ABC-type multidrug transport system, permease component (YadH)"	0	1	1	NA	COG0842	"GC_00000678, GC_00000687"	1	1	61	26
+Ribosomal protein S27AE (RPS27ae) (PDB:2K4X)	0	1	1	NA	COG1998	GC_00000236	1	1	61	26
+"5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit (MtnA) (PDB:1T5O) (PUBMED:31950558)"	0	1	1	NA	COG0182	GC_00001188	1	1	61	26
+Aspartate kinase (MetL1) (PDB:2CDQ)	0	1	1	NA	COG0527	GC_00000122	1	1	61	26
+"Penicillin V acylase or related amidase, Ntn superfamily (YxeI) (PDB:2BJF)"	0	1	1	NA	COG3049	GC_00000936	1	1	61	26
+Tyrosyl-tRNA synthetase (TyrS) (PDB:4OUD)	0	1	1	NA	COG0162	GC_00000150	1	1	61	26
+Histidinol-phosphate/aromatic aminotransferase or cobyric acid decarboxylase (HisC) (PDB:4R2N)	0	1	1	NA	COG0079	GC_00000859	1	1	61	26
+"Transcriptional regulator of NAD metabolism, contains HTH and 3H domains (NiaR) (PDB:1J5Y)!!!2-phosphoglycerate kinase/Mevalonate-3-phosphate 5-kinase (Pgk2)"	0	1	1	NA	COG1827!!!COG2074	GC_00000524	1	1	61	26
+Trans-aconitate methyltransferase (Tam) (PDB:2P35)	0	1	1	NA	COG4106	GC_00001189	1	1	61	26
+"Queuine/archaeosine tRNA-ribosyltransferase (Tgt) (PDB:1XW8) (PUBMED:15805528)!!!tRNA-guanine transglycosylase, archaeosine-15-forming, contains TGT and PUA domains (ArcTGT) (PDB:1IQ8) (PUBMED:22032275)"	0	1	1	NA	COG0343!!!COG1370	GC_00001299	1	1	61	26
+Cation-transporting P-type ATPase (ZntA) (PDB:4BBJ)!!!Copper chaperone CopZ (CopZ) (PDB:1AFI)	0	1	1	NA	COG2217!!!COG2608	GC_00000019	1	1	61	26
+Broad specificity polyphosphatase and 5'/3'-nucleotidase SurE (SurE) (PDB:2V4N)	0	1	1	NA	COG0496	GC_00000786	1	1	61	26
+Deoxyribose-phosphate aldolase (DeoC) (PDB:1J2W)	0	1	1	NA	COG0274	"GC_00000883, GC_00003342"	1	1	61	26
+dsRNA-specific ribonuclease (Rnc) (PDB:1DI2)	0	1	1	NA	COG0571	GC_00000926	1	1	61	26
+"Ribosome quality control (RQC) protein RqcH, Rqc2/NEMF/Tae2 family, contains fibronectin-(FbpA) and RNA- (NFACT) binding domains (RqcH) (PDB:5H3W) (PUBMED:31155236;24646681)"	0	1	1	NA	COG1293	GC_00001412	1	1	61	26
+Small nuclear ribonucleoprotein (snRNP) homolog (LSM1) (PDB:1B34)	0	1	1	NA	COG1958	"GC_00000241, GC_00000425"	1	1	61	26
+tRNA(Glu) U13 pseudouridine synthase TruD (TruD) (PDB:1SB7)	0	1	1	NA	COG0585	GC_00001138	1	1	61	26
+2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (IspD) (PDB:1H3M)	0	1	1	NA	COG1211	"GC_00000867, GC_00001081"	1	1	61	26
+Fe2+ transporter FeoB (FeoB) (PDB:3TAH) (PUBMED:32095817)	0	1	1	NA	COG0370	GC_00000709	1	1	61	26
+"Methyl coenzyme M reductase, subunit D (McorD)"	0	1	1	NA	COG4055	"GC_00000269, GC_00002972"	1	1	61	26
+tRNA(Ile)-lysidine synthase TilS/MesJ (TilS) (PDB:1NI5) (PUBMED:21435031)	0	1	1	NA	COG0037	"GC_00000651, GC_00000686"	1	1	61	26
+"Translation initiation factor 2, alpha subunit (eIF-2alpha) (SUI2) (PDB:1KL9)"	0	1	1	NA	COG1093	GC_00000614	1	1	61	26
+"Glycerol dehydrogenase or related enzyme, iron-containing ADH family (GldA) (PDB:3S99) (PUBMED:20688982)"	0	1	1	NA	COG0371	GC_00000767	1	1	61	26
+Phosphomannomutase (ManB) (PDB:6MNV)	0	1	1	NA	COG1109	"GC_00000821, GC_00000832"	1	1	61	26
+dCTP deaminase (Dcd) (PDB:1XS1)	0	1	1	NA	COG0717	"GC_00000511, GC_00000759, GC_00002303, GC_00002836"	1	1	61	26
+"Predicted class III extradiol dioxygenase, MEMO1 family (Mho1) (PDB:3BCZ)"	0	1	1	NA	COG1355	GC_00000143	1	1	61	26
+"Uncharacterized conserved protein, DUF749 domain (PDB:1IQO)"	0	1	1	NA	COG4009	GC_00000249	1	1	61	26
+Biotin transporter BioY (BioY) (PDB:4DVE)	0	1	1	NA	COG1268	GC_00001045	1	1	61	26
+"Flavin-dependent oxidoreductase, luciferase family (includes alkanesulfonate monooxygenase SsuD and methylene tetrahydromethanopterin reductase) (SsuD) (PDB:1BRL)"	0	1	1	NA	COG2141	GC_00000945	1	1	61	26
+Energy-converting hydrogenase Eha subunit A (EhaA) (PUBMED:19495416)	0	1	1	NA	COG4042	GC_00000627	1	1	61	26
+"NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s (GCD1) (PDB:6JQ8)"	0	1	1	NA	COG1208	GC_00001158	1	1	61	26
+"C-terminal domain of the GTP 3',8'-cyclase MoaA, radical SAM superfamily (molybdenum cofactor biosynthesis) (MoaA2) (PUBMED:25941396)"	0	1	1	NA	COG1964	GC_00000162	1	1	61	26
+"Uncharacterized membrane protein YdbT, contains bPH2 (bacterial pleckstrin homology) domain (YdbT)"	0	1	1	NA	COG3428	GC_00001330	1	1	61	26
+Box C/D ribonucleoprotein Nop56/Prp31/SIK1 subunit (SIK1) (PDB:6ND4) (PUBMED:22496443)	0	1	1	NA	COG1498	GC_00001243	1	1	61	26
+Sugar phosphate isomerase/epimerase (YcjR) (PDB:3KTC) (PUBMED:30742415)	0	1	1	NA	COG1082	"GC_00001040, GC_00001052"	1	1	61	26
+"Archaea-specific RecJ-like exonuclease, contains DnaJ-type Zn finger domain (PDB:5YH1)"	0	1	1	NA	COG1107	GC_00001116	1	1	61	26
+"Exosome complex RNA-binding protein Rrp4, contains S1 and KH domains (Rrp4) (PDB:2Z0S) (PUBMED:12496312)"	0	1	1	NA	COG1097	GC_00000670	1	1	61	26
+Precorrin-6x reductase (CobK) (PDB:4X7G)	0	1	1	NA	COG2099	GC_00001026	1	1	61	26
+"Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit (SdhB/FrdB) (PDB:6LUM)!!!Coenzyme F420-reducing hydrogenase, beta subunit (FrhB) (PDB:3ZFS)"	0	1	1	NA	COG0479!!!COG1035	GC_00000633	1	1	61	26
+Energy-converting hydrogenase A subunit M (EhaM) (PDB:1NXH)	0	1	1	NA	COG4084	GC_00000464	1	1	61	26
+"Methyl coenzyme M reductase, subunit C (McorC)"	0	1	1	NA	COG4056	GC_00000279	1	1	61	26
+Thiol:disulfide interchange protein DsbD (DsbD) (PDB:1JPE)	0	1	1	NA	COG4232	GC_00000828	1	1	61	26
+"Excinuclease UvrABC, nuclease subunit (UvrC) (PDB:2NRT) (PUBMED:24513124)"	0	1	1	NA	COG0322	GC_00000155	1	1	61	26
+Transcriptional accessory protein Tex/SPT6 (Tex) (PDB:2OCE)	0	1	1	NA	COG2183	GC_00000117	1	1	61	26
+"Tetrahydromethanopterin S-methyltransferase, subunit C (MtrC)"	0	1	1	NA	COG4061	GC_00001272	1	1	61	26
+Ribosomal protein L6P/L9E (RplF) (PDB:1VS6)	0	1	1	NA	COG0097	GC_00000545	1	1	61	26
+"MinD superfamily P-loop ATPase, contains an inserted ferredoxin domain"	0	1	1	NA	COG1149	"GC_00000244, GC_00000271, GC_00000284"	1	1	61	26
+"Uncharacterized conserved protein, NAD-dependent epimerase/dehydratase family (PDB:2G0T)"	0	1	1	NA	COG3367	GC_00000895	1	1	61	26
+Endonuclease IV (Nfo) (PDB:2NQH)	0	1	1	NA	COG0648	GC_00001165	1	1	61	26
+"Omega-amidase YafV/Nit2, hydrolyzes alpha-ketoglutaramate (Nit2) (PUBMED:28373563)"	0	1	1	NA	COG0388	"GC_00000134, GC_00002257, GC_00004133, GC_00004138"	1	1	61	26
+Archaeal shikimate kinase (AroK2)	0	1	1	NA	COG1685	GC_00001125	1	1	61	26
+"ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component (DppD) (PDB:4FWI)"	0	1	1	NA	COG0444	"GC_00000006, GC_00003676"	1	1	61	26
+Archaeal adenylate kinase (AdkA) (PDB:1KI9)	0	1	1	NA	COG2019	GC_00000306	1	1	61	26
+tRNA G10 N-methylase Trm11 (Trm11) (PDB:5E71)	0	1	1	NA	COG1041	GC_00001101	1	1	61	26
+"DNA-directed RNA polymerase, subunit L/RPAC2 (RPB11) (PDB:5FLM)"	0	1	1	NA	COG1761	GC_00000354	1	1	61	26
+Thiamine monophosphate synthase (ThiE) (PDB:1G4T) (PUBMED:19060138)	0	1	1	NA	COG0352	GC_00001082	1	1	61	26
+"Archaeal aspartate aminotransferase or a related aminotransferase, includes purine catabolism protein PucG (PucG) (PDB:3NNK)"	0	1	1	NA	COG0075	"GC_00000779, GC_00001166, GC_00002521"	1	1	61	26
+"ABC-type multidrug transport system, ATPase and permease component (MdlB) (PDB:2HYD)"	0	1	1	NA	COG1132	"GC_00000183, GC_00001214, GC_00002543, GC_00003443, GC_00003705"	1	1	61	26
+S-adenosylhomocysteine hydrolase (SAM1) (PDB:1A7A)	0	1	1	NA	COG0499	GC_00000132	1	1	61	26
+Putative flippase GtrA (transmembrane translocase of bactoprenol-linked glucose) (GtrA) (PDB:5MLZ) (PUBMED:24710389)	0	1	1	NA	COG2246	GC_00000656	1	1	61	26
+"ABC-type amino acid transport system, permease component (HisM) (PDB:4YMS)"	0	1	1	NA	COG0765	GC_00000125	1	1	61	26
+Rubrerythrin (YotD) (PDB:1B71)	0	1	1	NA	COG1592	"GC_00000301, GC_00000645"	1	1	61	26
+"Stalled ribosome rescue protein Dom34, pelota family (PelA) (PDB:2VGM)"	0	1	1	NA	COG1537	GC_00000949	1	1	61	26
+"Predicted ATPase/kinase of ASKHA (acetate and sugar kinases, HSC70, actin) superfamily (MK0078)"	0	1	1	NA	COG4020	GC_00001126	1	1	61	26
+Phosphoribosyl-ATP pyrophosphohydrolase (HisI2) (PDB:6J22)	0	1	1	NA	COG0140	GC_00000368	1	1	61	26
+RNase P/RNase MRP subunit POP5 (POP5) (PDB:2AV5)	0	1	1	NA	COG1369	GC_00000572	1	1	61	26
+Phosphopantothenoylcysteine synthetase/decarboxylase CoaBC (CoaBC) (PDB:3QJG)	0	1	1	NA	COG0452	"GC_00000805, GC_00000899"	1	1	61	26
+"Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family (TauE) (PUBMED:21183667;22797525)"	0	1	1	NA	COG0730	GC_00001142	1	1	61	26
+Uncharacterized membrane protein (PDB:5VRE)	0	1	1	NA	COG3548	"GC_00000158, GC_00000622, GC_00000990"	1	1	61	26
+"Archaeal DNA polymerase II, large subunit (PolC) (PDB:6HMS)"	0	1	1	NA	COG1933	GC_00001347	1	1	61	26
+"tRNA C56-2-O'-methylase, SpoU family (TRM56) (PDB:2O3A)"	0	1	1	NA	COG1303	GC_00000700	1	1	61	26
+"Fe-S oxidoreductase, related to NifB/MoaA family (NifB)"	0	1	1	NA	COG1625	GC_00000164	1	1	61	26
+Phosphoribosylcarboxyaminoimidazole (NCAIR) mutase (PurE) (PDB:1D7A)	0	1	1	NA	COG0041	GC_00000732	1	1	61	26
+Excinuclease UvrABC ATPase subunit (UvrA) (PDB:2R6F)	0	1	1	NA	COG0178	GC_00001363	1	1	61	26
+Superfamily I DNA or RNA helicase (UvrD) (PDB:6PPR)	0	1	1	NA	COG0210	"GC_00001318, GC_00001512, GC_00001529, GC_00001683, GC_00002009, GC_00002554, GC_00002555, GC_00002651, GC_00002757, GC_00003463, GC_00003847"	1	1	61	26
+Biotin-(acetyl-CoA carboxylase) ligase (BirA2) (PDB:1BIA) (PUBMED:32188788)	0	1	1	NA	COG0340	GC_00000877	1	1	61	26
+"RNA-splicing ligase RtcB, repairs tRNA damage (RtcB) (PDB:1UC2)"	0	1	1	NA	COG1690	GC_00001063	1	1	61	26
+Cobalamin biosynthesis protein CbiD (cobalt-precorrin-5B C-methyltransferase) (CbiD) (PDB:1SR8)	0	1	1	NA	COG1903	GC_00001246	1	1	61	26
+"Protein N-acetyltransferase, RimJ/RimL family (RimL) (PDB:1S7F)!!!Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase (SpsG)"	0	1	1	NA	COG1670!!!COG3980	GC_00001339	1	1	61	26
+"Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, delta subunit (PorD) (PDB:5C4I)"	0	1	1	NA	COG1144	GC_00000313	1	1	61	26
+tRNA splicing endonuclease subunit SEN34 (SEN2) (PDB:1A79)	0	1	1	NA	COG1676	GC_00000357	1	1	61	26
+Ribosomal protein L5 (RplE) (PDB:1VS6)	0	1	1	NA	COG0094	GC_00000311	1	1	61	26
+Bifunctional PLP-dependent enzyme with beta-cystathionase and maltose regulon repressor activities (MalY) (PDB:4DGT)	0	1	1	NA	COG1168	"GC_00000171, GC_00003329, GC_00003689"	1	1	61	26
+Asp-tRNAAsn/Glu-tRNAGln amidotransferase A subunit or related amidase (GatA) (PDB:3H0L)	0	1	1	NA	COG0154	GC_00001038	1	1	61	26
+Leucyl-tRNA synthetase (LeuS) (PDB:6LPF)	0	1	1	NA	COG0495	GC_00000193	1	1	61	26
+D-arabinose 5-phosphate isomerase GutQ (GutQ) (PDB:5UQI)	0	1	1	NA	COG0794	GC_00000781	1	1	61	26
+"Predicted phosphoesterase, related to the Icc protein (PDB:2YVT)"	0	1	1	NA	COG2129	GC_00000999	1	1	61	26
+UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase (Rfe) (PDB:4J72)	0	1	1	NA	COG0472	"GC_00000632, GC_00000770"	1	1	61	26
+3-hydroxyacyl-CoA dehydrogenase (FadB) (PDB:5ZQZ)	0	1	1	NA	COG1250	GC_00001260	1	1	61	26
+"Iron-guanylylpyridinol (FeGP) cofactor biosynthesis protein HcgF, CinA family (HcgF) (PDB:3WVA) (PUBMED:25882909)"	0	1	1	NA	COG4016	GC_00000908	1	1	61	26
+"Pyrrolysine biosynthesis ligase PylC and related enzymes, ATP-grasp superfamily (PylC) (PUBMED:22985965)"	0	1	1	NA	COG2232	GC_00001328	1	1	61	26
+Dihydroorotase or related cyclic amidohydrolase (AllB) (PDB:1J79)	0	1	1	NA	COG0044	"GC_00001296, GC_00003836"	1	1	61	26
+Magnesium-transporting ATPase (P-type) (MgtA) (PDB:1IWO)	0	1	1	NA	COG0474	GC_00000205	1	1	61	26
+Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme (IlvB) (PDB:1BFD)	0	1	1	NA	COG0028	"GC_00000818, GC_00001056, GC_00001419, GC_00002739, GC_00003523, GC_00003761"	1	1	61	26
+"Predicted transcriptional regulator MJ0558, contains a CRP-type HTH domain (MJ0558)"	0	1	1	NA	COG1497	GC_00000521	1	1	61	26
+"Uncharacterized protein CoxE, contains von Willebrand factor type A (vWA) domain (CoxE)"	0	1	1	NA	COG3552	GC_00000672	1	1	61	26
+Putative aminopeptidase FrvX (FrvX) (PDB:1VHE)	0	1	1	NA	COG1363	GC_00000268	1	1	61	26
+C4-type Zn-finger protein (Zpr1) (PDB:2QKD)	0	1	1	NA	COG1779	GC_00000391	1	1	61	26
+Adenylosuccinate synthase (PurA) (PDB:1ADE)	0	1	1	NA	COG0104	GC_00000863	1	1	61	26
+Sugar-specific transcriptional regulator TrmB (YrhO) (PDB:5BPD)	0	1	1	NA	COG1378	GC_00001024	1	1	61	26
+Uroporphyrinogen-III synthase (HemD) (PDB:1JR2)	0	1	1	NA	COG1587	GC_00000682	1	1	61	26
+Biotin synthase or related enzyme (BioB) (PDB:1R30)	0	1	1	NA	COG0502	"GC_00001015, GC_00001364"	1	1	61	26
+"Uncharacterized conserved protein MJ0832_1, predicted component of type IV pili-like system, UPF0333 family (MJ0832)"	0	1	1	NA	COG1991	GC_00001090	1	1	61	26
+Hydroxylamine reductase (hybrid-cluster protein) (Hcp) (PDB:1E1D)	0	1	1	NA	COG1151	GC_00000854	1	1	61	26
+"Wyosine [tRNA(Phe)-imidazoG37] synthetase, radical SAM superfamily (Tyw1) (PDB:2YX0)"	0	1	1	NA	COG0731	GC_00000734	1	1	61	26
+Seryl-tRNA(Sec) selenium transferase (SelA) (PDB:3W1J)	0	1	1	NA	COG1921	GC_00000913	1	1	61	26
+Biopolymer transport protein ExbD (ExbD) (PDB:2JWK)	0	1	1	NA	COG0848	"GC_00000308, GC_00003762"	1	1	61	26
+"Pyrimidine reductase, riboflavin biosynthesis (RibD) (PDB:2O7P)"	0	1	1	NA	COG1985	"GC_00000768, GC_00002625"	1	1	61	26
+Ribosomal protein L29 (RpmC) (PDB:1VS6)	0	1	1	NA	COG0255	GC_00000218	1	1	61	26
+"Radical SAM superfamily enzyme YgiQ, UPF0313 family (YgiQ) (PDB:6FD2)"	0	1	1	NA	COG1032	"GC_00000112, GC_00001403, GC_00002081, GC_00002508, GC_00003219"	1	1	61	26
+"Succinyl-CoA synthetase, alpha subunit (SucD) (PDB:1CQI)"	0	1	1	NA	COG0074	GC_00000788	1	1	61	26
+"Endonuclease NucS, RecB family (NucS) (PDB:2VLD)"	0	1	1	NA	COG1637	GC_00000462	1	1	61	26
+"Archaeal DNA polymerase II, small subunit/DNA polymerase delta, subunit B (HYS2) (PDB:3E0J)"	0	1	1	NA	COG1311	GC_00000059	1	1	61	26
+"ABC-type cobalamin/Fe3+-siderophores transport system, ATPase component (FepC) (PDB:2NQ2)"	0	1	1	NA	COG1120	GC_00000066	1	1	61	26
+Imidazolonepropionase or related amidohydrolase (HutI) (PDB:3OOQ)	0	1	1	NA	COG1228	GC_00001274	1	1	61	26
+Aspartate/methionine/tyrosine aminotransferase (AspB) (PDB:2O0R)	0	1	1	NA	COG0436	"GC_00000681, GC_00000847, GC_00001129"	1	1	61	26
+"Uncharacterized conserved protein, DUF2097 domain"	0	1	1	NA	COG4013	"GC_00000414, GC_00000559"	1	1	61	26
+Copper chaperone CopZ (CopZ) (PDB:1AFI)	0	1	1	NA	COG2608	GC_00000737	1	1	61	26
+Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase (Lpd) (PDB:6QKG)	0	1	1	NA	COG1249	GC_00001324	1	1	61	26
+NH3-dependent NAD+ synthetase (NadE) (PDB:3HMQ)	0	1	1	NA	COG0171	GC_00000499	1	1	61	26
+DNA repair photolyase (SplB)	0	1	1	NA	COG1533	"GC_00001406, GC_00002196, GC_00003439, GC_00004072"	1	1	61	26
+"ATP-utilizing enzyme, PP-loop superfamily (PDB:6B2O)"	0	1	1	NA	COG1606	GC_00001369	1	1	61	26
+"tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase (TrmJ) (PDB:3ONP)"	0	1	1	NA	COG0565	GC_00000901	1	1	61	26
+Energy-converting hydrogenase Eha subunit L (EhaL) (PUBMED:19495416)	0	1	1	NA	COG4035	GC_00000607	1	1	61	26
+"23S rRNA C2501 and tRNA U34 5'-hydroxylation protein RlhA/YrrN/YrrO, U32 peptidase family (RlhA) (PDB:5D88) (PUBMED:31253794;31358606)"	0	1	1	NA	COG0826	"GC_00001205, GC_00001372, GC_00001413, GC_00001414"	1	1	61	26
+"Lactoylglutathione lyase-related enzyme, vicinal oxygen chelate (VOC) family (VOC) (PDB:3OXH) (PUBMED:31710815)"	0	1	1	NA	COG3324	GC_00000080	1	1	61	26
+"20S proteasome, alpha and beta subunits (PRE1) (PDB:1FNT)"	0	1	1	NA	COG0638	"GC_00000564, GC_00000929, GC_00002724"	1	1	61	26
+"Transglutaminase-like enzyme, putative cysteine protease (YebA) (PDB:3ISR)"	0	1	1	NA	COG1305	"GC_00000024, GC_00000198, GC_00000209, GC_00001393, GC_00001420, GC_00001509, GC_00001624, GC_00001642, GC_00001670, GC_00001671, GC_00001708, GC_00001736, GC_00001737, GC_00001771, GC_00001834, GC_00002236, GC_00002309, GC_00002477"	1	1	61	26
+Membrane protein involved in the export of O-antigen and teichoic acid (RfbX)	0	1	1	NA	COG2244	"GC_00000009, GC_00001259, GC_00001655, GC_00002140"	1	1	61	26
+Excinuclease UvrABC helicase subunit UvrB (UvrB) (PDB:1C4O)	0	1	1	NA	COG0556	GC_00000836	1	1	61	26
+"Predicted ribosome-associated RNA-binding protein Tma20, contains PUA domain (Tma20) (PDB:3D79)"	0	1	1	NA	COG2016	GC_00000914	1	1	61	26
+"CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family (NeuA) (PDB:1EYR)!!!Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase (SpsG)"	0	1	1	NA	COG1083!!!COG3980	GC_00000777	1	1	61	26
+Prephenate dehydrogenase (TyrA) (PDB:2F1K)!!!Ferredoxin-fold anticodon binding domain (FDXACB)	0	1	1	NA	COG0287!!!COG4937	GC_00001344	1	1	61	26
+Superfamily I DNA and/or RNA helicase (DNA2) (PDB:2GJK)	0	1	1	NA	COG1112	"GC_00000077, GC_00001356, GC_00002018, GC_00002728, GC_00002789, GC_00002960, GC_00003198, GC_00003460, GC_00003462, GC_00003727"	1	1	61	26
+Phenylalanyl-tRNA synthetase alpha subunit (PheS) (PDB:3L4G)	0	1	1	NA	COG0016	GC_00000159	1	1	61	26
+"Secreted protein containing bacterial Ig-like domain and vWFA domain (YfbK)!!!Predicted RNA repair component, a phosphatase of H2Macro superfamily, DUF2263 family (PDB:5ZDA)"	0	1	1	NA	COG2304!!!COG4295	"GC_00000798, GC_00003191"	1	1	61	26
+4-(hydroxymethyl)-2-furancarboxaldehyde phosphate synthase MfnB (MfnB) (PDB:4RC1) (PUBMED:25905665)	0	1	1	NA	COG1891	GC_00000347	1	1	61	26
+Ribosomal protein L19E (RPL19A) (PDB:4BYN)	0	1	1	NA	COG2147	GC_00000300	1	1	61	26
+Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase (HisA) (PDB:4U28)	0	1	1	NA	COG0106	GC_00000909	1	1	61	26
+Formylmethanofuran dehydrogenase subunit C (FwdC) (PDB:5T5I)	0	1	1	NA	COG2218	GC_00000370	1	1	61	26
+Preprotein translocase subunit SecG (Sec61beta) (SBH1)	0	1	1	NA	COG4023	GC_00000220	1	1	61	26
+Formylmethanofuran dehydrogenase subunit D (FwdD) (PDB:2KI8)	0	1	1	NA	COG1153	GC_00000281	1	1	61	26
+Flp pilus assembly protein TadC (TadC)	0	1	1	NA	COG2064	"GC_00000068, GC_00001361"	1	1	61	26
+Hydrogenase maturation factor HypD (HypD) (PDB:2Z1D)	0	1	1	NA	COG0409	GC_00000896	1	1	61	26
+Ribosomal protein L34E (RPL34A) (PDB:4BYN)	0	1	1	NA	COG2174	GC_00000251	1	1	61	26
+"ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component (TauB)"	0	1	1	NA	COG1116	GC_00000792	1	1	61	26
+Xanthine/uracil permease (UraA) (PDB:3QE7)	0	1	1	NA	COG2233	"GC_00000975, GC_00003945"	1	1	61	26
+"CTP-dependent cyclometallase, nickel-pincer nucleotide (NPN) cofactor biosynthesis (LarC) (PDB:3C19) (PUBMED:29887527)"	0	1	1	NA	COG1641	GC_00001380	1	1	61	26
+"Uncharacterized conserved protein, contains TOPRIM domain, potential nuclease"	0	1	1	NA	COG4026	GC_00001273	1	1	61	26
+"Hydrogenase/urease maturation factor HypB, Ni2+-binding GTPase (HypB) (PDB:2HF8) (PUBMED:24338018;23899293)"	0	1	1	NA	COG0378	GC_00000593	1	1	61	26
+"Uncharacterized conserved protein, DUF2304 domain"	0	1	1	NA	COG2456	GC_00000576	1	1	61	26
+"Predicted Fe-Mo cluster-binding protein, NifX family (NifX) (PDB:1EO1)"	0	1	1	NA	COG1433	GC_00000822	1	1	61	26
+"Uncharacterized conserved protein MJ0835, predicted component of type IV pili-like system, DUF1515 family (MJ0835)"	0	1	1	NA	COG1627	GC_00001284	1	1	61	26
+UDP-N-acetylmuramoylalanine-D-glutamate ligase (MurD) (PDB:1E0D)	0	1	1	NA	COG0771	"GC_00000985, GC_00001365"	1	1	61	26
+"Magnetosome formation protein MamQ, lipoprotein antigen LemA family (LemA) (PDB:2ETD) (PUBMED:14638756;20212111;26884433)"	0	1	1	NA	COG1704	"GC_00000130, GC_00000547"	1	1	61	26
+"ABC-type phosphate transport system, permease component (PstA)"	0	1	1	NA	COG0581	GC_00001186	1	1	61	26
+"Predicted DNA modification or repair protein, contains radical SAM and helix-hairpin-helix domains"	0	1	1	NA	COG4277	GC_00001232	1	1	61	26
+"Predicted transcriptional regulator, contains C-terminal CBS domains"	0	1	1	NA	COG2524	"GC_00000121, GC_00000582, GC_00000813"	1	1	61	26
+"Predicted RNA-binding protein involved in translation, contains  Zn-ribbon domain, DUF1610 family"	0	1	1	NA	COG2888	GC_00000291	1	1	61	26
+Ribosomal protein L30E (RPL30E) (PDB:1CK2)	0	1	1	NA	COG1911	GC_00000254	1	1	61	26
+Ribosomal protein S19 (RpsS) (PDB:4V4H)	0	1	1	NA	COG0185	GC_00000256	1	1	61	26
+"L-aspartate dehydrogenase, NAD(P)-dependent (AspD) (PDB:1H2H) (PUBMED:12496312)"	0	1	1	NA	COG1712	GC_00000411	1	1	61	26
+"Hydrogenase maturation factor HypA/HybF, metallochaperone involved in Ni insertion (HybF) (PDB:3A43) (PUBMED:16817932)"	0	1	1	NA	COG0375	GC_00000889	1	1	61	26
+"Adenylate cyclase class IV, CYTH domain (includes archaeal enzymes of unknown function) (CyaB) (PDB:1YEM)"	0	1	1	NA	COG1437	GC_00000773	1	1	61	26
+Glycosyltransferase involved in cell wall bisynthesis (WcaA) (PDB:5MLZ)	0	1	1	NA	COG0463	"GC_00000102, GC_00000173, GC_00000488, GC_00000939, GC_00001253, GC_00001297, GC_00001468, GC_00001478, GC_00002541, GC_00002595, GC_00002982"	1	1	61	26
+Undecaprenyl pyrophosphate synthase (UppS) (PDB:1X07)	0	1	1	NA	COG0020	GC_00000650	1	1	61	26
+"Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase (BcsA) (PDB:4HG6)"	0	1	1	NA	COG1215	"GC_00000007, GC_00000858, GC_00001075, GC_00001656, GC_00002098, GC_00003609, GC_00004096"	1	1	61	26
+Mevalonate kinase (ERG12)	0	1	1	NA	COG1577	GC_00000811	1	1	61	26
+"Anion-transporting ATPase, ArsA/GET3 family (ArsA) (PDB:1F48)"	0	1	1	NA	COG0003	GC_00000409	1	1	61	26
+tRNA A37 threonylcarbamoyltransferase TsaD (TsaD) (PDB:3ENO) (PUBMED:23072323;21285948;32385138)!!!tRNA A-37 threonylcarbamoyl transferase component Bud32 (Bud32) (PDB:2VWB)	0	1	1	NA	COG0533!!!COG3642	GC_00001333	1	1	61	26
+UDP-glucose 6-dehydrogenase (Ugd) (PDB:1DLI)	0	1	1	NA	COG1004	GC_00001233	1	1	61	26
+"Formate hydrogenlyase subunit 3/Multisubunit Na+/H+ antiporter, MnhD subunit (HyfB) (PDB:6CFW)"	0	1	1	NA	COG0651	GC_00001060	1	1	61	26
+DNA polymerase B elongation subunit (PolB) (PDB:6P1H)	0	1	1	NA	COG0417	"GC_00000658, GC_00001191"	1	1	61	26
+"NAD-dependent protein deacetylase, SIR2 family (SIR2) (PDB:1M2N)"	0	1	1	NA	COG0846	GC_00000069	1	1	61	26
+Zn-dependent protease PmbA/TldA or its inactivated homolog (TldD) (PDB:3TV9) (PUBMED:12029038)	0	1	1	NA	COG0312	"GC_00000115, GC_00001002"	1	1	61	26
+Cation-transporting P-type ATPase (ZntA) (PDB:4BBJ)	0	1	1	NA	COG2217	"GC_00000113, GC_00001306, GC_00001397, GC_00001538"	1	1	61	26
+Nitrogenase Mo-Fe protein NifD/coenzyme F430 biosynthesis subunit CfbD (NifD/CfbD) (PDB:1FP4) (PUBMED:28225763)	0	1	1	NA	COG2710	GC_00001303	1	1	61	26
+Archaeal S-adenosylmethionine synthetase (MetK2) (PDB:4HPV)	0	1	1	NA	COG1812	GC_00000408	1	1	61	26
+"Membrane protease YdiL, CAAX protease family (YdiL)"	0	1	1	NA	COG1266	"GC_00000144, GC_00001008, GC_00001099, GC_00001459, GC_00003529"	1	1	61	26
+"Predicted arabinose efflux permease AraJ, MFS family (AraJ) (PDB:4LDS)"	0	1	1	NA	COG2814	"GC_00000178, GC_00003366, GC_00003790, GC_00003887"	1	1	61	26
+"rRNA processing protein Krr1/Pno1, contains KH domain (Krr1) (PDB:4QMF)"	0	1	1	NA	COG1094	GC_00000527	1	1	61	26
+Isocitrate/isopropylmalate dehydrogenase (LeuB) (PDB:1GC9)	0	1	1	NA	COG0473	"GC_00001118, GC_00001462"	1	1	61	26
+Phosphoribosylaminoimidazole-succinocarboxamide synthase (PurC) (PDB:1A48)	0	1	1	NA	COG0152	GC_00000502	1	1	61	26
+Chloramphenicol O-acetyltransferase (CatA) (PDB:1CIA)	0	1	1	NA	COG4845	GC_00000099	1	1	61	26
+3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase (AlkA) (PDB:1DIZ)	0	1	1	NA	COG0122	GC_00001154	1	1	61	26
+Archaeal/vacuolar-type H+-ATPase subunit I/STV1 (NtpI) (PDB:2JTW)	0	1	1	NA	COG1269	GC_00001322	1	1	61	26
+Cobyric acid synthase (CobQ)	0	1	1	NA	COG1492	"GC_00001264, GC_00001400"	1	1	61	26
+Diaminopimelate decarboxylase (LysA) (PDB:1D7K)	0	1	1	NA	COG0019	GC_00000978	1	1	61	26
+"Coenzyme F420-reducing hydrogenase, delta subunit (FrhD) (PDB:5ODC)"	0	1	1	NA	COG1908	GC_00000033	1	1	61	26
+"DNA/RNA endonuclease YhcR, contains UshA esterase domain (YhcR)"	0	1	1	NA	COG4085	GC_00001258	1	1	61	26
+Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG (UbiE) (PDB:4OBW)	0	1	1	NA	COG2226	"GC_00000174, GC_00000834, GC_00001201, GC_00001331, GC_00001394, GC_00001643, GC_00002628, GC_00003280, GC_00004061"	1	1	61	26
+Choline dehydrogenase or related flavoprotein (BetA) (PDB:1B4V)	0	1	1	NA	COG2303	"GC_00001316, GC_00002860"	1	1	61	26
+"Peptidyl-prolyl cis-trans isomerase, FKBP type (SlpA) (PDB:2M2A)"	0	1	1	NA	COG1047	GC_00000443	1	1	61	26
+Thioredoxin reductase (TrxB) (PDB:3FBS)	0	1	1	NA	COG0492	GC_00000994	1	1	61	26
+Replicative superfamily II helicase (BRR2) (PDB:2VA8)	0	1	1	NA	COG1204	GC_00001362	1	1	61	26
+DNA repair exonuclease SbcCD nuclease subunit (SbcD) (PDB:6S85)	0	1	1	NA	COG0420	GC_00001368	1	1	61	26
+"NADPH-dependent 2,4-dienoyl-CoA reductase, sulfur reductase, or a related oxidoreductase (FadH2) (PDB:1VRQ)"	0	1	1	NA	COG0446	GC_00001025	1	1	61	26
+"Predicted phosphohydrolase, MPP superfamily (YaeI)"	0	1	1	NA	COG1408	"GC_00000748, GC_00001392"	1	1	61	26
+"Uncharacterized conserved protein YggU, UPF0235/DUF167 family (YggU) (PDB:1JRM)"	0	1	1	NA	COG1872	GC_00000850	1	1	61	26
+Lhr-like helicase (Lhr) (PDB:5V9X)	0	1	1	NA	COG1201	"GC_00001147, GC_00001522, GC_00003175"	1	1	61	26
+Nicotinic acid phosphoribosyltransferase (PncB) (PDB:1VLP)	0	1	1	NA	COG1488	GC_00000092	1	1	61	26
+Uncharacterized membrane protein YczE (YczE)	0	1	1	NA	COG2364	"GC_00000104, GC_00001109, GC_00001110, GC_00001722"	1	1	61	26
+"Tetratricopeptide (TPR) repeat (TPR) (PDB:3AS4)!!!Predicted RNA-binding protein, contains PUA-like ASCH domain (ASCH)"	0	1	1	NA	COG0457!!!COG2411	GC_00000703	1	1	61	26
+O-succinylbenzoic acid-CoA ligase MenE or related acyl-CoA synthetase (AMP-forming) (MenE/FadK) (PDB:5EY9) (PUBMED:25151136;27455459)	0	1	1	NA	COG0318	"GC_00000126, GC_00001055"	1	1	61	26
+"dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme (RfbC) (PDB:1DZR)"	0	1	1	NA	COG1898	GC_00000640	1	1	61	26
+Diaminopimelate epimerase (DapF) (PDB:1BWZ)	0	1	1	NA	COG0253	GC_00001198	1	1	61	26
+Soluble P-type ATPase	0	1	1	NA	COG4087	GC_00000644	1	1	61	26
+Thiamine monophosphate kinase (ThiL) (PDB:5CC8)	0	1	1	NA	COG0611	"GC_00000886, GC_00003691"	1	1	61	26
+"Acetolactate synthase, small subunit (IlvH) (PDB:2F1F)"	0	1	1	NA	COG0440	GC_00000253	1	1	61	26
+Archaeal phosphopantothenate synthetase (aPPS) (PDB:3WDK) (PUBMED:19666462;22940806)	0	1	1	NA	COG1701	GC_00000534	1	1	61	26
+"Archaeosine tRNA-ribosyltransferase, contains uracil-DNA-glycosylase and PUA domains (ArcS) (PDB:2Q07) (PUBMED:22032275;31740832)"	0	1	1	NA	COG1549	GC_00001037	1	1	61	26
+Energy-converting hydrogenase Eha subunit B (EhaB) (PUBMED:19495416)	0	1	1	NA	COG4041	GC_00000892	1	1	61	26
+Energy-converting hydrogenase Eha subunit C (EhaC) (PUBMED:19495416)	0	1	1	NA	COG4040	GC_00000321	1	1	61	26
+"House-cleaning carbohydrate phosphatase, DUF89 family (DUF89) (PDB:2FFJ) (PUBMED:27322068)"	0	1	1	NA	COG1578	GC_00000720	1	1	61	26
+"ABC-type nitrate/sulfonate/bicarbonate transport system, periplasmic component (TauA) (PDB:2X26)"	0	1	1	NA	COG0715	GC_00000900	1	1	61	26
+Glutamate or tyrosine decarboxylase or a related PLP-dependent protein (GadA) (PDB:1XEY)	0	1	1	NA	COG0076	GC_00000905	1	1	61	26
+Uri superfamily endonuclease	0	1	1	NA	COG1833	GC_00000826	1	1	61	26
+"DNA-binding transcriptional regulator, MarR family (MarR) (PDB:1JGS)"	0	1	1	NA	COG1846	"GC_00000030, GC_00000067, GC_00000514, GC_00000823, GC_00001132, GC_00002119, GC_00002232"	1	1	61	26
+Archaeal GTP cyclohydrolase III (Gch31) (PDB:2QV6)	0	1	1	NA	COG2429	GC_00000346	1	1	61	26
+"ssDNA and dsDNA 5'-3' nuclease NurA, repair of double-stranded DNA breaks (NurA) (PDB:2YGK) (PUBMED:29149348)"	0	1	1	NA	COG1630	GC_00000998	1	1	61	26
+"Glycosyltransferase, GT2 family (WcaE) (PDB:2Z86)"	0	1	1	NA	COG1216	"GC_00001114, GC_00001245, GC_00002103"	1	1	61	26
+Molybdopterin synthase catalytic subunit MoaE (MoaE) (PDB:1FM0) (PUBMED:32239579)	0	1	1	NA	COG0314	GC_00000512	1	1	61	26
+Ribosomal protein L21E (RPL21A) (PDB:4BYN)	0	1	1	NA	COG2139	GC_00000654	1	1	61	26
+Ribosomal protein L16/L10AE (RplP) (PDB:1WKI)	0	1	1	NA	COG0197	GC_00000262	1	1	61	26
+"Archaeal DNA helicase HerA or a related bacterial ATPase, contains HAS-barrel and ATPase domains (HerA) (PDB:4D2I)"	0	1	1	NA	COG0433	"GC_00001350, GC_00002565, GC_00002802"	1	1	61	26
+Signal recognition particle subunit SEC65 (SEC65) (PDB:1JID)	0	1	1	NA	COG1400	GC_00000705	1	1	61	26
+Deoxyhypusine synthase (DYS1) (PDB:1DHS)	0	1	1	NA	COG1899	GC_00000361	1	1	61	26
+ABC-type polysaccharide/teichoic acid/polyol phosphate export permease (TagG) (PDB:6JBH)	0	1	1	NA	COG1682	"GC_00000589, GC_00001080"	1	1	61	26
+Ribosomal protein S4 or related protein (RpsD) (PDB:4V4H)	0	1	1	NA	COG0522	GC_00000322	1	1	61	26
+"NAD(P)H-hydrate repair enzyme Nnr, NAD(P)H-hydrate epimerase domain (Nnr1) (PDB:3RRB)!!!NAD(P)H-hydrate repair enzyme Nnr, NAD(P)H-hydrate dehydratase domain (Nnr2) (PDB:1KYH)"	0	1	1	NA	COG0062!!!COG0063	GC_00001378	1	1	61	26
+Quinolinate synthase (NadA) (PDB:4HHE) (PUBMED:24498065)	0	1	1	NA	COG0379	GC_00000739	1	1	61	26

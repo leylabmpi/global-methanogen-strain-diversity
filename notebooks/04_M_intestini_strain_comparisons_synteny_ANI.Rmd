@@ -1,0 +1,222 @@
+---
+title: "04_M_intestini_strain_comparisons_ANI"
+author: "Mirabeau Mbong"
+date: "2025-07-03"
+output:
+  html_notebook:
+    toc: yes
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    df_print: paged
+---
+
+This script is used to generate plots in Fig.5A of the associated paper
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(dev = "pdf",
+                      dpi = 300,
+                      echo = FALSE,
+                      cache = TRUE)
+
+```
+
+# Load libraries
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(lme4)
+library(car)
+library(lmerTest)
+library(coin)
+library(xtable)
+library(broom)
+
+```
+
+
+```{r}
+# Check working directory (should be repo root)
+message("Current working directory: ", getwd())
+```
+
+###### Statistical Analysis ##########
+
+```{r, comment=NA, results="asis", tidy_source=TRUE, echo=TRUE, message=FALSE, warning=FALSE}
+
+df_syteny <- read.table("data/Synteny_scores_metadata_M_intestini_host_comparisons_cleaned.txt", header = TRUE, sep = "\t")
+
+# Convert categorical variables to factors
+
+df_syteny$host_comparisons <- as.factor(df_syteny$host_comparisons)
+
+colnames(df_syteny)
+
+df_syteny <- df_syteny %>%
+  mutate(compared_locations_pretty = recode(compared_locations,
+    "G vs. G" = "Gabon",
+    "G vs. T" = "Gabon/Germany",
+    "T vs. T" = "Germany"
+  ))
+
+# Updated color mapping
+country_colors_pretty <- c(
+  "Gabon" = "#ff0000",
+  "Germany" = "#e7e70e",
+  "Gabon/Germany" = "#0b0bd3"
+)
+
+# Ensure host_comparisons is a factor (to control x-axis order if needed)
+df_syteny$host_comparisons <- factor(df_syteny$host_comparisons, levels = c("Unrelated", "Related"))
+
+# Define comparison groups for stat_compare_means
+comparisons <- list(c("Unrelated", "Related"))
+
+# Set y-axis position for the stat label (adjust depending on your data range)
+y_max <- max(df_syteny$average_score, na.rm = TRUE)
+y_positions <- y_max * 1.05  # 5% above the max value
+
+# Create the plot
+p <- ggplot(df_syteny, aes(x = host_comparisons, y = average_score)) +
+  geom_boxplot(outlier.shape = NA, fill = NA, color = "black", width = 0.6) +
+  geom_jitter(
+    aes(color = compared_locations_pretty),
+    width = 0.15,
+    size = 2,
+    alpha = 0.5
+  ) +
+  scale_color_manual(values = country_colors_pretty) +
+  stat_compare_means(
+    comparisons = list(c("Unrelated", "Related")),
+    method = "wilcox.test",
+    label = "p.signif",
+    tip.length = 0,
+    vjust = 0.3,
+    y.position = max(df_syteny$average_score, na.rm = TRUE) * 1.05
+  ) +
+  labs(
+    x = NULL,
+    y = "Average Synteny Score",
+    title = NULL
+  ) +
+  theme_light(base_size = 8, base_family = "Arial") +
+  theme(
+    legend.position = "top",
+    legend.title = element_blank(),
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 8),
+    axis.text = element_text(size = 7)
+  ) +
+  guides(color = guide_legend(title = NULL))
+
+p
+
+ggsave("Synteny_scores_M_intestin-vertical-transmission.pdf", p, width = 85, height = 70, units = "mm", dpi = 300)
+ggsave("Synteny_scores_M_intestin-vertical-transmission.svg", p, width = 85, height = 70, units = "mm", dpi = 300, device = svglite::svglite)
+```
+
+
+```{r}
+
+```
+
+
+# Manuscript Figure (ANI based Vertical transmission analysis: Fig.5A)
+
+
+
+```{r}
+
+library(readr)
+library(ggpubr)
+# Load data
+ani <- read_delim("data/ANI_M_intestini.tsv", delim = "\t", col_names = c("genome1", "genome2", "ANI", "frags_mapped", "total_frags"))
+metadata <- read_delim("data/Metadata_M_intestini_ANI.txt", delim = "\t")
+
+# Filter out self-comparisons (e.g. LL_i39 vs LL_i39)
+ani <- ani %>% filter(genome1 != genome2)
+
+# Join metadata for both genomes
+ani_annotated <- ani %>%
+  left_join(metadata, by = c("genome1" = "genomeID")) %>%
+  rename_with(~ paste0(., "_1"), .cols = c(country, samplingLocation, AgeGroup, FamilyID)) %>%
+  left_join(metadata, by = c("genome2" = "genomeID")) %>%
+  rename_with(~ paste0(., "_2"), .cols = c(country, samplingLocation, AgeGroup, FamilyID))
+
+# Add comparison metadata
+ani_annotated <- ani_annotated %>%
+  mutate(
+    compared_locations = case_when(
+      country_1 == "Gabon" & country_2 == "Gabon" ~ "G vs. G",
+      country_1 == "Germany" & country_2 == "Germany" ~ "T vs. T",
+      TRUE ~ "G vs. T"
+    ),
+    compared_locations_pretty = recode(compared_locations,
+      "G vs. G" = "Gabon",
+      "T vs. T" = "Germany",
+      "G vs. T" = "Gabon/Germany"
+    ),
+    host_comparisons = if_else(FamilyID_1 == FamilyID_2, "Related", "Unrelated"),
+    siblings = FamilyID_1 == FamilyID_2 & AgeGroup_1 == "Child" & AgeGroup_2 == "Child"
+  )
+
+# Factorize and prepare plotting variables
+ani_annotated$host_comparisons <- factor(ani_annotated$host_comparisons, levels = c("Unrelated", "Related"))
+ani_annotated$shape_by_siblings <- ifelse(ani_annotated$siblings, "Sibling", "Non-sibling")
+
+# Define colors and shapes
+country_colors_pretty <- c(
+  "Gabon" = "#ff0000",
+  "Germany" = "#e7e70e",
+  "Gabon/Germany" = "#0b0bd3"
+)
+shape_values <- c("Non-sibling" = 16, "Sibling" = 15)
+
+# Y-axis label position
+y_max <- max(ani_annotated$ANI, na.rm = TRUE)
+
+# Create the plot
+p <- ggplot(ani_annotated, aes(x = host_comparisons, y = ANI)) +
+  geom_boxplot(outlier.shape = NA, fill = NA, color = "black", width = 0.6) +
+  geom_jitter(
+    aes(color = compared_locations_pretty, shape = shape_by_siblings),
+    width = 0.15, size = 2, alpha = 0.6
+  ) +
+  scale_color_manual(values = country_colors_pretty) +
+  scale_shape_manual(values = shape_values) +
+  stat_compare_means(
+    comparisons = list(c("Unrelated", "Related")),
+    method = "wilcox.test",
+    label = "p.signif",
+    tip.length = 0,
+    vjust = 0.3,
+    y.position = y_max * 1.01
+  ) +
+  labs(
+    x = NULL,
+    y = "ANI (%)",
+    title = NULL
+  ) +
+  theme_light(base_size = 8, base_family = "Helvetica") +
+  theme(
+    legend.position = "top",
+    legend.title = element_blank(),
+    axis.text = element_text(size = 7),
+    axis.title.y = element_text(size = 8)
+  ) +
+  guides(
+    color = guide_legend(title = NULL),
+    shape = guide_legend(title = NULL, override.aes = list(size = 3))
+  )
+
+p
+
+ggsave("ANI_between_M_intestini_strains.pdf", p, width = 85, height = 70, units = "mm", dpi = 300)
+ggsave("ANI_between_M_intestini_strains.svg", p, width = 85, height = 70, units = "mm", device = svglite::svglite, dpi = 300)
+```
+
+
+
+
