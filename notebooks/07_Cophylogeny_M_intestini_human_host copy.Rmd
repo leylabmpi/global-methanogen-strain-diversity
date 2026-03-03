@@ -1,5 +1,5 @@
 ---
-title: "05_Cophylogeny_M_smithii_human_host"
+title: "07_Cophylogeny_M_intestini_human_host"
 author: "Mirabeau Mbong"
 date: "2025-06-18"
 output:
@@ -48,9 +48,9 @@ message("Current working directory: ", getwd())
 # --- INPUTS ---
 Bac_name <- "s__Methanobrevibacter_smithii"
 
-bac_tree_path <- "data/M_smithii_bestTree.faa_refined.tre"
+bac_tree_path <- "data/M_intestini_bestTree.faa_refined.tre"
 host_tree_path <- "data/Host_tree_best.tree"
-assoc_path <- "data/HostTip_BacTip_MS_assoc_file.txt"
+assoc_path <- "data/HostTip_BacTip_MI_assoc_file.txt"
 
 # --- Load trees ---
 bac_tree <- read.tree(bac_tree_path)
@@ -59,7 +59,7 @@ host_tree <- read.tree(host_tree_path)
 # --- Load association file ---
 assoc_df <- read.table(assoc_path, header = TRUE)
 assoc_df
-# Check tip labels (remove extra spaces or trailing characters)
+# check tip labels (remove extra spaces or trailing characters)
 bac_tree$tip.label <- trimws(bac_tree$tip.label)
 host_tree$tip.label <- trimws(host_tree$tip.label)
 assoc_df[] <- lapply(assoc_df, trimws)
@@ -90,7 +90,7 @@ plot(host_tree_trim, main = "Host Tree")
 # PACO function
 
 ```{r}
-run_paco <- function(bac_tree, host_tree, assoc_df, n_perm = 999, output_dir = "./PACO_out_MS/") {
+run_paco <- function(bac_tree, host_tree, assoc_df, n_perm = 999, output_dir = "./PACO_out_MI/") {
   if (!dir.exists(output_dir)) dir.create(output_dir)
 
   # Distance matrices
@@ -210,36 +210,45 @@ summary(paco_result)
 
 ```
 
-# Manuscript figure (PACo Residuals by HostCountry: Fig.4)
+# Plot PACo Residuals by sampling locations in Gabon only
 
 ```{r}
 library(ggplot2)
 
-# assign HostCountry variable
-assoc_df$HostCountry <- dplyr::case_when(
-  grepl("^G", assoc_df$Host) & grepl("^G", assoc_df$Archaea) ~ "Gabon",
-  grepl("^T", assoc_df$Host) & grepl("^T", assoc_df$Archaea) ~ "Germany",
-  grepl("^V", assoc_df$Host) & grepl("^V", assoc_df$Archaea) ~ "Vietnam",
+# Assign HostLocation
+assoc_df$HostLocation <- dplyr::case_when(
+  grepl("^G0[0-2][0-9]{2}", assoc_df$Host) ~ "Lambaréné",
+  grepl("^G0[3-9][0-9]{2}", assoc_df$Host) ~ "Ikobey",
   TRUE ~ NA_character_
 )
 
-country_colors <- c(Gabon = "#ff0000", Germany = "#e7e70e", Vietnam = "#0b0bd3")
-
-# Define positions for horizontal bars
-comparisons <- list(
-  c(1, 2),  # Gabon vs Germany
-  c(1, 3),  # Gabon vs Vietnam
-  c(2, 3)   # Germany vs Vietnam
+assoc_df$HostLocation <- factor(
+  assoc_df$HostLocation,
+  levels = c("Lambaréné", "Ikobey")
 )
 
-# Y positions for horizontal bars
-y_lines <- c(0.122, 0.129, 0.136)
-adj_pvals <- c("adj.p = 0.20", "adj.p = 0.051", "adj.p = 0.025")
+location_colors <- c(
+  "Lambaréné" = "skyblue",
+  "Ikobey"    = "orange"
+)
+
+# Compute dynamic y-position for label
+y_max <- max(assoc_df$residuals, na.rm = TRUE)
+y_label <- y_max * 1.05   # 5% above max value
 
 # Main plot
-p <- ggplot(assoc_df, aes(x = HostCountry, y = residuals)) +
-  geom_boxplot(fill = NA, color = "black", outlier.shape = NA) +
-  geom_jitter(aes(color = HostCountry), width = 0.15, alpha = 0.5, size = 1.5) +
+p <- ggplot(assoc_df, aes(x = HostLocation, y = residuals)) +
+  geom_boxplot(
+    fill = NA,
+    color = "black",
+    outlier.shape = NA
+  ) +
+  geom_jitter(
+    aes(color = HostLocation),
+    width = 0.15,
+    alpha = 0.6,
+    size = 1.5
+  ) +
 
   # Median labels
   stat_summary(
@@ -253,46 +262,36 @@ p <- ggplot(assoc_df, aes(x = HostCountry, y = residuals)) +
     color = "blue"
   ) +
 
-  # Global Kruskal-Wallis p-value
+  # Global test (sufficient for 2 groups)
   stat_compare_means(
     method = "kruskal.test",
-    label.y = 0.145,
     label = "p.format",
-    family = "Helvetica",
-    size = 3
+    label.y = y_label,
+    size = 3,
+    family = "Arial"
   ) +
 
-  # Horizontal lines 
-  annotate("segment", x = 1, xend = 2, y = y_lines[1], yend = y_lines[1]) +
-  annotate("segment", x = 1, xend = 3, y = y_lines[2], yend = y_lines[2]) +
-  annotate("segment", x = 2, xend = 3, y = y_lines[3], yend = y_lines[3]) +
+  scale_color_manual(values = location_colors) +
+  expand_limits(y = y_label * 1.05) +
 
-  # Adjusted p-value labels (moved slightly above, larger size)
-  annotate("text", x = 1.5, y = y_lines[1] + 0.003, label = adj_pvals[1], size = 3, family = "Helvetica") +
-  annotate("text", x = 2,   y = y_lines[2] + 0.003, label = adj_pvals[2], size = 3, family = "Helvetica") +
-  annotate("text", x = 2.5, y = y_lines[3] + 0.003, label = adj_pvals[3], size = 3, family = "Helvetica") +
-
-  scale_color_manual(values = country_colors) +
-
-  coord_cartesian(ylim = c(0.025, 0.15)) +
-
-  theme_light(base_size = 7, base_family = "Helvetica") +
+  theme_light(base_size = 7, base_family = "Arial") +
   labs(
     x = NULL,
     y = "PACo residuals"
   ) +
   theme(
-    axis.text = element_text(size = 7, family = "Helvetica"),
-    axis.title = element_text(size = 7, family = "Helvetica"),
+    axis.text = element_text(size = 7, family = "Arial"),
+    axis.title = element_text(size = 7, family = "Arial"),
     legend.position = "none",
     panel.grid.major.y = element_line(color = "gray90"),
     plot.background = element_rect(fill = "white", color = NA),
     panel.background = element_rect(fill = "white", color = NA)
   )
+
 p
 # Save
-ggsave("M_smithii_cophylogeny_PACo_residuals.pdf", p, width = 60, height = 50, units = "mm", dpi = 300)
-ggsave("M_smithii_cophylogeny_PACo_residuals.svg", p, width = 60, height = 50, units = "mm", dpi = 300, device = svglite::svglite)
+ggsave("M_intestini_cophylogeny_PACo_residuals.pdf", p, width = 60, height = 50, units = "mm", dpi = 300)
+ggsave("M_intestini_cophylogeny_PACo_residuals.svg", p, width = 60, height = 50, units = "mm", dpi = 300, device = svglite::svglite)
 
 ```
 
@@ -323,6 +322,8 @@ paco_pval
 print(paste("Procrustes m² =", round(m2, 4)))
 print(paste("Permutation p-value =", paco_pval))
 ```
+
+
 ```{r}
 min_resid <- min(assoc_df$residuals, na.rm = TRUE)
 max_resid <- max(assoc_df$residuals, na.rm = TRUE)

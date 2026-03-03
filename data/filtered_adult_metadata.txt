@@ -1,511 +1,545 @@
-ParticipantID	read_depth	Infant1ID	Infant2ID	Infant3ID	Date	Age_years	samplingLocation	SamplingLocation_1	SamplingLocation_2	CurrAntibiotics	PrevAntibiotics	BirthContinent	BirthCountry	CurrCountry	BirthState
-G0006	1469853	G0007	NA	NA	7_12_17	18	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0010	3165065	G0011	NA	NA	7_12_17	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0012	4697827	G0013	NA	NA	11_12_17	30	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	NA
-G0018	6307902	G0019	NA	NA	08_12_17	19	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0020	6371300	G0021	NA	NA	11_12_17	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0024	5745327	G0025	NA	NA	08_12_17	23	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Gabon	Ogooue-Maritime
-G0014	12761532	G0015	NA	NA	08_12_17	29	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Gabon	Moyen-Ogooue
-G0027	8932586	G0026	NA	NA	08_12_17	20	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Gabon	Ogooue-Maritime
-G0034	3994405	G0037	NA	NA	11_12_17	27	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Estuaire
-G0028	10312489	G0029	NA	NA	11_12_17	18	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0004	19128484	None	NA	NA	4_12_17	32	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Estuaire
-G0042	1583826	G0043	NA	NA	12_12_17	32	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0032	10149766	G0033	NA	NA	11_12_17	37	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0030	13564176	G0031	NA	NA	11_12_18	20	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0040	4058360	G0041	NA	NA	12_12_17	21	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0038	5057420	G0039	NA	NA	11_12_17	24	Lambarene	CERMEL	CERMEL	0	12+	Africa	Gabon	Gabon	Moyen-Ogooue
-G0023	25030049	G0050	NA	NA	13_12_17	24	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0044	3726004	G0045	NA	NA	12_12_17	35	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Estuaire
-G0046	3620112	G0047	NA	NA	12_12_17	23	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0035	11311498	G0036	NA	NA	08_12_17	35	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Gabon	Ngounie
-G0057	3196679	G0058	NA	NA	13_12_17	23	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Gabon	Moyen-Ogooue
-G0061	3409188	G0062	NA	NA	14_12_17	41	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ogooue-Ivindo
-G0008	36481693	G0009	NA	NA	7_12_17	23	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0065	2778903	G0066	NA	NA	14_12_17	21	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0051	9911349	G0052	NA	NA	13_12_17	17	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Ogooue-Maritime
-G0053	10157184	G0054	NA	NA	13_12_17	20	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0048	13864425	G0049	NA	NA	12_12_17	25	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0059	10847124	G0060	NA	NA	14_12_17	34	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0055	11169437	G0056	NA	NA	13_12_17	42	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ogooue-Maritime
-G0069	3941994	G0070	NA	NA	15_12_17	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0071	3338883	G0072	NA	NA	15_12_17	20	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0063	10707755	G0064	NA	NA	14_12_17	22	Lambarene	CERMEL	CERMEL	0	NA	Africa	Gabon	Gabon	Moyen-Ogooue
-G0078	4202303	G0079	NA	NA	19_12_17	19	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0082	2897780	G0083	G0084	NA	19_12_17	35	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0085	3275355	G0086	NA	NA	19_12_17	30	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Ngounie
-G0080	4510162	G0081	NA	NA	19_12_17	30	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Estuaire
-G0075	6175602	G0076	G0077	NA	15_12_17	25	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0087	5010772	G0088	NA	NA	20_12_17	30	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0089	4305678	G0090	NA	NA	20_12_17	21	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ogooue-Maritime
-G0103	3569148	G0104	NA	NA	22_12_17	30	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0101	4084875	G0102	NA	NA	22_12_17	25	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0099	4401436	G0100	NA	NA	21_12_17	34	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0105	2639755	G0106	NA	NA	26_12_17	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0073	14972781	G0074	NA	NA	15_12_17	32	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0115	2696032	G0116	NA	NA	28_12_17	23	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0113	4157832	G0114	NA	NA	28_12_17	21	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0109	4383858	G0110	NA	NA	26_12_17	18	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0107	4870419	G0108	NA	NA	26_12_17	35	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0111	4623560	G0112	NA	NA	26_12_17	25	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0124	1688258	G0125	NA	NA	29_12_17	30	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0117	3835038	G0118	NA	NA	28_12_17	25	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0128	3285909	G0129	NA	NA	29_12_17	32	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0120	3674011	G0121	NA	NA	28_12_17	29	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ogooue-Maritime
-G0126	3995461	G0127	NA	NA	29_12_17	19	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0067	24209816	G0068	NA	NA	15_12_17	19	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0132	4034155	G0133	NA	NA	03_01_18	38	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0091	17929571	G0092	NA	NA	20_12_17	23	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0134	5103992	G0135	NA	NA	03_01_18	25	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0140	3957704	G0141	NA	NA	04_01_18	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0138	4488387	G0139	NA	NA	03_01_18	41	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0136	4673714	G0137	NA	NA	03_01_18	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0142	5099700	G0143	NA	NA	04_01_18	24	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0130	10545488	G0131	NA	NA	29_12_17	26	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Estuaire
-G0144	4383595	G0145	NA	NA	05_01_18	31	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Estuaire
-G0146	3972311	G0147	NA	NA	05_01_18	37	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Ngounie
-G0154	3495318	G0155	NA	NA	09_01_18	22	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Oggooue-Lolo
-G0150	3643703	G0151	NA	NA	05_01_18	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0148	4295119	G0149	NA	NA	05_01_18	26	Lambarene	CERMEL	CERMEL	1	NA	Africa	Gabon	Gabon	Moyen-Ogooue
-G0152	4379194	G0153	NA	NA	09_01_18	21	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0156	3952352	G0157	NA	NA	09_01_18	18	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0160	3368299	G0161	NA	NA	09_01_18	26	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0162	3918909	G0163	NA	NA	09_01_18	23	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0168	2805298	G0169	NA	NA	10_01_18	34	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ogooue-Maritime
-G0172	3384461	G0173	NA	NA	11_01_18	43	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Lac_Onangue
-G0174	2893960	G0175	NA	NA	11_01_18	31	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Woleu-Ntem
-G0166	5999658	G0167	NA	NA	10_01_18	25	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0178	2623056	G0179	NA	NA	11_01_18	24	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0182	2684599	G0183	NA	NA	11_01_18	25	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0164	7966943	G0165	NA	NA	10_01_18	26	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0170	8262172	G0171	NA	NA	10_01_18	21	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0188	3743672	G0189	NA	NA	12_01_18	26	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Estuaire
-G0192	3032881	G0193	NA	NA	12_01_18	18	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0180	7799279	G0181	NA	NA	11_01_18	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0184	6613102	G0185	NA	NA	12_01_18	40	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0176	11985925	G0177	NA	NA	11_01_18	37	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0190	7034153	G0191	NA	NA	12_01_18	21	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0194	3449687	G0195	NA	NA	15_01_18	31	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Estuaire
-G0196	3750876	G0197	NA	NA	15_01_18	19	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0200	3483017	G0201	NA	NA	15_01_18	29	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0198	3472527	G0199	NA	NA	15_01_18	25	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ogooue-Maritime
-G0158	19246356	G0159	NA	NA	09_01_18	21	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0202	3152548	G0203	NA	NA	16_01_18	21	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0206	3428611	G0207	NA	NA	16_01_18	22	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0208	3313006	G0209	NA	NA	17_01_18	22	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0204	4795243	G0205	NA	NA	16_01_18	19	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0216	2798526	G0217	NA	NA	17_01_18	21	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ogooue-Maritime
-G0186	15355401	G0187	NA	NA	12_01_18	26	Lambarene	CERMEL	CERMEL	0	12+	Africa	Gabon	Gabon	Moyen-Ogooue
-G0214	3614438	G0215	NA	NA	17_01_18	20	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0212	4805228	G0213	NA	NA	17_01_18	31	Lambarene	CERMEL	CERMEL	0	12+	Africa	Gabon	Gabon	Estuaire
-G0222	3628629	G0223	NA	NA	18_01_18	35	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0226	3195504	G0227	NA	NA	19_01_18	24	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0224	3779724	G0225	NA	NA	18_01_18	26	Lambarene	CERMEL	CERMEL	1	NA	Africa	Gabon	Gabon	Estuaire
-G0228	3669108	G0229	NA	NA	19_01_18	33	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0230	3969519	G0231	NA	NA	19_01_18	23	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0232	3781810	G0233	NA	NA	19_01_18	23	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0210	10923797	G0211	NA	NA	17_01_18	20	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0234	4101820	G0235	NA	NA	19_01_18	22	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0220	9582729	G0221	NA	NA	18_01_18	24	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0218	10730631	G0219	NA	NA	17_01_18	28	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Estuaire
-G0236	5993774	G0237	NA	NA	22_01_18	27	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0238	6422006	G0239	NA	NA	22_01_18	21	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0245	4180206	G0246	NA	NA	23_01_18	22	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Estuaire
-G0251	3251478	G0252	NA	NA	23_01_18	25	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0249	4647832	G0250	NA	NA	23_01_18	19	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0240	9302189	G0241	NA	NA	22_01_18	20	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0253	4391719	G0254	NA	NA	23_01_18	19	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0242	7955102	G0243	NA	NA	22_01_18	28	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0255	3437821	G0256	NA	NA	23_01_18	23	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Nyanga
-G0258	3831648	G0259	NA	NA	24_01_18	31	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Ngounie
-G0260	3154753	G0261	NA	NA	24_01_18	20	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0262	4149418	G0263	NA	NA	24_01_18	25	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Estuaire
-G0266	4132382	G0267	NA	NA	24_01_18	40	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0276	2637310	G0277	NA	NA	26_01_18	27	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0270	4205898	G0271	NA	NA	25_01_18	38	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0272	4045083	G0273	NA	NA	25_01_18	25	Lambarene	CERMEL	CERMEL	1	NA	Africa	Gabon	Gabon	Moyen-Ogooue
-G0274	4134854	G0275	NA	NA	26_01_18	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ogooue-Maritime
-G0247	12983319	G0248	NA	NA	23_01_18	23	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Moyen-Ogooue
-G0283	5981031	None	NA	NA	01_02_18	30	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0286	5337500	G0287	NA	NA	02_02_18	35	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0284	5845539	None	NA	NA	01_02_18	27	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0289	4037541	None	NA	NA	02_02_18	22	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0282	7051907	None	NA	NA	01_02_18	19	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0288	6519967	None	NA	NA	02_02_18	21	Lambarene	CERMEL	CERMEL	0	12+	Africa	Gabon	Gabon	Ogooue-Maritime
-G0285	8274739	None	NA	NA	01_02_18	27	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0278	13427311	G0279	NA	NA	26_01_18	37	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Moyen-Ogooue
-G0292	4375352	None	NA	NA	05_02_18	28	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ogooue-Maritime
-G0293	3967893	G0294	NA	NA	05_02_18	28	Lambarene	CERMEL	CERMEL	0	0_2	Africa	Gabon	Gabon	Estuaire
-G0297	3859323	G0298	NA	NA	05_02_18	33	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0290	6711550	None	NA	NA	02_02_18	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ogooue-Lolo
-G0295	5668578	G0296	NA	NA	05_02_18	30	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Estuaire
-G0291	7297527	None	NA	NA	05_02_18	37	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ngounie
-G0301	3794068	None	NA	NA	06_02_18	34	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0299	7244798	None	NA	NA	06_02_18	23	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0303	6381419	None	NA	NA	06_02_18	44	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0302	6974562	None	NA	NA	06_02_18	35	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ogooue-Maritime
-G0304	5214238	None	NA	NA	06_02_18	20	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0300	7458940	None	NA	NA	06_02_18	26	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Ogooue-Maritime
-G0305	5959816	None	NA	NA	06_02_18	37	Lambarene	CERMEL	CERMEL	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0307	4966771	None	NA	NA	06_02_18	25	Lambarene	CERMEL	CERMEL	0	12+	Africa	Gabon	Gabon	Oggooue-Ivindo
-G0315	1891284	G0316	NA	NA	27_01_18	25	Ikobey	Field	Tchibanga	0	Never	Africa	Gabon	Gabon	Nyanga
-G0306	6568616	None	NA	NA	06_02_18	34	Lambarene	CERMEL	CERMEL	0	3_12	Africa	Gabon	Gabon	Ngounie
-G0321	3049788	G0322	NA	NA	28_01_18	35	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Gabon	Okouagnya
-G0319	4124901	G0320	NA	NA	28_01_18	40	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0325	3236074	G0326	NA	NA	28_01_18	36	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Gabon	Ngounie
-G0331	2486227	G0332	NA	NA	28_01_18	35	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Gabon	Mindokodo
-G0333	1847284	G0334	NA	NA	28_01_18	37	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Gabon	Ngounie
-G0317	10090117	G0318	NA	NA	27_01_18	33	Ikobey	Field	Tchibanga	NA	NA	Africa	Gabon	Gabon	Nyanga
-G0335	6006079	G0336	NA	NA	01_02_18	18	Ikobey	Field	Ikobe	NA	NA	Africa	Gabon	Gabon	Ngounie
-G0337	4968708	G0338	G0339	NA	01_02_18	36	Ikobey	Field	Ikobe	NA	NA	Africa	Gabon	Gabon	Ngounie
-G0345	4695789	G0346	NA	NA	29_01_18	22	Ikobey	Field	Soga	0	Never	Africa	Gabon	Gabon	Ngounie
-G0313	13542275	G0314	NA	NA	27_01_18	24	Ikobey	Field	Tchibanga	NA	NA	Africa	Gabon	Gabon	Ngounie
-G0329	11163146	G0330	NA	NA	28_01_18	28	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Gabon	Ngounie
-G0323	12836282	G0324	NA	NA	28_01_18	30	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Gabon	Nyanga
-G0357	3142540	G0358	G0359	NA	29_01_18	22	Ikobey	Field	Soga	0	Never	Africa	Gabon	Gabon	Ngounie
-G0367	3155478	G0368	G0369	NA	30_01_18	30	Ikobey	Field	Makabana	0	Never	Africa	Gabon	Gabon	Ngounie
-G0348	6404538	G0349	G0350	NA	29_01_18	21	Ikobey	Field	Soga	0	Never	Africa	Gabon	Gabon	Ngounie
-G0354	6258536	G0355	G0356	NA	29_01_18	32	Ikobey	Field	Soga	0	Never	Africa	Gabon	Gabon	Ngounie
-G0363	6288319	G0364	G0365	G0366	29_01_18	24	Ikobey	Field	Soga	0	Never	Africa	Gabon	Gabon	Moyen-Ogooue
-G0376	1575412	G0377	NA	NA	30_01_18	45	Ikobey	Field	Makabana	0	Never	Africa	Gabon	Gabon	Nyanga
-G0372	3863516	G0373	NA	NA	30_01_18	28	Ikobey	Field	Makabana	0	Never	Africa	Gabon	Gabon	Ngounie
-G0370	4549355	G0371	NA	NA	30_01_18	38	Ikobey	Field	Iboundji	0	Never	Africa	Gabon	Gabon	Ngounie
-G0361	8651344	G0362	NA	NA	29_01_18	23	Ikobey	Field	Soga	0	Never	Africa	Gabon	Gabon	Ngounie
-G0382	3093729	G0383	G0388	NA	30_01_18	33	Ikobey	Field	Nyoe2	0	Never	Africa	Gabon	Gabon	Ngounie
-G0327	20441034	G0328	NA	NA	28_01_18	26	Ikobey	Field	Tranquille	0	Never	Africa	Gabon	Gabon	Ngounie
-G0374	5488382	G0375	NA	NA	30_01_18	41	Ikobey	Field	Iboundji	0	Never	Africa	Gabon	Gabon	Ngounie
-G0378	5277522	G0379	NA	NA	30_01_18	28	Ikobey	Field	Omboue	0	Never	Africa	Gabon	Gabon	Ngounie
-G0391	2983459	G0392	NA	NA	30_01_18	23	Ikobey	Field	Nyoe2	0	Never	Africa	Gabon	Gabon	Ngounie
-G0393	2426304	G0394	G0395	NA	31_01_18	25	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Gabon	Ngounie
-G0380	7826134	G0381	NA	NA	30_01_18	35	Ikobey	Field	Omboue	0	Never	Africa	Gabon	Gabon	Ngounie
-G0389	7141980	G0390	NA	NA	30_01_18	25	Ikobey	Field	Nyoe2	0	Never	Africa	Gabon	Gabon	Ngounie
-G0396	7128570	G0397	NA	NA	31_01_18	18	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Gabon	Ngounie
-G0407	2855833	G0408	G0409	NA	31_01_18	37	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Gabon	Ngounie
-G0398	6751580	G0399	NA	NA	31_01_18	22	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Gabon	Ngueolibo
-G0400	6084312	G0401	G0402	NA	31_01_18	21	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Gabon	Ngounie
-G0384	14861270	G0385	NA	NA	30_01_18	37	Ikobey	Field	Nyoe2	0	Never	Africa	Gabon	Gabon	Ngounie
-G0403	10817218	G0404	NA	NA	31_01_18	35	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Gabon	Ogooue-Lolo
-G0411	13544832	G0412	NA	NA	31_01_18	55	Ikobey	Field	Erouba	NA	NA	Africa	Gabon	Gabon	NA
-G0418	11115457	G0419	NA	NA	31_01_18	24	Ikobey	Field	Erouba	NA	NA	Africa	Gabon	Gabon	NA
-G0416	12779793	G0417	NA	NA	31_01_18	26	Ikobey	Field	Erouba	NA	NA	Africa	Gabon	Gabon	NA
-G0422	11877806	G0423	NA	NA	31_01_18	32	Ikobey	Field	Erouba	NA	NA	Africa	Gabon	Gabon	NA
-G0420	14261777	G0421	NA	NA	31_01_18	26	Ikobey	Field	Erouba	NA	NA	Africa	Gabon	Gabon	NA
-G0426	10571126	None	NA	NA	01_02_18	NA	Ikobey	Field	Sur_La_Route	NA	NA	Africa	Gabon	Gabon	NA
-G0405	24897711	G0406	NA	NA	31_01_18	27	Ikobey	Field	Divinde	0	Never	Africa	Gabon	Gabon	Ngounie
-T003	3666694	T004	NA	NA	13_11_18	32	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bavaria
-T005	3746291	None	NA	NA	13_11_18	24	ITM	ITM	ITM	1	NA	Europe	Germany	Germany	Bavaria
-G0432	7772190	None	NA	NA	01_02_18	NA	Ikobey	Field	Sur_La_Route	NA	NA	Africa	Gabon	Gabon	NA
-G0433	9998601	None	NA	NA	01_02_18	NA	Ikobey	Field	Sur_La_Route	NA	NA	Africa	Gabon	Gabon	NA
-G0413	24391973	G0414	G0415	NA	31_01_18	35	Ikobey	Field	Erouba	NA	NA	Africa	Gabon	Gabon	NA
-T012	6266527	None	NA	NA	27_11_18	24	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Mecklenburg-vorpommern
-T014	4037578	None	NA	NA	27_11_18	23	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Hessen
-T021	4513995	None	NA	NA	11_12_18	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T013	5415874	None	NA	NA	27_11_18	25	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T017	6856313	None	NA	NA	04_12_18	21	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T024	5013983	T025	NA	NA	08_01_19	29	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T027	4722793	None	NA	NA	11_12_18	23	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	North_Rhine-Westphalia
-T022	5768186	T023	NA	NA	11_12_18	32	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T026	5542575	T028	NA	NA	11_12_18	35	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T034	6255314	T035	NA	NA	20_12_18	29	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T036	7237558	T037	NA	NA	20_12_18	27	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Saxony
-G0427	21909524	None	NA	NA	01_02_18	NA	Ikobey	Field	Sur_La_Route	NA	NA	Africa	Gabon	Gabon	NA
-T048	3577169	None	NA	NA	10_01_19	34	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T038	6621187	T039	NA	NA	08_01_19	37	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T046	4630377	T047	NA	NA	08_01_19	36	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T042	5082837	T043	NA	NA	08_01_19	27	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Hessen
-T049	5598584	None	NA	NA	10_01_19	28	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T052	2872607	T053	NA	NA	10_01_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bavaria
-T050	6096467	T051	NA	NA	10_01_19	32	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T054	4779732	None	NA	NA	15_01_19	27	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T060	4089768	None	NA	NA	24_01_19	29	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T061	4280668	T062	NA	NA	24_01_19	29	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bavaria
-T056	5908588	None	NA	NA	15_01_19	25	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T058	6963687	T059	NA	NA	15_01_19	35	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T063	5600602	None	NA	NA	24_01_19	28	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	North_Rhine-Westphalia
-T071	5181677	None	NA	NA	29_01_19	21	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T072	4944077	None	NA	NA	29_01_19	25	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T068	5749737	None	NA	NA	29_01_19	39	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Berlin
-T066	7986400	T067	NA	NA	24_01_19	36	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T074	5688972	None	NA	NA	29_01_19	25	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T079	2272973	T080	NA	NA	07_02_19	31	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bavaria
-T075	6116006	None	NA	NA	07_02_19	21	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T076	4890714	T077	NA	NA	07_02_19	26	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Brandenburg
-T078	5190537	None	NA	NA	07_02_19	26	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	North_Rhine-Westphalia
-T081	4319284	T082	NA	NA	07_02_19	26	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T089	3174483	None	NA	NA	08_02_19	26	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Mecklenburg-Vorpommern
-T085	4750633	T086	NA	NA	07_02_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bavaria
-T083	5410704	T084	NA	NA	07_02_19	27	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T093	4105434	None	NA	NA	08_02_19	22	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Baden-Wuerttenburg
-T095	3638605	T096	NA	NA	08_02_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T094	5402894	None	NA	NA	08_02_19	27	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T101	3389744	None	NA	NA	18_02_19	20	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Rheinland-Pfalz
-T090	6362155	None	NA	NA	08_02_19	24	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T103	3742744	None	NA	NA	18_02_19	20	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Rheinland-Pfalz
-T099	4858879	T100	NA	NA	08_02_19	31	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T107	2134295	T108	NA	NA	18_02_19	37	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T104	4535131	None	NA	NA	18_02_19	22	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Thuringia
-T109	2084155	None	NA	NA	18_02_19	28	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T110	3175649	None	NA	NA	18_02_19	25	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bavaria
-T105	5168102	T106	NA	NA	18_02_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T114	3933259	T115	NA	NA	18_02_19	33	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Baden-Wuerttenburg
-T121	3483340	None	NA	NA	24_02_19	25	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T123	2667569	T124	NA	NA	24_02_19	35	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T122	2813032	None	NA	NA	24_02_19	22	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bavaria
-T119	4172906	None	NA	NA	24_02_19	21	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Bavaria
-T111	4944591	None	NA	NA	18_02_19	25	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T125	3693432	None	NA	NA	24_02_19	23	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T127	2391315	None	NA	NA	24_02_19	24	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T129	3061944	None	NA	NA	25_02_19	36	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T126	4018342	None	NA	NA	24_02_19	18	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T130	3258100	T131	NA	NA	25_02_19	36	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T128	3802874	None	NA	NA	25_02_19	26	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Hessen
-T135	3912697	T136	NA	NA	25_02_19	30	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T132	5660481	T133	NA	NA	25_02_19	31	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T146	3127087	None	NA	NA	26_02_19	26	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Bavaria
-T151	1923918	T152	NA	NA	26_02_19	37	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T140	4787766	T141	NA	NA	25_02_19	30	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T148	3744169	None	NA	NA	26_02_19	24	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Berlin
-T138	5572129	T139	NA	NA	25_02_19	33	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	North_Rhine-Westphalia
-T154	2990917	T155	NA	NA	26_02_19	40	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T147	6784517	None	NA	NA	26_02_19	26	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T158	2607458	None	NA	NA	26_02_19	19	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Baden-Wuerttenburg
-T150	6726548	None	NA	NA	26_02_19	22	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Baden-Wuerttenburg
-T163	2934726	None	NA	NA	26_02_19	26	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T159	3125266	T160	NA	NA	26_02_19	40	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Bavaria
-T156	6137635	None	NA	NA	26_02_19	22	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Rheinland-Pfalz
-T164	3926284	None	NA	NA	26_02_19	24	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T157	6613579	None	NA	NA	26_02_19	25	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T171	2919359	None	NA	NA	04_03_19	26	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Rheinland-Pfalz
-T173	3232607	None	NA	NA	04_03_19	25	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T176	2989102	T177	NA	NA	04_03_19	28	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T180	2396147	T181	NA	NA	04_03_19	27	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Hessen
-T179	2561038	None	NA	NA	04_03_19	29	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T186	2552730	T187	NA	NA	12_03_19	29	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Saxony-Anhalt
-T174	7139062	None	NA	NA	04_03_19	23	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T196	1793136	T197	NA	NA	12_03_19	33	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T188	3735567	T189	NA	NA	12_03_19	32	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Rhineland-Palatinate
-T198	2740902	None	NA	NA	12_03_19	23	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T169	8978516	T170	NA	NA	04_03_19	30	ITM	ITM	ITM	0	NA	Europe	Germany	Germany	Baden-Wuerttenburg
-T202	1516450	None	NA	NA	12_03_19	27	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T201	2265631	None	NA	NA	12_03_19	21	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T203	2888632	T204	NA	NA	12_03_19	35	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T211	5400668	None	NA	NA	24_03_19	25	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T212	5337000	T213	NA	NA	24_03_19	31	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T214	5225543	T238	NA	NA	24_03_19	32	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T215	5047806	T216	NA	NA	24_03_19	34	ITM	ITM	ITM	0	Never	Europe	Germany	Germany	Baden-Wuerttenburg
-T217	5082741	T218	NA	NA	24_03_19	32	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T194	10677620	T195	NA	NA	12_03_19	34	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Thuringia
-T192	12433337	T193	NA	NA	12_03_19	31	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	North_Rhine-Westphalia
-T219	2953668	None	NA	NA	24_03_19	28	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	North_Rhine-Westphalia
-T220	2910682	None	NA	NA	24_03_19	29	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	North_Rhine-Westphalia
-T227	3513794	T228	NA	NA	24_03_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T225	3730526	T226	NA	NA	24_03_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T231	3256313	T232	NA	NA	24_03_19	30	ITM	ITM	ITM	0	02. May	Europe	Germany	Germany	Baden-Wuerttenburg
-T229	3725831	T230	NA	NA	24_03_19	27	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T237	2795270	None	NA	NA	24_03_19	23	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T239	2267107	None	NA	NA	26_03_19	22	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T233	4806688	T234	NA	NA	24_03_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T246	2122146	None	NA	NA	26_03_19	25	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T241	3857964	T242	NA	NA	26_03_19	30	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T245	3118444	None	NA	NA	26_03_19	26	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T168	25693136	None	NA	NA	04_03_19	27	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T235	5963078	T236	NA	NA	24_03_19	37	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Brandenburg
-T255	3032328	T256	NA	NA	26_03_19	33	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T257	2314055	None	NA	NA	26_03_19	41	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Niedersachsen
-T264	2586127	T265	NA	NA	26_03_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Saarland
-T260	3038702	T261	NA	NA	26_03_19	23	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Rheinland-Pfalz
-T243	7542828	T244	NA	NA	26_03_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T266	3266409	T267	NA	NA	28_03_19	27	ITM	ITM	ITM	0	Never	Europe	Germany	Germany	Baden-Wuerttenburg
-T251	7109983	T252	NA	NA	26_03_19	35	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T274	2182515	T275	NA	NA	28_03_19	40	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T280	2260066	T281	NA	NA	28_03_19	29	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T276	4686302	T277	NA	NA	28_03_19	31	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T282	2818738	T283	NA	NA	28_03_19	32	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T286	5459239	T287	NA	NA	28_03_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T284	6786450	T285	NA	NA	28_03_19	27	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T262	12695261	T263	NA	NA	26_03_19	35	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T268	11328982	T269	NA	NA	28_03_19	29	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T271	10932039	T272	NA	NA	28_03_19	27	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T290	6062279	T291	NA	NA	28_03_19	29	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T292	2559275	T293	NA	NA	28_03_19	34	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T301	3192079	None	NA	NA	02_04_19	30	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T278	10885873	T279	NA	NA	28_03_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Sachsen-Anhalt
-T302	3989607	None	NA	NA	02_04_19	27	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T303	5683735	T304	NA	NA	02_04_19	34	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T288	12079838	T289	NA	NA	28_03_19	39	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Baden-Wuerttenburg
-T313	2748075	T314	NA	NA	02_04_19	31	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T297	9266803	T298	NA	NA	28_03_19	35	ITM	ITM	ITM	0	3_12	Europe	Germany	Germany	Baden-Wuerttenburg
-T295	9890655	T296	NA	NA	28_03_19	30	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T309	6031528	T310	NA	NA	02_04_19	36	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T327	2448257	T328	NA	NA	02_04_19	33	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bremen
-T325	4593605	T326	NA	NA	02_04_19	29	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T333	2365157	T334	NA	NA	02_04_19	39	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T331	5402183	T332	NA	NA	02_04_19	29	ITM	ITM	ITM	0	0_2	Europe	Germany	Germany	Thuringia
-T329	5732049	T330	NA	NA	02_04_19	36	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T307	12933256	T308	NA	NA	02_04_19	40	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Bavaria
-T335	4650862	T336	NA	NA	02_04_19	38	ITM	ITM	ITM	0	Never	Europe	Germany	Germany	Baden-Wuerttenburg
-T311	11818974	T312	NA	NA	02_04_19	30	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-T315	9888963	T316	NA	NA	02_04_19	36	ITM	ITM	ITM	0	12+	Europe	Germany	Germany	Baden-Wuerttenburg
-V003	4993951	V004	NA	NA	18_4_18	23	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V013	3016070	V014	NA	NA	18_4_18	27	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V001	6989338	V002	NA	NA	18_4_18	31	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V007	4367012	V008	NA	NA	18_4_18	23	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V009	4472801	V010	NA	NA	18_4_18	28	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V017	2767190	V018	NA	NA	18_4_18	32	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V005	5960570	V006	NA	NA	18_4_18	29	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V019	2460915	V020	NA	NA	18_4_18	19	Sonla	Sonla	Chiengxom	1	NA	EastAsia	Vietnam	Vietnam	Sonla
-V025	2441679	V026	NA	NA	19_4_18	29	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V015	5882232	V016	NA	NA	18_4_18	33	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V027	1987798	V028	NA	NA	19_4_18	18	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V029	2394478	V030	NA	NA	19_4_18	33	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V023	3547558	V024	NA	NA	18_4_18	28	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V033	2935844	V034	NA	NA	19_4_18	25	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V035	3073519	V036	NA	NA	19_4_18	23	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V043	2927642	V044	NA	NA	19_4_18	26	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V037	3629231	V038	NA	NA	19_4_18	28	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V011	12421787	V012	NA	NA	18_4_18	21	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V045	4295488	V046	NA	NA	19_4_18	31	Sonla	Sonla	Chiengxom	0	12+	EastAsia	Vietnam	Vietnam	Sonla
-V051	3742353	V052	NA	NA	19_4_18	30	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V047	4990449	V048	NA	NA	19_4_18	18	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V021	13560480	V022	NA	NA	19_4_18	18	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V031	11462311	V032	NA	NA	19_4_18	35	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V057	3371970	V058	NA	NA	19_4_18	24	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V055	4866723	V056	NA	NA	19_4_18	18	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V063	2987605	V064	NA	NA	19_4_18	27	Sonla	Sonla	Chiengxom	1	NA	EastAsia	Vietnam	Vietnam	Sonla
-V041	15496599	V042	NA	NA	19_4_18	33	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V059	8628061	V060	NA	NA	19_4_18	26	Sonla	Sonla	Chiengxom	1	NA	EastAsia	Vietnam	Vietnam	Sonla
-V069	4180268	V070	NA	NA	20_4_18	27	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V067	5212773	V068	NA	NA	20_4_18	24	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V053	12981445	V054	NA	NA	19_4_18	20	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V071	4308386	V072	NA	NA	20_4_18	34	Sonla	Sonla	Chiengxom	NA	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V077	3226382	V078	NA	NA	20_4_18	33	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V065	12140586	V066	NA	NA	20_4_18	30	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V061	13070118	V062	NA	NA	20_4_18	19	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V073	7089720	V074	NA	NA	20_4_18	24	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V075	6554098	V076	NA	NA	20_4_18	30	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V083	3224940	V084	NA	NA	20_4_18	30	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V081	4090323	V082	NA	NA	20_4_18	38	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V095	3171518	V096	NA	NA	20_4_18	18	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V097	2814419	V098	NA	NA	20_4_18	19	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V093	4096279	V094	NA	NA	20_4_18	20	Sonla	Sonla	Chiengxom	0	NA	EastAsia	Vietnam	Vietnam	Sonla
-V087	5321212	V088	NA	NA	20_4_18	25	Sonla	Sonla	Chiengxom	0	12+	EastAsia	Vietnam	Vietnam	Sonla
-V079	10582176	V080	NA	NA	20_4_18	23	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V049	27726602	V050	NA	NA	19_4_18	26	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V091	5075336	V092	NA	NA	20_4_18	27	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V101	1611965	V102	NA	NA	20_4_18	31	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V111	3685448	V112	NA	NA	20_4_18	29	Sonla	Sonla	Chiengxom	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V109	3773165	V110	NA	NA	20_4_18	30	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V107	4039043	V108	NA	NA	20_4_18	23	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Hoa_Binh
-V105	4018936	V106	NA	NA	20_4_18	36	Sonla	Sonla	Chiengxom	0	0_2	EastAsia	Vietnam	Vietnam	Sonla
-V113	3757617	V114	NA	NA	20_4_18	23	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V103	6549671	V104	NA	NA	20_4_18	23	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V117	3414151	V118	NA	NA	20_4_18	42	Sonla	Sonla	Chiengxom	0	not_true	EastAsia	Vietnam	Vietnam	Sonla
-V085	13394144	V086	NA	NA	20_4_18	25	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V099	10196529	V100	NA	NA	20_4_18	34	Sonla	Sonla	Chiengxom	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V126	2548901	V127	NA	NA	21_4_18	35	Sonla	Sonla	Chiengden	0	NA	EastAsia	Vietnam	Vietnam	Sonla
-V120	7783545	V121	NA	NA	21_4_18	25	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V115	8857212	V116	NA	NA	20_4_18	32	Sonla	Sonla	Chiengxom	0	not_true	EastAsia	Vietnam	Vietnam	Sonla
-V133	3092757	V134	NA	NA	21_4_18	32	Sonla	Sonla	Chiengden	0	12+	EastAsia	Vietnam	Vietnam	Sonla
-V131	6473086	V132	NA	NA	21_4_18	38	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V135	3688972	V136	NA	NA	21_4_18	25	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V122	11971670	V123	NA	NA	21_4_18	20	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V128	8842389	V119	NA	NA	21_4_18	24	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V129	10263896	V130	NA	NA	21_4_18	31	Sonla	Sonla	Chiengden	0	not_true	EastAsia	Vietnam	Vietnam	Sonla
-V143	3071238	V144	NA	NA	21_4_18	24	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V145	3835066	V146	NA	NA	21_4_18	18	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V147	4181288	V148	NA	NA	21_4_18	20	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V124	17177842	V125	NA	NA	21_4_18	33	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V141	5413994	V142	NA	NA	21_4_18	27	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V151	2668032	V152	NA	NA	21_4_18	22	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V137	12215454	V138	NA	NA	21_4_18	40	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V153	4449724	V154	NA	NA	21_4_18	31	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V159	3238967	V160	NA	NA	21_4_18	24	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V149	7213903	V150	NA	NA	21_4_18	26	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V139	11941040	V140	NA	NA	21_4_18	20	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V157	4642232	V158	NA	NA	21_4_18	26	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V167	2408630	V168	NA	NA	21_4_18	31	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V155	7077950	V156	NA	NA	21_4_18	30	Sonla	Sonla	Chiengden	0	3_12	EastAsia	Vietnam	Vietnam	Sonla
-V175	2970564	V176	NA	NA	9_5_18	31	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V169	5022743	V170	NA	NA	21_4_18	34	Sonla	Sonla	Chiengden	0	NA	EastAsia	Vietnam	Vietnam	Sonla
-V171	6676955	V172	NA	NA	9_5_18	29	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V179	6502065	V180	NA	NA	9_5_18	26	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V173	10211595	V174	NA	NA	9_5_18	24	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V181	6636424	V182	NA	NA	9_5_18	25	Hatinh	Hatinh	Ducthuan	0	NA	EastAsia	Vietnam	Vietnam	Hatinh
-V185	5352469	V186	NA	NA	9_5_18	31	Hatinh	Hatinh	Ducthuan	0	NA	EastAsia	Vietnam	Vietnam	Hatinh
-V165	14636417	V166	NA	NA	21_4_18	19	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V195	2797839	V196	NA	NA	9_5_18	29	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V189	4985991	V190	NA	NA	9_5_18	25	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V183	12751783	V184	NA	NA	9_5_18	26	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V177	15831035	V178	NA	NA	9_5_18	29	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V193	5715340	V194	NA	NA	9_5_18	37	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V199	2754277	V200	NA	NA	9_5_18	23	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V187	10357375	V188	NA	NA	9_5_18	21	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V191	7284088	V192	NA	NA	9_5_18	29	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V203	3811548	V204	NA	NA	9_5_18	25	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V197	4691155	V198	NA	NA	9_5_18	26	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V161	28208246	V162	NA	NA	21_4_18	30	Sonla	Sonla	Chiengden	0	Never	EastAsia	Vietnam	Vietnam	Sonla
-V213	2463752	V214	NA	NA	10_5_18	NA	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V211	3365949	V212	NA	NA	10_5_18	26	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V207	4572292	V208	NA	NA	9_5_18	29	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V217	1854301	V218	NA	NA	10_5_18	27	Hatinh	Hatinh	Ducthuan	0	NA	EastAsia	Vietnam	Vietnam	Hatinh
-V219	2384182	V220	NA	NA	10_5_18	29	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V215	5021872	V216	NA	NA	10_5_18	29	Hatinh	Hatinh	Ducthuan	1	NA	EastAsia	Vietnam	Vietnam	Daclac
-V201	8094965	V202	NA	NA	9_5_18	28	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V223	3132188	V224	NA	NA	10_5_18	29	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V225	2739894	V226	NA	NA	10_5_18	25	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V227	3227523	V228	NA	NA	10_5_18	29	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V229	4005063	V230	NA	NA	10_5_18	25	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Nghean
-V231	3479423	V232	NA	NA	10_5_18	37	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V237	2726605	V238	NA	NA	11_5_18	28	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V235	3135909	V236	NA	NA	10_5_18	24	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Daclac
-V239	3896644	V240	NA	NA	11_5_18	28	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V233	5495279	V234	NA	NA	10_5_18	32	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V249	2870340	V250	NA	NA	11_5_18	27	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Nghean
-V221	10077697	V222	NA	NA	10_5_18	26	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V245	8284898	V246	NA	NA	11_5_18	23	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V255	8362733	V256	NA	NA	11_5_18	27	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V247	9197661	V248	NA	NA	11_5_18	31	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V259	6639376	V260	NA	NA	11_5_18	33	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V243	11954061	V244	NA	NA	11_5_18	42	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V265	3540062	V266	NA	NA	11_5_18	37	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V263	7648128	V264	NA	NA	11_5_18	36	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V277	3596336	V278	NA	NA	11_5_18	26	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V275	4183843	V276	NA	NA	11_5_18	26	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V257	12369688	V258	NA	NA	11_5_18	36	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V289	5189318	V290	NA	NA	12_5_18	23	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V269	14974168	V270	NA	NA	11_5_18	34	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V285	10875056	V286	NA	NA	11_5_18	32	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V273	18104929	V274	NA	NA	11_5_18	23	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V293	2366497	V294	NA	NA	12_5_18	34	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V287	14267339	V288	NA	NA	12_5_18	35	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V261	27782280	V262	NA	NA	11_5_18	31	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V281	19495762	V282	NA	NA	11_5_18	28	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V279	21036563	V280	NA	NA	11_5_18	25	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V297	5420016	V298	NA	NA	12_5_18	25	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V291	17314435	V292	NA	NA	12_5_18	30	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V309	4796642	V310	NA	NA	12_5_18	37	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V311	2587951	V312	NA	NA	12_5_18	29	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V303	9424752	V304	NA	NA	12_5_18	26	Hatinh	Hatinh	Ducthuan	1	NA	EastAsia	Vietnam	Vietnam	Hatinh
-V301	11488092	V302	NA	NA	12_5_18	38	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V295	16603588	V296	NA	NA	12_5_18	29	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V313	4229616	V314	NA	NA	12_5_18	28	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V315	8148129	V316	NA	NA	12_5_18	33	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V321	5139842	V322	NA	NA	12_5_18	33	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V307	17035057	V308	NA	NA	12_5_18	23	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V319	8670756	V320	NA	NA	12_5_18	38	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V327	3110743	V328	NA	NA	12_5_18	31	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V305	19984516	V306	NA	NA	12_5_18	28	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V317	16540247	V318	NA	NA	12_5_18	25	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V325	11302525	V326	NA	NA	12_5_18	37	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V337	3396621	V338	NA	NA	13_5_18	24	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V299	33229825	V300	NA	NA	12_5_18	33	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V323	18023390	V324	NA	NA	12_5_18	29	Hatinh	Hatinh	Ducthuan	0	Never	EastAsia	Vietnam	Vietnam	Hatinh
-V333	10362139	V334	NA	NA	13_5_18	35	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V339	4227469	V340	NA	NA	13_5_18	26	Hatinh	Hatinh	Ducthuan	1	NA	EastAsia	Vietnam	Vietnam	Phutho
-V343	3853006	V344	NA	NA	13_5_18	34	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V347	3603940	V348	NA	NA	13_5_18	23	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V349	4618453	V350	NA	NA	13_5_18	20	Hatinh	Hatinh	Ducthuan	0	0_2	EastAsia	Vietnam	Vietnam	Hatinh
-V335	18862535	V336	NA	NA	13_5_18	28	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Nghean
-V329	21228301	V330	NA	NA	13_5_18	26	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V331	21535758	V332	NA	NA	13_5_18	34	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
-V345	11046195	V346	NA	NA	13_5_18	26	Hatinh	Hatinh	Ducthuan	0	3_12	EastAsia	Vietnam	Vietnam	Hatinh
+"ParticipantID"	"read_depth"	"Infant1ID"	"Infant2ID"	"Infant3ID"	"Date"	"Age_years"	"samplingLocation"	"SamplingLocation_1"	"SamplingLocation_2"	"CurrAntibiotics"	"PrevAntibiotics"	"BirthContinent"	"BirthCountry"	"CurrCountry"	"BirthState"	"BMI"	"shannon_entropy"	"faith_pd"	"pielou_evenness"
+"G0006"	1469853	"G0007"	NA	NA	"7_12_17"	18	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	6.65155233122545	245.316619998775	0.633973071311143
+"G0010"	3165065	"G0011"	NA	NA	"7_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	6.87344080416891	218.102080004232	0.654066164467919
+"G0012"	4697827	"G0013"	NA	NA	"11_12_17"	30	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	NA	NA	7.2032161841961	279.175359915011	0.665622493705459
+"G0018"	6307902	"G0019"	NA	NA	"08_12_17"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	7.75263653729658	346.975819964428	0.705101764609832
+"G0020"	6371300	"G0021"	NA	NA	"11_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	7.62734942210338	269.31662001356	0.700235890782588
+"G0024"	5745327	"G0025"	NA	NA	"08_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	NA	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	NA	7.02539907007097	292.926019960199	0.649430571031686
+"G0014"	12761532	"G0015"	NA	NA	"08_12_17"	29	"Lambarene"	"CERMEL"	"CERMEL"	0	NA	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	6.86935964951593	280.046420051425	0.639217465704564
+"G0027"	8932586	"G0026"	NA	NA	"08_12_17"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	NA	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	NA	5.97334639642196	202.311160065874	0.572625966379333
+"G0034"	3994405	"G0037"	NA	NA	"11_12_17"	27	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	NA	6.9863639085379	249.161479999195	0.652220044347884
+"G0028"	10312489	"G0029"	NA	NA	"11_12_17"	18	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	7.61034692608522	242.589729970496	0.707837579817348
+"G0004"	19128484	"None"	NA	NA	"4_12_17"	32	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	NA	7.21082516927899	222.007559924095	0.681535817227477
+"G0042"	1583826	"G0043"	NA	NA	"12_12_17"	32	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	6.20750929681551	209.574449856242	0.593368206484965
+"G0032"	10149766	"G0033"	NA	NA	"11_12_17"	37	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	7.22967509601914	321.450539900805	0.656157537409876
+"G0030"	13564176	"G0031"	NA	NA	"11_12_18"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	6.66331618013956	228.903790073295	0.630068691970864
+"G0040"	4058360	"G0041"	NA	NA	"12_12_17"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	7.55689355638823	284.788579978922	0.696827901148502
+"G0038"	5057420	"G0039"	NA	NA	"11_12_17"	24	"Lambarene"	"CERMEL"	"CERMEL"	0	"12+"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	6.8736391299437	218.993180015881	0.650422757332805
+"G0023"	25030049	"G0050"	NA	NA	"13_12_17"	24	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	6.97728194466594	251.679959915287	0.65552200445632
+"G0044"	3726004	"G0045"	NA	NA	"12_12_17"	35	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	NA	7.16416408216871	246.950770051917	0.666702141359936
+"G0046"	3620112	"G0047"	NA	NA	"12_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	7.79489073496167	289.224889949837	0.713020271904023
+"G0035"	11311498	"G0036"	NA	NA	"08_12_17"	35	"Lambarene"	"CERMEL"	"CERMEL"	0	NA	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	6.74796174654642	242.305080010439	0.630726985810278
+"G0057"	3196679	"G0058"	NA	NA	"13_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	NA	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	6.0262564573806	183.111150092329	0.583703125896442
+"G0061"	3409188	"G0062"	NA	NA	"14_12_17"	41	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Ivindo"	NA	7.64877005563616	241.982840075623	0.707632103489074
+"G0008"	36481693	"G0009"	NA	NA	"7_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	5.53061962715013	200.831440076872	0.54043630717585
+"G0065"	2778903	"G0066"	NA	NA	"14_12_17"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	7.05943016923945	345.565790028602	0.647827147792861
+"G0051"	9911349	"G0052"	NA	NA	"13_12_17"	17	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	NA	6.98459582990184	269.807120026555	0.65189805650667
+"G0053"	10157184	"G0054"	NA	NA	"13_12_17"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	7.53272364660056	297.557639985811	0.68572000427003
+"G0048"	13864425	"G0049"	NA	NA	"12_12_17"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	6.82346685213773	278.774410028942	0.640100326584863
+"G0059"	10847124	"G0060"	NA	NA	"14_12_17"	34	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	6.60210437956056	360.407900030958	0.614108857028653
+"G0055"	11169437	"G0056"	NA	NA	"13_12_17"	42	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	NA	7.7314188059824	256.613380116818	0.709543222378947
+"G0069"	3941994	"G0070"	NA	NA	"15_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	39.9775677	6.69059587219599	264.200729941018	0.622146484277663
+"G0071"	3338883	"G0072"	NA	NA	"15_12_17"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	20.89530042	7.68582714043799	241.262950090575	0.717231653810205
+"G0063"	10707755	"G0064"	NA	NA	"14_12_17"	22	"Lambarene"	"CERMEL"	"CERMEL"	0	NA	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	7.03467366303347	270.743190032372	0.654651672005398
+"G0078"	4202303	"G0079"	NA	NA	"19_12_17"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	16.10613007	6.93863201536782	205.060940087598	0.658792018099932
+"G0082"	2897780	"G0083"	"G0084"	NA	"19_12_17"	35	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	22.75276398	8.03972006556625	267.468169975968	0.742429787017085
+"G0085"	3275355	"G0086"	NA	NA	"19_12_17"	30	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	23.64864865	6.55891950817012	300.396670030372	0.607075154430306
+"G0080"	4510162	"G0081"	NA	NA	"19_12_17"	30	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	30.44444444	7.02003013457275	255.401519973471	0.65212390834406
+"G0075"	6175602	"G0076"	"G0077"	NA	"15_12_17"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	18.35370436	7.5206481038099	275.539880062104	0.686145069893276
+"G0087"	5010772	"G0088"	NA	NA	"20_12_17"	30	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	18.86094675	5.34243750059525	172.411439968389	0.533943430950112
+"G0089"	4305678	"G0090"	NA	NA	"20_12_17"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	17.60215181	7.47282257634559	259.978180131933	0.692390232050694
+"G0103"	3569148	"G0104"	NA	NA	"22_12_17"	30	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	31.92507804	7.17822771853184	222.012870014412	0.674002232692067
+"G0101"	4084875	"G0102"	NA	NA	"22_12_17"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	28.00640146	6.75171375602067	215.984999983979	0.642241076901859
+"G0099"	4401436	"G0100"	NA	NA	"21_12_17"	34	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	7.92558499036148	279.113739980501	0.72736262960531
+"G0105"	2639755	"G0106"	NA	NA	"26_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	30.40625336	7.84517212533516	267.017039908853	0.715281751066263
+"G0073"	14972781	"G0074"	NA	NA	"15_12_17"	32	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	26.35907202	7.23785421875485	225.340670017642	0.677344968339746
+"G0115"	2696032	"G0116"	NA	NA	"28_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	31.03741497	7.00408852111937	216.226739984297	0.657706829882296
+"G0113"	4157832	"G0114"	NA	NA	"28_12_17"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	16.78080964	6.61092133732828	198.517859922955	0.632239600426724
+"G0109"	4383858	"G0110"	NA	NA	"26_12_17"	18	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	NA	6.57916001558986	191.5721099535	0.622111068006214
+"G0107"	4870419	"G0108"	NA	NA	"26_12_17"	35	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	25.84648258	7.53346454435009	246.565410103591	0.702564558997396
+"G0111"	4623560	"G0112"	NA	NA	"26_12_17"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	6.71012171651968	193.817410028889	0.636978240648054
+"G0124"	1688258	"G0125"	NA	NA	"29_12_17"	30	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	26.01281163	6.44140208673921	211.470300063491	0.615185936645954
+"G0117"	3835038	"G0118"	NA	NA	"28_12_17"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	22.06986085	6.68250086469652	198.147239971673	0.633656871515087
+"G0128"	3285909	"G0129"	NA	NA	"29_12_17"	32	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	25.91732094	6.90914104634044	213.902459988894	0.649561425059231
+"G0120"	3674011	"G0121"	NA	NA	"28_12_17"	29	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	25.2363435	7.78332644489151	283.142040024861	0.7172932715858
+"G0126"	3995461	"G0127"	NA	NA	"29_12_17"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.82249817	8.15747731842654	297.536919956212	0.734171335903977
+"G0067"	24209816	"G0068"	NA	NA	"15_12_17"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	16.41548989	6.82594276611925	208.345440070843	0.649240976030908
+"G0132"	4034155	"G0133"	NA	NA	"03_01_18"	38	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.96692337	8.00589921462665	290.019040075596	0.730031936767551
+"G0091"	17929571	"G0092"	NA	NA	"20_12_17"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	19.6484375	7.50549127456538	244.231409952627	0.697759677867254
+"G0134"	5103992	"G0135"	NA	NA	"03_01_18"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	22.2417523	7.52797761896541	295.726990005758	0.693362488666679
+"G0140"	3957704	"G0141"	NA	NA	"04_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	26.49194693	7.07132168602151	252.719970042002	0.658578633807229
+"G0138"	4488387	"G0139"	NA	NA	"03_01_18"	41	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.13942371	7.33966485635927	244.993710068287	0.684436489964305
+"G0136"	4673714	"G0137"	NA	NA	"03_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.56683432	7.81354078085027	263.869640053425	0.715600205905736
+"G0142"	5099700	"G0143"	NA	NA	"04_01_18"	24	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.7578125	6.99955253500124	281.755219998537	0.647089131202245
+"G0130"	10545488	"G0131"	NA	NA	"29_12_17"	26	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	22.10028959	6.44115360163783	194.97079007182	0.616489462153379
+"G0144"	4383595	"G0145"	NA	NA	"05_01_18"	31	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	33.19869615	7.48594798582537	246.582070031436	0.6957273029564
+"G0146"	3972311	"G0147"	NA	NA	"05_01_18"	37	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	22.53690592	8.00516129361429	266.785039891605	0.734055681832356
+"G0154"	3495318	"G0155"	NA	NA	"09_01_18"	22	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Oggooue-Lolo"	19.14672216	5.94753203543348	267.657849875686	0.549710944683203
+"G0150"	3643703	"G0151"	NA	NA	"05_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.23057202	7.95378418814619	249.14337000245	0.731850107731627
+"G0148"	4295119	"G0149"	NA	NA	"05_01_18"	26	"Lambarene"	"CERMEL"	"CERMEL"	1	NA	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	25.03605191	6.34179101715582	205.845739953802	0.606382143253966
+"G0152"	4379194	"G0153"	NA	NA	"09_01_18"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	20.13624901	7.3875945912659	253.03027006425	0.686215876035183
+"G0156"	3952352	"G0157"	NA	NA	"09_01_18"	18	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	23.125	7.97377267887055	271.331499953405	0.734474957512103
+"G0160"	3368299	"G0161"	NA	NA	"09_01_18"	26	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	24.57704618	7.2976246498132	259.605400078755	0.677183686646793
+"G0162"	3918909	"G0163"	NA	NA	"09_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	19.57992168	6.82103984601933	223.487910022552	0.645098112795684
+"G0168"	2805298	"G0169"	NA	NA	"10_01_18"	34	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	28.1238875	7.55826597008793	245.31024005916	0.699155070190597
+"G0172"	3384461	"G0173"	NA	NA	"11_01_18"	43	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Lac_Onangue"	25.52800735	7.63172435348394	252.989030164899	0.704187706068507
+"G0174"	2893960	"G0175"	NA	NA	"11_01_18"	31	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Woleu-Ntem"	30.71088638	8.04800083008852	357.669019911147	0.722636908757061
+"G0166"	5999658	"G0167"	NA	NA	"10_01_18"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	28.76384438	7.51462108593616	240.463200004131	0.697426412639872
+"G0178"	2623056	"G0179"	NA	NA	"11_01_18"	24	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	24.74960081	7.37744956425605	243.830070031749	0.682479908580256
+"G0182"	2684599	"G0183"	NA	NA	"11_01_18"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	24.76167873	7.28885120710201	211.844940054696	0.678731183836756
+"G0164"	7966943	"G0165"	NA	NA	"10_01_18"	26	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	31.24876389	7.23504569369036	281.652670043986	0.671787802076335
+"G0170"	8262172	"G0171"	NA	NA	"10_01_18"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	19.28374656	7.55689634737476	236.240960010153	0.704749789214068
+"G0188"	3743672	"G0189"	NA	NA	"12_01_18"	26	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	21.58557137	8.20903926143951	287.918599991885	0.748065031084719
+"G0192"	3032881	"G0193"	NA	NA	"12_01_18"	18	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	22.16308953	7.37894467983574	288.51244996622	0.680320701850814
+"G0180"	7799279	"G0181"	NA	NA	"11_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	20.2289282	8.15633054462125	278.672850090195	0.744338282322875
+"G0184"	6613102	"G0185"	NA	NA	"12_01_18"	40	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	36.79764714	7.21584064110203	210.660970022553	0.67225013301811
+"G0176"	11985925	"G0177"	NA	NA	"11_01_18"	37	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	22.76795005	6.45185407811704	167.254479985626	0.62943085313948
+"G0190"	7034153	"G0191"	NA	NA	"12_01_18"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	35.8542408	7.05532704363192	211.729299974104	0.664444424449574
+"G0194"	3449687	"G0195"	NA	NA	"15_01_18"	31	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	25.4912764	7.47345701856821	213.757060035015	0.699508297222934
+"G0196"	3750876	"G0197"	NA	NA	"15_01_18"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	20.21403092	6.4789164901129	307.878670057631	0.599670299944521
+"G0200"	3483017	"G0201"	NA	NA	"15_01_18"	29	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	18.27221074	7.73413604970254	295.798730039096	0.700798693571209
+"G0198"	3472527	"G0199"	NA	NA	"15_01_18"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	23.28888889	7.88222472953997	296.778449992882	0.714484414282142
+"G0158"	19246356	"G0159"	NA	NA	"09_01_18"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.48760331	7.53242177532833	341.578149864974	0.686721724467127
+"G0202"	3152548	"G0203"	NA	NA	"16_01_18"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	20.40230915	7.21575290246243	201.515700088989	0.679729149303979
+"G0206"	3428611	"G0207"	NA	NA	"16_01_18"	22	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	23.38099934	7.45270197089585	241.591789964528	0.694207356777449
+"G0208"	3313006	"G0209"	NA	NA	"17_01_18"	22	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	25.35599821	7.1786025901697	257.543549980386	0.668622750535221
+"G0204"	4795243	"G0205"	NA	NA	"16_01_18"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	18.73278237	6.70451722472017	207.691170000122	0.638960270337617
+"G0216"	2798526	"G0217"	NA	NA	"17_01_18"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	20.72840791	7.98002981878452	278.195809871773	0.726486326856076
+"G0186"	15355401	"G0187"	NA	NA	"12_01_18"	26	"Lambarene"	"CERMEL"	"CERMEL"	0	"12+"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.21526057	6.75435293006336	227.410779963539	0.632252771182779
+"G0214"	3614438	"G0215"	NA	NA	"17_01_18"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	20.04461871	7.13752840136425	230.767480032926	0.665692900670868
+"G0212"	4805228	"G0213"	NA	NA	"17_01_18"	31	"Lambarene"	"CERMEL"	"CERMEL"	0	"12+"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	34.16920365	6.83981360770626	221.179560095828	0.647923997985982
+"G0222"	3628629	"G0223"	NA	NA	"18_01_18"	35	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	23.27082362	6.58459558410078	226.233210030594	0.620596818485193
+"G0226"	3195504	"G0227"	NA	NA	"19_01_18"	24	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.75044616	7.80554662053211	280.59401010751	0.714139799094247
+"G0224"	3779724	"G0225"	NA	NA	"18_01_18"	26	"Lambarene"	"CERMEL"	"CERMEL"	1	NA	"Africa"	"Gabon"	"Gabon"	"Estuaire"	19.37919743	7.51129047899296	304.071499999089	0.686248140438918
+"G0228"	3669108	"G0229"	NA	NA	"19_01_18"	33	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	24.86916305	8.28813362638522	309.111159958935	0.744800310579059
+"G0230"	3969519	"G0231"	NA	NA	"19_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	25.15622496	7.33185592472577	277.024799858977	0.673531180116553
+"G0232"	3781810	"G0233"	NA	NA	"19_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	35.55555556	6.5984527983517	216.624749945186	0.626435606407932
+"G0210"	10923797	"G0211"	NA	NA	"17_01_18"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	26.80696014	8.13199037647129	323.09250993497	0.73269821083738
+"G0234"	4101820	"G0235"	NA	NA	"19_01_18"	22	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.82644326	7.65847357098954	273.737570034747	0.706245788286993
+"G0220"	9582729	"G0221"	NA	NA	"18_01_18"	24	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	19.65105601	7.7199322615861	294.094880058372	0.709380269716629
+"G0218"	10730631	"G0219"	NA	NA	"17_01_18"	28	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	26.53468328	7.83089895691185	316.56042000046	0.709390019485403
+"G0236"	5993774	"G0237"	NA	NA	"22_01_18"	27	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	18.81892431	5.41823732626577	176.466850139317	0.530518166635897
+"G0238"	6422006	"G0239"	NA	NA	"22_01_18"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	25.23011177	8.24987059407995	338.392819869507	0.746055052392592
+"G0245"	4180206	"G0246"	NA	NA	"23_01_18"	22	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	32.38001315	8.05912631019664	292.112609952514	0.730110173596408
+"G0251"	3251478	"G0252"	NA	NA	"23_01_18"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	26.82728865	6.9060193548351	231.737939976738	0.649157395943241
+"G0249"	4647832	"G0250"	NA	NA	"23_01_18"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	20.36645272	7.99708977600239	295.181079968344	0.725259399999508
+"G0240"	9302189	"G0241"	NA	NA	"22_01_18"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.09619051	5.85676500656716	165.572970064706	0.564034263842823
+"G0253"	4391719	"G0254"	NA	NA	"23_01_18"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.82222222	6.78622895940394	215.335060171201	0.642440865863019
+"G0242"	7955102	"G0243"	NA	NA	"22_01_18"	28	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	28.70259635	6.05713662852472	156.506040044478	0.594718779031724
+"G0255"	3437821	"G0256"	NA	NA	"23_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Nyanga"	24.2578125	6.46974407595696	218.270089957747	0.612867935891884
+"G0258"	3831648	"G0259"	NA	NA	"24_01_18"	31	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	20.48631767	7.05268008313818	215.736530038354	0.663908691403469
+"G0260"	3154753	"G0261"	NA	NA	"24_01_18"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	30.11998685	6.89248566680147	200.082670016855	0.65398821578976
+"G0262"	4149418	"G0263"	NA	NA	"24_01_18"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	24.31412397	7.98816489094969	312.255089958373	0.721903703731174
+"G0266"	4132382	"G0267"	NA	NA	"24_01_18"	40	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	30.4	6.97768900124926	239.210440052266	0.657760311978278
+"G0276"	2637310	"G0277"	NA	NA	"26_01_18"	27	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	34.83661896	6.68460504370205	192.613460022956	0.637489400876922
+"G0270"	4205898	"G0271"	NA	NA	"25_01_18"	38	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	39.20915713	6.44328504216634	181.535050007922	0.622882900829985
+"G0272"	4045083	"G0273"	NA	NA	"25_01_18"	25	"Lambarene"	"CERMEL"	"CERMEL"	1	NA	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	25.06680718	7.38903417843478	255.997570063337	0.681645780919151
+"G0274"	4134854	"G0275"	NA	NA	"26_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	16.7578125	7.67090551296733	246.43945999397	0.704234598118159
+"G0247"	12983319	"G0248"	NA	NA	"23_01_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.1884318	6.74322129726996	198.534880091785	0.637909946872645
+"G0283"	5981031	"None"	NA	NA	"01_02_18"	30	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	29.54569902	7.61953460214679	301.448079901631	0.69498355132707
+"G0286"	5337500	"G0287"	NA	NA	"02_02_18"	35	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	20.31221304	6.96057051216967	216.07681994309	0.65439655534388
+"G0284"	5845539	"None"	NA	NA	"01_02_18"	27	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.23115041	7.87240275908387	266.037349892897	0.718856550987554
+"G0289"	4037541	"None"	NA	NA	"02_02_18"	22	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	24.73072562	6.59903161729829	273.510500006611	0.611614165583004
+"G0282"	7051907	"None"	NA	NA	"01_02_18"	19	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	23.58634355	7.4504215365014	244.768059993803	0.692532715467612
+"G0288"	6519967	"None"	NA	NA	"02_02_18"	21	"Lambarene"	"CERMEL"	"CERMEL"	0	"12+"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	20.19509221	7.75852204412337	276.040389912901	0.710367610078156
+"G0285"	8274739	"None"	NA	NA	"01_02_18"	27	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	26.74185142	7.89214884615698	272.184890049277	0.720996025789488
+"G0278"	13427311	"G0279"	NA	NA	"26_01_18"	37	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	27.28174603	7.7108756678883	301.151710040343	0.705097384003678
+"G0292"	4375352	"None"	NA	NA	"05_02_18"	28	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	34.77737213	6.80981388041398	222.505069916602	0.636508258945116
+"G0293"	3967893	"G0294"	NA	NA	"05_02_18"	28	"Lambarene"	"CERMEL"	"CERMEL"	0	"0_2"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	21.19115063	8.23126103515861	300.966309951036	0.748200674833056
+"G0297"	3859323	"G0298"	NA	NA	"05_02_18"	33	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	18.5528757	6.78191126334144	245.338229971589	0.633285851717164
+"G0290"	6711550	"None"	NA	NA	"02_02_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Lolo"	23.60299489	7.19880414758791	254.205199911958	0.672703297786907
+"G0295"	5668578	"G0296"	NA	NA	"05_02_18"	30	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Estuaire"	34.1596008	7.17697965100617	222.033609998645	0.670446990586459
+"G0291"	7297527	"None"	NA	NA	"05_02_18"	37	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	26.05835362	7.03401958535422	228.415039983054	0.658000086076744
+"G0301"	3794068	"None"	NA	NA	"06_02_18"	34	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	40.625	8.02791732396222	289.459289974708	0.731035663478724
+"G0299"	7244798	"None"	NA	NA	"06_02_18"	23	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	35.42970487	7.24955632367118	217.769680033263	0.682383018907527
+"G0303"	6381419	"None"	NA	NA	"06_02_18"	44	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	42.22222222	6.86377052012605	193.555160032061	0.644912152772705
+"G0302"	6974562	"None"	NA	NA	"06_02_18"	35	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	38.94223442	7.71390562012422	304.485820182541	0.703267385687184
+"G0304"	5214238	"None"	NA	NA	"06_02_18"	20	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.04772491	8.37305637778771	306.112260050024	0.756503056421676
+"G0300"	7458940	"None"	NA	NA	"06_02_18"	26	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Maritime"	24.5954174	8.11219848339246	281.043800104177	0.735468281437651
+"G0305"	5959816	"None"	NA	NA	"06_02_18"	37	"Lambarene"	"CERMEL"	"CERMEL"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	29.76083761	8.22033973586476	277.188350019627	0.744900532672235
+"G0307"	4966771	"None"	NA	NA	"06_02_18"	25	"Lambarene"	"CERMEL"	"CERMEL"	0	"12+"	"Africa"	"Gabon"	"Gabon"	"Oggooue-Ivindo"	23.03004535	7.70170578634925	267.217289806751	0.71468042933702
+"G0315"	1891284	"G0316"	NA	NA	"27_01_18"	25	"Ikobey"	"Field"	"Tchibanga"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Nyanga"	23.01768991	7.67206743407108	277.04507005238	0.698676779518644
+"G0306"	6568616	"None"	NA	NA	"06_02_18"	34	"Lambarene"	"CERMEL"	"CERMEL"	0	"3_12"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	21.015625	8.67670582789472	295.22126999771	0.782897336681099
+"G0321"	3049788	"G0322"	NA	NA	"28_01_18"	35	"Ikobey"	"Field"	"Tranquille"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Okouagnya"	19.81784449	7.06463046461822	194.949140087992	0.667718129906503
+"G0319"	4124901	"G0320"	NA	NA	"28_01_18"	40	"Ikobey"	"Field"	"Tranquille"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	18.67142053	7.490741584359	270.977800064255	0.690727968751413
+"G0325"	3236074	"G0326"	NA	NA	"28_01_18"	36	"Ikobey"	"Field"	"Tranquille"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	19.15014751	7.14903450369414	267.20146001078	0.663954450525606
+"G0331"	2486227	"G0332"	NA	NA	"28_01_18"	35	"Ikobey"	"Field"	"Tranquille"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Mindokodo"	21.17969822	7.24301098559438	286.051809956902	0.667739715435758
+"G0333"	1847284	"G0334"	NA	NA	"28_01_18"	37	"Ikobey"	"Field"	"Tranquille"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	21.12268519	7.12186020614199	262.485430125438	0.653194180977433
+"G0317"	10090117	"G0318"	NA	NA	"27_01_18"	33	"Ikobey"	"Field"	"Tchibanga"	NA	NA	"Africa"	"Gabon"	"Gabon"	"Nyanga"	22.34183434	7.65520524046766	259.763489981764	0.704677800068761
+"G0335"	6006079	"G0336"	NA	NA	"01_02_18"	18	"Ikobey"	"Field"	"Ikobe"	NA	NA	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	7.36524561042018	237.629790033796	0.68638610575854
+"G0337"	4968708	"G0338"	"G0339"	NA	"01_02_18"	36	"Ikobey"	"Field"	"Ikobe"	NA	NA	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	7.06193488363265	208.716719992924	0.664779898152259
+"G0345"	4695789	"G0346"	NA	NA	"29_01_18"	22	"Ikobey"	"Field"	"Soga"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	21.22899927	7.57101907529478	270.968709991372	0.697576995905852
+"G0313"	13542275	"G0314"	NA	NA	"27_01_18"	24	"Ikobey"	"Field"	"Tchibanga"	NA	NA	"Africa"	"Gabon"	"Gabon"	"Ngounie"	18.31414897	6.93249035685177	194.393040062801	0.654763508787435
+"G0329"	11163146	"G0330"	NA	NA	"28_01_18"	28	"Ikobey"	"Field"	"Tranquille"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	20.78993751	7.17626942542077	243.183620024472	0.666483847674378
+"G0323"	12836282	"G0324"	NA	NA	"28_01_18"	30	"Ikobey"	"Field"	"Tranquille"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Nyanga"	23.02533214	7.08635945585373	237.6027400319	0.662625987514513
+"G0357"	3142540	"G0358"	"G0359"	NA	"29_01_18"	22	"Ikobey"	"Field"	"Soga"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	19.54866898	6.40267774473362	187.458249964984	0.622082944272556
+"G0367"	3155478	"G0368"	"G0369"	NA	"30_01_18"	30	"Ikobey"	"Field"	"Makabana"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	17.22327242	7.79871619898196	318.701270037855	0.7006573611817
+"G0348"	6404538	"G0349"	"G0350"	NA	"29_01_18"	21	"Ikobey"	"Field"	"Soga"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	NA	6.21773040210905	177.039289966517	0.605892899627041
+"G0354"	6258536	"G0355"	"G0356"	NA	"29_01_18"	32	"Ikobey"	"Field"	"Soga"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	20.521262	8.03834062336548	315.006780022348	0.731605303607263
+"G0363"	6288319	"G0364"	"G0365"	"G0366"	"29_01_18"	24	"Ikobey"	"Field"	"Soga"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Moyen-Ogooue"	21.91111111	7.79159772868603	303.333949938475	0.712191443097083
+"G0376"	1575412	"G0377"	NA	NA	"30_01_18"	45	"Ikobey"	"Field"	"Makabana"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Nyanga"	19.35717613	6.75836730988098	194.241869975929	0.643480485640464
+"G0372"	3863516	"G0373"	NA	NA	"30_01_18"	28	"Ikobey"	"Field"	"Makabana"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	21.84453088	7.59027158002708	300.236290016677	0.69158821557808
+"G0370"	4549355	"G0371"	NA	NA	"30_01_18"	38	"Ikobey"	"Field"	"Iboundji"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	18.49831383	7.48055675234192	241.958739972266	0.700345452835636
+"G0361"	8651344	"G0362"	NA	NA	"29_01_18"	23	"Ikobey"	"Field"	"Soga"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	19.73597649	7.70717086335662	308.409260144632	0.697362333562638
+"G0382"	3093729	"G0383"	"G0388"	NA	"30_01_18"	33	"Ikobey"	"Field"	"Nyoe2"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	21.144641	7.44209232355438	258.068319928483	0.689387231744783
+"G0327"	20441034	"G0328"	NA	NA	"28_01_18"	26	"Ikobey"	"Field"	"Tranquille"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	21.9084256	7.69549885013374	295.03387011122	0.702749606730796
+"G0374"	5488382	"G0375"	NA	NA	"30_01_18"	41	"Ikobey"	"Field"	"Iboundji"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	19.71335713	8.21259934325707	326.202009860426	0.742141076392078
+"G0378"	5277522	"G0379"	NA	NA	"30_01_18"	28	"Ikobey"	"Field"	"Omboue"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	24.85075663	7.53815289946651	304.133269874437	0.686125374966531
+"G0391"	2983459	"G0392"	NA	NA	"30_01_18"	23	"Ikobey"	"Field"	"Nyoe2"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	21.19487251	7.01640380098272	201.173310001497	0.662982984743134
+"G0393"	2426304	"G0394"	"G0395"	NA	"31_01_18"	25	"Ikobey"	"Field"	"Divinde"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	19.46803397	7.29629376965434	266.839430018852	0.673975584729437
+"G0380"	7826134	"G0381"	NA	NA	"30_01_18"	35	"Ikobey"	"Field"	"Omboue"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	22.6851071	7.66444720753256	262.327479879372	0.709135261561598
+"G0389"	7141980	"G0390"	NA	NA	"30_01_18"	25	"Ikobey"	"Field"	"Nyoe2"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	28.01248699	7.00017970923961	215.726330049918	0.66347717859531
+"G0396"	7128570	"G0397"	NA	NA	"31_01_18"	18	"Ikobey"	"Field"	"Divinde"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	23.15616343	7.7529313704136	250.567789960711	0.717002320315724
+"G0407"	2855833	"G0408"	"G0409"	NA	"31_01_18"	37	"Ikobey"	"Field"	"Divinde"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	21.10958695	7.66842354503361	245.572199995979	0.711700704859912
+"G0398"	6751580	"G0399"	NA	NA	"31_01_18"	22	"Ikobey"	"Field"	"Divinde"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngueolibo"	23.30905307	7.47713310451945	297.428149906045	0.684046544492903
+"G0400"	6084312	"G0401"	"G0402"	NA	"31_01_18"	21	"Ikobey"	"Field"	"Divinde"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	27.8152849	7.94966888281739	283.202489957737	0.725382570034187
+"G0384"	14861270	"G0385"	NA	NA	"30_01_18"	37	"Ikobey"	"Field"	"Nyoe2"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	22.57286873	7.54782256517119	240.601560052077	0.701423566640526
+"G0403"	10817218	"G0404"	NA	NA	"31_01_18"	35	"Ikobey"	"Field"	"Divinde"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ogooue-Lolo"	21.14859549	7.76992416647492	272.924750036618	0.713673805363651
+"G0411"	13544832	"G0412"	NA	NA	"31_01_18"	55	"Ikobey"	"Field"	"Erouba"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.51374880454888	273.282960002776	0.691459486407412
+"G0418"	11115457	"G0419"	NA	NA	"31_01_18"	24	"Ikobey"	"Field"	"Erouba"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.59652325481638	272.239500046999	0.694921993359662
+"G0416"	12779793	"G0417"	NA	NA	"31_01_18"	26	"Ikobey"	"Field"	"Erouba"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.50877070967934	274.705519880925	0.691346158507805
+"G0422"	11877806	"G0423"	NA	NA	"31_01_18"	32	"Ikobey"	"Field"	"Erouba"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.1879814949726	214.845940138155	0.662427664974927
+"G0420"	14261777	"G0421"	NA	NA	"31_01_18"	26	"Ikobey"	"Field"	"Erouba"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.7569072628357	280.215929952392	0.70864088069569
+"G0426"	10571126	"None"	NA	NA	"01_02_18"	NA	"Ikobey"	"Field"	"Sur_La_Route"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.31934612135188	250.614080046013	0.680138575123365
+"G0405"	24897711	"G0406"	NA	NA	"31_01_18"	27	"Ikobey"	"Field"	"Divinde"	0	"Never"	"Africa"	"Gabon"	"Gabon"	"Ngounie"	23.21663379	7.0033604344429	257.986040077347	0.649976690555788
+"T003"	3666694	"T004"	NA	NA	"13_11_18"	32	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bavaria"	21.61281179	7.4387144595264	248.353299991984	0.694004911449633
+"T005"	3746291	"None"	NA	NA	"13_11_18"	24	"ITM"	"ITM"	"ITM"	1	NA	"Europe"	"Germany"	"Germany"	"Bavaria"	22.34351559	7.31142213523041	211.841589994496	0.694508487743209
+"G0432"	7772190	"None"	NA	NA	"01_02_18"	NA	"Ikobey"	"Field"	"Sur_La_Route"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.02371620669946	253.024930082902	0.650631578027095
+"G0433"	9998601	"None"	NA	NA	"01_02_18"	NA	"Ikobey"	"Field"	"Sur_La_Route"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.69039471716881	288.425439988903	0.700802515365706
+"G0413"	24391973	"G0414"	"G0415"	NA	"31_01_18"	35	"Ikobey"	"Field"	"Erouba"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	7.99750916050511	271.984270057234	0.732398908985776
+"T012"	6266527	"None"	NA	NA	"27_11_18"	24	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Mecklenburg-vorpommern"	19.94805977	6.48960237658206	195.848899982986	0.626093496917886
+"T014"	4037578	"None"	NA	NA	"27_11_18"	23	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Hessen"	27.06405159	7.14651053371169	217.336440035899	0.668141823260121
+"T021"	4513995	"None"	NA	NA	"11_12_18"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	21.13885586	7.79664966483442	260.141479998943	0.718262938761927
+"T013"	5415874	"None"	NA	NA	"27_11_18"	25	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	24.22145329	7.05164601227231	197.196000039345	0.674920321151226
+"T017"	6856313	"None"	NA	NA	"04_12_18"	21	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.703125	5.28652706403433	149.95404995128	0.538158345794415
+"T024"	5013983	"T025"	NA	NA	"08_01_19"	29	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	28.3530572	6.36763266913748	192.510869970836	0.621430064314684
+"T027"	4722793	"None"	NA	NA	"11_12_18"	23	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"North_Rhine-Westphalia"	22.47658689	6.25222263780918	159.620330090926	0.615384036919479
+"T022"	5768186	"T023"	NA	NA	"11_12_18"	32	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.83287935	7.53181336597404	259.821749937953	0.698330773624
+"T026"	5542575	"T028"	NA	NA	"11_12_18"	35	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.47120876	7.91304256637491	291.356500065653	0.726010040989895
+"T034"	6255314	"T035"	NA	NA	"20_12_18"	29	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.58270917	5.50863841729631	168.875080048223	0.543077028747052
+"T036"	7237558	"T037"	NA	NA	"20_12_18"	27	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Saxony"	22.40587695	6.27513571584379	175.343719971657	0.619111651559178
+"G0427"	21909524	"None"	NA	NA	"01_02_18"	NA	"Ikobey"	"Field"	"Sur_La_Route"	NA	NA	"Africa"	"Gabon"	"Gabon"	NA	NA	8.25691609071733	303.986569934059	0.751110925779761
+"T048"	3577169	"None"	NA	NA	"10_01_19"	34	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.05805119	6.44234105241691	195.883970155381	0.618206804038645
+"T038"	6621187	"T039"	NA	NA	"08_01_19"	37	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.59700421	6.58887864933569	192.294410014409	0.636210032961183
+"T046"	4630377	"T047"	NA	NA	"08_01_19"	36	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	24.8015873	7.0538877130994	236.715079923975	0.664827507899122
+"T042"	5082837	"T043"	NA	NA	"08_01_19"	27	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Hessen"	19.84126984	6.8988462120657	231.345269955695	0.65605202869612
+"T049"	5598584	"None"	NA	NA	"10_01_19"	28	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.06920415	6.88082895937878	197.723440012895	0.660417559813211
+"T052"	2872607	"T053"	NA	NA	"10_01_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bavaria"	26.64359862	7.22499467220733	237.154590020305	0.678565192070245
+"T050"	6096467	"T051"	NA	NA	"10_01_19"	32	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	28.39372634	6.43707682166401	168.33038000518	0.621949759269781
+"T054"	4779732	"None"	NA	NA	"15_01_19"	27	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	21.1552942	7.50369635958838	274.932389976282	0.698026744442555
+"T060"	4089768	"None"	NA	NA	"24_01_19"	29	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.80869017	5.50488237460394	173.815599911439	0.539581999754351
+"T061"	4280668	"T062"	NA	NA	"24_01_19"	29	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bavaria"	20.90419501	7.28199745626996	221.006010049372	0.684266311270514
+"T056"	5908588	"None"	NA	NA	"15_01_19"	25	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	18.68512111	7.33315666432721	212.395820081816	0.689425163144698
+"T058"	6963687	"T059"	NA	NA	"15_01_19"	35	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.99945917	6.78538894227513	178.069250099128	0.663516081139375
+"T063"	5600602	"None"	NA	NA	"24_01_19"	28	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"North_Rhine-Westphalia"	20.9572742	7.06803222880708	185.63701000053	0.678660186916274
+"T071"	5181677	"None"	NA	NA	"29_01_19"	21	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	21.63114885	6.9968003838929	253.357609871309	0.658027230725441
+"T072"	4944077	"None"	NA	NA	"29_01_19"	25	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.61275089	6.40828093153094	177.48776004737	0.628585950899965
+"T068"	5749737	"None"	NA	NA	"29_01_19"	39	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Berlin"	24.44444444	7.74973271856864	243.394340022176	0.718535707375084
+"T066"	7986400	"T067"	NA	NA	"24_01_19"	36	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	24.8015873	7.37330961442186	210.737199922558	0.70051731863478
+"T074"	5688972	"None"	NA	NA	"29_01_19"	25	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.05175491	7.35851534053233	225.414390038699	0.689602885590121
+"T079"	2272973	"T080"	NA	NA	"07_02_19"	31	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bavaria"	22.37567995	7.30299227778212	227.202939956507	0.683217071963846
+"T075"	6116006	"None"	NA	NA	"07_02_19"	21	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.69266529	7.32247494095717	210.170020098391	0.694341333698468
+"T076"	4890714	"T077"	NA	NA	"07_02_19"	26	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Brandenburg"	22.67573696	6.06706213520058	190.719860021083	0.59237181379093
+"T078"	5190537	"None"	NA	NA	"07_02_19"	26	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"North_Rhine-Westphalia"	25.78125	5.66009699975159	175.406119948311	0.558008790592191
+"T081"	4319284	"T082"	NA	NA	"07_02_19"	26	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	41.40625	6.7877104963268	202.976989994815	0.64464174595406
+"T089"	3174483	"None"	NA	NA	"08_02_19"	26	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Mecklenburg-Vorpommern"	28.25851812	7.84581470982991	285.255299892393	0.719642704221867
+"T085"	4750633	"T086"	NA	NA	"07_02_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bavaria"	18.19548277	5.84719864467687	185.861559976591	0.57368825161451
+"T083"	5410704	"T084"	NA	NA	"07_02_19"	27	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	18.59012493	6.83508733626077	192.602300092578	0.656895185949785
+"T093"	4105434	"None"	NA	NA	"08_02_19"	22	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	24.08822312	6.60626917507913	184.992429969774	0.635425633090974
+"T095"	3638605	"T096"	NA	NA	"08_02_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.56663223	7.32823318392986	232.253690078098	0.687164837370236
+"T094"	5402894	"None"	NA	NA	"08_02_19"	27	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	30.44982699	6.62685536866458	232.486580032681	0.626230056273145
+"T101"	3389744	"None"	NA	NA	"18_02_19"	20	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Rheinland-Pfalz"	22.49134948	6.51789816111066	197.918520055362	0.627378909177038
+"T090"	6362155	"None"	NA	NA	"08_02_19"	24	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	21.61281179	7.68268037179453	259.660760115075	0.714732341802535
+"T103"	3742744	"None"	NA	NA	"18_02_19"	20	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Rheinland-Pfalz"	23.30109483	7.44488648650418	245.743069905788	0.694636243214193
+"T099"	4858879	"T100"	NA	NA	"08_02_19"	31	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	24.78425752	7.7567110439798	248.735039842897	0.721563280034941
+"T107"	2134295	"T108"	NA	NA	"18_02_19"	37	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.10009183	6.80435076664078	229.418990068894	0.649033797541258
+"T104"	4535131	"None"	NA	NA	"18_02_19"	22	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Thuringia"	24.57786715	5.59328958493782	167.878669904894	0.556705544180049
+"T109"	2084155	"None"	NA	NA	"18_02_19"	28	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.76124567	7.75895903792252	277.758800064155	0.712268820976038
+"T110"	3175649	"None"	NA	NA	"18_02_19"	25	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bavaria"	22.94811574	7.20457543998228	256.162589992688	0.674674146998246
+"T105"	5168102	"T106"	NA	NA	"18_02_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	21.96712018	6.03683736820392	191.616480081924	0.590527094161913
+"T114"	3933259	"T115"	NA	NA	"18_02_19"	33	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	42.87131519	6.62258199432998	223.177239926183	0.628147776392621
+"T121"	3483340	"None"	NA	NA	"24_02_19"	25	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.92097107	6.26121232543266	216.510979883838	0.599504460909084
+"T123"	2667569	"T124"	NA	NA	"24_02_19"	35	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	28.90625	5.46394367919059	170.08574993111	0.543097984104772
+"T122"	2813032	"None"	NA	NA	"24_02_19"	22	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bavaria"	22.20408163	7.06557747448684	229.907800014771	0.664779948093486
+"T119"	4172906	"None"	NA	NA	"24_02_19"	21	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Bavaria"	19.10009183	6.95295184671463	241.537520080281	0.654973099523134
+"T111"	4944591	"None"	NA	NA	"18_02_19"	25	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	29.9382716	6.75064432019886	198.466279950517	0.650254432500188
+"T125"	3693432	"None"	NA	NA	"24_02_19"	23	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.14814815	7.61426403623717	245.48521994875	0.711641896858954
+"T127"	2391315	"None"	NA	NA	"24_02_19"	24	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.98190175	7.53469056671689	232.896959971695	0.702678896810812
+"T129"	3061944	"None"	NA	NA	"25_02_19"	36	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	26.34649403	6.53442685837256	223.686849947786	0.626413110204355
+"T126"	4018342	"None"	NA	NA	"24_02_19"	18	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.72103697	6.95590522441924	190.478710027237	0.672222627467647
+"T130"	3258100	"T131"	NA	NA	"25_02_19"	36	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.03172568	7.81295717077561	279.47054000909	0.721278238116568
+"T128"	3802874	"None"	NA	NA	"25_02_19"	26	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Hessen"	20.06920415	7.4586129627137	249.332700089377	0.697604927516239
+"T135"	3912697	"T136"	NA	NA	"25_02_19"	30	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.30741221	7.16945545066104	231.628510123352	0.67654744723256
+"T132"	5660481	"T133"	NA	NA	"25_02_19"	31	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	25.25951557	5.72846142712247	159.053449985804	0.577445329880132
+"T146"	3127087	"None"	NA	NA	"26_02_19"	26	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Bavaria"	21.56454491	6.65538764851412	204.405630029389	0.630568157797663
+"T151"	1923918	"T152"	NA	NA	"26_02_19"	37	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	28.57796068	6.59379502863616	211.419689995004	0.624167145200542
+"T140"	4787766	"T141"	NA	NA	"25_02_19"	30	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.93948099	7.73334335004772	269.516359958216	0.720690077059105
+"T148"	3744169	"None"	NA	NA	"26_02_19"	24	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Berlin"	25.34435262	7.47487574063162	284.790689919319	0.690725545837957
+"T138"	5572129	"T139"	NA	NA	"25_02_19"	33	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"North_Rhine-Westphalia"	19.72318339	6.66581654652868	215.730800117832	0.638753082442685
+"T154"	2990917	"T155"	NA	NA	"26_02_19"	40	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.38156971	6.76067010426478	219.571660073299	0.641776696541067
+"T147"	6784517	"None"	NA	NA	"26_02_19"	26	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	26.171875	6.21496410079974	192.545320081059	0.599850962986374
+"T158"	2607458	"None"	NA	NA	"26_02_19"	19	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.36247266	7.32172917071133	273.424090123561	0.682709656678872
+"T150"	6726548	"None"	NA	NA	"26_02_19"	22	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.51508648	7.07911102650747	239.580210100394	0.663253633563022
+"T163"	2934726	"None"	NA	NA	"26_02_19"	26	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	27.73229978	6.46395493876376	204.729149857303	0.623160033539817
+"T159"	3125266	"T160"	NA	NA	"26_02_19"	40	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Bavaria"	24.22145329	6.60168372461094	213.341460037627	0.628621793346947
+"T156"	6137635	"None"	NA	NA	"26_02_19"	22	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Rheinland-Pfalz"	27.25088745	6.75235907661848	196.611220037972	0.64646715933481
+"T164"	3926284	"None"	NA	NA	"26_02_19"	24	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	17.63085399	6.71957247139889	226.185540010512	0.635104749900908
+"T157"	6613579	"None"	NA	NA	"26_02_19"	25	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	21.60493827	5.92225091405516	180.855340107053	0.583780229190053
+"T171"	2919359	"None"	NA	NA	"04_03_19"	26	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Rheinland-Pfalz"	20.41522491	6.62252357756674	207.843929998169	0.630725788624545
+"T173"	3232607	"None"	NA	NA	"04_03_19"	25	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.72440348	6.71697071406174	265.604479940317	0.63323857326805
+"T176"	2989102	"T177"	NA	NA	"04_03_19"	28	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.70553242	7.57855701437656	258.015380006225	0.705486753986045
+"T180"	2396147	"T181"	NA	NA	"04_03_19"	27	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Hessen"	29.3877551	6.97567331832319	221.340590004751	0.658376951247926
+"T179"	2561038	"None"	NA	NA	"04_03_19"	29	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.82093992	6.75718920129451	199.40572990285	0.647767890828665
+"T186"	2552730	"T187"	NA	NA	"12_03_19"	29	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Saxony-Anhalt"	28.57796068	6.2384662666409	168.024240097613	0.614182650877234
+"T174"	7139062	"None"	NA	NA	"04_03_19"	23	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.72318339	6.56915777823871	197.147789901879	0.63511938767835
+"T196"	1793136	"T197"	NA	NA	"12_03_19"	33	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.72103697	7.06870619423669	184.400780152471	0.674574062693281
+"T188"	3735567	"T189"	NA	NA	"12_03_19"	32	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Rhineland-Palatinate"	24.69135802	6.40107055059543	177.766189998132	0.623048267680639
+"T198"	2740902	"None"	NA	NA	"12_03_19"	23	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	17.90885536	7.20195420044941	223.9088900715	0.680153772040281
+"T169"	8978516	"T170"	NA	NA	"04_03_19"	30	"ITM"	"ITM"	"ITM"	0	NA	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.58270917	6.76917418462881	195.782070058049	0.648527972088716
+"T202"	1516450	"None"	NA	NA	"12_03_19"	27	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.13265306	6.95865043917663	193.932320059685	0.664135424985174
+"T201"	2265631	"None"	NA	NA	"12_03_19"	21	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	18.93877551	7.35455923975479	240.83662005543	0.691378436389094
+"T203"	2888632	"T204"	NA	NA	"12_03_19"	35	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	25.390625	5.81962562803647	153.45773999329	0.582621817639643
+"T211"	5400668	"None"	NA	NA	"24_03_19"	25	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	21.2244898	6.43271756386648	197.431599939999	0.622128711932172
+"T212"	5337000	"T213"	NA	NA	"24_03_19"	31	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	35.81771071	6.10299586695201	198.70022993884	0.588919475819948
+"T214"	5225543	"T238"	NA	NA	"24_03_19"	32	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.90419501	6.62999761911478	222.585740032548	0.633444124491836
+"T215"	5047806	"T216"	NA	NA	"24_03_19"	34	"ITM"	"ITM"	"ITM"	0	"Never"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	25.10387812	6.41949007969685	216.48444989376	0.617143177169501
+"T217"	5082741	"T218"	NA	NA	"24_03_19"	32	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	26.171875	6.46382907048042	223.960559963947	0.616434702510012
+"T194"	10677620	"T195"	NA	NA	"12_03_19"	34	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Thuringia"	26.57312925	7.35537247136336	228.200629998522	0.69057710774749
+"T192"	12433337	"T193"	NA	NA	"12_03_19"	31	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"North_Rhine-Westphalia"	24.02380867	6.58587233253412	252.476249929052	0.630840902091557
+"T219"	2953668	"None"	NA	NA	"24_03_19"	28	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"North_Rhine-Westphalia"	19.48738275	6.87888919570701	254.352580096689	0.641264527884197
+"T220"	2910682	"None"	NA	NA	"24_03_19"	29	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"North_Rhine-Westphalia"	25.05930703	7.86380712289268	268.236080079107	0.720795984205489
+"T227"	3513794	"T228"	NA	NA	"24_03_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	18.75	6.26493459094046	190.740450056561	0.60822525775184
+"T225"	3730526	"T226"	NA	NA	"24_03_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.94811574	7.8115104870728	247.009699947375	0.72295747779074
+"T231"	3256313	"T232"	NA	NA	"24_03_19"	30	"ITM"	"ITM"	"ITM"	0	"02. May"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	29.98358793	6.21791082475989	201.250289967167	0.604673480504654
+"T229"	3725831	"T230"	NA	NA	"24_03_19"	27	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	31.97501487	6.412721880776	204.502140043187	0.619332376903911
+"T237"	2795270	"None"	NA	NA	"24_03_19"	23	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.56932966	5.88097566996458	256.533490021364	0.564338203143387
+"T239"	2267107	"None"	NA	NA	"26_03_19"	22	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.89307408	7.52902228101548	263.364360093372	0.694761824096104
+"T233"	4806688	"T234"	NA	NA	"24_03_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.83673469	7.05726419489826	273.264009890147	0.650427895896907
+"T246"	2122146	"None"	NA	NA	"26_03_19"	25	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.06920415	7.35403101295729	244.693249999313	0.685940021961879
+"T241"	3857964	"T242"	NA	NA	"26_03_19"	30	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.83516296	6.59310533572034	184.828740051424	0.640441789604556
+"T245"	3118444	"None"	NA	NA	"26_03_19"	26	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	27.05515088	6.8505104381686	222.876440108812	0.650726706334759
+"T168"	25693136	"None"	NA	NA	"04_03_19"	27	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	25.0995016	7.57323661100965	280.660600006231	0.698334908805183
+"T235"	5963078	"T236"	NA	NA	"24_03_19"	37	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Brandenburg"	27.75510204	6.89948880013004	240.882600087207	0.650672569520746
+"T255"	3032328	"T256"	NA	NA	"26_03_19"	33	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	33.74945565	5.299678251941	143.855709989322	0.543006041918763
+"T257"	2314055	"None"	NA	NA	"26_03_19"	41	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Niedersachsen"	23.45856238	6.53269500359885	196.689460005262	0.627833367450417
+"T264"	2586127	"T265"	NA	NA	"26_03_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Saarland"	21.4532872	7.07232667011762	226.255729981232	0.664959957579008
+"T260"	3038702	"T261"	NA	NA	"26_03_19"	23	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Rheinland-Pfalz"	28.71972318	7.41544249413967	232.25045998994	0.690519249153657
+"T243"	7542828	"T244"	NA	NA	"26_03_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.32341806	7.08574392733853	228.572079973295	0.66133858101863
+"T266"	3266409	"T267"	NA	NA	"28_03_19"	27	"ITM"	"ITM"	"ITM"	0	"Never"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.2812331	6.83326989083481	173.296929943433	0.669869406157974
+"T251"	7109983	"T252"	NA	NA	"26_03_19"	35	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.86253448	7.05184403460429	253.449419939134	0.653483235072227
+"T274"	2182515	"T275"	NA	NA	"28_03_19"	40	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	26.70362358	7.27543317565988	229.033299958159	0.686910997078289
+"T280"	2260066	"T281"	NA	NA	"28_03_19"	29	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.36247266	5.27092256733882	151.041469967633	0.529905723639372
+"T276"	4686302	"T277"	NA	NA	"28_03_19"	31	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	27.44059917	6.79921856955685	220.247509900306	0.647003289600137
+"T282"	2818738	"T283"	NA	NA	"28_03_19"	32	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	18.06616734	6.33446850278968	176.095970048977	0.616077768102198
+"T286"	5459239	"T287"	NA	NA	"28_03_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.25501864	7.00689304837934	233.753540017991	0.662025497103547
+"T284"	6786450	"T285"	NA	NA	"28_03_19"	27	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	25.95155709	6.44178631561307	203.38674989267	0.614568744384889
+"T262"	12695261	"T263"	NA	NA	"26_03_19"	35	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	25.06574622	7.46174059143953	218.857530153182	0.69772684532612
+"T268"	11328982	"T269"	NA	NA	"28_03_19"	29	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	24.38237298	6.21612025415206	161.79205000092	0.612979449873777
+"T271"	10932039	"T272"	NA	NA	"28_03_19"	27	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.45856238	7.11107326074788	206.4636200596	0.678617196386424
+"T290"	6062279	"T291"	NA	NA	"28_03_19"	29	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	28.28282828	5.43184634535578	158.22248005186	0.538616713027939
+"T292"	2559275	"T293"	NA	NA	"28_03_19"	34	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.58955144	8.08229646566159	281.727620066842	0.733078834966807
+"T301"	3192079	"None"	NA	NA	"02_04_19"	30	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	20.01549587	6.43680176976029	300.347160088539	0.603224545846659
+"T278"	10885873	"T279"	NA	NA	"28_03_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Sachsen-Anhalt"	19.36983471	7.59550463730865	259.943860171072	0.711930501501328
+"T302"	3989607	"None"	NA	NA	"02_04_19"	27	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.95935549	6.55779426094086	231.525609985751	0.622633179837303
+"T303"	5683735	"T304"	NA	NA	"02_04_19"	34	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	25.72755521	6.22086602257655	172.967919997056	0.614695632451916
+"T288"	12079838	"T289"	NA	NA	"28_03_19"	39	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.72043837	6.94651740322149	196.631739917502	0.667060264738346
+"T313"	2748075	"T314"	NA	NA	"02_04_19"	31	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	NA	7.37386638560755	231.637649904354	0.69331156600623
+"T297"	9266803	"T298"	NA	NA	"28_03_19"	35	"ITM"	"ITM"	"ITM"	0	"3_12"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.48132907	6.27135286154692	175.068419978372	0.614049629444279
+"T295"	9890655	"T296"	NA	NA	"28_03_19"	30	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	22.49134948	5.52233785392014	153.0249799866	0.55412978007354
+"T309"	6031528	"T310"	NA	NA	"02_04_19"	36	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	28.73469388	6.13617230131895	186.671670050069	0.602478881157005
+"T327"	2448257	"T328"	NA	NA	"02_04_19"	33	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bremen"	29.76083761	7.02270545573353	202.696110041696	0.666774414532609
+"T325"	4593605	"T326"	NA	NA	"02_04_19"	29	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.66143862	7.22548033467421	257.750289969612	0.674110945799887
+"T333"	2365157	"T334"	NA	NA	"02_04_19"	39	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	23.24380165	6.99411746133996	225.449750117667	0.658339183086191
+"T331"	5402183	"T332"	NA	NA	"02_04_19"	29	"ITM"	"ITM"	"ITM"	0	"0_2"	"Europe"	"Germany"	"Germany"	"Thuringia"	21.93634741	6.48873025885084	199.032280066458	0.623290003455365
+"T329"	5732049	"T330"	NA	NA	"02_04_19"	36	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	24.24242424	6.71835581228016	200.497420048981	0.634707568574044
+"T307"	12933256	"T308"	NA	NA	"02_04_19"	40	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Bavaria"	35.78514739	7.47853847597286	219.390090022993	0.706901894233773
+"T335"	4650862	"T336"	NA	NA	"02_04_19"	38	"ITM"	"ITM"	"ITM"	0	"Never"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	26.57312925	7.92585358733996	265.592269933899	0.733157677052823
+"T311"	11818974	"T312"	NA	NA	"02_04_19"	30	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.46740129	6.77266259281623	181.052730026888	0.651363197243635
+"T315"	9888963	"T316"	NA	NA	"02_04_19"	36	"ITM"	"ITM"	"ITM"	0	"12+"	"Europe"	"Germany"	"Germany"	"Baden-Wuerttenburg"	19.53125	6.08794124723855	205.514510058565	0.586664521203522
+"V003"	4993951	"V004"	NA	NA	"18_4_18"	23	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.77769867	7.69536739743095	266.599970168609	0.709648047143997
+"V013"	3016070	"V014"	NA	NA	"18_4_18"	27	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.97918835	8.1833363471153	334.693279838539	0.74327554329102
+"V001"	6989338	"V002"	NA	NA	"18_4_18"	31	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	NA	6.16241182160061	189.492439974158	0.593593057465263
+"V007"	4367012	"V008"	NA	NA	"18_4_18"	23	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.89281998	7.04193319505588	214.763109968568	0.663527791459336
+"V009"	4472801	"V010"	NA	NA	"18_4_18"	28	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	26.83518006	7.88178057186247	249.179450036318	0.731894538584213
+"V017"	2767190	"V018"	NA	NA	"18_4_18"	32	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.18934911	6.31702532523626	182.394880033098	0.61067716753948
+"V005"	5960570	"V006"	NA	NA	"18_4_18"	29	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	29.666548	6.92358280541737	216.821819958452	0.651141346069423
+"V019"	2460915	"V020"	NA	NA	"18_4_18"	19	"Sonla"	"Sonla"	"Chiengxom"	1	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	20.69049454	5.50169802077381	180.163869995798	0.539659562198121
+"V025"	2441679	"V026"	NA	NA	"19_4_18"	29	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.66666667	4.94784019201575	133.13371009141	0.515504597618366
+"V015"	5882232	"V016"	NA	NA	"18_4_18"	33	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.21875	6.64616693057327	177.19685004605	0.644736936876182
+"V027"	1987798	"V028"	NA	NA	"19_4_18"	18	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.7189744	7.21407545449427	231.035050050821	0.680102838425152
+"V029"	2394478	"V030"	NA	NA	"19_4_18"	33	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.37257618	7.45147614684741	243.231060048041	0.69547371623705
+"V023"	3547558	"V024"	NA	NA	"18_4_18"	28	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.60127725	5.72829366862776	177.327189929842	0.564096137135288
+"V033"	2935844	"V034"	NA	NA	"19_4_18"	25	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	18.31425598	7.9386558118737	269.345960144245	0.731135541260949
+"V035"	3073519	"V036"	NA	NA	"19_4_18"	23	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.921875	7.20945271743029	257.572739872616	0.673100831581385
+"V043"	2927642	"V044"	NA	NA	"19_4_18"	26	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	18.359375	6.17962229949098	189.714719972049	0.596439871111201
+"V037"	3629231	"V038"	NA	NA	"19_4_18"	28	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	20.44444444	7.49528729952018	237.419139982085	0.698560319946423
+"V011"	12421787	"V012"	NA	NA	"18_4_18"	21	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.44444444	6.73271727614157	211.286219952977	0.642448324918702
+"V045"	4295488	"V046"	NA	NA	"19_4_18"	31	"Sonla"	"Sonla"	"Chiengxom"	0	"12+"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.01117686	8.06300694602395	329.834089832671	0.729828824974123
+"V051"	3742353	"V052"	NA	NA	"19_4_18"	30	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.63114885	4.83551657000374	223.841319989937	0.469295367223261
+"V047"	4990449	"V048"	NA	NA	"19_4_18"	18	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.65483235	6.09999233504632	209.484920032322	0.585414169625569
+"V021"	13560480	"V022"	NA	NA	"19_4_18"	18	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.55555556	6.60406777953167	214.115709829901	0.623965746938468
+"V031"	11462311	"V032"	NA	NA	"19_4_18"	35	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.05175491	7.03112010497381	233.01825989387	0.660804346809529
+"V057"	3371970	"V058"	NA	NA	"19_4_18"	24	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.53125	6.47238354183815	225.505629860447	0.612124031289202
+"V055"	4866723	"V056"	NA	NA	"19_4_18"	18	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.34778209	7.12232023835721	203.302149969793	0.677621543455112
+"V063"	2987605	"V064"	NA	NA	"19_4_18"	27	"Sonla"	"Sonla"	"Chiengxom"	1	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	25.15315023	6.67337990501187	190.679240070167	0.646102230147182
+"V041"	15496599	"V042"	NA	NA	"19_4_18"	33	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	28.22838647	7.45712653771127	219.11940009339	0.692995131749301
+"V059"	8628061	"V060"	NA	NA	"19_4_18"	26	"Sonla"	"Sonla"	"Chiengxom"	1	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.97918835	7.06570941481267	255.275990043767	0.660266056292295
+"V069"	4180268	"V070"	NA	NA	"20_4_18"	27	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	26.171875	7.34445045322877	232.864839860005	0.684828287213424
+"V067"	5212773	"V068"	NA	NA	"20_4_18"	24	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.10009183	5.39197735259891	195.143419931643	0.519706685288126
+"V053"	12981445	"V054"	NA	NA	"19_4_18"	20	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	17.90885536	6.79629405927583	210.559660042287	0.639224870395265
+"V071"	4308386	"V072"	NA	NA	"20_4_18"	34	"Sonla"	"Sonla"	"Chiengxom"	NA	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.484375	5.69181815044121	186.390919868601	0.559122689614595
+"V077"	3226382	"V078"	NA	NA	"20_4_18"	33	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	26.48553975	6.24281135212588	168.803370035545	0.609815699400333
+"V065"	12140586	"V066"	NA	NA	"20_4_18"	30	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	27.23922448	6.38895687560407	211.785900053335	0.608192952503578
+"V061"	13070118	"V062"	NA	NA	"20_4_18"	19	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	18.75	7.84510170123002	247.933590039203	0.725634058908293
+"V073"	7089720	"V074"	NA	NA	"20_4_18"	24	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	18.13121943	6.12926080100672	222.4845499777	0.582377928366246
+"V075"	6554098	"V076"	NA	NA	"20_4_18"	30	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.63403301	7.70505994476795	272.512900069065	0.709014660368765
+"V083"	3224940	"V084"	NA	NA	"20_4_18"	30	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.47658689	6.87067130589962	236.255099983769	0.647728608676738
+"V081"	4090323	"V082"	NA	NA	"20_4_18"	38	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.44444444	7.2077767373454	198.477760149224	0.686140022577353
+"V095"	3171518	"V096"	NA	NA	"20_4_18"	18	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	17.4817898	7.07794037034032	222.120349975245	0.66537438703999
+"V097"	2814419	"V098"	NA	NA	"20_4_18"	19	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.62444749	6.66861949395992	205.699920032057	0.63362564133627
+"V093"	4096279	"V094"	NA	NA	"20_4_18"	20	"Sonla"	"Sonla"	"Chiengxom"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.47340663	6.25048121366334	196.348519996798	0.599313208179279
+"V087"	5321212	"V088"	NA	NA	"20_4_18"	25	"Sonla"	"Sonla"	"Chiengxom"	0	"12+"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	16.86625063	5.9099954945483	157.305499926675	0.579151775317759
+"V079"	10582176	"V080"	NA	NA	"20_4_18"	23	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.875	8.32192513621963	276.545469978824	0.75731767481119
+"V049"	27726602	"V050"	NA	NA	"19_4_18"	26	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	20.2020202	5.89886535913273	184.195029996685	0.568325496047718
+"V091"	5075336	"V092"	NA	NA	"20_4_18"	27	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.03440715	6.33945587677245	214.843190006388	0.604284242646888
+"V101"	1611965	"V102"	NA	NA	"20_4_18"	31	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.77318641	6.31103341914816	219.808919983334	0.602384871819753
+"V111"	3685448	"V112"	NA	NA	"20_4_18"	29	"Sonla"	"Sonla"	"Chiengxom"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	17.44492677	6.39473910697983	231.686189954053	0.605160959318254
+"V109"	3773165	"V110"	NA	NA	"20_4_18"	30	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.47340663	6.70016712235906	244.213579959469	0.627232155366762
+"V107"	4039043	"V108"	NA	NA	"20_4_18"	23	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hoa_Binh"	18.66666667	6.93358605699319	244.896180011274	0.644892121437357
+"V105"	4018936	"V106"	NA	NA	"20_4_18"	36	"Sonla"	"Sonla"	"Chiengxom"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.72528616	6.31269005584958	192.754599911219	0.609606569305897
+"V113"	3757617	"V114"	NA	NA	"20_4_18"	23	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.58270917	7.5474205015937	260.931679972273	0.699249387376047
+"V103"	6549671	"V104"	NA	NA	"20_4_18"	23	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	26.22222222	7.68548337590569	345.970039984095	0.701091230187203
+"V117"	3414151	"V118"	NA	NA	"20_4_18"	42	"Sonla"	"Sonla"	"Chiengxom"	0	"not_true"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.64086462	7.936363988065	269.437480022607	0.732243893624572
+"V085"	13394144	"V086"	NA	NA	"20_4_18"	25	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	20.44444444	7.6392001026634	240.320359982026	0.707752534882941
+"V099"	10196529	"V100"	NA	NA	"20_4_18"	34	"Sonla"	"Sonla"	"Chiengxom"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.06805075	7.09193604881281	217.001520064136	0.666012198988752
+"V126"	2548901	"V127"	NA	NA	"21_4_18"	35	"Sonla"	"Sonla"	"Chiengden"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	18.66201469	7.46913490887751	247.664239964157	0.695028609805663
+"V120"	7783545	"V121"	NA	NA	"21_4_18"	25	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	18.75	6.15558771275855	198.318110129447	0.594815867323932
+"V115"	8857212	"V116"	NA	NA	"20_4_18"	32	"Sonla"	"Sonla"	"Chiengxom"	0	"not_true"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.03460984	6.58230469206351	208.135730036127	0.627492859466368
+"V133"	3092757	"V134"	NA	NA	"21_4_18"	32	"Sonla"	"Sonla"	"Chiengden"	0	"12+"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	25.52964487	6.73157082648324	189.412610038416	0.64628818342799
+"V131"	6473086	"V132"	NA	NA	"21_4_18"	38	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	22.86236854	7.11983347946307	274.028109901177	0.660685540199369
+"V135"	3688972	"V136"	NA	NA	"21_4_18"	25	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.97398543	6.30669062270316	189.029370040051	0.608639726330974
+"V122"	11971670	"V123"	NA	NA	"21_4_18"	20	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.03440715	7.03518292764332	203.477110073494	0.668829252521631
+"V128"	8842389	"V119"	NA	NA	"21_4_18"	24	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.53125	7.79185602760812	282.115890025976	0.717769830617996
+"V129"	10263896	"V130"	NA	NA	"21_4_18"	31	"Sonla"	"Sonla"	"Chiengden"	0	"not_true"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.484375	7.72170255961063	316.978969947435	0.70646879490548
+"V143"	3071238	"V144"	NA	NA	"21_4_18"	24	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	20.02884153	8.01041099225997	277.787320008909	0.740485449013694
+"V145"	3835066	"V146"	NA	NA	"21_4_18"	18	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.33333333	7.07585128234429	253.189499931177	0.660045714618314
+"V147"	4181288	"V148"	NA	NA	"21_4_18"	20	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.9099723	6.15065629999141	179.07704987179	0.594530243456899
+"V124"	17177842	"V125"	NA	NA	"21_4_18"	33	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	28.04037814	7.70837982736388	249.599780040677	0.712723684083177
+"V141"	5413994	"V142"	NA	NA	"21_4_18"	27	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	24.45606342	7.7355444615027	264.121350046596	0.713663532186514
+"V151"	2668032	"V152"	NA	NA	"21_4_18"	22	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.14725512	6.52587315153126	212.42250995111	0.62241138618589
+"V137"	12215454	"V138"	NA	NA	"21_4_18"	40	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.22788762	7.0010042107081	264.210060101992	0.654804728354609
+"V153"	4449724	"V154"	NA	NA	"21_4_18"	31	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	20.56932966	6.4446985846123	210.357290042739	0.607200529667992
+"V159"	3238967	"V160"	NA	NA	"21_4_18"	24	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	20	6.67041566173118	219.545500000706	0.62934487959453
+"V149"	7213903	"V150"	NA	NA	"21_4_18"	26	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.55555556	6.13031322448935	203.171040016401	0.587968305881037
+"V139"	11941040	"V140"	NA	NA	"21_4_18"	20	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.71925011	5.49316510433655	180.577889890003	0.539542574921448
+"V157"	4642232	"V158"	NA	NA	"21_4_18"	26	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.33333333	5.90879294192471	177.351849895203	0.580153683082532
+"V167"	2408630	"V168"	NA	NA	"21_4_18"	31	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	30.66666667	6.20634062752287	190.255050013773	0.599656049814903
+"V155"	7077950	"V156"	NA	NA	"21_4_18"	30	"Sonla"	"Sonla"	"Chiengden"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	19.140625	5.58221152417695	191.326250012557	0.540692939160694
+"V175"	2970564	"V176"	NA	NA	"9_5_18"	31	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.11111111	7.66038246932921	416.835749980994	0.68484966657563
+"V169"	5022743	"V170"	NA	NA	"21_4_18"	34	"Sonla"	"Sonla"	"Chiengden"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	23.80540166	6.71016891743801	208.519189994782	0.633262434126095
+"V171"	6676955	"V172"	NA	NA	"9_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	24.44444444	5.49719359327108	154.322860007	0.545456572157281
+"V179"	6502065	"V180"	NA	NA	"9_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.01117686	5.99622910442914	192.25050994131	0.574303633937904
+"V173"	10211595	"V174"	NA	NA	"9_5_18"	24	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	17.77777778	5.93142248514092	196.159500028065	0.574957407558935
+"V181"	6636424	"V182"	NA	NA	"9_5_18"	25	"Hatinh"	"Hatinh"	"Ducthuan"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.64534404	6.56871619860866	215.098620013101	0.613279330484541
+"V185"	5352469	"V186"	NA	NA	"9_5_18"	31	"Hatinh"	"Hatinh"	"Ducthuan"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	27.34375	7.17244197062383	249.481660055404	0.660995578535031
+"V165"	14636417	"V166"	NA	NA	"21_4_18"	19	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	26.77593411	6.55123501877035	194.048559937801	0.631640580338446
+"V195"	2797839	"V196"	NA	NA	"9_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.35930625	6.23097240980769	182.355360012036	0.601779248302892
+"V189"	4985991	"V190"	NA	NA	"9_5_18"	25	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.49112426	7.80918673984563	302.601440097496	0.721088335396204
+"V183"	12751783	"V184"	NA	NA	"9_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	20.07774787	7.16662821373074	252.917969902395	0.668353711739995
+"V177"	15831035	"V178"	NA	NA	"9_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	22.82996433	5.9129637221038	204.800279963296	0.568041277187131
+"V193"	5715340	"V194"	NA	NA	"9_5_18"	37	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	24.65483235	6.3140105508443	190.724689927127	0.607377213000081
+"V199"	2754277	"V200"	NA	NA	"9_5_18"	23	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	24.52681753	5.642040536499	187.910440050648	0.546666947953991
+"V187"	10357375	"V188"	NA	NA	"9_5_18"	21	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.06616734	7.74283609295854	279.04956996924	0.713767518613926
+"V191"	7284088	"V192"	NA	NA	"9_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	24.44444444	7.25247929730853	219.951509933919	0.681204086198408
+"V203"	3811548	"V204"	NA	NA	"9_5_18"	25	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	20.42941836	5.71048337591572	213.035850052198	0.548982210430126
+"V197"	4691155	"V198"	NA	NA	"9_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.17867036	8.38969832987464	281.101299917151	0.766399028139232
+"V161"	28208246	"V162"	NA	NA	"21_4_18"	30	"Sonla"	"Sonla"	"Chiengden"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Sonla"	21.11090261	6.37374847248527	206.16213002149	0.608547597655861
+"V213"	2463752	"V214"	NA	NA	"10_5_18"	NA	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.36752137	5.9593830402581	180.584469935682	0.577541146086478
+"V211"	3365949	"V212"	NA	NA	"10_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	20.81165453	5.7194880096831	272.379569967336	0.53305593425748
+"V207"	4572292	"V208"	NA	NA	"9_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.66666667	6.62174039223228	214.559070021845	0.622754009520433
+"V217"	1854301	"V218"	NA	NA	"10_5_18"	27	"Hatinh"	"Hatinh"	"Ducthuan"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	22.30814991	7.26969184428567	236.966640061	0.679824258745409
+"V219"	2384182	"V220"	NA	NA	"10_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.23345618	6.93028544937754	252.327290128917	0.645291156419987
+"V215"	5021872	"V216"	NA	NA	"10_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	1	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Daclac"	17.087445	6.91923424308869	235.522549908317	0.647156773886492
+"V201"	8094965	"V202"	NA	NA	"9_5_18"	28	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.09375	7.12713810044626	220.20553996152	0.666493364491179
+"V223"	3132188	"V224"	NA	NA	"10_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.06805075	6.1087082798132	188.955679981387	0.590159807981845
+"V225"	2739894	"V226"	NA	NA	"10_5_18"	25	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.53125	6.54355704584369	225.200770028925	0.618468537805309
+"V227"	3227523	"V228"	NA	NA	"10_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.97918835	6.36938512027819	202.283740028099	0.604576994201092
+"V229"	4005063	"V230"	NA	NA	"10_5_18"	25	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Nghean"	18.87066338	5.32449417643443	145.03198994312	0.54371573539495
+"V231"	3479423	"V232"	NA	NA	"10_5_18"	37	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.05197378	7.45414392168434	237.441620094818	0.696002048287059
+"V237"	2726605	"V238"	NA	NA	"11_5_18"	28	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.55555556	5.97821760443724	187.973219971638	0.57767655264894
+"V235"	3135909	"V236"	NA	NA	"10_5_18"	24	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Daclac"	24.44444444	5.6395043669987	189.444649929064	0.553646290860023
+"V239"	3896644	"V240"	NA	NA	"11_5_18"	28	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.90203813	6.55198954853612	219.867829979688	0.619100284149252
+"V233"	5495279	"V234"	NA	NA	"10_5_18"	32	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.72528616	6.26400213290664	195.789980029454	0.604648027100739
+"V249"	2870340	"V250"	NA	NA	"11_5_18"	27	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Nghean"	19.53125	6.55496877751357	195.164309890009	0.628571383127989
+"V221"	10077697	"V222"	NA	NA	"10_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.56295525	6.12153297514334	208.148100048362	0.586714222993733
+"V245"	8284898	"V246"	NA	NA	"11_5_18"	23	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.06805075	5.84297113124768	177.125369943737	0.571226385767956
+"V255"	8362733	"V256"	NA	NA	"11_5_18"	27	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	30.46875	6.01072815768597	184.633700015256	0.579405782671897
+"V247"	9197661	"V248"	NA	NA	"11_5_18"	31	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.53036634	5.83815505585369	187.21390003874	0.569691291062997
+"V259"	6639376	"V260"	NA	NA	"11_5_18"	33	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.24459454	5.77867355010061	168.131110018643	0.563561488364356
+"V243"	11954061	"V244"	NA	NA	"11_5_18"	42	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.55555556	5.95090353455281	198.38039000635	0.570818253525997
+"V265"	3540062	"V266"	NA	NA	"11_5_18"	37	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	20.504934	6.05567850670023	200.422339978919	0.57982481505244
+"V263"	7648128	"V264"	NA	NA	"11_5_18"	36	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.36900337	7.07148513342598	182.063800054428	0.678922854534908
+"V277"	3596336	"V278"	NA	NA	"11_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.8791026	5.86047344339716	228.680470056075	0.555354611164452
+"V275"	4183843	"V276"	NA	NA	"11_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.06805075	5.98161324700571	176.500449950923	0.585125037119497
+"V257"	12369688	"V258"	NA	NA	"11_5_18"	36	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.6282647	6.16852806103547	149.462510004232	0.601512518374632
+"V289"	5189318	"V290"	NA	NA	"12_5_18"	23	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	27.11111111	5.48953319414334	159.019860036788	0.542084861749904
+"V269"	14974168	"V270"	NA	NA	"11_5_18"	34	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.22337562	7.1009419832777	223.773519925191	0.664423352711577
+"V285"	10875056	"V286"	NA	NA	"11_5_18"	32	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.11111111	7.30642061744824	275.475020083017	0.674911025156979
+"V273"	18104929	"V274"	NA	NA	"11_5_18"	23	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.11111111	6.66154640288674	205.291489992698	0.631612123191542
+"V293"	2366497	"V294"	NA	NA	"12_5_18"	34	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.23345618	7.19671256145841	218.878820037411	0.676482202801458
+"V287"	14267339	"V288"	NA	NA	"12_5_18"	35	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	24.21875	6.41512518375717	225.346369992476	0.605899129809247
+"V261"	27782280	"V262"	NA	NA	"11_5_18"	31	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	22.93975069	5.98156734526809	197.13932002231	0.575814150184999
+"V281"	19495762	"V282"	NA	NA	"11_5_18"	28	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.57168128	7.04838459313915	222.829370104417	0.666004863420548
+"V279"	21036563	"V280"	NA	NA	"11_5_18"	25	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	20.54569362	6.72585897706211	217.841550002922	0.635982602880066
+"V297"	5420016	"V298"	NA	NA	"12_5_18"	25	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.33333333	7.1031534989721	241.771709875786	0.665726900154058
+"V291"	17314435	"V292"	NA	NA	"12_5_18"	30	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	23.24340802	5.88633654211434	180.258390069299	0.572946627686901
+"V309"	4796642	"V310"	NA	NA	"12_5_18"	37	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.25631871	7.08166511138817	236.207730011025	0.658921742388758
+"V311"	2587951	"V312"	NA	NA	"12_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.78649237	5.90399384559267	205.096539950522	0.567935593174801
+"V303"	9424752	"V304"	NA	NA	"12_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	1	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.48696145	6.79569735584554	211.14710004325	0.636700137486454
+"V301"	11488092	"V302"	NA	NA	"12_5_18"	38	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	22.64086462	7.84432071257025	260.162489982089	0.730916729253818
+"V295"	16603588	"V296"	NA	NA	"12_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	20.19509221	7.14639563923786	225.546599988011	0.669336299127391
+"V313"	4229616	"V314"	NA	NA	"12_5_18"	28	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	22.94213045	8.00356719840855	270.746880120947	0.738283475117474
+"V315"	8148129	"V316"	NA	NA	"12_5_18"	33	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	20.39542144	5.08536985971777	177.077439917077	0.514575891724244
+"V321"	5139842	"V322"	NA	NA	"12_5_18"	33	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.73048907	6.08542027450105	196.900899960194	0.592324444820224
+"V307"	17035057	"V308"	NA	NA	"12_5_18"	23	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.921875	5.63389532343051	167.697199968097	0.544813423263321
+"V319"	8670756	"V320"	NA	NA	"12_5_18"	38	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	24.34175829	5.72639694067304	181.196459975094	0.560424804055515
+"V327"	3110743	"V328"	NA	NA	"12_5_18"	31	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.66666667	5.70865423245969	196.581320056808	0.551864939216523
+"V305"	19984516	"V306"	NA	NA	"12_5_18"	28	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	16.86625063	6.11740653956218	187.031179868791	0.588647006311945
+"V317"	16540247	"V318"	NA	NA	"12_5_18"	25	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	22.94213045	6.97097377183623	215.719439919456	0.65633033015401
+"V325"	11302525	"V326"	NA	NA	"12_5_18"	37	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.57168128	7.09323939526204	244.789879975549	0.659026241750299
+"V337"	3396621	"V338"	NA	NA	"13_5_18"	24	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.55555556	7.6717320213429	249.872990040458	0.714609658247369
+"V299"	33229825	"V300"	NA	NA	"12_5_18"	33	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	27.02580965	6.13576909842137	198.380810018978	0.588432436058783
+"V323"	18023390	"V324"	NA	NA	"12_5_18"	29	"Hatinh"	"Hatinh"	"Ducthuan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	22.34778209	6.24569845146581	175.82335994707	0.604958274728286
+"V333"	10362139	"V334"	NA	NA	"13_5_18"	35	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	24.52681753	7.99456079667969	333.632969867671	0.732881651276008
+"V339"	4227469	"V340"	NA	NA	"13_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	1	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Phutho"	22.31327843	6.01167618110049	196.133020040812	0.57853288967425
+"V343"	3853006	"V344"	NA	NA	"13_5_18"	34	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.64127424	6.85922909344488	220.882210012118	0.64935166560201
+"V347"	3603940	"V348"	NA	NA	"13_5_18"	23	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.78649237	6.29283868942947	194.58278001775	0.605967234452321
+"V349"	4618453	"V350"	NA	NA	"13_5_18"	20	"Hatinh"	"Hatinh"	"Ducthuan"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.08281329	7.11400487208911	263.9919998892	0.662034290039749
+"V335"	18862535	"V336"	NA	NA	"13_5_18"	28	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Nghean"	21.75546853	5.6436567547051	161.986009954999	0.561794920935657
+"V329"	21228301	"V330"	NA	NA	"13_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	21.33333333	5.33607532666665	166.343439984601	0.532342986329292
+"V331"	21535758	"V332"	NA	NA	"13_5_18"	34	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	20.07774787	6.44485295813065	224.736629985971	0.608706874336144
+"V345"	11046195	"V346"	NA	NA	"13_5_18"	26	"Hatinh"	"Hatinh"	"Ducthuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	19.77769867	6.26597786669586	204.794609964592	0.595423668607697
+"V351"	17095080	"None"	NA	NA	"18_5_18"	23	"Hanoi"	"Hanoi"	"Lethanhnghi"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hatinh"	18.90203813	6.45920640418096	151.325799919257	0.642023817043988
+"V354"	11585357	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Thanhxuan"	0	"12+"	"EastAsia"	"Vietnam"	"Vietnam"	"Thanhhoa"	21.36752137	6.43594953201684	212.584709837276	0.611121110382922
+"V355"	7057085	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Tathanhoai"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	18.28989483	5.13546603686774	153.878189994139	0.50699205741184
+"V356"	4384264	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Dongda"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	15.42660496	7.35823735566033	298.374240053643	0.67782576599283
+"V358"	5702717	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Hoangcau"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Namdinh"	18.44254582	7.40465129223751	304.39146015927	0.681226124823612
+"V359"	4227770	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Dongda"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Namdinh"	18.66666667	7.68539432697929	315.496570052172	0.706704138728236
+"V360"	25795422	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Mailam"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	20.32443826	6.08463182871671	186.912390008685	0.588909243616792
+"V361"	8813753	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Tonthattung"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Bacgiang"	22.83287935	7.32024256189057	221.035660020541	0.68394060600803
+"V362"	4507097	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Yenso"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	21.98989237	6.51742624493221	185.086600036069	0.636270188854341
+"V363"	8349984	"None"	NA	NA	"18_5_18"	27	"Hanoi"	"Hanoi"	"Vutongphan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Namdinh"	21.77777778	5.88499362500119	179.048839932191	0.57452832827954
+"V364"	4259923	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Thanhxuan"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Thanhhoa"	17.68978885	6.99470233389908	215.793260114559	0.662176689104652
+"V366"	4634839	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Dongda"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Thanhhoa"	19.8791026	5.76424151448165	190.564210069017	0.558202767149092
+"V367"	3215253	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Chuaboc"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hungyen"	20.34279778	7.55698115628223	248.688400035258	0.703148074975888
+"V368"	4677905	"None"	NA	NA	"18_5_18"	25	"Hanoi"	"Hanoi"	"Vutongphan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Namdinh"	20.28479857	7.04938489964731	206.606059930287	0.670367641531848
+"V369"	19284158	"None"	NA	NA	"18_5_18"	22	"Hanoi"	"Hanoi"	"Xadan2"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hungyen"	19.140625	6.79747294399646	217.894029915333	0.64246756358836
+"V371"	3153981	"None"	NA	NA	"19_5_18"	22	"Hanoi"	"Hanoi"	"Bactuliem"	0	"12+"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	19.921875	7.31947666792134	262.77692999685	0.67983625271052
+"V372"	1571505	"None"	NA	NA	"26_5_18"	34	"Hanoi"	"Hanoi"	"Trungliet"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	18.66201469	6.42037979684953	224.055009994714	0.603662086961147
+"V373"	26035441	"None"	NA	NA	"19_5_18"	23	"Hanoi"	"Hanoi"	"Hadong"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	20.81165453	6.30514190669506	190.522250001959	0.604433049394686
+"V374"	3915436	"None"	NA	NA	"19_5_18"	23	"Hanoi"	"Hanoi"	"Loduc"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Nghean"	22.64086462	7.06147712939225	232.954789992364	0.66309580797769
+"V375"	11119550	"None"	NA	NA	"19_5_18"	22	"Hanoi"	"Hanoi"	"Truongdinh"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	18.85882198	5.56545612704947	151.726039995381	0.551358558984481
+"V376"	3177367	"None"	NA	NA	"19_5_18"	32	"Hanoi"	"Hanoi"	"Vutongphan"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Namdinh"	20.3125	6.96144999589623	221.890480020549	0.664146460851515
+"V377"	3190959	"V378"	NA	NA	"19_5_18"	33	"Hanoi"	"Hanoi"	"Hadong"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Hanam"	21.64412071	5.58676978812895	179.271349998249	0.551476321446383
+"V379"	3369629	"V370"	NA	NA	"19_5_18"	29	"Hanoi"	"Hanoi"	"Haibatrung"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Phutho"	20.3125	6.24095103185415	195.264459977916	0.596390056554054
+"V380"	6442173	"None"	NA	NA	"19_5_18"	32	"Hanoi"	"Hanoi"	"Thanhtri"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Vinhphuc"	22.89281998	6.92093608350338	216.071420102555	0.652638157779745
+"V381"	9645564	"V382"	NA	NA	"19_5_18"	29	"Hanoi"	"Hanoi"	"Yennguu"	0	NA	"EastAsia"	"Vietnam"	"Vietnam"	"Laichau"	20.81165453	6.21988897862191	191.78814990836	0.595666017195523
+"V414"	4657786	"V415"	NA	NA	"30_5_18"	27	"Hanoi"	"Hanoi"	"Namtuliem"	0	"0_2"	"EastAsia"	"Vietnam"	"Vietnam"	"Thaibinh"	NA	6.51060746103133	202.817989899486	0.626482736830269
+"V418"	9988527	"V419"	NA	NA	"30_5_18"	39	"Hanoi"	"Hanoi"	"Caugiay"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	25.76169419	6.12153478260611	187.886480089277	0.592352709629756
+"V420"	1078181	"V421"	NA	NA	"30_5_18"	35	"Hanoi"	"Hanoi"	"Hoangliet"	1	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	21.09619051	5.292426395778	196.949589976459	0.519572652664079
+"V422"	21756645	"V423"	NA	NA	"30_5_18"	29	"Hanoi"	"Hanoi"	"Haibatrung"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	NA	5.27418132396832	155.441039957514	0.53434513047973
+"V424"	3767641	"V425"	NA	NA	"30_5_18"	30	"Hanoi"	"Hanoi"	"Linnhdam"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Vinhphuc"	19.57168128	6.84574394341819	241.215670002683	0.636031670667884
+"V428"	1569143	"V429"	NA	NA	"31_5_18"	28	"Hanoi"	"Hanoi"	"Kimma"	0	"Never"	"EastAsia"	"Vietnam"	"Vietnam"	"Ninhbinh"	NA	6.29162863082782	220.917150034104	0.591154344810327
+"V432"	4461094	"V431"	NA	NA	"31_5_18"	27	"Hanoi"	"Hanoi"	"Haibatrung"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	NA	6.51120130940512	221.315700002131	0.618725991883146
+"V434"	3020166	"V435"	NA	NA	"31_5_18"	38	"Hanoi"	"Hanoi"	"Haibatrung"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Hanoi"	24.609375	7.20090240265153	235.751899980125	0.67562014642933
+"V438"	4325616	"V439"	NA	NA	"31_5_18"	34	"Hanoi"	"Hanoi"	"Longbien"	0	"3_12"	"EastAsia"	"Vietnam"	"Vietnam"	"Quangninh"	NA	7.21282753913943	212.622099993401	0.678517995296498
